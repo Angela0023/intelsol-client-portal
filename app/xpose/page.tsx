@@ -28,7 +28,7 @@ export default function XposePage() {
             </div>
             <div>
               <h1 className="text-3xl font-bold text-slate-900">Xpose Solutions</h1>
-              <p className="text-slate-600">Healthcare Technology - Patient Coordination Systems</p>
+              <p className="text-slate-600">Cosmetic Dermatology & Aesthetics - Patient Coordination Systems</p>
             </div>
           </div>
           <a
@@ -81,14 +81,14 @@ function OverviewTab() {
       <ContentSection title="Company Overview" icon={<FileText className="w-5 h-5" />}>
         <div className="space-y-4">
           <p>
-            Xpose Solutions specializes in <strong>patient coordination infrastructure</strong> for specialty healthcare clinics.
+            Xpose Solutions specializes in <strong>patient coordination infrastructure</strong> for cosmetic dermatology and aesthetics clinics.
             They operate as a systems partner that builds and manages the operational systems between patient inquiry and booked consultation.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <InfoCard label="Industry" value="Healthcare Technology" />
             <InfoCard label="Business Model" value="B2B SaaS" />
-            <InfoCard label="Target Market" value="Specialty Healthcare Clinics" />
+            <InfoCard label="Target Market" value="Cosmetic Dermatology & Aesthetics" />
             <InfoCard label="Geographic Focus" value="United States" />
           </div>
         </div>
@@ -216,31 +216,31 @@ function ICPTab() {
         <div className="space-y-4">
           <div className="bg-green-50 border-l-4 border-green-500 p-4 rounded">
             <p className="font-semibold text-green-900 mb-2">Primary Target</p>
-            <p className="text-green-800">Founder-led specialty healthcare clinics</p>
+            <p className="text-green-800">Private cosmetic dermatology and aesthetics clinics with 2-5 providers (5-15 staff)</p>
           </div>
 
           <h4 className="font-semibold text-slate-900 mt-6 mb-3">Must-Have Characteristics:</h4>
           <ul className="space-y-2">
-            <ListItem type="check">Already generating strong inquiry volume</ListItem>
-            <ListItem type="check">Struggling with follow-through and conversion</ListItem>
-            <ListItem type="check">Experiencing booking leakage</ListItem>
-            <ListItem type="check">Using disconnected tools</ListItem>
-            <ListItem type="check">Front desk overwhelmed with coordination tasks</ListItem>
+            <ListItem type="check">Offers cosmetic/aesthetic procedures (Botox, fillers, lasers)</ListItem>
+            <ListItem type="check">2-5 providers (MDs, PAs, NPs) with 5-15 total staff</ListItem>
+            <ListItem type="check">Premium branding and clinical authority</ListItem>
+            <ListItem type="check">Private practice (not hospital chains or large multi-location)</ListItem>
+            <ListItem type="check">Already generating patient inquiries</ListItem>
             <ListItem type="check"><strong>Currently running paid ads</strong> (Google, Facebook, TikTok)</ListItem>
           </ul>
 
-          <h4 className="font-semibold text-slate-900 mt-6 mb-3">Target Specialties:</h4>
+          <h4 className="font-semibold text-slate-900 mt-6 mb-3">Target Services Offered:</h4>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
             {[
-              'Oncology',
+              'Botox & Injectables',
+              'Dermal Fillers',
+              'Laser Treatments',
+              'Skin Rejuvenation',
+              'Chemical Peels',
+              'Microneedling',
+              'Laser Hair Removal',
               'Cosmetic Dermatology',
-              'Plastic Surgery',
-              'Rehabilitation Centers',
-              'Gastroenterology',
-              'Ophthalmology',
-              'Orthopedics',
-              'Wellness/Spa Services',
-              'Beauty Clinics',
+              'Med Spa Services',
             ].map((specialty) => (
               <div key={specialty} className="bg-slate-100 px-3 py-2 rounded text-sm">
                 {specialty}
@@ -252,10 +252,11 @@ function ICPTab() {
 
       <ContentSection title="Red Flags (Disqualifiers)" icon={<Target className="w-5 h-5" />}>
         <ul className="space-y-2">
-          <ListItem type="cross">Clinics without existing inquiry volume (not spending on ads/marketing)</ListItem>
-          <ListItem type="cross">Practices looking for marketing/lead generation services</ListItem>
-          <ListItem type="cross">General practitioners (not specialty clinics)</ListItem>
-          <ListItem type="cross">Organizations wanting to replace all existing systems</ListItem>
+          <ListItem type="cross">Solo practitioners (single doctor, no staff)</ListItem>
+          <ListItem type="cross">Pure medical dermatology only (rashes, moles, skin cancer - no cosmetic services)</ListItem>
+          <ListItem type="cross">Large hospital systems or multi-location chains (20+ employees)</ListItem>
+          <ListItem type="cross">Inactive or outdated websites</ListItem>
+          <ListItem type="cross">Clinics not running any paid advertising</ListItem>
         </ul>
       </ContentSection>
 
@@ -281,17 +282,16 @@ function FiltersTab() {
       <ContentSection title="Clay Search Criteria" icon={<Filter className="w-5 h-5" />}>
         <div className="space-y-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <InfoCard label="Location" value="United States" color="bg-blue-600 text-white" />
-            <InfoCard label="Business Type" value="B2B Specialty Clinics" color="bg-blue-600 text-white" />
+            <InfoCard label="Location" value="United States (All States)" color="bg-blue-600 text-white" />
+            <InfoCard label="Business Type" value="B2C Cosmetic Clinics" color="bg-blue-600 text-white" />
           </div>
 
           <h4 className="font-semibold text-slate-900 mt-6 mb-3">Industry Filters:</h4>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
             {[
-              'Healthcare',
               'Medical Practices',
               'Wellness and Fitness Services',
-              'Hospitals and Health Care',
+              'Health, Wellness and Fitness',
             ].map((industry) => (
               <div key={industry} className="bg-slate-100 px-3 py-2 rounded text-sm border border-slate-200">
                 {industry}
@@ -300,19 +300,25 @@ function FiltersTab() {
           </div>
 
           <h4 className="font-semibold text-slate-900 mt-6 mb-3">Keywords:</h4>
-          <CodeBlock code={`specialty clinic OR dermatology OR plastic surgery OR cosmetic OR oncology OR rehabilitation OR gastroenterology OR ophthalmology OR orthopedics OR beauty clinic`} />
+          <CodeBlock code={`cosmetic dermatology OR aesthetic clinic OR med spa OR aesthetic dermatology OR skin rejuvenation OR injectables clinic OR laser clinic OR Botox clinic OR aesthetic medicine`} />
 
           <h4 className="font-semibold text-slate-900 mt-6 mb-3">Company Size:</h4>
           <ul className="space-y-2">
-            <ListItem>10-50 employees (small clinics)</ListItem>
-            <ListItem>51-200 employees (medium clinics)</ListItem>
+            <ListItem>5-15 employees (matches 2-5 providers + support staff)</ListItem>
+          </ul>
+
+          <h4 className="font-semibold text-slate-900 mt-6 mb-3">Additional Filters:</h4>
+          <ul className="space-y-2">
+            <ListItem type="check">Has active website with contact form</ListItem>
+            <ListItem type="check">Active Instagram account (500+ followers preferred)</ListItem>
+            <ListItem type="check">Running online ads (Google, Facebook, Instagram)</ListItem>
           </ul>
 
           <div className="bg-blue-50 border-l-4 border-blue-500 p-4 rounded mt-4">
-            <p className="font-semibold text-blue-900 mb-2">Additional Enrichment Required:</p>
+            <p className="font-semibold text-blue-900 mb-2">Technology Signals (High-Priority):</p>
             <p className="text-blue-800">
-              After initial filtering, enrich leads to detect if they are running Google Ads, Facebook Ads, or TikTok Ads.
-              This is a critical qualification signal.
+              Filter for clinics using: Google Ads, Facebook/Meta Ads, Instagram Business, online booking systems (Zocdoc, Acuity).
+              These are strong buying signals indicating active patient acquisition efforts.
             </p>
           </div>
         </div>
@@ -322,28 +328,35 @@ function FiltersTab() {
 }
 
 function PromptsTab() {
-  const icpPrompt = `You are analyzing a healthcare clinic's website to determine if they match our Ideal Customer Profile (ICP).
+  const icpPrompt = `You are an expert at analyzing cosmetic dermatology and aesthetics clinic websites to determine if they match our Ideal Customer Profile (ICP).
 
-TARGET PROFILE:
-- Specialty healthcare clinics (NOT general practitioners)
-- Located in the United States
-- Offers services in: oncology, cosmetic dermatology, plastic surgery, rehabilitation, gastroenterology, ophthalmology, orthopedics, wellness/spa, or beauty treatments
-- Currently running patient acquisition campaigns (evidence: online booking, inquiry forms, visible marketing)
-- Likely experiencing inquiry-to-booking conversion issues
+IDEAL CUSTOMER PROFILE:
+- Specialty: Cosmetic dermatology, high-end aesthetics, med spas, aesthetic clinics, injectables clinics
+- Services: Focus on cosmetic procedures (Botox, fillers, laser treatments, skin rejuvenation, aesthetic dermatology)
+- Size: Private practices with 2-5 providers (MDs, PAs, NPs) and approximately 5-15 staff members
+- Vibe: Premium, clinical authority, professional branding
+
+DISQUALIFIERS:
+- Solo practitioners (single doctor, no staff)
+- Pure medical dermatology only (rashes, moles, skin cancer screening without cosmetic services)
+- Large hospital systems or multi-location chains (20+ employees)
+- Inactive or outdated websites
 
 ANALYZE THE WEBSITE FOR:
-1. Specialty Focus: Is this a specialty clinic (not general practice)?
-2. Location: Are they US-based?
-3. Service Type: Do they offer specialty treatments listed above?
-4. Patient Acquisition: Do they have online booking, inquiry forms, or other patient acquisition systems?
-5. Clinic Type: Founder-led or independent (not large hospital system)?
+1. Services Offered: Do they offer cosmetic/aesthetic procedures? (Botox, fillers, lasers, skin rejuvenation)
+2. Team Size: How many providers are listed? (doctors, PAs, NPs)
+3. Clinic Type: Is this a private practice or part of a large hospital/chain?
+4. Branding & Vibe: Is the website modern and positioned as a premium aesthetic/cosmetic provider?
 
-OUTPUT:
-- Answer: Yes / No / Unsure
-- Reasoning: 2-3 sentence explanation
-- Confidence: High / Medium / Low
-
-Only answer "Yes" if you are confident this clinic matches our ICP.`;
+OUTPUT FORMAT:
+**ICP Match:** [Yes or No]
+**Reasoning:** [2-3 sentences explaining why, citing specific evidence from the website]
+**Confidence:** [High / Medium / Low]
+**Key Signals:**
+- Services: [List cosmetic services offered]
+- Team Size: [Estimated number of providers]
+- Clinic Type: [Private practice, med spa, hospital system, etc.]
+- Red Flags: [Any disqualifiers noted]`;
 
   const adDetectionPrompt = `Check if this clinic is running paid advertising campaigns.
 
@@ -383,41 +396,34 @@ OUTPUT:
 function PersonasTab() {
   return (
     <>
-      <ContentSection title="Buyer Personas by Company Size" icon={<Users className="w-5 h-5" />}>
+      <ContentSection title="Buyer Personas" icon={<Users className="w-5 h-5" />}>
         <div className="space-y-6">
-          <div>
-            <h4 className="font-semibold text-slate-900 mb-3 flex items-center">
-              <span className="w-8 h-8 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center text-sm font-bold mr-2">S</span>
-              Small Clinics (10-50 employees)
-            </h4>
-            <p className="text-slate-600 text-sm mb-3">
-              Target key decision makers and clinic leaders
+          <div className="bg-blue-50 border-l-4 border-blue-500 p-4 rounded">
+            <p className="font-semibold text-blue-900 mb-2">Primary Target</p>
+            <p className="text-blue-800 text-sm">
+              For cosmetic dermatology practices (5-15 employees), target founders, owners, and medical directors who own or operate the practice.
             </p>
-            <ul className="ml-10 space-y-2">
-              <ListItem>Owner</ListItem>
-              <ListItem>Founder</ListItem>
-              <ListItem>Medical Director</ListItem>
-              <ListItem>Managing Director</ListItem>
-              <ListItem>Practice Manager</ListItem>
-            </ul>
           </div>
 
           <div>
-            <h4 className="font-semibold text-slate-900 mb-3 flex items-center">
-              <span className="w-8 h-8 bg-green-100 text-green-600 rounded-full flex items-center justify-center text-sm font-bold mr-2">M</span>
-              Medium to Large Clinics (50+ employees)
-            </h4>
-            <p className="text-slate-600 text-sm mb-3">
-              Target operations and marketing roles
-            </p>
-            <ul className="ml-10 space-y-2">
-              <ListItem>Operations Manager</ListItem>
-              <ListItem>Patient Coordinator</ListItem>
-              <ListItem>Marketing Manager</ListItem>
-              <ListItem>Practice Administrator</ListItem>
-              <ListItem>Director of Operations</ListItem>
-              <ListItem>Chief Operating Officer (COO)</ListItem>
+            <h4 className="font-semibold text-slate-900 mb-3">Target Job Titles:</h4>
+            <ul className="ml-4 space-y-2">
+              <ListItem>Practice Owner</ListItem>
+              <ListItem>Founder</ListItem>
+              <ListItem>Medical Director</ListItem>
+              <ListItem>Managing Director</ListItem>
+              <ListItem>Practice Manager (if owner not available)</ListItem>
+              <ListItem>Chief Medical Officer</ListItem>
+              <ListItem>Board-Certified Dermatologist (if solo or partner)</ListItem>
             </ul>
+          </div>
+
+          <div className="bg-slate-50 border-l-4 border-slate-400 p-4 rounded mt-4">
+            <p className="font-semibold text-slate-900 mb-2">Why These Personas:</p>
+            <p className="text-slate-700 text-sm">
+              These are the decision-makers who control patient acquisition processes and can authorize new systems.
+              They are experiencing the pain points Xpose solves (inquiry leakage, booking gaps, front desk overwhelm).
+            </p>
           </div>
         </div>
       </ContentSection>

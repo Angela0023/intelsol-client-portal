@@ -46,11 +46,15 @@ export default function Home() {
       <div className="w-full max-w-md">
         {/* Logo and Header */}
         <div className="text-center mb-8">
-          <div className="inline-flex items-center justify-center w-16 h-16 bg-[#1a2647] rounded-2xl mb-4">
-            <Building2 className="w-8 h-8 text-white" />
+          <div className="inline-flex items-center justify-center mb-4">
+            <img
+              src="/intelsol-logo.png"
+              alt="IntElsol"
+              className="h-16 w-auto"
+            />
           </div>
-          <h1 className="text-3xl font-bold text-[#1a2647] mb-2">IntElsol</h1>
-          <p className="text-slate-600">Client Portal</p>
+          <h1 className="text-2xl font-semibold text-[#1a2647] mb-2">Client Portal</h1>
+          <p className="text-slate-600">Lead Generation Dashboard</p>
         </div>
 
         {/* Login Card */}

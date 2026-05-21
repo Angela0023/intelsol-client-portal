@@ -26,13 +26,14 @@ export default function Sidebar({ clientAccess }: SidebarProps) {
     <aside className="w-64 bg-slate-50 border-r border-slate-200 flex flex-col">
       {/* Logo */}
       <div className="p-6 border-b border-slate-200">
-        <Link href="/" className="flex items-center space-x-2">
-          <div className="w-10 h-10 bg-[#1a2647] rounded-lg flex items-center justify-center">
-            <span className="text-white font-bold text-xl">I</span>
-          </div>
+        <Link href="/" className="flex items-center space-x-3">
+          <img
+            src="/intelsol-logo.png"
+            alt="IntElsol"
+            className="h-10 w-auto"
+          />
           <div>
-            <h1 className="text-xl font-bold text-[#1a2647]">IntElsol</h1>
-            <p className="text-xs text-slate-500">Client Portal</p>
+            <p className="text-xs text-slate-500 font-medium">Client Portal</p>
           </div>
         </Link>
       </div>
