@@ -374,13 +374,6 @@ OUTPUT:
             This prompt/enrichment detects if a clinic is running paid ads (critical qualification signal).
           </p>
           <CodeBlock code={adDetectionPrompt} language="text" />
-          <div className="bg-amber-50 border-l-4 border-amber-500 p-4 rounded">
-            <p className="font-semibold text-amber-900 mb-1">Note:</p>
-            <p className="text-amber-800 text-sm">
-              Matej mentioned finding a specialized tool/API for ad platform detection.
-              This will be integrated in Clay via Apify or custom API.
-            </p>
-          </div>
         </div>
       </ContentSection>
     </>

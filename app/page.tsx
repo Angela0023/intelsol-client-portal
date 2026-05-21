@@ -97,19 +97,6 @@ export default function Home() {
               {loading ? 'Logging in...' : 'Access Dashboard'}
             </button>
           </form>
-
-          {/* Demo Credentials (remove in production) */}
-          <div className="mt-6 p-4 bg-slate-50 rounded-lg">
-            <p className="text-xs font-medium text-slate-700 mb-2">
-              Demo Credentials:
-            </p>
-            <ul className="text-xs text-slate-600 space-y-1">
-              <li>• Admin: <code className="bg-white px-2 py-1 rounded">intelsol2026</code></li>
-              <li>• Xpose: <code className="bg-white px-2 py-1 rounded">xpose2026</code></li>
-              <li>• TS Lab: <code className="bg-white px-2 py-1 rounded">tslab2026</code></li>
-              <li>• BeeIt: <code className="bg-white px-2 py-1 rounded">beeit2026</code></li>
-            </ul>
-          </div>
         </div>
 
         {/* Footer */}
