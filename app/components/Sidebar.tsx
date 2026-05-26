@@ -16,6 +16,7 @@ export default function Sidebar({ clientAccess }: SidebarProps) {
     { id: 'xpose', name: 'Xpose Solutions', icon: Building2, color: 'text-blue-600' },
     { id: 'tslab', name: 'TS Lab', icon: Building2, color: 'text-green-600' },
     { id: 'beeit', name: 'BeeIt', icon: Building2, color: 'text-amber-600' },
+    { id: 'intelsol', name: 'Intelsol', icon: Building2, color: 'text-violet-600' },
   ];
 
   const filteredClients = clients.filter(

@@ -1,9 +1,12 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import ClientLayout from '../components/ClientLayout';
 import { ContentSection, CodeBlock, InfoCard, ListItem } from '../components/ContentSection';
-import { Target, Users, Filter, Code, TrendingUp, FileText } from 'lucide-react';
+import TasksTab, { XPOSE_DEFAULT_TASKS } from '../components/TasksTab';
+import PerformanceTab, { EMPTY_METRICS } from '../components/PerformanceTab';
+import StatusBadge, { getClientStatus, setClientStatus, DEFAULT_STATUSES, type ClientStatus } from '../components/StatusBadge';
+import { Target, Users, Filter, Code, TrendingUp, FileText, CheckSquare, BarChart3 } from 'lucide-react';
 
 const tabs = [
   { id: 'overview', label: 'Overview', icon: FileText },
@@ -12,10 +15,22 @@ const tabs = [
   { id: 'filters', label: 'Clay Filters', icon: Filter },
   { id: 'prompts', label: 'AI Prompts', icon: Code },
   { id: 'personas', label: 'Buyer Personas', icon: Users },
+  { id: 'performance', label: 'Performance', icon: BarChart3 },
+  { id: 'tasks', label: 'Tasks', icon: CheckSquare },
 ];
 
 export default function XposePage() {
   const [activeTab, setActiveTab] = useState('overview');
+  const [status, setStatus] = useState<ClientStatus>('Active');
+
+  useEffect(() => {
+    setStatus(getClientStatus('xpose', DEFAULT_STATUSES.xpose));
+  }, []);
+
+  const handleStatusChange = (newStatus: ClientStatus) => {
+    setStatus(newStatus);
+    setClientStatus('xpose', newStatus);
+  };
 
   return (
     <ClientLayout>
@@ -26,8 +41,11 @@ export default function XposePage() {
             <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
               <span className="text-2xl font-bold text-blue-600">X</span>
             </div>
-            <div>
-              <h1 className="text-3xl font-bold text-slate-900">Xpose Solutions</h1>
+            <div className="flex-1">
+              <div className="flex items-center space-x-3">
+                <h1 className="text-3xl font-bold text-slate-900">Xpose Solutions</h1>
+                <StatusBadge status={status} onStatusChange={handleStatusChange} size="md" />
+              </div>
               <p className="text-slate-600">Cosmetic Dermatology & Aesthetics - Patient Coordination Systems</p>
             </div>
           </div>
@@ -69,6 +87,12 @@ export default function XposePage() {
           {activeTab === 'filters' && <FiltersTab />}
           {activeTab === 'prompts' && <PromptsTab />}
           {activeTab === 'personas' && <PersonasTab />}
+          {activeTab === 'performance' && (
+            <PerformanceTab clientId="xpose" defaultMetrics={EMPTY_METRICS} hasData={false} />
+          )}
+          {activeTab === 'tasks' && (
+            <TasksTab clientId="xpose" defaultTasks={XPOSE_DEFAULT_TASKS} />
+          )}
         </div>
       </div>
     </ClientLayout>

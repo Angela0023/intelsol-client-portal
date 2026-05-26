@@ -1,9 +1,12 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import ClientLayout from '../components/ClientLayout';
 import { ContentSection, CodeBlock, InfoCard, ListItem } from '../components/ContentSection';
-import { Target, Users, Filter, Code, TrendingUp, FileText, Layers } from 'lucide-react';
+import TasksTab, { BEEIT_DEFAULT_TASKS } from '../components/TasksTab';
+import PerformanceTab, { EMPTY_METRICS } from '../components/PerformanceTab';
+import StatusBadge, { getClientStatus, setClientStatus, DEFAULT_STATUSES, type ClientStatus } from '../components/StatusBadge';
+import { Target, Users, Filter, Code, TrendingUp, FileText, Layers, CheckSquare, BarChart3 } from 'lucide-react';
 
 const tabs = [
   { id: 'overview', label: 'Overview', icon: FileText },
@@ -11,10 +14,22 @@ const tabs = [
   { id: 'tier2', label: 'Tier 2 - Growth', icon: Layers },
   { id: 'filters', label: 'Clay Filters', icon: Filter },
   { id: 'prompts', label: 'AI Prompts', icon: Code },
+  { id: 'performance', label: 'Performance', icon: BarChart3 },
+  { id: 'tasks', label: 'Tasks', icon: CheckSquare },
 ];
 
 export default function BeeItPage() {
   const [activeTab, setActiveTab] = useState('overview');
+  const [status, setStatus] = useState<ClientStatus>('Onboarding');
+
+  useEffect(() => {
+    setStatus(getClientStatus('beeit', DEFAULT_STATUSES.beeit));
+  }, []);
+
+  const handleStatusChange = (newStatus: ClientStatus) => {
+    setStatus(newStatus);
+    setClientStatus('beeit', newStatus);
+  };
 
   return (
     <ClientLayout>
@@ -25,8 +40,11 @@ export default function BeeItPage() {
             <div className="w-12 h-12 bg-amber-100 rounded-lg flex items-center justify-center">
               <span className="text-2xl font-bold text-amber-600">B</span>
             </div>
-            <div>
-              <h1 className="text-3xl font-bold text-slate-900">BeeIt</h1>
+            <div className="flex-1">
+              <div className="flex items-center space-x-3">
+                <h1 className="text-3xl font-bold text-slate-900">BeeIt</h1>
+                <StatusBadge status={status} onStatusChange={handleStatusChange} size="md" />
+              </div>
               <p className="text-slate-600">eCommerce Development Agency Partner Program</p>
             </div>
           </div>
@@ -59,6 +77,12 @@ export default function BeeItPage() {
           {activeTab === 'tier2' && <Tier2Tab />}
           {activeTab === 'filters' && <FiltersTab />}
           {activeTab === 'prompts' && <PromptsTab />}
+          {activeTab === 'performance' && (
+            <PerformanceTab clientId="beeit" defaultMetrics={EMPTY_METRICS} hasData={false} />
+          )}
+          {activeTab === 'tasks' && (
+            <TasksTab clientId="beeit" defaultTasks={BEEIT_DEFAULT_TASKS} />
+          )}
         </div>
       </div>
     </ClientLayout>
@@ -98,8 +122,8 @@ function OverviewTab() {
             <h4 className="font-semibold text-blue-900 mb-2">Tier 1: Strategic Agency Partners</h4>
             <ul className="text-blue-800 text-sm space-y-1">
               <ListItem>Large full-service agencies (50-300 staff)</ListItem>
-              <ListItem>€10M+ annual revenue</ListItem>
-              <ListItem>Deal Size: €80k - €350k+</ListItem>
+              <ListItem>$10M+ annual revenue</ListItem>
+              <ListItem>Deal Size: $80k - $350k+</ListItem>
               <ListItem>Long sales cycle (4-8 months)</ListItem>
               <ListItem>High-volume sub-contracted work</ListItem>
             </ul>
@@ -109,8 +133,8 @@ function OverviewTab() {
             <h4 className="font-semibold text-green-900 mb-2">Tier 2: Growth Agency Partners</h4>
             <ul className="text-green-800 text-sm space-y-1">
               <ListItem>Mid-size digital agencies (15-80 staff)</ListItem>
-              <ListItem>€2M - €10M annual revenue</ListItem>
-              <ListItem>Deal Size: €20k - €80k+</ListItem>
+              <ListItem>$2M - $10M annual revenue</ListItem>
+              <ListItem>Deal Size: $20k - $80k+</ListItem>
               <ListItem>Medium sales cycle (4-8 weeks)</ListItem>
               <ListItem>Steady ongoing project work</ListItem>
             </ul>
@@ -127,9 +151,9 @@ function Tier1Tab() {
       <ContentSection title="Tier 1: Strategic Agency Partners" icon={<TrendingUp className="w-5 h-5" />}>
         <div className="space-y-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <InfoCard label="Deal Size" value="€80,000 - €350,000+" color="bg-blue-600 text-white" />
+            <InfoCard label="Deal Size" value="$80,000 - $350,000+" color="bg-blue-600 text-white" />
             <InfoCard label="Sales Cycle" value="4 - 8 months" color="bg-blue-600 text-white" />
-            <InfoCard label="Agency Revenue" value="€10M+" color="bg-blue-600 text-white" />
+            <InfoCard label="Agency Revenue" value="$10M+" color="bg-blue-600 text-white" />
             <InfoCard label="Agency Size" value="50 - 300 staff" color="bg-blue-600 text-white" />
           </div>
         </div>
@@ -198,9 +222,9 @@ function Tier2Tab() {
       <ContentSection title="Tier 2: Growth Agency Partners" icon={<Layers className="w-5 h-5" />}>
         <div className="space-y-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <InfoCard label="Deal Size" value="€20,000 - €80,000+" color="bg-green-600 text-white" />
+            <InfoCard label="Deal Size" value="$20,000 - $80,000+" color="bg-green-600 text-white" />
             <InfoCard label="Sales Cycle" value="4 - 8 weeks" color="bg-green-600 text-white" />
-            <InfoCard label="Agency Revenue" value="€2M - €10M" color="bg-green-600 text-white" />
+            <InfoCard label="Agency Revenue" value="$2M - $10M" color="bg-green-600 text-white" />
             <InfoCard label="Agency Size" value="15 - 80 staff" color="bg-green-600 text-white" />
           </div>
         </div>

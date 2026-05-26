@@ -1,9 +1,12 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import ClientLayout from '../components/ClientLayout';
 import { ContentSection, CodeBlock, InfoCard, ListItem } from '../components/ContentSection';
-import { Target, Users, Filter, Code, TrendingUp, FileText } from 'lucide-react';
+import TasksTab, { TSLAB_DEFAULT_TASKS } from '../components/TasksTab';
+import PerformanceTab, { EMPTY_METRICS } from '../components/PerformanceTab';
+import StatusBadge, { getClientStatus, setClientStatus, DEFAULT_STATUSES, type ClientStatus } from '../components/StatusBadge';
+import { Target, Users, Filter, Code, TrendingUp, FileText, CheckSquare, BarChart3 } from 'lucide-react';
 
 const tabs = [
   { id: 'overview', label: 'Overview', icon: FileText },
@@ -11,10 +14,22 @@ const tabs = [
   { id: 'filters', label: 'Clay Filters', icon: Filter },
   { id: 'prompts', label: 'AI Prompts', icon: Code },
   { id: 'personas', label: 'Buyer Personas', icon: Users },
+  { id: 'performance', label: 'Performance', icon: BarChart3 },
+  { id: 'tasks', label: 'Tasks', icon: CheckSquare },
 ];
 
 export default function TSLabPage() {
   const [activeTab, setActiveTab] = useState('overview');
+  const [status, setStatus] = useState<ClientStatus>('Active');
+
+  useEffect(() => {
+    setStatus(getClientStatus('tslab', DEFAULT_STATUSES.tslab));
+  }, []);
+
+  const handleStatusChange = (newStatus: ClientStatus) => {
+    setStatus(newStatus);
+    setClientStatus('tslab', newStatus);
+  };
 
   return (
     <ClientLayout>
@@ -25,8 +40,11 @@ export default function TSLabPage() {
             <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
               <span className="text-2xl font-bold text-green-600">TS</span>
             </div>
-            <div>
-              <h1 className="text-3xl font-bold text-slate-900">TS Lab</h1>
+            <div className="flex-1">
+              <div className="flex items-center space-x-3">
+                <h1 className="text-3xl font-bold text-slate-900">TS Lab</h1>
+                <StatusBadge status={status} onStatusChange={handleStatusChange} size="md" />
+              </div>
               <p className="text-slate-600">Food Supplement Capsule Manufacturing (Slovenia)</p>
             </div>
           </div>
@@ -67,6 +85,12 @@ export default function TSLabPage() {
           {activeTab === 'filters' && <FiltersTab />}
           {activeTab === 'prompts' && <PromptsTab />}
           {activeTab === 'personas' && <PersonasTab />}
+          {activeTab === 'performance' && (
+            <PerformanceTab clientId="tslab" defaultMetrics={EMPTY_METRICS} hasData={false} />
+          )}
+          {activeTab === 'tasks' && (
+            <TasksTab clientId="tslab" defaultTasks={TSLAB_DEFAULT_TASKS} />
+          )}
         </div>
       </div>
     </ClientLayout>
