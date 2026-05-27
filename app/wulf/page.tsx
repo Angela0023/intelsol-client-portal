@@ -378,7 +378,7 @@ function SpamCheckTab() {
       </ContentSection>
 
       {/* Per-Vertical Breakdown */}
-      <ContentSection title="Results by Vertical" icon={<Mail className="w-5 h-5" />}>
+      <ContentSection title="Results by Campaign" icon={<Mail className="w-5 h-5" />}>
         <div className="space-y-3">
           {spamData.map((vertical) => {
             const isExpanded = expandedVertical === vertical.name;
