@@ -423,16 +423,10 @@ function SpamCheckTab() {
                       {vertical.sequences.map((seq, idx) => {
                         const imgSrc = `/spam-screenshots/${vertical.imageSlug}-seq${idx + 1}.png`;
                         return (
-                          <div key={idx} className="bg-white rounded-lg border border-slate-200 p-4">
-                            <div className="flex items-center justify-between mb-3">
-                              <h4 className="font-medium text-slate-900">Sequence {idx + 1}</h4>
-                              <ScoreBadge score={seq.score} />
-                            </div>
-
-                            {/* Screenshot */}
+                          <div key={idx} className="bg-white rounded-lg border border-slate-200 p-2">
                             <button
                               onClick={() => setLightboxImage(imgSrc)}
-                              className="w-full mb-3 rounded-lg overflow-hidden border border-slate-200 hover:border-slate-400 hover:shadow-md transition-all cursor-zoom-in"
+                              className="w-full rounded-lg overflow-hidden hover:shadow-md transition-all cursor-zoom-in"
                             >
                               <img
                                 src={imgSrc}
@@ -441,32 +435,6 @@ function SpamCheckTab() {
                                 loading="lazy"
                               />
                             </button>
-
-                            <div className="grid grid-cols-2 gap-2 mb-3">
-                              <div className="text-xs">
-                                <span className="text-slate-500">Words: </span>
-                                <span className="font-medium text-slate-700">{seq.words}</span>
-                              </div>
-                              <div className="text-xs">
-                                <span className="text-slate-500">Read time: </span>
-                                <span className="font-medium text-slate-700">{seq.readTime}</span>
-                              </div>
-                            </div>
-                            {seq.flags.length > 0 ? (
-                              <div className="flex flex-wrap gap-1.5">
-                                {seq.flags.map((flag, fIdx) => (
-                                  <FlagBadge key={fIdx} flag={flag} />
-                                ))}
-                              </div>
-                            ) : (
-                              <p className="text-xs text-green-600 font-medium">No flags detected</p>
-                            )}
-                            {seq.hasUrls && (
-                              <div className="mt-2 flex items-center space-x-1 text-xs text-rose-600">
-                                <AlertTriangle className="w-3 h-3" />
-                                <span>Contains URLs</span>
-                              </div>
-                            )}
                           </div>
                         );
                       })}
