@@ -157,6 +157,7 @@ interface SequenceResult {
 interface VerticalResults {
   name: string;
   created: string;
+  imageSlug: string;
   sequences: SequenceResult[];
 }
 
@@ -178,6 +179,7 @@ const spamData: VerticalResults[] = [
   {
     name: 'Email Sequence V01',
     created: 'Mar 11',
+    imageSlug: 'email-sequence-v01',
     sequences: [
       { score: 'Poor', words: 101, readTime: '1 min', flags: ['Urgency (1)', 'Shady (2)'], hasUrls: true },
       { score: 'Okay', words: 107, readTime: '1 min', flags: ['Overpromise (1)'], hasUrls: true },
@@ -188,6 +190,7 @@ const spamData: VerticalResults[] = [
   {
     name: 'Roblox & UEFN',
     created: 'Mar 11',
+    imageSlug: 'roblox-uefn',
     sequences: [
       { score: 'Poor', words: 119, readTime: '1 min', flags: ['Urgency (1)', 'Shady (2)'], hasUrls: true },
       { score: 'Okay', words: 139, readTime: '1 min', flags: ['Overpromise (1)'], hasUrls: true },
@@ -198,6 +201,7 @@ const spamData: VerticalResults[] = [
   {
     name: 'Game Studios',
     created: 'Mar 11',
+    imageSlug: 'game-studios',
     sequences: [
       { score: 'Poor', words: 115, readTime: '1 min', flags: ['Urgency (1)', 'Shady (2)'], hasUrls: true },
       { score: 'Okay', words: 135, readTime: '1 min', flags: ['Overpromise (1)'], hasUrls: true },
@@ -208,6 +212,7 @@ const spamData: VerticalResults[] = [
   {
     name: 'Location Based VR',
     created: 'Mar 11',
+    imageSlug: 'location-based-vr',
     sequences: [
       { score: 'Poor', words: 114, readTime: '1 min', flags: ['Urgency (1)', 'Shady (3)'], hasUrls: true },
       { score: 'Poor', words: 134, readTime: '1 min', flags: ['Shady (2)', 'Overpromise (1)'], hasUrls: true },
@@ -218,6 +223,7 @@ const spamData: VerticalResults[] = [
   {
     name: 'XR Agencies & Service Companies',
     created: 'Mar 11',
+    imageSlug: 'xr-agencies',
     sequences: [
       { score: 'Poor', words: 192, readTime: '1 min', flags: ['Shady (1)', 'Unnatural (1)'], hasUrls: true },
       { score: 'Great', words: 132, readTime: '1 min', flags: [], hasUrls: true },
@@ -228,6 +234,7 @@ const spamData: VerticalResults[] = [
   {
     name: 'XR Agencies — A/B Version',
     created: 'Mar 30',
+    imageSlug: 'xr-agencies-ab',
     sequences: [
       { score: 'Poor', words: 192, readTime: '1 min', flags: ['Shady (1)', 'Unnatural (1)'], hasUrls: true },
       { score: 'Great', words: 133, readTime: '1 min', flags: [], hasUrls: true },
@@ -238,6 +245,7 @@ const spamData: VerticalResults[] = [
   {
     name: 'VR/XR Training',
     created: 'May 7',
+    imageSlug: 'vrxr-training',
     sequences: [
       { score: 'Poor', words: 119, readTime: '1 min', flags: ['Shady (5)'], hasUrls: true },
       { score: 'Poor', words: 138, readTime: '1 min', flags: ['Shady (2)', 'Overpromise (1)'], hasUrls: true },
@@ -248,6 +256,7 @@ const spamData: VerticalResults[] = [
   {
     name: 'VR/XR Training — Cleaned',
     created: 'May 11',
+    imageSlug: 'vrxr-training-cleaned',
     sequences: [
       { score: 'Poor', words: 114, readTime: '1 min', flags: ['Shady (5)'], hasUrls: true },
       { score: 'Poor', words: 138, readTime: '1 min', flags: ['Shady (2)', 'Overpromise (1)'], hasUrls: true },
@@ -277,6 +286,7 @@ function FlagBadge({ flag }: { flag: string }) {
 
 function SpamCheckTab() {
   const [expandedVertical, setExpandedVertical] = useState<string | null>(spamData[0].name);
+  const [lightboxImage, setLightboxImage] = useState<string | null>(null);
 
   const totalSequences = spamData.reduce((acc, v) => acc + v.sequences.length, 0);
   const poorCount = spamData.reduce((acc, v) => acc + v.sequences.filter(s => s.score === 'Poor').length, 0);
@@ -410,39 +420,56 @@ function SpamCheckTab() {
                 {isExpanded && (
                   <div className="border-t border-slate-200 bg-slate-50">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4">
-                      {vertical.sequences.map((seq, idx) => (
-                        <div key={idx} className="bg-white rounded-lg border border-slate-200 p-4">
-                          <div className="flex items-center justify-between mb-3">
-                            <h4 className="font-medium text-slate-900">Sequence {idx + 1}</h4>
-                            <ScoreBadge score={seq.score} />
+                      {vertical.sequences.map((seq, idx) => {
+                        const imgSrc = `/spam-screenshots/${vertical.imageSlug}-seq${idx + 1}.png`;
+                        return (
+                          <div key={idx} className="bg-white rounded-lg border border-slate-200 p-4">
+                            <div className="flex items-center justify-between mb-3">
+                              <h4 className="font-medium text-slate-900">Sequence {idx + 1}</h4>
+                              <ScoreBadge score={seq.score} />
+                            </div>
+
+                            {/* Screenshot */}
+                            <button
+                              onClick={() => setLightboxImage(imgSrc)}
+                              className="w-full mb-3 rounded-lg overflow-hidden border border-slate-200 hover:border-slate-400 hover:shadow-md transition-all cursor-zoom-in"
+                            >
+                              <img
+                                src={imgSrc}
+                                alt={`${vertical.name} — Sequence ${idx + 1}`}
+                                className="w-full h-auto"
+                                loading="lazy"
+                              />
+                            </button>
+
+                            <div className="grid grid-cols-2 gap-2 mb-3">
+                              <div className="text-xs">
+                                <span className="text-slate-500">Words: </span>
+                                <span className="font-medium text-slate-700">{seq.words}</span>
+                              </div>
+                              <div className="text-xs">
+                                <span className="text-slate-500">Read time: </span>
+                                <span className="font-medium text-slate-700">{seq.readTime}</span>
+                              </div>
+                            </div>
+                            {seq.flags.length > 0 ? (
+                              <div className="flex flex-wrap gap-1.5">
+                                {seq.flags.map((flag, fIdx) => (
+                                  <FlagBadge key={fIdx} flag={flag} />
+                                ))}
+                              </div>
+                            ) : (
+                              <p className="text-xs text-green-600 font-medium">No flags detected</p>
+                            )}
+                            {seq.hasUrls && (
+                              <div className="mt-2 flex items-center space-x-1 text-xs text-rose-600">
+                                <AlertTriangle className="w-3 h-3" />
+                                <span>Contains URLs</span>
+                              </div>
+                            )}
                           </div>
-                          <div className="grid grid-cols-2 gap-2 mb-3">
-                            <div className="text-xs">
-                              <span className="text-slate-500">Words: </span>
-                              <span className="font-medium text-slate-700">{seq.words}</span>
-                            </div>
-                            <div className="text-xs">
-                              <span className="text-slate-500">Read time: </span>
-                              <span className="font-medium text-slate-700">{seq.readTime}</span>
-                            </div>
-                          </div>
-                          {seq.flags.length > 0 ? (
-                            <div className="flex flex-wrap gap-1.5">
-                              {seq.flags.map((flag, fIdx) => (
-                                <FlagBadge key={fIdx} flag={flag} />
-                              ))}
-                            </div>
-                          ) : (
-                            <p className="text-xs text-green-600 font-medium">No flags detected</p>
-                          )}
-                          {seq.hasUrls && (
-                            <div className="mt-2 flex items-center space-x-1 text-xs text-rose-600">
-                              <AlertTriangle className="w-3 h-3" />
-                              <span>Contains URLs</span>
-                            </div>
-                          )}
-                        </div>
-                      ))}
+                        );
+                      })}
                     </div>
                   </div>
                 )}
@@ -477,6 +504,27 @@ function SpamCheckTab() {
           </div>
         </div>
       </ContentSection>
+
+      {/* Lightbox */}
+      {lightboxImage && (
+        <div
+          className="fixed inset-0 z-50 bg-black/80 flex items-center justify-center p-4 cursor-zoom-out"
+          onClick={() => setLightboxImage(null)}
+        >
+          <button
+            onClick={() => setLightboxImage(null)}
+            className="absolute top-4 right-4 w-10 h-10 bg-white/20 hover:bg-white/40 rounded-full flex items-center justify-center text-white text-xl transition-colors"
+          >
+            &times;
+          </button>
+          <img
+            src={lightboxImage}
+            alt="Email spam check screenshot"
+            className="max-w-full max-h-[90vh] rounded-lg shadow-2xl"
+            onClick={(e) => e.stopPropagation()}
+          />
+        </div>
+      )}
     </>
   );
 }
