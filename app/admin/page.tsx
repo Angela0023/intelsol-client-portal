@@ -69,6 +69,14 @@ export default function AdminPage() {
       borderColor: 'border-violet-200',
       bgColor: 'bg-violet-50',
     },
+    {
+      id: 'wulf',
+      name: 'WULF Arts',
+      industry: '3D Production Studio',
+      color: 'bg-orange-100 text-orange-600',
+      borderColor: 'border-orange-200',
+      bgColor: 'bg-orange-50',
+    },
   ];
 
   const activeCount = Object.values(statuses).filter((s) => s === 'Active').length;
@@ -76,7 +84,7 @@ export default function AdminPage() {
   const stats = [
     {
       label: 'Total Clients',
-      value: '4',
+      value: '5',
       icon: Building2,
       color: 'text-blue-600',
       bgColor: 'bg-blue-100',
@@ -168,6 +176,18 @@ export default function AdminPage() {
                         </span>
                         <span className="text-xs bg-white px-2 py-1 rounded border border-slate-200">
                           Performance
+                        </span>
+                        <span className="text-xs bg-white px-2 py-1 rounded border border-slate-200">
+                          Tasks
+                        </span>
+                      </>
+                    ) : client.id === 'wulf' ? (
+                      <>
+                        <span className="text-xs bg-white px-2 py-1 rounded border border-slate-200">
+                          Overview
+                        </span>
+                        <span className="text-xs bg-white px-2 py-1 rounded border border-slate-200">
+                          Spam Check
                         </span>
                         <span className="text-xs bg-white px-2 py-1 rounded border border-slate-200">
                           Tasks

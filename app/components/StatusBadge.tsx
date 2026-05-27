@@ -83,4 +83,5 @@ export const DEFAULT_STATUSES: Record<string, ClientStatus> = {
   tslab: 'Active',
   beeit: 'Onboarding',
   intelsol: 'Active',
+  wulf: 'Onboarding',
 };
