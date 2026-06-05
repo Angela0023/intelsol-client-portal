@@ -447,8 +447,37 @@ OUTPUT:
   );
 }
 
+interface TrackingData {
+  targeted: boolean;
+  lastTargeted: string;
+  leadsFound: number;
+  notes: string;
+}
+
 function TrackingTab() {
   const [selectedTier, setSelectedTier] = useState<'tier1' | 'tier2'>('tier1');
+  const [trackingData, setTrackingData] = useState<Record<string, TrackingData>>({});
+  const [editingKey, setEditingKey] = useState<string | null>(null);
+
+  // Load tracking data from localStorage on mount
+  useEffect(() => {
+    const saved = localStorage.getItem('beeit-tracking-data');
+    if (saved) {
+      setTrackingData(JSON.parse(saved));
+    }
+  }, []);
+
+  // Save tracking data to localStorage whenever it changes
+  useEffect(() => {
+    localStorage.setItem('beeit-tracking-data', JSON.stringify(trackingData));
+  }, [trackingData]);
+
+  // Tier 1 revenue ranges
+  const tier1Revenues = {
+    '51-200 employees': ['$10M - $25M', '$25M - $75M'],
+    '201-500 employees': ['$25M - $75M', '$75M - $100M'],
+    '501-1000 employees': ['$75M - $100M', '$100M - $500M']
+  };
 
   // Tier 1 combinations (72 total)
   const tier1Countries = ['Netherlands', 'Belgium', 'Luxembourg', 'Germany', 'Austria', 'Switzerland', 'United Kingdom', 'United States'];
@@ -471,14 +500,20 @@ function TrackingTab() {
     }
   };
 
+  const getRevenue = (size: string): string => {
+    return tier1Revenues[size as keyof typeof tier1Revenues]?.join(', ') || 'Not specified';
+  };
+
   const tier1Combinations = tier1Countries.flatMap(country =>
     tier1Sizes.flatMap(size =>
       tier1Industries.map(industry => ({
         country,
         size,
+        revenue: getRevenue(size),
         industry,
         priority: getPriority(size, 'tier1'),
-        key: `tier1-${country}-${size}-${industry}`
+        key: `tier1-${country}-${size}-${industry}`,
+        tier: 'tier1' as const
       }))
     )
   );
@@ -488,15 +523,16 @@ function TrackingTab() {
       tier2Industries.map(industry => ({
         country,
         size,
+        revenue: 'Not specified',
         industry,
         priority: getPriority(size, 'tier2'),
-        key: `tier2-${country}-${size}-${industry}`
+        key: `tier2-${country}-${size}-${industry}`,
+        tier: 'tier2' as const
       }))
     )
   );
 
   const combinations = selectedTier === 'tier1' ? tier1Combinations : tier2Combinations;
-  const priorityOrder = { 'High': 1, 'Medium': 2, 'Low': 3 };
 
   // Group by priority
   const groupedByPriority = combinations.reduce((acc, combo) => {
@@ -505,16 +541,83 @@ function TrackingTab() {
     return acc;
   }, {} as Record<string, typeof combinations>);
 
+  const toggleTargeted = (key: string) => {
+    setTrackingData(prev => ({
+      ...prev,
+      [key]: {
+        ...prev[key],
+        targeted: !prev[key]?.targeted,
+        lastTargeted: !prev[key]?.targeted ? new Date().toISOString().split('T')[0] : prev[key]?.lastTargeted || '',
+        leadsFound: prev[key]?.leadsFound || 0,
+        notes: prev[key]?.notes || ''
+      }
+    }));
+  };
+
+  const updateDate = (key: string, date: string) => {
+    setTrackingData(prev => ({
+      ...prev,
+      [key]: {
+        ...prev[key],
+        targeted: prev[key]?.targeted || false,
+        lastTargeted: date,
+        leadsFound: prev[key]?.leadsFound || 0,
+        notes: prev[key]?.notes || ''
+      }
+    }));
+  };
+
+  const updateLeads = (key: string, leads: number) => {
+    setTrackingData(prev => ({
+      ...prev,
+      [key]: {
+        ...prev[key],
+        targeted: prev[key]?.targeted || false,
+        lastTargeted: prev[key]?.lastTargeted || '',
+        leadsFound: leads,
+        notes: prev[key]?.notes || ''
+      }
+    }));
+  };
+
+  const getStats = () => {
+    const total = combinations.length;
+    const targeted = combinations.filter(c => trackingData[c.key]?.targeted).length;
+    const totalLeads = combinations.reduce((sum, c) => sum + (trackingData[c.key]?.leadsFound || 0), 0);
+    return { total, targeted, remaining: total - targeted, totalLeads };
+  };
+
+  const stats = getStats();
+
   return (
     <>
       <ContentSection title="Search Combinations Tracker" icon={<Target className="w-5 h-5" />}>
         <div className="space-y-4">
           <div className="bg-amber-50 border border-amber-200 p-4 rounded">
-            <p className="font-medium text-amber-900 mb-2">📋 Track Your Daily Search Progress</p>
+            <p className="font-medium text-amber-900 mb-2">✓ Interactive Tracking</p>
             <p className="text-amber-800 text-sm">
-              This section lists all possible filter combinations for each tier. Use these to systematically search Clay each day.
-              Download the CSV files from GitHub for backup tracking with lead counts and dates.
+              Check off combinations as you target them, add dates, and track lead counts. All data is saved automatically in your browser.
             </p>
+          </div>
+
+          {/* Stats */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+            <div className="bg-blue-50 border border-blue-200 p-3 rounded">
+              <div className="text-xs text-blue-600 font-medium">Total Combinations</div>
+              <div className="text-2xl font-bold text-blue-900">{stats.total}</div>
+            </div>
+            <div className="bg-green-50 border border-green-200 p-3 rounded">
+              <div className="text-xs text-green-600 font-medium">Targeted</div>
+              <div className="text-2xl font-bold text-green-900">{stats.targeted}</div>
+            </div>
+            <div className="bg-slate-50 border border-slate-200 p-3 rounded">
+              <div className="text-xs text-slate-600 font-medium">Remaining</div>
+              <div className="text-2xl font-bold text-slate-900">{stats.remaining}</div>
+            </div>
+            <div className="bg-purple-50 border border-purple-200 p-3 rounded">
+              <div className="text-xs text-purple-600 font-medium">Total Leads</div>
+              <div className="text-2xl font-bold text-purple-900">{stats.totalLeads}</div>
+            </div>
           </div>
 
           {/* Tier Selector */}
@@ -547,6 +650,8 @@ function TrackingTab() {
               const combos = groupedByPriority[priority] || [];
               if (combos.length === 0) return null;
 
+              const priorityTargeted = combos.filter(c => trackingData[c.key]?.targeted).length;
+
               return (
                 <div key={priority} className="space-y-2">
                   <h3 className={`font-semibold text-lg flex items-center space-x-2 ${
@@ -561,34 +666,98 @@ function TrackingTab() {
                     }`}>
                       {priority} Priority
                     </span>
-                    <span className="text-sm font-normal text-slate-600">({combos.length} combinations)</span>
+                    <span className="text-sm font-normal text-slate-600">
+                      ({priorityTargeted}/{combos.length} targeted)
+                    </span>
                   </h3>
 
                   <div className="grid grid-cols-1 gap-2">
-                    {combos.map((combo, idx) => (
-                      <div
-                        key={combo.key}
-                        className="bg-white border border-slate-200 rounded p-3 hover:border-slate-300 transition-colors"
-                      >
-                        <div className="flex items-start justify-between">
-                          <div className="flex-1">
-                            <div className="flex items-center space-x-2 text-sm">
-                              <span className="font-semibold text-slate-900">{combo.country}</span>
-                              <span className="text-slate-400">•</span>
-                              <span className="text-slate-700">{combo.size}</span>
+                    {combos.map((combo) => {
+                      const data = trackingData[combo.key] || { targeted: false, lastTargeted: '', leadsFound: 0, notes: '' };
+                      const isEditing = editingKey === combo.key;
+
+                      return (
+                        <div
+                          key={combo.key}
+                          className={`bg-white border rounded p-3 transition-all ${
+                            data.targeted
+                              ? 'border-green-300 bg-green-50'
+                              : 'border-slate-200 hover:border-slate-300'
+                          }`}
+                        >
+                          <div className="flex items-start gap-3">
+                            {/* Checkbox */}
+                            <input
+                              type="checkbox"
+                              checked={data.targeted}
+                              onChange={() => toggleTargeted(combo.key)}
+                              className="mt-1 w-4 h-4 text-green-600 rounded focus:ring-green-500"
+                            />
+
+                            {/* Content */}
+                            <div className="flex-1 space-y-2">
+                              {/* Filter Details */}
+                              <div className="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm">
+                                <div>
+                                  <span className="font-semibold text-slate-700">Country:</span>
+                                  <span className="ml-2 text-slate-900">{combo.country}</span>
+                                </div>
+                                <div>
+                                  <span className="font-semibold text-slate-700">Company Size:</span>
+                                  <span className="ml-2 text-slate-900">{combo.size}</span>
+                                </div>
+                                {selectedTier === 'tier1' && (
+                                  <div className="md:col-span-2">
+                                    <span className="font-semibold text-slate-700">Annual Revenue:</span>
+                                    <span className="ml-2 text-slate-900">{combo.revenue}</span>
+                                  </div>
+                                )}
+                                <div className="md:col-span-2">
+                                  <span className="font-semibold text-slate-700">Industry:</span>
+                                  <span className="ml-2 text-slate-900">{combo.industry}</span>
+                                </div>
+                              </div>
+
+                              {/* Tracking Fields */}
+                              <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+                                <div>
+                                  <label className="block text-xs font-medium text-slate-600 mb-1">
+                                    Last Targeted Date
+                                  </label>
+                                  <input
+                                    type="date"
+                                    value={data.lastTargeted}
+                                    onChange={(e) => updateDate(combo.key, e.target.value)}
+                                    className="w-full px-2 py-1 text-sm border border-slate-300 rounded focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                                  />
+                                </div>
+                                <div>
+                                  <label className="block text-xs font-medium text-slate-600 mb-1">
+                                    Leads Found
+                                  </label>
+                                  <input
+                                    type="number"
+                                    min="0"
+                                    value={data.leadsFound}
+                                    onChange={(e) => updateLeads(combo.key, parseInt(e.target.value) || 0)}
+                                    className="w-full px-2 py-1 text-sm border border-slate-300 rounded focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                                  />
+                                </div>
+                              </div>
                             </div>
-                            <div className="text-xs text-slate-600 mt-1">{combo.industry}</div>
-                          </div>
-                          <div className={`text-xs font-medium px-2 py-1 rounded ${
-                            priority === 'High' ? 'bg-green-50 text-green-700' :
-                            priority === 'Medium' ? 'bg-amber-50 text-amber-700' :
-                            'bg-slate-50 text-slate-600'
-                          }`}>
-                            {priority}
+
+                            {/* Priority Badge */}
+                            <div className={`text-xs font-medium px-2 py-1 rounded whitespace-nowrap ${
+                              priority === 'High' ? 'bg-green-100 text-green-700' :
+                              priority === 'Medium' ? 'bg-amber-100 text-amber-700' :
+                              'bg-slate-100 text-slate-600'
+                            }`}>
+                              {priority}
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    ))}
+                      );
+                    })}
                   </div>
                 </div>
               );
@@ -597,9 +766,9 @@ function TrackingTab() {
 
           {/* CSV Download Info */}
           <div className="bg-blue-50 border-l-4 border-blue-500 p-4 rounded mt-6">
-            <p className="font-semibold text-blue-900 mb-2">📥 CSV Files Available</p>
+            <p className="font-semibold text-blue-900 mb-2">📥 CSV Backup Available</p>
             <p className="text-blue-800 text-sm mb-2">
-              Full tracking spreadsheets with "Leads Found" and "Last Targeted Date" columns are available in GitHub:
+              CSV files are available in GitHub for offline tracking backup:
             </p>
             <ul className="text-blue-700 text-sm space-y-1">
               <li>• <code className="bg-blue-100 px-1 rounded">Clients/bit/beeit-tier1-search-combinations.csv</code></li>
