@@ -14,6 +14,7 @@ const tabs = [
   { id: 'tier2', label: 'Tier 2 - Growth', icon: Layers },
   { id: 'filters', label: 'Clay Filters', icon: Filter },
   { id: 'prompts', label: 'AI Prompts', icon: Code },
+  { id: 'tracking', label: 'Search Tracking', icon: Target },
   { id: 'performance', label: 'Performance', icon: BarChart3 },
   { id: 'tasks', label: 'Tasks', icon: CheckSquare },
 ];
@@ -77,6 +78,7 @@ export default function BeeItPage() {
           {activeTab === 'tier2' && <Tier2Tab />}
           {activeTab === 'filters' && <FiltersTab />}
           {activeTab === 'prompts' && <PromptsTab />}
+          {activeTab === 'tracking' && <TrackingTab />}
           {activeTab === 'performance' && (
             <PerformanceTab clientId="beeit" defaultMetrics={EMPTY_METRICS} hasData={false} />
           )}
@@ -311,21 +313,27 @@ function FiltersTab() {
 
       <ContentSection title="Tier 1: Strategic Agencies - Clay Filters" icon={<Filter className="w-5 h-5" />}>
         <div className="space-y-4">
-          <h4 className="font-semibold text-slate-900 mb-2">Company Size:</h4>
+          <div className="bg-blue-50 border border-blue-200 p-3 rounded text-sm">
+            <p className="font-medium text-blue-900 mb-1">📍 Filter names match the exact Clay interface</p>
+            <p className="text-blue-700 text-xs">Use "Find companies with filters" → "Company attributes" section</p>
+          </div>
+
+          <h4 className="font-semibold text-slate-900 mb-2">Company sizes:</h4>
           <ul className="space-y-1">
             <ListItem>51-200 employees</ListItem>
             <ListItem>201-500 employees</ListItem>
             <ListItem>501-1000 employees</ListItem>
           </ul>
 
-          <h4 className="font-semibold text-slate-900 mt-4 mb-2">Company Revenue:</h4>
+          <h4 className="font-semibold text-slate-900 mt-4 mb-2">Annual revenue:</h4>
           <ul className="space-y-1">
-            <ListItem>$10M-$50M</ListItem>
-            <ListItem>$50M-$100M</ListItem>
-            <ListItem>$100M-$500M</ListItem>
+            <ListItem>$10M - $25M</ListItem>
+            <ListItem>$25M - $75M</ListItem>
+            <ListItem>$75M - $100M</ListItem>
+            <ListItem>$100M - $500M</ListItem>
           </ul>
 
-          <h4 className="font-semibold text-slate-900 mt-4 mb-2">Industry:</h4>
+          <h4 className="font-semibold text-slate-900 mt-4 mb-2">Industries to include:</h4>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
             {[
               'IT Services and IT Consulting',
@@ -338,20 +346,28 @@ function FiltersTab() {
             ))}
           </div>
 
-          <h4 className="font-semibold text-slate-900 mt-4 mb-2">Keywords:</h4>
+          <h4 className="font-semibold text-slate-900 mt-4 mb-2">Description keywords to include:</h4>
           <CodeBlock code={`(Salesforce OR SFCC OR "commerce cloud" OR Magento OR "magento enterprise") AND (agency OR "system integrator" OR consultancy)`} />
         </div>
       </ContentSection>
 
       <ContentSection title="Tier 2: Growth Agencies - Clay Filters" icon={<Filter className="w-5 h-5" />}>
         <div className="space-y-4">
-          <h4 className="font-semibold text-slate-900 mb-2">Company Size:</h4>
+          <div className="bg-green-50 border border-green-200 p-3 rounded text-sm">
+            <p className="font-medium text-green-900 mb-1">📍 Filter names match the exact Clay interface</p>
+            <p className="text-green-700 text-xs">Use "Find companies with filters" → "Company attributes" section</p>
+          </div>
+
+          <h4 className="font-semibold text-slate-900 mb-2">Company sizes:</h4>
           <ul className="space-y-1">
             <ListItem>11-50 employees</ListItem>
             <ListItem>51-200 employees</ListItem>
           </ul>
 
-          <h4 className="font-semibold text-slate-900 mt-4 mb-2">Industry:</h4>
+          <h4 className="font-semibold text-slate-900 mt-4 mb-2">Annual revenue:</h4>
+          <p className="text-sm text-slate-600">Not specified (agencies typically €2M-€10M)</p>
+
+          <h4 className="font-semibold text-slate-900 mt-4 mb-2">Industries to include:</h4>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
             {[
               'IT Services and IT Consulting',
@@ -366,7 +382,7 @@ function FiltersTab() {
             ))}
           </div>
 
-          <h4 className="font-semibold text-slate-900 mt-4 mb-2">Keywords:</h4>
+          <h4 className="font-semibold text-slate-900 mt-4 mb-2">Description keywords to include:</h4>
           <CodeBlock code={`(agency OR consultancy OR digital) AND (ecommerce OR magento OR salesforce OR SFCC OR "commerce cloud")`} />
         </div>
       </ContentSection>
@@ -424,6 +440,171 @@ OUTPUT:
             <p className="text-red-800 text-sm mt-1">
               Pure design/marketing agency, basic website builders (WordPress only), freelancers, or agencies with broken/old websites.
             </p>
+          </div>
+        </div>
+      </ContentSection>
+    </>
+  );
+}
+
+function TrackingTab() {
+  const [selectedTier, setSelectedTier] = useState<'tier1' | 'tier2'>('tier1');
+
+  // Tier 1 combinations (72 total)
+  const tier1Countries = ['Netherlands', 'Belgium', 'Luxembourg', 'Germany', 'Austria', 'Switzerland', 'United Kingdom', 'United States'];
+  const tier1Sizes = ['51-200 employees', '201-500 employees', '501-1000 employees'];
+  const tier1Industries = ['IT Services and IT Consulting', 'Software Development', 'Technology, Information and Internet'];
+
+  // Tier 2 combinations (80 total)
+  const tier2Countries = ['Netherlands', 'Belgium', 'Luxembourg', 'Germany', 'Austria', 'Switzerland', 'United Kingdom', 'United States'];
+  const tier2Sizes = ['11-50 employees', '51-200 employees'];
+  const tier2Industries = ['IT Services and IT Consulting', 'Software Development', 'Technology, Information and Internet', 'Advertising Services', 'Design Services'];
+
+  const getPriority = (size: string, tier: 'tier1' | 'tier2') => {
+    if (tier === 'tier1') {
+      if (size === '51-200 employees') return 'High';
+      if (size === '201-500 employees') return 'Medium';
+      return 'Low';
+    } else {
+      if (size === '11-50 employees') return 'High';
+      return 'Medium';
+    }
+  };
+
+  const tier1Combinations = tier1Countries.flatMap(country =>
+    tier1Sizes.flatMap(size =>
+      tier1Industries.map(industry => ({
+        country,
+        size,
+        industry,
+        priority: getPriority(size, 'tier1'),
+        key: `tier1-${country}-${size}-${industry}`
+      }))
+    )
+  );
+
+  const tier2Combinations = tier2Countries.flatMap(country =>
+    tier2Sizes.flatMap(size =>
+      tier2Industries.map(industry => ({
+        country,
+        size,
+        industry,
+        priority: getPriority(size, 'tier2'),
+        key: `tier2-${country}-${size}-${industry}`
+      }))
+    )
+  );
+
+  const combinations = selectedTier === 'tier1' ? tier1Combinations : tier2Combinations;
+  const priorityOrder = { 'High': 1, 'Medium': 2, 'Low': 3 };
+
+  // Group by priority
+  const groupedByPriority = combinations.reduce((acc, combo) => {
+    if (!acc[combo.priority]) acc[combo.priority] = [];
+    acc[combo.priority].push(combo);
+    return acc;
+  }, {} as Record<string, typeof combinations>);
+
+  return (
+    <>
+      <ContentSection title="Search Combinations Tracker" icon={<Target className="w-5 h-5" />}>
+        <div className="space-y-4">
+          <div className="bg-amber-50 border border-amber-200 p-4 rounded">
+            <p className="font-medium text-amber-900 mb-2">📋 Track Your Daily Search Progress</p>
+            <p className="text-amber-800 text-sm">
+              This section lists all possible filter combinations for each tier. Use these to systematically search Clay each day.
+              Download the CSV files from GitHub for backup tracking with lead counts and dates.
+            </p>
+          </div>
+
+          {/* Tier Selector */}
+          <div className="flex space-x-2">
+            <button
+              onClick={() => setSelectedTier('tier1')}
+              className={`px-4 py-2 rounded font-medium transition-colors ${
+                selectedTier === 'tier1'
+                  ? 'bg-blue-600 text-white'
+                  : 'bg-slate-200 text-slate-700 hover:bg-slate-300'
+              }`}
+            >
+              Tier 1 - Strategic ({tier1Combinations.length} combinations)
+            </button>
+            <button
+              onClick={() => setSelectedTier('tier2')}
+              className={`px-4 py-2 rounded font-medium transition-colors ${
+                selectedTier === 'tier2'
+                  ? 'bg-green-600 text-white'
+                  : 'bg-slate-200 text-slate-700 hover:bg-slate-300'
+              }`}
+            >
+              Tier 2 - Growth ({tier2Combinations.length} combinations)
+            </button>
+          </div>
+
+          {/* Combinations List */}
+          <div className="space-y-6">
+            {(['High', 'Medium', 'Low'] as const).map(priority => {
+              const combos = groupedByPriority[priority] || [];
+              if (combos.length === 0) return null;
+
+              return (
+                <div key={priority} className="space-y-2">
+                  <h3 className={`font-semibold text-lg flex items-center space-x-2 ${
+                    priority === 'High' ? 'text-green-700' :
+                    priority === 'Medium' ? 'text-amber-700' :
+                    'text-slate-600'
+                  }`}>
+                    <span className={`px-2 py-1 rounded text-xs font-bold ${
+                      priority === 'High' ? 'bg-green-100' :
+                      priority === 'Medium' ? 'bg-amber-100' :
+                      'bg-slate-100'
+                    }`}>
+                      {priority} Priority
+                    </span>
+                    <span className="text-sm font-normal text-slate-600">({combos.length} combinations)</span>
+                  </h3>
+
+                  <div className="grid grid-cols-1 gap-2">
+                    {combos.map((combo, idx) => (
+                      <div
+                        key={combo.key}
+                        className="bg-white border border-slate-200 rounded p-3 hover:border-slate-300 transition-colors"
+                      >
+                        <div className="flex items-start justify-between">
+                          <div className="flex-1">
+                            <div className="flex items-center space-x-2 text-sm">
+                              <span className="font-semibold text-slate-900">{combo.country}</span>
+                              <span className="text-slate-400">•</span>
+                              <span className="text-slate-700">{combo.size}</span>
+                            </div>
+                            <div className="text-xs text-slate-600 mt-1">{combo.industry}</div>
+                          </div>
+                          <div className={`text-xs font-medium px-2 py-1 rounded ${
+                            priority === 'High' ? 'bg-green-50 text-green-700' :
+                            priority === 'Medium' ? 'bg-amber-50 text-amber-700' :
+                            'bg-slate-50 text-slate-600'
+                          }`}>
+                            {priority}
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+
+          {/* CSV Download Info */}
+          <div className="bg-blue-50 border-l-4 border-blue-500 p-4 rounded mt-6">
+            <p className="font-semibold text-blue-900 mb-2">📥 CSV Files Available</p>
+            <p className="text-blue-800 text-sm mb-2">
+              Full tracking spreadsheets with "Leads Found" and "Last Targeted Date" columns are available in GitHub:
+            </p>
+            <ul className="text-blue-700 text-sm space-y-1">
+              <li>• <code className="bg-blue-100 px-1 rounded">Clients/bit/beeit-tier1-search-combinations.csv</code></li>
+              <li>• <code className="bg-blue-100 px-1 rounded">Clients/bit/beeit-tier2-search-combinations.csv</code></li>
+            </ul>
           </div>
         </div>
       </ContentSection>
