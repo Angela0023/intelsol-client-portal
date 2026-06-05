@@ -347,7 +347,10 @@ function FiltersTab() {
           </div>
 
           <h4 className="font-semibold text-slate-900 mt-4 mb-2">Description keywords to include:</h4>
-          <CodeBlock code={`(Salesforce OR SFCC OR "commerce cloud" OR Magento OR "magento enterprise") AND (agency OR "system integrator" OR consultancy)`} />
+          <CodeBlock code={`(agency OR "system integrator" OR consultancy OR "digital agency") AND (Salesforce OR SFCC OR "commerce cloud" OR Magento OR "magento enterprise" OR ecommerce OR "e-commerce")`} />
+          <p className="text-xs text-blue-600 mt-2 bg-blue-50 p-2 rounded border border-blue-200">
+            ⚠️ Important: Put the agency qualifier FIRST, then AND, then platforms. This ensures you get agencies that do eCommerce, not just IT companies that mention these platforms.
+          </p>
         </div>
       </ContentSection>
 
