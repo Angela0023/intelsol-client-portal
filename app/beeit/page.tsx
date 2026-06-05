@@ -340,7 +340,27 @@ function FiltersTab() {
               'Software Development',
               'Technology, Information and Internet',
             ].map((industry) => (
-              <div key={industry} className="bg-slate-100 px-3 py-2 rounded text-sm border border-slate-200">
+              <div key={industry} className="bg-green-100 px-3 py-2 rounded text-sm border border-green-200">
+                {industry}
+              </div>
+            ))}
+          </div>
+
+          <h4 className="font-semibold text-slate-900 mt-4 mb-2">Industries to EXCLUDE:</h4>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+            {[
+              'Computer Networking Products',
+              'IT System Data Services',
+              'Computer & Network Security',
+              'IT System Training and Support',
+              'Telecommunications',
+              'Cloud Computing',
+              'Data Infrastructure and Analytics',
+              'Computer Hardware Manufacturing',
+              'IT System Installation and Disposal',
+              'Outsourcing and Offshoring Consulting',
+            ].map((industry) => (
+              <div key={industry} className="bg-red-100 px-3 py-2 rounded text-sm border border-red-200">
                 {industry}
               </div>
             ))}
@@ -348,8 +368,12 @@ function FiltersTab() {
 
           <h4 className="font-semibold text-slate-900 mt-4 mb-2">Description keywords to include:</h4>
           <CodeBlock code={`(agency OR "system integrator" OR consultancy OR "digital agency") AND (Salesforce OR SFCC OR "commerce cloud" OR Magento OR "magento enterprise" OR ecommerce OR "e-commerce")`} />
+
+          <h4 className="font-semibold text-slate-900 mt-4 mb-2">Description keywords to EXCLUDE:</h4>
+          <CodeBlock code={`cybersecurity OR "cyber security" OR "network security" OR infrastructure OR "managed services" OR "IT support" OR helpdesk OR "cloud migration" OR hosting`} />
+
           <p className="text-xs text-blue-600 mt-2 bg-blue-50 p-2 rounded border border-blue-200">
-            ⚠️ Important: Put the agency qualifier FIRST, then AND, then platforms. This ensures you get agencies that do eCommerce, not just IT companies that mention these platforms.
+            ⚠️ Important: Use BOTH include and exclude filters. The exclusions remove infrastructure/security/hosting companies that aren't digital agencies.
           </p>
         </div>
       </ContentSection>
@@ -379,14 +403,39 @@ function FiltersTab() {
               'Advertising Services',
               'Design Services',
             ].map((industry) => (
-              <div key={industry} className="bg-slate-100 px-3 py-2 rounded text-sm border border-slate-200">
+              <div key={industry} className="bg-green-100 px-3 py-2 rounded text-sm border border-green-200">
+                {industry}
+              </div>
+            ))}
+          </div>
+
+          <h4 className="font-semibold text-slate-900 mt-4 mb-2">Industries to EXCLUDE:</h4>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+            {[
+              'Computer Networking Products',
+              'IT System Data Services',
+              'Computer & Network Security',
+              'IT System Training and Support',
+              'Telecommunications',
+              'Cloud Computing',
+              'Data Infrastructure and Analytics',
+              'Computer Hardware Manufacturing',
+            ].map((industry) => (
+              <div key={industry} className="bg-red-100 px-3 py-2 rounded text-sm border border-red-200">
                 {industry}
               </div>
             ))}
           </div>
 
           <h4 className="font-semibold text-slate-900 mt-4 mb-2">Description keywords to include:</h4>
-          <CodeBlock code={`(agency OR consultancy OR digital) AND (ecommerce OR magento OR salesforce OR SFCC OR "commerce cloud")`} />
+          <CodeBlock code={`(agency OR consultancy OR digital OR "digital agency") AND (ecommerce OR "e-commerce" OR magento OR salesforce OR SFCC OR "commerce cloud")`} />
+
+          <h4 className="font-semibold text-slate-900 mt-4 mb-2">Description keywords to EXCLUDE:</h4>
+          <CodeBlock code={`cybersecurity OR "cyber security" OR "network security" OR infrastructure OR "managed services" OR "IT support" OR helpdesk OR "cloud migration"`} />
+
+          <p className="text-xs text-green-600 mt-2 bg-green-50 p-2 rounded border border-green-200">
+            ⚠️ Important: Use BOTH include and exclude filters to remove non-agency companies.
+          </p>
         </div>
       </ContentSection>
     </>
