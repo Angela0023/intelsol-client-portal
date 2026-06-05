@@ -367,7 +367,7 @@ function FiltersTab() {
           </div>
 
           <h4 className="font-semibold text-slate-900 mt-4 mb-2">Description keywords to include:</h4>
-          <CodeBlock code={`(agency OR "system integrator" OR consultancy OR "digital agency") AND (Salesforce OR SFCC OR "commerce cloud" OR Magento OR "magento enterprise" OR ecommerce OR "e-commerce")`} />
+          <CodeBlock code={`agency, system integrator, consultancy, digital agency, ecommerce, e-commerce, Salesforce, SFCC, commerce cloud, Magento, magento enterprise`} />
 
           <h4 className="font-semibold text-slate-900 mt-4 mb-2">Description keywords to EXCLUDE:</h4>
           <div className="bg-slate-100 p-3 rounded border border-slate-300 text-sm text-slate-700">
@@ -375,7 +375,7 @@ function FiltersTab() {
           </div>
 
           <p className="text-xs text-blue-600 mt-2 bg-blue-50 p-2 rounded border border-blue-200">
-            ⚠️ Important: ONLY use industry exclusions. Description keyword exclusions are too broad and filter out legitimate agencies that mention "infrastructure" or "managed services" in an eCommerce context.
+            ⚠️ Format: Clay uses comma-separated keywords (shown above). Copy and paste exactly as written. The industry exclusions filter out non-agency companies.
           </p>
         </div>
       </ContentSection>
@@ -430,7 +430,7 @@ function FiltersTab() {
           </div>
 
           <h4 className="font-semibold text-slate-900 mt-4 mb-2">Description keywords to include:</h4>
-          <CodeBlock code={`(agency OR consultancy OR digital OR "digital agency") AND (ecommerce OR "e-commerce" OR magento OR salesforce OR SFCC OR "commerce cloud")`} />
+          <CodeBlock code={`agency, consultancy, digital agency, ecommerce, e-commerce, Magento, Salesforce, SFCC, commerce cloud`} />
 
           <h4 className="font-semibold text-slate-900 mt-4 mb-2">Description keywords to EXCLUDE:</h4>
           <div className="bg-slate-100 p-3 rounded border border-slate-300 text-sm text-slate-700">
@@ -438,7 +438,7 @@ function FiltersTab() {
           </div>
 
           <p className="text-xs text-green-600 mt-2 bg-green-50 p-2 rounded border border-green-200">
-            ⚠️ Important: ONLY use industry exclusions. Don't add description keyword exclusions.
+            ⚠️ Format: Clay uses comma-separated keywords. Copy and paste exactly as shown above.
           </p>
         </div>
       </ContentSection>
