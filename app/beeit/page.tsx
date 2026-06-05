@@ -370,10 +370,12 @@ function FiltersTab() {
           <CodeBlock code={`(agency OR "system integrator" OR consultancy OR "digital agency") AND (Salesforce OR SFCC OR "commerce cloud" OR Magento OR "magento enterprise" OR ecommerce OR "e-commerce")`} />
 
           <h4 className="font-semibold text-slate-900 mt-4 mb-2">Description keywords to EXCLUDE:</h4>
-          <CodeBlock code={`cybersecurity OR "cyber security" OR "network security" OR infrastructure OR "managed services" OR "IT support" OR helpdesk OR "cloud migration" OR hosting`} />
+          <div className="bg-slate-100 p-3 rounded border border-slate-300 text-sm text-slate-700">
+            Leave this field <strong>EMPTY</strong> in Clay - the industry exclusions are sufficient
+          </div>
 
           <p className="text-xs text-blue-600 mt-2 bg-blue-50 p-2 rounded border border-blue-200">
-            ⚠️ Important: Use BOTH include and exclude filters. The exclusions remove infrastructure/security/hosting companies that aren't digital agencies.
+            ⚠️ Important: ONLY use industry exclusions. Description keyword exclusions are too broad and filter out legitimate agencies that mention "infrastructure" or "managed services" in an eCommerce context.
           </p>
         </div>
       </ContentSection>
@@ -431,10 +433,12 @@ function FiltersTab() {
           <CodeBlock code={`(agency OR consultancy OR digital OR "digital agency") AND (ecommerce OR "e-commerce" OR magento OR salesforce OR SFCC OR "commerce cloud")`} />
 
           <h4 className="font-semibold text-slate-900 mt-4 mb-2">Description keywords to EXCLUDE:</h4>
-          <CodeBlock code={`cybersecurity OR "cyber security" OR "network security" OR infrastructure OR "managed services" OR "IT support" OR helpdesk OR "cloud migration"`} />
+          <div className="bg-slate-100 p-3 rounded border border-slate-300 text-sm text-slate-700">
+            Leave this field <strong>EMPTY</strong> in Clay - the industry exclusions are sufficient
+          </div>
 
           <p className="text-xs text-green-600 mt-2 bg-green-50 p-2 rounded border border-green-200">
-            ⚠️ Important: Use BOTH include and exclude filters to remove non-agency companies.
+            ⚠️ Important: ONLY use industry exclusions. Don't add description keyword exclusions.
           </p>
         </div>
       </ContentSection>
