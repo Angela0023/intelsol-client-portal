@@ -22,6 +22,10 @@
 - Password: `beeit2026`
 - Access: BeeIt dashboard only
 
+**People Focus**
+- Password: `peoplefocus2026`
+- Access: People Focus dashboard only
+
 ---
 
 ## Portal URL
@@ -31,4 +35,4 @@
 
 ---
 
-**Last Updated:** May 22, 2026
+**Last Updated:** July 2, 2026
