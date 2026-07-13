@@ -415,7 +415,7 @@ Output only the personalized sentence, nothing else.`;
           <div className="bg-red-50 border-l-4 border-red-500 p-3 rounded">
             <p className="font-medium text-red-900">NOT A MATCH</p>
             <p className="text-red-800 text-sm mt-1">
-              B2C company, low-ticket consumer eCommerce, too small (<20) or too large (>200), distributors-only, commodity business, broken website, or already has large in-house SDR team.
+              B2C company, low-ticket consumer eCommerce, too small (&lt;20) or too large (&gt;200), distributors-only, commodity business, broken website, or already has large in-house SDR team.
             </p>
           </div>
         </div>
