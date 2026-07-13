@@ -187,25 +187,29 @@ function ICPTab() {
           <h4 className="font-semibold text-slate-900 mt-6 mb-3">Must-Have Characteristics:</h4>
           <ul className="space-y-2">
             <ListItem type="check">B2B company selling to other businesses</ListItem>
-            <ListItem type="check">10-200 employees (SMB to mid-market)</ListItem>
-            <ListItem type="check">Sells a service or SaaS product (not physical goods)</ListItem>
+            <ListItem type="check">20-200 employees (sweet spot: 50-100)</ListItem>
+            <ListItem type="check">Sells services, SaaS, OR physical/industrial B2B products</ListItem>
+            <ListItem type="check">High-ticket offers ($20K+ per deal)</ListItem>
+            <ListItem type="check">Active sales process (not just distributors)</ListItem>
             <ListItem type="check">Has a website with clear value proposition</ListItem>
-            <ListItem type="check">Revenue: $500K - $50M annual</ListItem>
-            <ListItem type="check">English-speaking markets or English website</ListItem>
+            <ListItem type="check">EU markets (Belgium, Netherlands, Germany, Austria, Switzerland, France, UK, Nordics)</ListItem>
           </ul>
 
           <h4 className="font-semibold text-slate-900 mt-6 mb-3">Target Verticals:</h4>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
             {[
               'SaaS Companies',
-              'Digital Agencies',
               'IT Consulting',
-              'Marketing Agencies',
-              'HR/Recruitment Tech',
-              'FinTech / Payments',
+              'Management Consulting',
+              'Industrial Automation',
+              'Manufacturing Equipment',
+              'Medical Equipment (B2B)',
+              'Software Development',
               'Cybersecurity',
               'Data & Analytics',
               'Professional Services',
+              'Business Consulting',
+              'Industrial Machinery',
             ].map((vertical) => (
               <div key={vertical} className="bg-slate-100 px-3 py-2 rounded text-sm">
                 {vertical}
@@ -218,24 +222,28 @@ function ICPTab() {
       <ContentSection title="Red Flags (Disqualifiers)" icon={<Target className="w-5 h-5" />}>
         <ul className="space-y-2">
           <ListItem type="cross">B2C companies (selling to consumers)</ListItem>
-          <ListItem type="cross">Companies under 10 employees (too small for agency spend)</ListItem>
-          <ListItem type="cross">Enterprise companies (500+ employees) — they have in-house teams</ListItem>
-          <ListItem type="cross">Physical product / eCommerce companies</ListItem>
-          <ListItem type="cross">Companies already working with a lead gen agency</ListItem>
-          <ListItem type="cross">Non-English website with no English market presence</ListItem>
+          <ListItem type="cross">eCommerce selling low-ticket consumer goods</ListItem>
+          <ListItem type="cross">Companies under 20 employees or over 200 employees</ListItem>
+          <ListItem type="cross">Recruitment/staffing agencies</ListItem>
+          <ListItem type="cross">Companies selling only through distributors (no direct sales)</ListItem>
+          <ListItem type="cross">Commodity/low-margin businesses</ListItem>
+          <ListItem type="cross">Non-EU website with no European market presence</ListItem>
           <ListItem type="cross">Outdated or broken website</ListItem>
+          <ListItem type="cross">Already has large in-house SDR/sales team</ListItem>
         </ul>
       </ContentSection>
 
       <ContentSection title="Target Geography" icon={<Filter className="w-5 h-5" />}>
         <div className="space-y-4">
           <h4 className="font-semibold text-slate-900 mb-3">Primary Markets:</h4>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
             {[
-              'United States',
-              'United Kingdom',
-              'Germany',
+              'Belgium',
               'Netherlands',
+              'Germany',
+              'Austria',
+              'Switzerland',
+              'France',
             ].map((country) => (
               <div key={country} className="bg-violet-100 px-3 py-2 rounded text-sm font-medium">
                 {country}
@@ -246,10 +254,12 @@ function ICPTab() {
           <h4 className="font-semibold text-slate-900 mt-4 mb-3">Secondary Markets:</h4>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
             {[
-              'Canada',
-              'Australia',
-              'Ireland',
-              'Nordics (Sweden, Norway, Denmark)',
+              'United Kingdom',
+              'Sweden',
+              'Norway',
+              'Denmark',
+              'Finland',
+              'Other EU',
             ].map((country) => (
               <div key={country} className="bg-slate-100 px-3 py-2 rounded text-sm">
                 {country}
@@ -268,14 +278,15 @@ function FiltersTab() {
       <ContentSection title="Clay Search Criteria" icon={<Filter className="w-5 h-5" />}>
         <div className="space-y-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <InfoCard label="Primary Location" value="USA, UK, Germany, Netherlands" color="bg-violet-600 text-white" />
-            <InfoCard label="Business Type" value="B2B Services & SaaS" color="bg-violet-600 text-white" />
+            <InfoCard label="Primary Location" value="Belgium, Netherlands, Germany, Austria, Switzerland, France" color="bg-violet-600 text-white" />
+            <InfoCard label="Business Type" value="B2B Services, SaaS, & Industrial Products" color="bg-violet-600 text-white" />
           </div>
 
           <h4 className="font-semibold text-slate-900 mt-6 mb-3">Company Size:</h4>
           <ul className="space-y-2">
-            <ListItem>11-50 employees</ListItem>
-            <ListItem>51-200 employees</ListItem>
+            <ListItem>20-50 employees</ListItem>
+            <ListItem>51-100 employees (sweet spot)</ListItem>
+            <ListItem>101-200 employees</ListItem>
           </ul>
 
           <h4 className="font-semibold text-slate-900 mt-6 mb-3">Industry Filters:</h4>
@@ -283,12 +294,16 @@ function FiltersTab() {
             {[
               'IT Services and IT Consulting',
               'Software Development',
-              'Technology, Information and Internet',
-              'Marketing Services',
+              'Management Consulting',
               'Business Consulting',
-              'Staffing and Recruiting',
-              'Financial Services',
+              'Industrial Automation',
+              'Automation Machinery Manufacturing',
+              'Industrial Machinery Manufacturing',
+              'Medical Equipment Manufacturing',
+              'Commercial and Service Industry Machinery',
+              'Measuring and Control Instrument Manufacturing',
               'Computer and Network Security',
+              'Technology, Information and Internet',
             ].map((industry) => (
               <div key={industry} className="bg-slate-100 px-3 py-2 rounded text-sm border border-slate-200">
                 {industry}
@@ -297,13 +312,16 @@ function FiltersTab() {
           </div>
 
           <h4 className="font-semibold text-slate-900 mt-6 mb-3">Keywords:</h4>
-          <CodeBlock code={`(SaaS OR "software company" OR "digital agency" OR "IT consulting" OR "marketing agency") AND (B2B OR "business to business" OR enterprise)`} />
+          <CodeBlock code={`(SaaS OR "software company" OR "IT consulting" OR "management consulting" OR "industrial automation" OR "manufacturing equipment" OR "medical equipment" OR "machinery") AND (B2B OR "business to business" OR enterprise OR industrial)`} />
 
           <h4 className="font-semibold text-slate-900 mt-6 mb-3">Revenue Filter:</h4>
           <ul className="space-y-2">
-            <ListItem>$500K - $5M (sweet spot for SMB)</ListItem>
-            <ListItem>$5M - $50M (mid-market)</ListItem>
+            <ListItem>$10M - $50M (sweet spot)</ListItem>
+            <ListItem>$50M - $100M (upper mid-market)</ListItem>
           </ul>
+          <p className="text-sm text-slate-600 mt-2">
+            High-ticket B2B: Companies selling $20K+ deals typically have $10M+ annual revenue
+          </p>
 
           <h4 className="font-semibold text-slate-900 mt-6 mb-3">Additional Filters:</h4>
           <ul className="space-y-2">
@@ -330,19 +348,28 @@ function PromptsTab() {
   const icpPrompt = `Determine whether this company matches the ICP for Intelsol lead generation services.
 
 A match should be:
-- B2B company (sells to other businesses)
-- offers a service or SaaS product
-- 10-200 employees
-- has a clear value proposition on their website
-- could benefit from outbound email campaigns to grow their pipeline
+- B2B company (sells to other businesses, NOT consumers)
+- Offers one of the following:
+  • Service company (IT services, consulting, professional services)
+  • SaaS product
+  • Physical/industrial products sold B2B (manufacturing, industrial equipment, wholesale, machinery, medical equipment, automation, etc.)
+- 20-200 employees (sweet spot: 50-100 employees)
+- High-ticket offers - Products/services valued at $20K+ per deal
+- Active sales process - Need to prospect and acquire new clients (not just passive/distributor model)
+- Has a clear value proposition on their website
+- Could benefit from outbound email campaigns to grow their pipeline
+- Geographic focus: Belgium, Netherlands, Germany, Austria, Switzerland, France (primary); UK, Nordics, other EU (secondary)
 
 Not a match if:
 - B2C company (sells to consumers)
-- eCommerce or physical products only
-- under 10 employees or over 500 employees
-- website is outdated or broken
-- already has a large in-house sales team (unlikely to outsource)
-- non-English website with no English market
+- eCommerce selling low-ticket consumer goods
+- Under 20 employees or over 200 employees
+- Recruitment/staffing agencies
+- Companies selling only through distributors (no direct sales)
+- Commodity/low-margin businesses
+- Website is outdated or broken
+- Already has a large in-house SDR/sales team (unlikely to outsource)
+- Non-English/non-EU website with no European market presence
 
 Only use information visible on the domain.`;
 
@@ -382,13 +409,13 @@ Output only the personalized sentence, nothing else.`;
           <div className="bg-green-50 border-l-4 border-green-500 p-3 rounded">
             <p className="font-medium text-green-900">GOOD MATCH</p>
             <p className="text-green-800 text-sm mt-1">
-              B2B SaaS or services company with 10-200 employees, clear website, selling to businesses, could use outbound pipeline.
+              B2B company (services, SaaS, OR industrial/manufacturing) with 20-200 employees, high-ticket offers ($20K+), active sales process, located in EU markets, clear website.
             </p>
           </div>
           <div className="bg-red-50 border-l-4 border-red-500 p-3 rounded">
             <p className="font-medium text-red-900">NOT A MATCH</p>
             <p className="text-red-800 text-sm mt-1">
-              B2C company, physical products, too small or too large, broken website, or already has large in-house sales team.
+              B2C company, low-ticket consumer eCommerce, too small (<20) or too large (>200), distributors-only, commodity business, broken website, or already has large in-house SDR team.
             </p>
           </div>
         </div>
