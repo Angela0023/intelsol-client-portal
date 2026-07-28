@@ -22,15 +22,33 @@ const tabs = [
 export default function TSLabPage() {
   const [activeTab, setActiveTab] = useState('overview');
   const [status, setStatus] = useState<ClientStatus>('Active');
+  const [isAdmin, setIsAdmin] = useState(false);
 
   useEffect(() => {
     setStatus(getClientStatus('tslab', DEFAULT_STATUSES.tslab));
+
+    // Check if user is admin
+    const access = sessionStorage.getItem('clientAccess');
+    let userIsAdmin = false;
+    if (access) {
+      try {
+        const parsedAccess = JSON.parse(access);
+        userIsAdmin = parsedAccess.includes('admin');
+        setIsAdmin(userIsAdmin);
+      } catch {
+        setIsAdmin(false);
+      }
+    }
+
+    // Internal tabs that should be hidden from non-admin users
+    const internalTabs = ['filters', 'prompts', 'personas'];
 
     // Read initial tab from URL pathname
     const path = window.location.pathname;
     const tabFromPath = path.split('/').pop();
     const validTab = tabs.find(t => t.id === tabFromPath);
-    if (validTab) {
+    // Only set the tab if it's valid AND (user is admin OR it's not an internal tab)
+    if (validTab && (userIsAdmin || !internalTabs.includes(validTab.id))) {
       setActiveTab(validTab.id);
     }
 
@@ -39,7 +57,8 @@ export default function TSLabPage() {
       const path = window.location.pathname;
       const tabFromPath = path.split('/').pop();
       const validTab = tabs.find(t => t.id === tabFromPath);
-      if (validTab) {
+      // Only set the tab if it's valid AND (user is admin OR it's not an internal tab)
+      if (validTab && (userIsAdmin || !internalTabs.includes(validTab.id))) {
         setActiveTab(validTab.id);
       } else {
         setActiveTab('overview');
@@ -61,6 +80,12 @@ export default function TSLabPage() {
     const newPath = tabId === 'overview' ? '/tslab' : `/tslab/${tabId}`;
     window.history.pushState({}, '', newPath);
   };
+
+  // Filter tabs based on admin access
+  // Hide internal tabs (filters, prompts, personas) from non-admin users
+  const visibleTabs = isAdmin
+    ? tabs
+    : tabs.filter(tab => !['filters', 'prompts', 'personas'].includes(tab.id));
 
   return (
     <ClientLayout>
@@ -92,7 +117,7 @@ export default function TSLabPage() {
         {/*Tabs*/}
         <div className="border-b border-slate-200 mb-6 -mx-4 px-4 lg:mx-0 lg:px-0">
           <div className="flex space-x-1 overflow-x-auto scrollbar-hide pb-px">
-            {tabs.map((tab) => (
+            {visibleTabs.map((tab) => (
               <button
                 key={tab.id}
                 onClick={() => handleTabChange(tab.id)}
