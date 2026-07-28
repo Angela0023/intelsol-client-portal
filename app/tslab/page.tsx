@@ -606,21 +606,21 @@ function CampaignsTab() {
   return (
     <>
       <ContentSection title="Campaign Summary" icon={<BarChart3 className="w-5 h-5" />}>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-lg border border-green-200 p-6 shadow-sm">
-            <p className="text-sm text-green-700 font-medium mb-1">Total Leads Added</p>
-            <p className="text-4xl font-bold text-green-900">{totalLeads.toLocaleString()}</p>
-            <p className="text-xs text-green-600 mt-2">Across all campaigns</p>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-3 lg:gap-4">
+          <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-lg border border-green-200 p-4 lg:p-6 shadow-sm">
+            <p className="text-xs lg:text-sm text-green-700 font-medium mb-1">Total Leads Added</p>
+            <p className="text-2xl lg:text-4xl font-bold text-green-900">{totalLeads.toLocaleString()}</p>
+            <p className="text-xs text-green-600 mt-1 lg:mt-2">Across all campaigns</p>
           </div>
-          <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg border border-blue-200 p-6 shadow-sm">
-            <p className="text-sm text-blue-700 font-medium mb-1">Total Campaigns</p>
-            <p className="text-4xl font-bold text-blue-900">{totalCampaigns}</p>
-            <p className="text-xs text-blue-600 mt-2">All active in SmartLead</p>
+          <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg border border-blue-200 p-4 lg:p-6 shadow-sm">
+            <p className="text-xs lg:text-sm text-blue-700 font-medium mb-1">Total Campaigns</p>
+            <p className="text-2xl lg:text-4xl font-bold text-blue-900">{totalCampaigns}</p>
+            <p className="text-xs text-blue-600 mt-1 lg:mt-2">All active in SmartLead</p>
           </div>
-          <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg border border-purple-200 p-6 shadow-sm">
-            <p className="text-sm text-purple-700 font-medium mb-1">Countries Targeted</p>
-            <p className="text-4xl font-bold text-purple-900">{countriesTargeted}</p>
-            <p className="text-xs text-purple-600 mt-2">Markets covered</p>
+          <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg border border-purple-200 p-4 lg:p-6 shadow-sm">
+            <p className="text-xs lg:text-sm text-purple-700 font-medium mb-1">Countries Targeted</p>
+            <p className="text-2xl lg:text-4xl font-bold text-purple-900">{countriesTargeted}</p>
+            <p className="text-xs text-purple-600 mt-1 lg:mt-2">Markets covered</p>
           </div>
         </div>
       </ContentSection>
