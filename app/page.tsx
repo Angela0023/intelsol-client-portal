@@ -44,7 +44,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100 flex items-center justify-center p-4">
       <div className="w-full max-w-md">
-        {/* Logo and Header */}
+        {/*Logo and Header*/}
         <div className="text-center mb-8">
           <div className="inline-flex items-center justify-center mb-4">
             <img
@@ -57,7 +57,7 @@ export default function Home() {
           <p className="text-slate-600">Lead Generation Dashboard</p>
         </div>
 
-        {/* Login Card */}
+        {/*Login Card*/}
         <div className="bg-white rounded-2xl shadow-xl border border-slate-200 p-8">
           <div className="mb-6">
             <h2 className="text-xl font-semibold text-slate-900 mb-2">
@@ -103,7 +103,7 @@ export default function Home() {
           </form>
         </div>
 
-        {/* Footer */}
+        {/*Footer*/}
         <p className="text-center text-xs text-slate-500 mt-6">
           Need help? Contact your account manager
         </p>

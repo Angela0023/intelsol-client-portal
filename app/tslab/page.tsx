@@ -6,7 +6,7 @@ import { ContentSection, CodeBlock, InfoCard, ListItem } from '../components/Con
 import TasksTab, { TSLAB_DEFAULT_TASKS } from '../components/TasksTab';
 import PerformanceTab, { EMPTY_METRICS } from '../components/PerformanceTab';
 import StatusBadge, { getClientStatus, setClientStatus, DEFAULT_STATUSES, type ClientStatus } from '../components/StatusBadge';
-import { Target, Users, Filter, Code, TrendingUp, FileText, CheckSquare, BarChart3 } from 'lucide-react';
+import { Target, Users, Filter, Code, TrendingUp, FileText, CheckSquare, BarChart3, Zap } from 'lucide-react';
 
 const tabs = [
   { id: 'overview', label: 'Overview', icon: FileText },
@@ -14,6 +14,7 @@ const tabs = [
   { id: 'filters', label: 'Clay Filters', icon: Filter },
   { id: 'prompts', label: 'AI Prompts', icon: Code },
   { id: 'personas', label: 'Buyer Personas', icon: Users },
+  { id: 'campaigns', label: 'Campaigns', icon: Zap },
   { id: 'performance', label: 'Performance', icon: BarChart3 },
   { id: 'tasks', label: 'Tasks', icon: CheckSquare },
 ];
@@ -34,7 +35,7 @@ export default function TSLabPage() {
   return (
     <ClientLayout>
       <div className="p-8">
-        {/* Page Header */}
+        {/*Page Header*/}
         <div className="mb-6">
           <div className="flex items-center space-x-3 mb-2">
             <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
@@ -58,7 +59,7 @@ export default function TSLabPage() {
           </a>
         </div>
 
-        {/* Tabs */}
+        {/*Tabs*/}
         <div className="border-b border-slate-200 mb-6">
           <div className="flex space-x-1 overflow-x-auto scrollbar-hide">
             {tabs.map((tab) => (
@@ -78,13 +79,14 @@ export default function TSLabPage() {
           </div>
         </div>
 
-        {/* Tab Content */}
+        {/*Tab Content*/}
         <div className="space-y-6">
           {activeTab === 'overview' && <OverviewTab />}
           {activeTab === 'icp' && <ICPTab />}
           {activeTab === 'filters' && <FiltersTab />}
           {activeTab === 'prompts' && <PromptsTab />}
           {activeTab === 'personas' && <PersonasTab />}
+          {activeTab === 'campaigns' && <CampaignsTab />}
           {activeTab === 'performance' && (
             <PerformanceTab clientId="tslab" defaultMetrics={EMPTY_METRICS} hasData={false} />
           )}
@@ -375,6 +377,217 @@ function PersonasTab() {
               Use Apollo enrichment first (1 credit per contact). Only use Clay waterfall if Apollo doesn't provide enough emails (more expensive at 5-6 credits).
             </p>
           </div>
+        </div>
+      </ContentSection>
+    </>
+  );
+}
+
+function CampaignsTab() {
+  const campaigns = [
+    {
+      list: 'Initial',
+      campaignName: 'TS Lab | Decision Makers | 10/Jul/2026',
+      dateLaunched: '10/Jul/26',
+      leadsAdded: 85,
+      launched: true,
+    },
+    {
+      list: 'Initial',
+      campaignName: 'TS Lab | Support, Procurement | 10/Jul/2026',
+      dateLaunched: '10/Jul/26',
+      leadsAdded: 185,
+      launched: true,
+    },
+    {
+      list: 'Germany-403',
+      campaignName: 'TS Lab | Germany-403 | Decision Makers | 21/Jul/2026',
+      dateLaunched: '21/Jul/26',
+      leadsAdded: 314,
+      launched: true,
+    },
+    {
+      list: 'Germany-403',
+      campaignName: 'TS Lab Germany-403 | Support, Procurement | 21/Jul/2026',
+      dateLaunched: '21/Jul/26',
+      leadsAdded: 197,
+      launched: true,
+    },
+    {
+      list: 'UK Database 1999',
+      campaignName: 'TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026',
+      dateLaunched: '24/Jul/26',
+      leadsAdded: 768,
+      launched: true,
+    },
+    {
+      list: 'UK Database 1999',
+      campaignName: 'TS Lab | UK DB 1999 | Support, Procurement | 24/Jul/2026',
+      dateLaunched: '24/Jul/26',
+      leadsAdded: 94,
+      launched: true,
+    },
+    {
+      list: 'Netherlands',
+      campaignName: 'TS Lab | Nederland | Decision Makers | 24/Jul/2026',
+      dateLaunched: '24/Jul/26',
+      leadsAdded: 936,
+      launched: true,
+    },
+    {
+      list: 'Netherlands',
+      campaignName: 'TS Lab | Nederland | Support, Procurement | 24/Jul/2026',
+      dateLaunched: '24/Jul/26',
+      leadsAdded: 121,
+      launched: true,
+    },
+    {
+      list: 'UK',
+      campaignName: 'TS Lab | UK | Decision Makers | 27/Jul/2026',
+      dateLaunched: '27/Jul/26',
+      leadsAdded: 40,
+      launched: true,
+    },
+    {
+      list: 'UK',
+      campaignName: 'TS Lab | UK | Support, Procurement | 27/Jul/2026',
+      dateLaunched: '27/Jul/26',
+      leadsAdded: 7,
+      launched: true,
+    },
+    {
+      list: 'Italy',
+      campaignName: 'TS Lab | Italy | Decision Makers | 27/Jul/2026',
+      dateLaunched: '27/Jul/26',
+      leadsAdded: 160,
+      launched: true,
+    },
+    {
+      list: 'Italy',
+      campaignName: 'TS Lab | Italy | Support, Procurement | 27/Jul/2026',
+      dateLaunched: '27/Jul/26',
+      leadsAdded: 114,
+      launched: true,
+    },
+  ];
+
+  const totalLeads = campaigns.reduce((sum, c) => sum + c.leadsAdded, 0);
+  const totalCampaigns = campaigns.length;
+  const countriesTargeted = [...new Set(campaigns.map(c => c.list))].length;
+
+  return (
+    <>
+      <ContentSection title="Campaign Summary" icon={<BarChart3 className="w-5 h-5" />}>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-lg border border-green-200 p-6 shadow-sm">
+            <p className="text-sm text-green-700 font-medium mb-1">Total Leads Added</p>
+            <p className="text-4xl font-bold text-green-900">{totalLeads.toLocaleString()}</p>
+            <p className="text-xs text-green-600 mt-2">Across all campaigns</p>
+          </div>
+          <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg border border-blue-200 p-6 shadow-sm">
+            <p className="text-sm text-blue-700 font-medium mb-1">Total Campaigns</p>
+            <p className="text-4xl font-bold text-blue-900">{totalCampaigns}</p>
+            <p className="text-xs text-blue-600 mt-2">All active in SmartLead</p>
+          </div>
+          <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg border border-purple-200 p-6 shadow-sm">
+            <p className="text-sm text-purple-700 font-medium mb-1">Countries Targeted</p>
+            <p className="text-4xl font-bold text-purple-900">{countriesTargeted}</p>
+            <p className="text-xs text-purple-600 mt-2">Markets covered</p>
+          </div>
+        </div>
+      </ContentSection>
+
+      <ContentSection title="Campaign Details" icon={<Zap className="w-5 h-5" />}>
+        <div className="bg-white rounded-lg border border-slate-200 shadow-sm overflow-hidden">
+          <div className="overflow-x-auto">
+            <table className="w-full">
+              <thead>
+                <tr className="bg-slate-50 border-b border-slate-200">
+                  <th className="text-left px-4 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider">
+                    List / Country
+                  </th>
+                  <th className="text-left px-4 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider">
+                    Campaign Name
+                  </th>
+                  <th className="text-center px-4 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider">
+                    Date Launched
+                  </th>
+                  <th className="text-right px-4 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider">
+                    Leads Added
+                  </th>
+                  <th className="text-center px-4 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider">
+                    Status
+                  </th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-slate-100">
+                {campaigns.map((campaign, index) => (
+                  <tr key={index} className="hover:bg-slate-50 transition-colors">
+                    <td className="px-4 py-3 text-sm font-medium text-slate-900">
+                      {campaign.list}
+                    </td>
+                    <td className="px-4 py-3 text-sm text-slate-700">
+                      {campaign.campaignName}
+                    </td>
+                    <td className="px-4 py-3 text-sm text-slate-700 text-center">
+                      {campaign.dateLaunched}
+                    </td>
+                    <td className="px-4 py-3 text-sm font-semibold text-green-700 text-right">
+                      {campaign.leadsAdded.toLocaleString()}
+                    </td>
+                    <td className="px-4 py-3 text-center">
+                      <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">
+                        Launched
+                      </span>
+                    </td>
+                  </tr>
+                ))}
+                {/*Totals row*/}
+                <tr className="bg-slate-50 border-t-2 border-slate-200 font-semibold">
+                  <td className="px-4 py-3 text-sm text-slate-900" colSpan={3}>
+                    Total
+                  </td>
+                  <td className="px-4 py-3 text-sm text-green-900 text-right">
+                    {totalLeads.toLocaleString()}
+                  </td>
+                  <td className="px-4 py-3"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </ContentSection>
+
+      <ContentSection title="Breakdown by List" icon={<Target className="w-5 h-5" />}>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {[
+            { list: 'Initial', leads: 270 },
+            { list: 'Germany-403', leads: 511 },
+            { list: 'UK Database 1999', leads: 862 },
+            { list: 'Netherlands', leads: 1057 },
+            { list: 'UK', leads: 47 },
+            { list: 'Italy', leads: 274 },
+          ].map((item) => (
+            <div key={item.list} className="bg-white rounded-lg border border-slate-200 p-4 shadow-sm hover:shadow-md transition-shadow">
+              <div className="flex items-center justify-between">
+                <div>
+                  <p className="text-sm text-slate-600 font-medium">{item.list}</p>
+                  <p className="text-2xl font-bold text-slate-900 mt-1">{item.leads.toLocaleString()}</p>
+                </div>
+                <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
+                  <span className="text-lg font-bold text-green-600">
+                    {Math.round((item.leads / totalLeads) * 100)}%
+                  </span>
+                </div>
+              </div>
+              <div className="mt-3 w-full bg-slate-200 rounded-full h-2">
+                <div
+                  className="bg-green-600 h-2 rounded-full transition-all"
+                  style={{ width: `${(item.leads / totalLeads) * 100}%` }}
+                ></div>
+              </div>
+            </div>
+          ))}
         </div>
       </ContentSection>
     </>
