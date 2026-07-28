@@ -387,93 +387,191 @@ function CampaignsTab() {
   const campaigns = [
     {
       list: 'Initial',
+      listUrl: null,
       campaignName: 'TS Lab | Decision Makers | 10/Jul/2026',
+      campaignUrl: 'https://app.smartlead.ai/app/email-campaigns-v2/3618907/analytics',
       dateLaunched: '10/Jul/26',
       leadsAdded: 85,
       launched: true,
     },
     {
       list: 'Initial',
+      listUrl: null,
       campaignName: 'TS Lab | Support, Procurement | 10/Jul/2026',
+      campaignUrl: 'https://app.smartlead.ai/app/email-campaigns-v2/3618993/analytics',
       dateLaunched: '10/Jul/26',
       leadsAdded: 185,
       launched: true,
     },
     {
       list: 'Germany-403',
+      listUrl: 'https://docs.google.com/spreadsheets/d/1R03b2nLaVo79dxmV1eqDGRpOaoBZfx6UBRrEJLbuqcw/edit?gid=1557246750#gid=1557246750',
       campaignName: 'TS Lab | Germany-403 | Decision Makers | 21/Jul/2026',
+      campaignUrl: 'https://app.smartlead.ai/app/email-campaigns-v2/3701245/analytics',
       dateLaunched: '21/Jul/26',
       leadsAdded: 314,
       launched: true,
     },
     {
       list: 'Germany-403',
+      listUrl: 'https://docs.google.com/spreadsheets/d/1R03b2nLaVo79dxmV1eqDGRpOaoBZfx6UBRrEJLbuqcw/edit?gid=1557246750#gid=1557246750',
       campaignName: 'TS Lab Germany-403 | Support, Procurement | 21/Jul/2026',
+      campaignUrl: 'https://app.smartlead.ai/app/email-campaigns-v2/3701252/analytics',
       dateLaunched: '21/Jul/26',
       leadsAdded: 197,
       launched: true,
     },
     {
       list: 'UK Database 1999',
+      listUrl: 'https://docs.google.com/spreadsheets/d/1R03b2nLaVo79dxmV1eqDGRpOaoBZfx6UBRrEJLbuqcw/edit?gid=1965638820#gid=1965638820',
       campaignName: 'TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026',
+      campaignUrl: 'https://app.smartlead.ai/app/email-campaigns-v2/3715967/analytics',
       dateLaunched: '24/Jul/26',
       leadsAdded: 768,
       launched: true,
     },
     {
       list: 'UK Database 1999',
+      listUrl: 'https://docs.google.com/spreadsheets/d/1R03b2nLaVo79dxmV1eqDGRpOaoBZfx6UBRrEJLbuqcw/edit?gid=1965638820#gid=1965638820',
       campaignName: 'TS Lab | UK DB 1999 | Support, Procurement | 24/Jul/2026',
+      campaignUrl: 'https://app.smartlead.ai/app/email-campaigns-v2/3723696/analytics',
       dateLaunched: '24/Jul/26',
       leadsAdded: 94,
       launched: true,
     },
     {
       list: 'Netherlands',
+      listUrl: 'https://docs.google.com/spreadsheets/d/1R03b2nLaVo79dxmV1eqDGRpOaoBZfx6UBRrEJLbuqcw/edit?gid=1153745105#gid=1153745105',
       campaignName: 'TS Lab | Nederland | Decision Makers | 24/Jul/2026',
+      campaignUrl: 'https://app.smartlead.ai/app/email-campaigns-v2/3716053/analytics',
       dateLaunched: '24/Jul/26',
       leadsAdded: 936,
       launched: true,
     },
     {
       list: 'Netherlands',
+      listUrl: 'https://docs.google.com/spreadsheets/d/1R03b2nLaVo79dxmV1eqDGRpOaoBZfx6UBRrEJLbuqcw/edit?gid=1153745105#gid=1153745105',
       campaignName: 'TS Lab | Nederland | Support, Procurement | 24/Jul/2026',
+      campaignUrl: 'https://app.smartlead.ai/app/email-campaigns-v2/3716069/analytics',
       dateLaunched: '24/Jul/26',
       leadsAdded: 121,
       launched: true,
     },
     {
       list: 'UK',
-      campaignName: 'TS Lab | UK | Decision Makers | 27/Jul/2026',
+      listUrl: 'https://docs.google.com/spreadsheets/d/1R03b2nLaVo79dxmV1eqDGRpOaoBZfx6UBRrEJLbuqcw/edit?gid=2119200258#gid=2119200258',
+      campaignName: 'TS Lab | UK (VFS)| Decision Makers | 27/Jul/2026',
+      campaignUrl: 'https://app.smartlead.ai/app/email-campaigns-v2/3723689/analytics',
       dateLaunched: '27/Jul/26',
       leadsAdded: 40,
       launched: true,
     },
     {
       list: 'UK',
-      campaignName: 'TS Lab | UK | Support, Procurement | 27/Jul/2026',
+      listUrl: 'https://docs.google.com/spreadsheets/d/1R03b2nLaVo79dxmV1eqDGRpOaoBZfx6UBRrEJLbuqcw/edit?gid=2119200258#gid=2119200258',
+      campaignName: 'TS Lab | UK (VFS)| Support, Procurement | 27/Jul/2026',
+      campaignUrl: 'https://app.smartlead.ai/app/email-campaigns-v2/3723696/analytics',
       dateLaunched: '27/Jul/26',
       leadsAdded: 7,
       launched: true,
     },
     {
       list: 'Italy',
-      campaignName: 'TS Lab | Italy | Decision Makers | 27/Jul/2026',
+      listUrl: 'https://docs.google.com/spreadsheets/d/1R03b2nLaVo79dxmV1eqDGRpOaoBZfx6UBRrEJLbuqcw/edit?gid=2138146016#gid=2138146016',
+      campaignName: 'TS Lab | Italy (VFS)| Decision Makers | 27/Jul/2026',
+      campaignUrl: 'https://app.smartlead.ai/app/email-campaigns-v2/3725096/analytics',
       dateLaunched: '27/Jul/26',
       leadsAdded: 160,
       launched: true,
     },
     {
       list: 'Italy',
-      campaignName: 'TS Lab | Italy | Support, Procurement | 27/Jul/2026',
+      listUrl: 'https://docs.google.com/spreadsheets/d/1R03b2nLaVo79dxmV1eqDGRpOaoBZfx6UBRrEJLbuqcw/edit?gid=2138146016#gid=2138146016',
+      campaignName: 'TS Lab | Italy (VFS) |  Support, Procurement | 27/Jul/2026',
+      campaignUrl: 'https://app.smartlead.ai/app/email-campaigns-v2/3725099/analytics',
       dateLaunched: '27/Jul/26',
       leadsAdded: 114,
       launched: true,
     },
+    // Pending campaigns
+    {
+      list: 'Verified Food Supplements (VFS)',
+      listUrl: null,
+      campaignName: '',
+      campaignUrl: null,
+      dateLaunched: '',
+      leadsAdded: 0,
+      launched: false,
+    },
+    {
+      list: 'Sweden (VFS)',
+      listUrl: null,
+      campaignName: '',
+      campaignUrl: null,
+      dateLaunched: '',
+      leadsAdded: 0,
+      launched: false,
+    },
+    {
+      list: 'Finland (VFS)',
+      listUrl: null,
+      campaignName: '',
+      campaignUrl: null,
+      dateLaunched: '',
+      leadsAdded: 0,
+      launched: false,
+    },
+    {
+      list: 'Spain (VFS)',
+      listUrl: null,
+      campaignName: '',
+      campaignUrl: null,
+      dateLaunched: '',
+      leadsAdded: 0,
+      launched: false,
+    },
+    {
+      list: 'Austria (VFS)',
+      listUrl: null,
+      campaignName: '',
+      campaignUrl: null,
+      dateLaunched: '',
+      leadsAdded: 0,
+      launched: false,
+    },
+    {
+      list: 'Netherlands (VFS)',
+      listUrl: null,
+      campaignName: '',
+      campaignUrl: null,
+      dateLaunched: '',
+      leadsAdded: 0,
+      launched: false,
+    },
+    {
+      list: 'UK Amazon 1641 (VFS)',
+      listUrl: null,
+      campaignName: '',
+      campaignUrl: null,
+      dateLaunched: '',
+      leadsAdded: 0,
+      launched: false,
+    },
+    {
+      list: 'Cosmetic Shop UK (VFS)',
+      listUrl: null,
+      campaignName: '',
+      campaignUrl: null,
+      dateLaunched: '',
+      leadsAdded: 0,
+      launched: false,
+    },
   ];
 
-  const totalLeads = campaigns.reduce((sum, c) => sum + c.leadsAdded, 0);
-  const totalCampaigns = campaigns.length;
-  const countriesTargeted = [...new Set(campaigns.map(c => c.list))].length;
+  const launchedCampaigns = campaigns.filter(c => c.launched);
+  const totalLeads = launchedCampaigns.reduce((sum, c) => sum + c.leadsAdded, 0);
+  const totalCampaigns = launchedCampaigns.length;
+  const countriesTargeted = [...new Set(launchedCampaigns.map(c => c.list))].length;
 
   return (
     <>
@@ -524,20 +622,50 @@ function CampaignsTab() {
                 {campaigns.map((campaign, index) => (
                   <tr key={index} className="hover:bg-slate-50 transition-colors">
                     <td className="px-4 py-3 text-sm font-medium text-slate-900">
-                      {campaign.list}
+                      {campaign.listUrl ? (
+                        <a
+                          href={campaign.listUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-green-600 hover:text-green-800 hover:underline"
+                        >
+                          {campaign.list}
+                        </a>
+                      ) : (
+                        campaign.list
+                      )}
                     </td>
                     <td className="px-4 py-3 text-sm text-slate-700">
-                      {campaign.campaignName}
+                      {campaign.campaignUrl ? (
+                        <a
+                          href={campaign.campaignUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-blue-600 hover:text-blue-800 hover:underline"
+                        >
+                          {campaign.campaignName}
+                        </a>
+                      ) : (
+                        <span className="text-slate-400 italic">
+                          {campaign.campaignName || 'Not created yet'}
+                        </span>
+                      )}
                     </td>
                     <td className="px-4 py-3 text-sm text-slate-700 text-center">
-                      {campaign.dateLaunched}
+                      {campaign.dateLaunched || '—'}
                     </td>
-                    <td className="px-4 py-3 text-sm font-semibold text-green-700 text-right">
-                      {campaign.leadsAdded.toLocaleString()}
+                    <td className="px-4 py-3 text-sm font-semibold text-right">
+                      <span className={campaign.leadsAdded > 0 ? 'text-green-700' : 'text-slate-400'}>
+                        {campaign.leadsAdded.toLocaleString()}
+                      </span>
                     </td>
                     <td className="px-4 py-3 text-center">
-                      <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">
-                        Launched
+                      <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${
+                        campaign.launched
+                          ? 'bg-green-100 text-green-800'
+                          : 'bg-amber-100 text-amber-800'
+                      }`}>
+                        {campaign.launched ? 'Launched' : 'Pending'}
                       </span>
                     </td>
                   </tr>
