@@ -496,7 +496,7 @@ function CampaignsTab() {
     // Pending campaigns
     {
       list: 'Verified Food Supplements (VFS)',
-      listUrl: null,
+      listUrl: 'https://docs.google.com/spreadsheets/d/1R03b2nLaVo79dxmV1eqDGRpOaoBZfx6UBRrEJLbuqcw/edit?gid=945281568#gid=945281568',
       campaignName: '',
       campaignUrl: null,
       dateLaunched: '',
@@ -505,7 +505,7 @@ function CampaignsTab() {
     },
     {
       list: 'Sweden (VFS)',
-      listUrl: null,
+      listUrl: 'https://docs.google.com/spreadsheets/d/1R03b2nLaVo79dxmV1eqDGRpOaoBZfx6UBRrEJLbuqcw/edit?gid=981026504#gid=981026504',
       campaignName: '',
       campaignUrl: null,
       dateLaunched: '',
@@ -514,7 +514,7 @@ function CampaignsTab() {
     },
     {
       list: 'Finland (VFS)',
-      listUrl: null,
+      listUrl: 'https://docs.google.com/spreadsheets/d/1R03b2nLaVo79dxmV1eqDGRpOaoBZfx6UBRrEJLbuqcw/edit?gid=1587031046#gid=1587031046',
       campaignName: '',
       campaignUrl: null,
       dateLaunched: '',
@@ -523,7 +523,7 @@ function CampaignsTab() {
     },
     {
       list: 'Spain (VFS)',
-      listUrl: null,
+      listUrl: 'https://docs.google.com/spreadsheets/d/1R03b2nLaVo79dxmV1eqDGRpOaoBZfx6UBRrEJLbuqcw/edit?gid=543112245#gid=543112245',
       campaignName: '',
       campaignUrl: null,
       dateLaunched: '',
@@ -532,7 +532,7 @@ function CampaignsTab() {
     },
     {
       list: 'Austria (VFS)',
-      listUrl: null,
+      listUrl: 'https://docs.google.com/spreadsheets/d/1R03b2nLaVo79dxmV1eqDGRpOaoBZfx6UBRrEJLbuqcw/edit?gid=316568956#gid=316568956',
       campaignName: '',
       campaignUrl: null,
       dateLaunched: '',
@@ -541,7 +541,7 @@ function CampaignsTab() {
     },
     {
       list: 'Netherlands (VFS)',
-      listUrl: null,
+      listUrl: 'https://docs.google.com/spreadsheets/d/1R03b2nLaVo79dxmV1eqDGRpOaoBZfx6UBRrEJLbuqcw/edit?gid=1065213412#gid=1065213412',
       campaignName: '',
       campaignUrl: null,
       dateLaunched: '',
@@ -550,7 +550,7 @@ function CampaignsTab() {
     },
     {
       list: 'UK Amazon 1641 (VFS)',
-      listUrl: null,
+      listUrl: 'https://docs.google.com/spreadsheets/d/1R03b2nLaVo79dxmV1eqDGRpOaoBZfx6UBRrEJLbuqcw/edit?gid=1964340732#gid=1964340732',
       campaignName: '',
       campaignUrl: null,
       dateLaunched: '',
@@ -559,7 +559,7 @@ function CampaignsTab() {
     },
     {
       list: 'Cosmetic Shop UK (VFS)',
-      listUrl: null,
+      listUrl: 'https://docs.google.com/spreadsheets/d/1R03b2nLaVo79dxmV1eqDGRpOaoBZfx6UBRrEJLbuqcw/edit?gid=793724587#gid=793724587',
       campaignName: '',
       campaignUrl: null,
       dateLaunched: '',
