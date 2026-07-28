@@ -300,6 +300,723 @@ function ICPTab() {
           </div>
         </div>
       </ContentSection>
+
+      {/* NEW: Updated Target Profile - July 2026 */}
+      <ContentSection title="Updated Target Profile - July 2026" icon={<TrendingUp className="w-5 h-5" />}>
+        <div className="space-y-4">
+          <div className="bg-green-50 border-l-4 border-green-500 p-4 rounded">
+            <p className="font-semibold text-green-900 mb-2">Updated Targeting Strategy</p>
+            <p className="text-green-800 text-sm">
+              This updated ICP shifts focus from IT/software-heavy approach to prioritize manufacturing companies (40% of volume)
+              while tightening company size requirements. Based on successful client analysis and July 23 + July 28, 2026 calls.
+            </p>
+          </div>
+
+          <h4 className="font-semibold text-slate-900 mt-6 mb-3">Key Changes from Original ICP:</h4>
+          <ul className="space-y-2">
+            <ListItem type="check">40% focus on manufacturing companies (like TS Lab - best client)</ListItem>
+            <ListItem type="check">Added cosmetics/personal care and beverage manufacturing</ListItem>
+            <ListItem type="check">Added tier 1 & tier 2 suppliers (automotive, industrial components)</ListItem>
+            <ListItem type="check">Added staffing/recruiting as target industry</ListItem>
+            <ListItem type="check">Added AI companies (5% - hungry for leads but challenging to deliver)</ListItem>
+            <ListItem type="cross">Removed marketing agencies from targeting (meta ads, Google ads, SEO, WordPress)</ListItem>
+            <ListItem type="check">Keep wholesale consumer goods (B2B wholesale is good, B2C retail is excluded)</ListItem>
+            <ListItem type="check">Tightened employee range: 10-100 (max 150 for manufacturing only)</ListItem>
+            <ListItem type="check">Target companies doing sales manually ("not advanced in IT")</ListItem>
+            <ListItem type="check">60% US market, 40% European markets</ListItem>
+          </ul>
+        </div>
+      </ContentSection>
+
+      <ContentSection title="Company Size & Revenue" icon={<Filter className="w-5 h-5" />}>
+        <div className="space-y-4">
+          <h4 className="font-semibold text-slate-900 mb-3">Employee Count:</h4>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+            <div className="bg-green-50 border border-green-200 p-3 rounded">
+              <p className="text-xs text-green-600 font-semibold mb-1">PRIMARY (50%)</p>
+              <p className="text-lg font-bold text-green-900">10-50 employees</p>
+            </div>
+            <div className="bg-green-50 border border-green-200 p-3 rounded">
+              <p className="text-xs text-green-600 font-semibold mb-1">PRIMARY (40%)</p>
+              <p className="text-lg font-bold text-green-900">51-100 employees</p>
+            </div>
+            <div className="bg-blue-50 border border-blue-200 p-3 rounded">
+              <p className="text-xs text-blue-600 font-semibold mb-1">SECONDARY (10%)</p>
+              <p className="text-lg font-bold text-blue-900">101-150 (Mfg only)</p>
+            </div>
+          </div>
+
+          <div className="bg-red-50 border-l-4 border-red-500 p-3 rounded mt-4">
+            <p className="font-semibold text-red-900 mb-1">DO NOT Target:</p>
+            <p className="text-red-800 text-sm">Under 10 employees (too small, no budget) or Over 150 employees (likely has SDR/BDR team already)</p>
+          </div>
+
+          <h4 className="font-semibold text-slate-900 mt-6 mb-3">Revenue Range:</h4>
+          <ul className="space-y-2">
+            <ListItem type="check">Primary: $10M - $50M</ListItem>
+            <ListItem type="check">Secondary: $5M - $10M (growing companies)</ListItem>
+            <ListItem type="check">For Manufacturing 100+ employees: $50M - $100M</ListItem>
+          </ul>
+        </div>
+      </ContentSection>
+
+      <ContentSection title="Geographic Focus (Updated)" icon={<Target className="w-5 h-5" />}>
+        <div className="space-y-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+            <div className="bg-blue-50 border border-blue-200 p-3 rounded">
+              <p className="text-xs text-blue-600 font-semibold mb-1">TIER 1 (60%)</p>
+              <p className="text-sm font-medium text-blue-900">United States</p>
+              <p className="text-xs text-blue-700 mt-1">All states</p>
+            </div>
+            <div className="bg-violet-50 border border-violet-200 p-3 rounded">
+              <p className="text-xs text-violet-600 font-semibold mb-1">TIER 2 (30%)</p>
+              <p className="text-sm font-medium text-violet-900">UK, DE, NL, BE, AT, CH</p>
+              <p className="text-xs text-violet-700 mt-1">Core European markets</p>
+            </div>
+            <div className="bg-slate-50 border border-slate-200 p-3 rounded">
+              <p className="text-xs text-slate-600 font-semibold mb-1">TIER 3 (10%)</p>
+              <p className="text-sm font-medium text-slate-900">Nordics & France</p>
+              <p className="text-xs text-slate-700 mt-1">SE, DK, NO, FI, FR</p>
+            </div>
+          </div>
+        </div>
+      </ContentSection>
+
+      <ContentSection title="Industry Breakdown & Volume Distribution" icon={<BarChart3 className="w-5 h-5" />}>
+        <div className="space-y-6">
+          {/* Manufacturing - 40% */}
+          <div>
+            <div className="flex items-center justify-between mb-3">
+              <h4 className="font-semibold text-slate-900">1. Manufacturing Companies</h4>
+              <span className="bg-green-600 text-white px-3 py-1 rounded-full text-xs font-bold">40% Focus (800 leads)</span>
+            </div>
+            <div className="bg-green-50 border-l-4 border-green-500 p-3 rounded mb-3">
+              <p className="text-green-900 text-sm font-medium">
+                Why This Works: TS Lab (our best client) is a manufacturing company - 65 employees, B2B, doing sales manually.
+              </p>
+            </div>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
+              {[
+                'Industrial Automation',
+                'Machinery Manufacturing',
+                'Medical Equipment Mfg',
+                'Pharmaceutical Mfg',
+                'Food & Beverage Mfg',
+                'Beverage Manufacturing',
+                'Packaging & Containers',
+                'Consumer Goods Mfg (B2B)',
+                'Cosmetics Manufacturing',
+                'Personal Care Products',
+                'Chemical Manufacturing',
+                'Plastics Manufacturing',
+                'Tier 1 & 2 Suppliers',
+                'Automotive Parts Suppliers',
+                'Renewable Energy Equipment',
+              ].map((industry) => (
+                <div key={industry} className="bg-green-100 px-2 py-1 rounded text-xs border border-green-200">
+                  {industry}
+                </div>
+              ))}
+            </div>
+            <div className="mt-3 bg-slate-50 p-3 rounded border border-slate-200">
+              <p className="text-xs font-semibold text-slate-900 mb-2">Positive Signals (Company Keywords):</p>
+              <div className="flex flex-wrap gap-1">
+                {['B2B manufacturer', 'contract manufacturing', 'private label', 'white label', 'OEM', 'tier 1/2 supplier', 'custom manufacturing'].map(kw => (
+                  <span key={kw} className="bg-white px-2 py-0.5 rounded text-xs border border-slate-200">{kw}</span>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          {/* Specialized B2B Services - 30% */}
+          <div>
+            <div className="flex items-center justify-between mb-3">
+              <h4 className="font-semibold text-slate-900">2. Specialized B2B Services</h4>
+              <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-xs font-bold">30% Focus (600 leads)</span>
+            </div>
+            <div className="bg-blue-50 border-l-4 border-blue-500 p-3 rounded mb-3">
+              <p className="text-blue-900 text-sm font-medium">
+                Why This Works: Xpose, BeeIT, WULF are all specialized (NOT generic) service companies.
+              </p>
+            </div>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
+              {[
+                'Healthcare B2B Services',
+                'Medical Device',
+                'Advertising Services',
+                'Design Services',
+                'PR & Communications',
+                'Events Services',
+                'Graphic Design',
+                'Computer Games',
+                'Animation',
+                'Niche Software Dev',
+                'Specialized Consulting',
+                'Logistics & Supply Chain',
+                'Staffing & Recruiting',
+                'IT Staffing',
+              ].map((industry) => (
+                <div key={industry} className="bg-blue-100 px-2 py-1 rounded text-xs border border-blue-200">
+                  {industry}
+                </div>
+              ))}
+            </div>
+            <div className="mt-3 bg-red-50 p-3 rounded border border-red-200">
+              <p className="text-xs font-semibold text-red-900 mb-2">AVOID:</p>
+              <p className="text-xs text-red-800">Generic IT consulting, Marketing agencies (meta ads, Google ads, SEO), Website design agencies (WordPress), Managed services (MSP)</p>
+            </div>
+          </div>
+
+          {/* Distribution & Wholesale - 15% */}
+          <div>
+            <div className="flex items-center justify-between mb-3">
+              <h4 className="font-semibold text-slate-900">3. Distribution & Wholesale</h4>
+              <span className="bg-violet-600 text-white px-3 py-1 rounded-full text-xs font-bold">15% Focus (300 leads)</span>
+            </div>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
+              {[
+                'Wholesale Building Materials',
+                'Wholesale Machinery',
+                'Wholesale Food & Beverage',
+                'Wholesale Import/Export',
+                'Wholesale Chemicals',
+                'Wholesale Metals',
+                'Wholesale Electronics',
+                'B2B Consumer Goods Wholesale',
+              ].map((industry) => (
+                <div key={industry} className="bg-violet-100 px-2 py-1 rounded text-xs border border-violet-200">
+                  {industry}
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Niche SaaS/Technology - 10% */}
+          <div>
+            <div className="flex items-center justify-between mb-3">
+              <h4 className="font-semibold text-slate-900">4. Niche SaaS/Technology</h4>
+              <span className="bg-orange-600 text-white px-3 py-1 rounded-full text-xs font-bold">10% Focus (200 leads)</span>
+            </div>
+            <div className="bg-orange-50 border-l-4 border-orange-500 p-3 rounded mb-3">
+              <p className="text-orange-900 text-sm font-medium">
+                IMPORTANT: Use sparingly - moving away from tech focus. Must be vertical/niche SaaS only.
+              </p>
+            </div>
+            <ul className="space-y-1">
+              <ListItem>Vertical SaaS (industry-specific)</ListItem>
+              <ListItem>Niche B2B software</ListItem>
+              <ListItem>Compliance/regulatory software</ListItem>
+              <ListItem type="cross">Generic IT consulting, HR tech, Marketing automation, CRM platforms</ListItem>
+            </ul>
+          </div>
+
+          {/* AI Companies - 5% */}
+          <div>
+            <div className="flex items-center justify-between mb-3">
+              <h4 className="font-semibold text-slate-900">5. AI Companies</h4>
+              <span className="bg-purple-600 text-white px-3 py-1 rounded-full text-xs font-bold">5% Focus (100 leads)</span>
+            </div>
+            <div className="bg-purple-50 border-l-4 border-purple-500 p-3 rounded mb-3">
+              <p className="text-purple-900 text-sm font-medium">
+                New companies developing/selling AI products - hungry for leads but challenging to deliver. Use sparingly.
+              </p>
+            </div>
+            <ul className="space-y-1">
+              <ListItem>AI Product Development companies</ListItem>
+              <ListItem>Industry-specific AI solutions</ListItem>
+              <ListItem>Founded 2022-2026 (recently launched)</ListItem>
+              <ListItem>Struggling with customer acquisition</ListItem>
+            </ul>
+          </div>
+        </div>
+      </ContentSection>
+
+      <ContentSection title="Core Requirements & Deal Breakers" icon={<CheckSquare className="w-5 h-5" />}>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div>
+            <h4 className="font-semibold text-green-900 mb-3">✅ Core Requirements (All Companies Must Have)</h4>
+            <ul className="space-y-2">
+              <ListItem type="check">B2B Business Model - Sells to other businesses, NOT consumers</ListItem>
+              <ListItem type="check">Active Sales Process - Need to prospect and acquire new clients</ListItem>
+              <ListItem type="check">Broad Target Market - Many potential clients to reach</ListItem>
+              <ListItem type="check">Growth-Focused - Open to systemizing their outbound</ListItem>
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-semibold text-red-900 mb-3">❌ Deal Breakers (Automatically Exclude)</h4>
+            <ul className="space-y-2">
+              <ListItem type="cross">B2C companies - Sells to consumers</ListItem>
+              <ListItem type="cross">Marketing agencies - Meta ads, Google ads, SEO, WordPress</ListItem>
+              <ListItem type="cross">Companies with SDR/BDR teams - Already has sales infrastructure</ListItem>
+              <ListItem type="cross">Generic IT consulting - Too saturated</ListItem>
+              <ListItem type="cross">Managed services (MSP) - Not a good fit</ListItem>
+              <ListItem type="cross">Under 10 or over 150 employees - Too small or too large</ListItem>
+              <ListItem type="cross">Broken or very outdated websites - 5+ years old design</ListItem>
+            </ul>
+          </div>
+        </div>
+      </ContentSection>
+
+      <ContentSection title="ICP Match Signals" icon={<TrendingUp className="w-5 h-5" />}>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="bg-green-50 border-l-4 border-green-500 p-4 rounded">
+            <p className="font-semibold text-green-900 mb-3">Strong Positive Signals (High Value)</p>
+            <ul className="space-y-1 text-sm">
+              <ListItem type="check">Manufacturing company selling B2B</ListItem>
+              <ListItem type="check">Founder or CEO still involved in sales</ListItem>
+              <ListItem type="check">Growing company (mentions scaling, expansion, hiring)</ListItem>
+              <ListItem type="check">Mentions "manual processes" on website</ListItem>
+              <ListItem type="check">No mention of "SDR team" or "BDR team"</ListItem>
+              <ListItem type="check">Serves niche market within large industry</ListItem>
+              <ListItem type="check">Private label, contract manufacturing, OEM model</ListItem>
+              <ListItem type="check">"Custom" or "tailored" solutions (consultative sales)</ListItem>
+            </ul>
+          </div>
+          <div className="bg-red-50 border-l-4 border-red-500 p-4 rounded">
+            <p className="font-semibold text-red-900 mb-3">Strong Negative Signals (Exclude)</p>
+            <ul className="space-y-1 text-sm">
+              <ListItem type="cross">Website mentions "SDR team", "BDR team", "sales development"</ListItem>
+              <ListItem type="cross">Large corporate structure (200+ employees)</ListItem>
+              <ListItem type="cross">B2C eCommerce for consumers</ListItem>
+              <ListItem type="cross">Sells only through distributors (no direct sales)</ListItem>
+              <ListItem type="cross">Generic positioning (not specialized)</ListItem>
+              <ListItem type="cross">Very outdated or broken website</ListItem>
+            </ul>
+          </div>
+        </div>
+      </ContentSection>
+
+      <ContentSection title="Buyer Personas by Company Size (Updated)" icon={<Users className="w-5 h-5" />}>
+        <div className="space-y-4">
+          <div className="bg-violet-50 border border-violet-200 p-3 rounded">
+            <h5 className="font-semibold text-violet-900 mb-2">Small Companies (10-50 employees)</h5>
+            <div className="flex flex-wrap gap-2">
+              {['CEO', 'Founder', 'Co-Founder', 'Owner', 'Managing Director', 'General Manager'].map(title => (
+                <span key={title} className="bg-white px-2 py-1 rounded text-xs border border-violet-200">{title}</span>
+              ))}
+            </div>
+          </div>
+
+          <div className="bg-blue-50 border border-blue-200 p-3 rounded">
+            <h5 className="font-semibold text-blue-900 mb-2">Medium Companies (51-100 employees)</h5>
+            <div className="flex flex-wrap gap-2">
+              {['VP of Sales', 'Director of Business Development', 'Head of Sales', 'CEO (if founder-led)'].map(title => (
+                <span key={title} className="bg-white px-2 py-1 rounded text-xs border border-blue-200">{title}</span>
+              ))}
+            </div>
+          </div>
+
+          <div className="bg-green-50 border border-green-200 p-3 rounded">
+            <h5 className="font-semibold text-green-900 mb-2">Larger Companies (101-150 employees - Manufacturing Only)</h5>
+            <div className="flex flex-wrap gap-2">
+              {['VP of Sales', 'Director of Business Development', 'Sales Director', 'Head of Business Development'].map(title => (
+                <span key={title} className="bg-white px-2 py-1 rounded text-xs border border-green-200">{title}</span>
+              ))}
+            </div>
+            <p className="text-xs text-green-800 mt-2">DO NOT target CEOs at 100+ employee companies (too busy) or junior roles (no decision authority)</p>
+          </div>
+        </div>
+      </ContentSection>
+
+      {/* Sales Navigator Search Templates */}
+      <ContentSection title="Sales Navigator Search Templates" icon={<Filter className="w-5 h-5" />}>
+        <div className="space-y-6">
+          <div className="bg-blue-50 border-l-4 border-blue-500 p-4 rounded">
+            <p className="font-semibold text-blue-900 mb-2">12 Ready-to-Use Search Templates</p>
+            <p className="text-blue-800 text-sm">
+              Copy these exact filters into LinkedIn Sales Navigator to find high-quality leads matching Intelsol's updated ICP.
+              Each template includes geography, headcount, industry, and company keywords.
+            </p>
+          </div>
+
+          {/* Template 1 */}
+          <div className="bg-white border border-slate-200 rounded-lg p-4">
+            <div className="flex items-center justify-between mb-3">
+              <h5 className="font-bold text-slate-900">Template 1: US Manufacturing 20-50 Employees</h5>
+              <span className="bg-green-600 text-white px-2 py-1 rounded text-xs font-bold">Manufacturing</span>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
+              <div>
+                <p className="font-semibold text-slate-700 mb-1">Geography:</p>
+                <p className="text-slate-600">United States</p>
+              </div>
+              <div>
+                <p className="font-semibold text-slate-700 mb-1">Headcount:</p>
+                <p className="text-slate-600">20-50</p>
+              </div>
+              <div className="md:col-span-2">
+                <p className="font-semibold text-slate-700 mb-1">Industry:</p>
+                <p className="text-slate-600">Industrial Machinery Manufacturing, Automation Machinery Manufacturing, Medical Equipment Manufacturing, Food and Beverage Manufacturing, Consumer Goods Manufacturing, Cosmetics Manufacturing</p>
+              </div>
+              <div className="md:col-span-2">
+                <p className="font-semibold text-slate-700 mb-1">Company Keywords:</p>
+                <CodeBlock code={`"B2B manufacturer" OR "contract manufacturing" OR "private label" OR "white label"`} />
+              </div>
+            </div>
+            <div className="mt-3 flex items-center justify-between">
+              <p className="text-xs text-slate-500">Expected Results: 500-1,000 companies</p>
+              <p className="text-xs font-semibold text-green-600">Save As: "Intelsol - US Manufacturing 20-50"</p>
+            </div>
+          </div>
+
+          {/* Template 2 */}
+          <div className="bg-white border border-slate-200 rounded-lg p-4">
+            <div className="flex items-center justify-between mb-3">
+              <h5 className="font-bold text-slate-900">Template 2: US Manufacturing 51-100 Employees</h5>
+              <span className="bg-green-600 text-white px-2 py-1 rounded text-xs font-bold">Manufacturing</span>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
+              <div>
+                <p className="font-semibold text-slate-700 mb-1">Geography:</p>
+                <p className="text-slate-600">United States</p>
+              </div>
+              <div>
+                <p className="font-semibold text-slate-700 mb-1">Headcount:</p>
+                <p className="text-slate-600">51-100</p>
+              </div>
+              <div className="md:col-span-2">
+                <p className="font-semibold text-slate-700 mb-1">Industry:</p>
+                <p className="text-slate-600">Same as Template 1</p>
+              </div>
+              <div className="md:col-span-2">
+                <p className="font-semibold text-slate-700 mb-1">Company Keywords:</p>
+                <CodeBlock code={`"B2B manufacturer" OR "contract manufacturing"`} />
+              </div>
+            </div>
+            <div className="mt-3 flex items-center justify-between">
+              <p className="text-xs text-slate-500">Expected Results: 300-600 companies</p>
+              <p className="text-xs font-semibold text-green-600">Save As: "Intelsol - US Manufacturing 51-100"</p>
+            </div>
+          </div>
+
+          {/* Template 3 */}
+          <div className="bg-white border border-slate-200 rounded-lg p-4">
+            <div className="flex items-center justify-between mb-3">
+              <h5 className="font-bold text-slate-900">Template 3: UK/Germany Manufacturing 20-100 Employees</h5>
+              <span className="bg-green-600 text-white px-2 py-1 rounded text-xs font-bold">Manufacturing</span>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
+              <div>
+                <p className="font-semibold text-slate-700 mb-1">Geography:</p>
+                <p className="text-slate-600">United Kingdom + Germany</p>
+              </div>
+              <div>
+                <p className="font-semibold text-slate-700 mb-1">Headcount:</p>
+                <p className="text-slate-600">20-100</p>
+              </div>
+              <div className="md:col-span-2">
+                <p className="font-semibold text-slate-700 mb-1">Industry:</p>
+                <p className="text-slate-600">Same as Template 1</p>
+              </div>
+              <div className="md:col-span-2">
+                <p className="font-semibold text-slate-700 mb-1">Company Keywords:</p>
+                <CodeBlock code={`"B2B manufacturer"`} />
+              </div>
+            </div>
+            <div className="mt-3 flex items-center justify-between">
+              <p className="text-xs text-slate-500">Expected Results: 400-800 companies</p>
+              <p className="text-xs font-semibold text-green-600">Save As: "Intelsol - UK/DE Manufacturing 20-100"</p>
+            </div>
+          </div>
+
+          {/* Template 4 */}
+          <div className="bg-white border border-slate-200 rounded-lg p-4">
+            <div className="flex items-center justify-between mb-3">
+              <h5 className="font-bold text-slate-900">Template 4: US Food/Pharma/Consumer Goods 20-100</h5>
+              <span className="bg-green-600 text-white px-2 py-1 rounded text-xs font-bold">Manufacturing</span>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
+              <div>
+                <p className="font-semibold text-slate-700 mb-1">Geography:</p>
+                <p className="text-slate-600">United States</p>
+              </div>
+              <div>
+                <p className="font-semibold text-slate-700 mb-1">Headcount:</p>
+                <p className="text-slate-600">20-100</p>
+              </div>
+              <div className="md:col-span-2">
+                <p className="font-semibold text-slate-700 mb-1">Industry:</p>
+                <p className="text-slate-600">Food and Beverage Manufacturing, Consumer Goods Manufacturing, Pharmaceutical Manufacturing, Packaging and Containers, Cosmetics Manufacturing</p>
+              </div>
+              <div className="md:col-span-2">
+                <p className="font-semibold text-slate-700 mb-1">Company Keywords:</p>
+                <CodeBlock code={`"B2B" OR "contract manufacturing" OR "private label" OR "white label"`} />
+              </div>
+            </div>
+            <div className="mt-3 flex items-center justify-between">
+              <p className="text-xs text-slate-500">Expected Results: 400-700 companies</p>
+              <p className="text-xs font-semibold text-green-600">Save As: "Intelsol - US Food/Consumer Goods Mfg 20-100"</p>
+            </div>
+          </div>
+
+          {/* Template 5 */}
+          <div className="bg-white border border-slate-200 rounded-lg p-4">
+            <div className="flex items-center justify-between mb-3">
+              <h5 className="font-bold text-slate-900">Template 5: US Specialized Marketing/Creative 15-50</h5>
+              <span className="bg-blue-600 text-white px-2 py-1 rounded text-xs font-bold">Services</span>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
+              <div>
+                <p className="font-semibold text-slate-700 mb-1">Geography:</p>
+                <p className="text-slate-600">United States</p>
+              </div>
+              <div>
+                <p className="font-semibold text-slate-700 mb-1">Headcount:</p>
+                <p className="text-slate-600">15-50</p>
+              </div>
+              <div className="md:col-span-2">
+                <p className="font-semibold text-slate-700 mb-1">Industry:</p>
+                <p className="text-slate-600">Advertising Services, Design Services, Marketing Services</p>
+              </div>
+              <div className="md:col-span-2">
+                <p className="font-semibold text-slate-700 mb-1">Company Keywords:</p>
+                <CodeBlock code={`"specialized" OR "boutique agency" OR "niche"`} />
+              </div>
+              <div className="md:col-span-2">
+                <p className="font-semibold text-slate-700 mb-1">Negative Keywords:</p>
+                <CodeBlock code={`"staffing" OR "recruiting"`} />
+              </div>
+            </div>
+            <div className="mt-3 flex items-center justify-between">
+              <p className="text-xs text-slate-500">Expected Results: 400-700 companies</p>
+              <p className="text-xs font-semibold text-blue-600">Save As: "Intelsol - US Specialized Marketing 15-50"</p>
+            </div>
+          </div>
+
+          {/* Template 6 */}
+          <div className="bg-white border border-slate-200 rounded-lg p-4">
+            <div className="flex items-center justify-between mb-3">
+              <h5 className="font-bold text-slate-900">Template 6: US Healthcare B2B Services 20-75</h5>
+              <span className="bg-blue-600 text-white px-2 py-1 rounded text-xs font-bold">Services</span>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
+              <div>
+                <p className="font-semibold text-slate-700 mb-1">Geography:</p>
+                <p className="text-slate-600">United States</p>
+              </div>
+              <div>
+                <p className="font-semibold text-slate-700 mb-1">Headcount:</p>
+                <p className="text-slate-600">20-75</p>
+              </div>
+              <div className="md:col-span-2">
+                <p className="font-semibold text-slate-700 mb-1">Industry:</p>
+                <p className="text-slate-600">Hospital & Health Care, Medical Practice, Medical Device</p>
+              </div>
+              <div className="md:col-span-2">
+                <p className="font-semibold text-slate-700 mb-1">Company Keywords:</p>
+                <CodeBlock code={`("B2B" OR "business to business") AND ("software" OR "platform" OR "technology" OR "services")`} />
+              </div>
+              <div className="md:col-span-2">
+                <p className="font-semibold text-slate-700 mb-1">Negative Keywords:</p>
+                <CodeBlock code={`"hospital" OR "clinic" OR "urgent care"`} />
+              </div>
+            </div>
+            <div className="mt-3 flex items-center justify-between">
+              <p className="text-xs text-slate-500">Expected Results: 300-500 companies</p>
+              <p className="text-xs font-semibold text-blue-600">Save As: "Intelsol - US Healthcare Services 20-75"</p>
+            </div>
+          </div>
+
+          {/* Template 7 */}
+          <div className="bg-white border border-slate-200 rounded-lg p-4">
+            <div className="flex items-center justify-between mb-3">
+              <h5 className="font-bold text-slate-900">Template 7: US Logistics/Supply Chain 20-75</h5>
+              <span className="bg-blue-600 text-white px-2 py-1 rounded text-xs font-bold">Services</span>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
+              <div>
+                <p className="font-semibold text-slate-700 mb-1">Geography:</p>
+                <p className="text-slate-600">United States</p>
+              </div>
+              <div>
+                <p className="font-semibold text-slate-700 mb-1">Headcount:</p>
+                <p className="text-slate-600">20-75</p>
+              </div>
+              <div className="md:col-span-2">
+                <p className="font-semibold text-slate-700 mb-1">Industry:</p>
+                <p className="text-slate-600">Logistics and Supply Chain, Facilities Services</p>
+              </div>
+              <div className="md:col-span-2">
+                <p className="font-semibold text-slate-700 mb-1">Company Keywords:</p>
+                <CodeBlock code={`"B2B" OR "3PL" OR "supply chain solutions"`} />
+              </div>
+            </div>
+            <div className="mt-3 flex items-center justify-between">
+              <p className="text-xs text-slate-500">Expected Results: 300-600 companies</p>
+              <p className="text-xs font-semibold text-blue-600">Save As: "Intelsol - US Logistics Services 20-75"</p>
+            </div>
+          </div>
+
+          {/* Template 8 */}
+          <div className="bg-white border border-slate-200 rounded-lg p-4">
+            <div className="flex items-center justify-between mb-3">
+              <h5 className="font-bold text-slate-900">Template 8: UK/EU Specialized Services 20-75</h5>
+              <span className="bg-blue-600 text-white px-2 py-1 rounded text-xs font-bold">Services</span>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
+              <div>
+                <p className="font-semibold text-slate-700 mb-1">Geography:</p>
+                <p className="text-slate-600">United Kingdom + Germany + Netherlands</p>
+              </div>
+              <div>
+                <p className="font-semibold text-slate-700 mb-1">Headcount:</p>
+                <p className="text-slate-600">20-75</p>
+              </div>
+              <div className="md:col-span-2">
+                <p className="font-semibold text-slate-700 mb-1">Industry:</p>
+                <p className="text-slate-600">Advertising Services, Design Services, Events Services, Staffing and Recruiting</p>
+              </div>
+              <div className="md:col-span-2">
+                <p className="font-semibold text-slate-700 mb-1">Company Keywords:</p>
+                <CodeBlock code={`"specialized" OR "boutique" OR "B2B"`} />
+              </div>
+              <div className="md:col-span-2">
+                <p className="font-semibold text-slate-700 mb-1">Negative Keywords:</p>
+                <CodeBlock code={`"meta ads" OR "Google ads" OR "SEO" OR "WordPress"`} />
+              </div>
+            </div>
+            <div className="mt-3 flex items-center justify-between">
+              <p className="text-xs text-slate-500">Expected Results: 300-500 companies</p>
+              <p className="text-xs font-semibold text-blue-600">Save As: "Intelsol - EU Specialized Services 20-75"</p>
+            </div>
+          </div>
+
+          {/* Template 9 */}
+          <div className="bg-white border border-slate-200 rounded-lg p-4">
+            <div className="flex items-center justify-between mb-3">
+              <h5 className="font-bold text-slate-900">Template 9: US Industrial Wholesale 20-75</h5>
+              <span className="bg-violet-600 text-white px-2 py-1 rounded text-xs font-bold">Distribution</span>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
+              <div>
+                <p className="font-semibold text-slate-700 mb-1">Geography:</p>
+                <p className="text-slate-600">United States</p>
+              </div>
+              <div>
+                <p className="font-semibold text-slate-700 mb-1">Headcount:</p>
+                <p className="text-slate-600">20-75</p>
+              </div>
+              <div className="md:col-span-2">
+                <p className="font-semibold text-slate-700 mb-1">Industry:</p>
+                <p className="text-slate-600">Wholesale Building Materials, Wholesale Machinery, Wholesale Metals and Minerals</p>
+              </div>
+              <div className="md:col-span-2">
+                <p className="font-semibold text-slate-700 mb-1">Company Keywords:</p>
+                <CodeBlock code={`"B2B distributor" OR "industrial distribution"`} />
+              </div>
+            </div>
+            <div className="mt-3 flex items-center justify-between">
+              <p className="text-xs text-slate-500">Expected Results: 400-800 companies</p>
+              <p className="text-xs font-semibold text-violet-600">Save As: "Intelsol - US Industrial Wholesale 20-75"</p>
+            </div>
+          </div>
+
+          {/* Template 10 */}
+          <div className="bg-white border border-slate-200 rounded-lg p-4">
+            <div className="flex items-center justify-between mb-3">
+              <h5 className="font-bold text-slate-900">Template 10: US Food/Beverage Distribution 30-100</h5>
+              <span className="bg-violet-600 text-white px-2 py-1 rounded text-xs font-bold">Distribution</span>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
+              <div>
+                <p className="font-semibold text-slate-700 mb-1">Geography:</p>
+                <p className="text-slate-600">United States</p>
+              </div>
+              <div>
+                <p className="font-semibold text-slate-700 mb-1">Headcount:</p>
+                <p className="text-slate-600">30-100</p>
+              </div>
+              <div className="md:col-span-2">
+                <p className="font-semibold text-slate-700 mb-1">Industry:</p>
+                <p className="text-slate-600">Wholesale Food and Beverage</p>
+              </div>
+              <div className="md:col-span-2">
+                <p className="font-semibold text-slate-700 mb-1">Company Keywords:</p>
+                <CodeBlock code={`"B2B" OR "food service distribution"`} />
+              </div>
+            </div>
+            <div className="mt-3 flex items-center justify-between">
+              <p className="text-xs text-slate-500">Expected Results: 200-400 companies</p>
+              <p className="text-xs font-semibold text-violet-600">Save As: "Intelsol - US Food Distribution 30-100"</p>
+            </div>
+          </div>
+
+          {/* Template 11 */}
+          <div className="bg-white border border-slate-200 rounded-lg p-4">
+            <div className="flex items-center justify-between mb-3">
+              <h5 className="font-bold text-slate-900">Template 11: US Vertical SaaS 20-50</h5>
+              <span className="bg-orange-600 text-white px-2 py-1 rounded text-xs font-bold">Tech</span>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
+              <div>
+                <p className="font-semibold text-slate-700 mb-1">Geography:</p>
+                <p className="text-slate-600">United States</p>
+              </div>
+              <div>
+                <p className="font-semibold text-slate-700 mb-1">Headcount:</p>
+                <p className="text-slate-600">20-50</p>
+              </div>
+              <div className="md:col-span-2">
+                <p className="font-semibold text-slate-700 mb-1">Industry:</p>
+                <p className="text-slate-600">Technology, Information and Media, IT System Data Services</p>
+              </div>
+              <div className="md:col-span-2">
+                <p className="font-semibold text-slate-700 mb-1">Company Keywords:</p>
+                <CodeBlock code={`"vertical SaaS" OR "industry-specific" OR "niche SaaS"`} />
+              </div>
+              <div className="md:col-span-2">
+                <p className="font-semibold text-slate-700 mb-1">Negative Keywords:</p>
+                <CodeBlock code={`"HR tech" OR "marketing automation" OR "CRM platform"`} />
+              </div>
+            </div>
+            <div className="mt-3 flex items-center justify-between">
+              <p className="text-xs text-slate-500">Expected Results: 150-300 companies</p>
+              <p className="text-xs font-semibold text-orange-600">Save As: "Intelsol - US Vertical SaaS 20-50"</p>
+            </div>
+          </div>
+
+          {/* Template 12 */}
+          <div className="bg-white border border-slate-200 rounded-lg p-4">
+            <div className="flex items-center justify-between mb-3">
+              <h5 className="font-bold text-slate-900">Template 12: US AI Companies 10-75</h5>
+              <span className="bg-purple-600 text-white px-2 py-1 rounded text-xs font-bold">AI</span>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
+              <div>
+                <p className="font-semibold text-slate-700 mb-1">Geography:</p>
+                <p className="text-slate-600">United States (primary)</p>
+              </div>
+              <div>
+                <p className="font-semibold text-slate-700 mb-1">Headcount:</p>
+                <p className="text-slate-600">10-75</p>
+              </div>
+              <div className="md:col-span-2">
+                <p className="font-semibold text-slate-700 mb-1">Industry:</p>
+                <p className="text-slate-600">Artificial Intelligence and Machine Learning, Technology, Information and Media</p>
+              </div>
+              <div className="md:col-span-2">
+                <p className="font-semibold text-slate-700 mb-1">Company Keywords:</p>
+                <CodeBlock code={`"AI-powered" OR "AI for" OR "machine learning" OR "AI platform"`} />
+              </div>
+              <div className="md:col-span-2">
+                <p className="font-semibold text-slate-700 mb-1">Founded:</p>
+                <p className="text-slate-600">2022-2026 (use LinkedIn founded date filter)</p>
+              </div>
+              <div className="md:col-span-2">
+                <p className="font-semibold text-slate-700 mb-1">Negative Keywords:</p>
+                <CodeBlock code={`"consulting only" OR "Google" OR "Microsoft"`} />
+              </div>
+            </div>
+            <div className="mt-3 flex items-center justify-between">
+              <p className="text-xs text-slate-500">Expected Results: 100-200 companies</p>
+              <p className="text-xs font-semibold text-purple-600">Save As: "Intelsol - US AI Companies 10-75"</p>
+            </div>
+            <div className="mt-2 bg-purple-50 border-l-4 border-purple-500 p-2 rounded">
+              <p className="text-xs text-purple-900 font-medium">IMPORTANT: Use sparingly (5% of volume). Challenging to deliver but highly motivated buyers.</p>
+            </div>
+          </div>
+        </div>
+      </ContentSection>
     </>
   );
 }
