@@ -67,43 +67,43 @@ export default function TSLabPage() {
       <div className="p-4 lg:p-8">
         {/*Page Header*/}
         <div className="mb-6">
-          <div className="flex items-center space-x-3 mb-2">
-            <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
-              <span className="text-2xl font-bold text-green-600">TS</span>
+          <div className="flex items-center space-x-2 lg:space-x-3 mb-2">
+            <div className="w-10 h-10 lg:w-12 lg:h-12 bg-green-100 rounded-lg flex items-center justify-center flex-shrink-0">
+              <span className="text-xl lg:text-2xl font-bold text-green-600">TS</span>
             </div>
-            <div className="flex-1">
-              <div className="flex items-center space-x-3">
-                <h1 className="text-3xl font-bold text-slate-900">TS Lab</h1>
+            <div className="flex-1 min-w-0">
+              <div className="flex items-center space-x-2 lg:space-x-3 flex-wrap">
+                <h1 className="text-xl lg:text-3xl font-bold text-slate-900">TS Lab</h1>
                 <StatusBadge status={status} onStatusChange={handleStatusChange} size="md" />
               </div>
-              <p className="text-slate-600">Food Supplement Capsule Manufacturing (Slovenia)</p>
+              <p className="text-sm lg:text-base text-slate-600 break-words">Food Supplement Capsule Manufacturing (Slovenia)</p>
             </div>
           </div>
           <a
             href="https://tslab.eu"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sm text-green-600 hover:underline"
+            className="text-sm text-green-600 hover:underline inline-block"
           >
             Visit Website →
           </a>
         </div>
 
         {/*Tabs*/}
-        <div className="border-b border-slate-200 mb-6">
-          <div className="flex space-x-1 overflow-x-auto scrollbar-hide">
+        <div className="border-b border-slate-200 mb-6 -mx-4 px-4 lg:mx-0 lg:px-0">
+          <div className="flex space-x-1 overflow-x-auto scrollbar-hide pb-px">
             {tabs.map((tab) => (
               <button
                 key={tab.id}
                 onClick={() => handleTabChange(tab.id)}
-                className={`flex items-center space-x-2 px-4 py-3 border-b-2 transition-colors whitespace-nowrap ${
+                className={`flex items-center space-x-1 lg:space-x-2 px-2 lg:px-4 py-2 lg:py-3 border-b-2 transition-colors whitespace-nowrap text-sm lg:text-base flex-shrink-0 ${
                   activeTab === tab.id
                     ? 'border-[#1a2647] text-[#1a2647] font-medium'
                     : 'border-transparent text-slate-600 hover:text-slate-900'
                 }`}
               >
                 <tab.icon className="w-4 h-4" />
-                <span>{tab.label}</span>
+                <span className="hidden sm:inline">{tab.label}</span>
               </button>
             ))}
           </div>
@@ -627,31 +627,32 @@ function CampaignsTab() {
 
       <ContentSection title="Campaign Details" icon={<Zap className="w-5 h-5" />}>
         <div className="bg-white rounded-lg border border-slate-200 shadow-sm overflow-hidden">
-          <div className="overflow-x-auto">
-            <table className="w-full">
-              <thead>
-                <tr className="bg-slate-50 border-b border-slate-200">
-                  <th className="text-left px-4 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider">
-                    List / Country
-                  </th>
-                  <th className="text-left px-4 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider">
-                    Campaign Name
-                  </th>
-                  <th className="text-center px-4 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider">
-                    Date Launched
-                  </th>
-                  <th className="text-right px-4 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider">
-                    Leads Added
-                  </th>
-                  <th className="text-center px-4 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider">
-                    Status
-                  </th>
-                </tr>
-              </thead>
+          <div className="overflow-x-auto -mx-4 lg:mx-0">
+            <div className="inline-block min-w-full align-middle px-4 lg:px-0">
+              <table className="min-w-full">
+                <thead>
+                  <tr className="bg-slate-50 border-b border-slate-200">
+                    <th className="text-left px-2 lg:px-4 py-2 lg:py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider whitespace-nowrap">
+                      List / Country
+                    </th>
+                    <th className="text-left px-2 lg:px-4 py-2 lg:py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider whitespace-nowrap">
+                      Campaign Name
+                    </th>
+                    <th className="text-center px-2 lg:px-4 py-2 lg:py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider whitespace-nowrap">
+                      Date
+                    </th>
+                    <th className="text-right px-2 lg:px-4 py-2 lg:py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider whitespace-nowrap">
+                      Leads
+                    </th>
+                    <th className="text-center px-2 lg:px-4 py-2 lg:py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider whitespace-nowrap">
+                      Status
+                    </th>
+                  </tr>
+                </thead>
               <tbody className="divide-y divide-slate-100">
                 {campaigns.map((campaign, index) => (
                   <tr key={index} className="hover:bg-slate-50 transition-colors">
-                    <td className="px-4 py-3 text-sm font-medium text-slate-900">
+                    <td className="px-2 lg:px-4 py-2 lg:py-3 text-xs lg:text-sm font-medium text-slate-900 whitespace-nowrap">
                       {campaign.listUrl ? (
                         <a
                           href={campaign.listUrl}
@@ -665,32 +666,32 @@ function CampaignsTab() {
                         campaign.list
                       )}
                     </td>
-                    <td className="px-4 py-3 text-sm text-slate-700">
+                    <td className="px-2 lg:px-4 py-2 lg:py-3 text-xs lg:text-sm text-slate-700">
                       {campaign.campaignUrl ? (
                         <a
                           href={campaign.campaignUrl}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-blue-600 hover:text-blue-800 hover:underline"
+                          className="text-blue-600 hover:text-blue-800 hover:underline whitespace-nowrap"
                         >
                           {campaign.campaignName}
                         </a>
                       ) : (
-                        <span className="text-slate-400 italic">
+                        <span className="text-slate-400 italic whitespace-nowrap">
                           {campaign.campaignName || 'Not created yet'}
                         </span>
                       )}
                     </td>
-                    <td className="px-4 py-3 text-sm text-slate-700 text-center">
+                    <td className="px-2 lg:px-4 py-2 lg:py-3 text-xs lg:text-sm text-slate-700 text-center whitespace-nowrap">
                       {campaign.dateLaunched || '—'}
                     </td>
-                    <td className="px-4 py-3 text-sm font-semibold text-right">
+                    <td className="px-2 lg:px-4 py-2 lg:py-3 text-xs lg:text-sm font-semibold text-right whitespace-nowrap">
                       <span className={campaign.leadsAdded > 0 ? 'text-green-700' : 'text-slate-400'}>
                         {campaign.leadsAdded.toLocaleString()}
                       </span>
                     </td>
-                    <td className="px-4 py-3 text-center">
-                      <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${
+                    <td className="px-2 lg:px-4 py-2 lg:py-3 text-center">
+                      <span className={`inline-flex items-center px-2 lg:px-2.5 py-0.5 rounded-full text-xs font-medium whitespace-nowrap ${
                         campaign.launched
                           ? 'bg-green-100 text-green-800'
                           : 'bg-amber-100 text-amber-800'
@@ -702,16 +703,17 @@ function CampaignsTab() {
                 ))}
                 {/*Totals row*/}
                 <tr className="bg-slate-50 border-t-2 border-slate-200 font-semibold">
-                  <td className="px-4 py-3 text-sm text-slate-900" colSpan={3}>
+                  <td className="px-2 lg:px-4 py-2 lg:py-3 text-xs lg:text-sm text-slate-900" colSpan={3}>
                     Total
                   </td>
-                  <td className="px-4 py-3 text-sm text-green-900 text-right">
+                  <td className="px-2 lg:px-4 py-2 lg:py-3 text-xs lg:text-sm text-green-900 text-right">
                     {totalLeads.toLocaleString()}
                   </td>
-                  <td className="px-4 py-3"></td>
+                  <td className="px-2 lg:px-4 py-2 lg:py-3"></td>
                 </tr>
               </tbody>
-            </table>
+              </table>
+            </div>
           </div>
         </div>
       </ContentSection>
