@@ -63,9 +63,6 @@ export default function BeeItPage() {
       } else {
         setActiveTab('overview');
       }
-      } else {
-        setActiveTab('overview');
-      }
     };
 
     window.addEventListener('popstate', handlePopState);
