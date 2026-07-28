@@ -6,7 +6,7 @@ import { ContentSection, CodeBlock, InfoCard, ListItem } from '../components/Con
 import TasksTab, { INTELSOL_DEFAULT_TASKS } from '../components/TasksTab';
 import PerformanceTab, { INTELSOL_DEFAULT_METRICS } from '../components/PerformanceTab';
 import StatusBadge, { getClientStatus, setClientStatus, DEFAULT_STATUSES, type ClientStatus } from '../components/StatusBadge';
-import { FileText, BarChart3, CheckSquare, TrendingUp, Target, Filter, Code, Users } from 'lucide-react';
+import { FileText, BarChart3, CheckSquare, TrendingUp, Target, Filter, Code, Users, BookOpen } from 'lucide-react';
 
 const tabs = [
   { id: 'overview', label: 'Overview', icon: FileText },
@@ -14,6 +14,7 @@ const tabs = [
   { id: 'filters', label: 'Clay Filters', icon: Filter },
   { id: 'prompts', label: 'AI Prompts', icon: Code },
   { id: 'personas', label: 'Buyer Personas', icon: Users },
+  { id: 'sops', label: 'SOPs', icon: BookOpen },
   { id: 'performance', label: 'Performance', icon: BarChart3 },
   { id: 'tasks', label: 'Tasks', icon: CheckSquare },
 ];
@@ -34,7 +35,7 @@ export default function IntelsolPage() {
   return (
     <ClientLayout>
       <div className="p-8">
-        {/* Page Header */}
+        {/ Page Header /}
         <div className="mb-6">
           <div className="flex items-center space-x-3 mb-2">
             <div className="w-12 h-12 bg-violet-100 rounded-lg flex items-center justify-center">
@@ -58,7 +59,7 @@ export default function IntelsolPage() {
           </a>
         </div>
 
-        {/* Tabs */}
+        {/ Tabs /}
         <div className="border-b border-slate-200 mb-6">
           <div className="flex space-x-1 overflow-x-auto scrollbar-hide">
             {tabs.map((tab) => (
@@ -78,13 +79,14 @@ export default function IntelsolPage() {
           </div>
         </div>
 
-        {/* Tab Content */}
+        {/ Tab Content /}
         <div className="space-y-6">
           {activeTab === 'overview' && <OverviewTab />}
           {activeTab === 'icp' && <ICPTab />}
           {activeTab === 'filters' && <FiltersTab />}
           {activeTab === 'prompts' && <PromptsTab />}
           {activeTab === 'personas' && <PersonasTab />}
+          {activeTab === 'sops' && <SOPsTab />}
           {activeTab === 'performance' && (
             <PerformanceTab clientId="intelsol" defaultMetrics={INTELSOL_DEFAULT_METRICS} hasData={true} />
           )}
@@ -518,6 +520,230 @@ function PersonasTab() {
               LinkedIn posts and company website via Apify for opener generation.
             </p>
           </div>
+        </div>
+      </ContentSection>
+    </>
+  );
+}
+
+function SOPsTab() {
+  return (
+    <>
+      <ContentSection title="Lead Generation SOP" icon={<BookOpen className="w-5 h-5" />}>
+        <div className="space-y-6">
+          <div className="bg-violet-50 border-l-4 border-violet-500 p-4 rounded">
+            <p className="font-semibold text-violet-900 mb-2">Complete 30-Step Workflow</p>
+            <p className="text-violet-800 text-sm">
+              From initial lead sourcing through email enrichment, verification, personalization, and campaign launch.
+              Three-stage waterfall enrichment (Expandi → Prospeo → Apollo) + Clay personalization split testing.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <InfoCard label="Total Steps" value="30" color="bg-violet-600 text-white" />
+            <InfoCard label="Tools Used" value="8" color="bg-violet-600 text-white" />
+            <InfoCard label="Final Campaigns" value="3" color="bg-violet-600 text-white" />
+          </div>
+        </div>
+      </ContentSection>
+
+      <ContentSection title="Phase 1: Lead Sourcing & Initial Enrichment" icon={<Target className="w-5 h-5" />}>
+        <div className="space-y-4">
+          <div className="flex items-start space-x-3">
+            <span className="w-8 h-8 bg-violet-100 text-violet-600 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">1</span>
+            <div className="flex-1">
+              <h4 className="font-semibold text-slate-900">Search for Leads (Sales Navigator)</h4>
+              <p className="text-sm text-slate-600 mt-1">Use filters from the Clay Filters tab to source raw lead list from LinkedIn Sales Navigator.</p>
+            </div>
+          </div>
+
+          <div className="flex items-start space-x-3">
+            <span className="w-8 h-8 bg-violet-100 text-violet-600 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">2</span>
+            <div className="flex-1">
+              <h4 className="font-semibold text-slate-900">Enrich with Expandi</h4>
+              <p className="text-sm text-slate-600 mt-1">Upload lead list to Expandi and run email enrichment.</p>
+            </div>
+          </div>
+
+          <div className="flex items-start space-x-3">
+            <span className="w-8 h-8 bg-violet-100 text-violet-600 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">3-4</span>
+            <div className="flex-1">
+              <h4 className="font-semibold text-slate-900">Verify Emails (Million Verifier)</h4>
+              <p className="text-sm text-slate-600 mt-1">Run all Expandi emails through Million Verifier. Remove emails flagged as "bad".</p>
+            </div>
+          </div>
+
+          <div className="flex items-start space-x-3">
+            <span className="w-8 h-8 bg-violet-100 text-violet-600 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">5-6</span>
+            <div className="flex-1">
+              <h4 className="font-semibold text-slate-900">Check Risky Emails (Bounce Ban)</h4>
+              <p className="text-sm text-slate-600 mt-1">Run "risky" emails from Million Verifier through Bounce Ban. Remove emails flagged as "bad".</p>
+            </div>
+          </div>
+
+          <div className="flex items-start space-x-3">
+            <span className="w-8 h-8 bg-violet-100 text-violet-600 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">7-8</span>
+            <div className="flex-1">
+              <h4 className="font-semibold text-slate-900">Mark Verified & Split Lists</h4>
+              <p className="text-sm text-slate-600 mt-1">Mark remaining Expandi emails as "verified". Create two lists: "Expandi Leads" (with emails) and "No Emails" (without).</p>
+            </div>
+          </div>
+        </div>
+      </ContentSection>
+
+      <ContentSection title="Phase 2: Secondary Enrichment (Prospeo)" icon={<Filter className="w-5 h-5" />}>
+        <div className="space-y-4">
+          <div className="flex items-start space-x-3">
+            <span className="w-8 h-8 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">9</span>
+            <div className="flex-1">
+              <h4 className="font-semibold text-slate-900">Run No-Email Leads on Prospeo</h4>
+              <p className="text-sm text-slate-600 mt-1">Upload "No Emails" list to Prospeo for email enrichment.</p>
+            </div>
+          </div>
+
+          <div className="flex items-start space-x-3">
+            <span className="w-8 h-8 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">10-13</span>
+            <div className="flex-1">
+              <h4 className="font-semibold text-slate-900">Verify Prospeo Emails</h4>
+              <p className="text-sm text-slate-600 mt-1">Run Prospeo emails through Million Verifier → remove bad → check risky via Bounce Ban → remove bad → mark verified.</p>
+            </div>
+          </div>
+
+          <div className="flex items-start space-x-3">
+            <span className="w-8 h-8 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">14-15</span>
+            <div className="flex-1">
+              <h4 className="font-semibold text-slate-900">Merge Prospeo Leads</h4>
+              <p className="text-sm text-slate-600 mt-1">Add all verified Prospeo leads to the "Expandi Leads" master list.</p>
+            </div>
+          </div>
+        </div>
+      </ContentSection>
+
+      <ContentSection title="Phase 3: Tertiary Enrichment (Apollo)" icon={<Code className="w-5 h-5" />}>
+        <div className="space-y-4">
+          <div className="flex items-start space-x-3">
+            <span className="w-8 h-8 bg-green-100 text-green-600 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">16</span>
+            <div className="flex-1">
+              <h4 className="font-semibold text-slate-900">Run Remaining Leads on Apollo</h4>
+              <p className="text-sm text-slate-600 mt-1">Use Apollo enrichment for remaining leads without email addresses.</p>
+            </div>
+          </div>
+
+          <div className="flex items-start space-x-3">
+            <span className="w-8 h-8 bg-green-100 text-green-600 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">17-20</span>
+            <div className="flex-1">
+              <h4 className="font-semibold text-slate-900">Verify Apollo Emails</h4>
+              <p className="text-sm text-slate-600 mt-1">Run Apollo emails through Million Verifier → remove bad → check risky via Bounce Ban → remove bad → mark verified.</p>
+            </div>
+          </div>
+
+          <div className="flex items-start space-x-3">
+            <span className="w-8 h-8 bg-green-100 text-green-600 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">21-23</span>
+            <div className="flex-1">
+              <h4 className="font-semibold text-slate-900">Merge Apollo Leads & Archive</h4>
+              <p className="text-sm text-slate-600 mt-1">Add verified Apollo leads to "Expandi Leads". Archive remaining no-email leads for future processing.</p>
+            </div>
+          </div>
+        </div>
+      </ContentSection>
+
+      <ContentSection title="Phase 4: Personalization Setup (Clay)" icon={<TrendingUp className="w-5 h-5" />}>
+        <div className="space-y-4">
+          <div className="flex items-start space-x-3">
+            <span className="w-8 h-8 bg-orange-100 text-orange-600 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">24-26</span>
+            <div className="flex-1">
+              <h4 className="font-semibold text-slate-900">Split & Import to Clay Templates</h4>
+              <p className="text-sm text-slate-600 mt-1">Split verified leads 50-50. Copy Personalization Template V1 and V2 in Clay. Import 50% to V1, 50% to V2.</p>
+            </div>
+          </div>
+
+          <div className="flex items-start space-x-3">
+            <span className="w-8 h-8 bg-orange-100 text-orange-600 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">27</span>
+            <div className="flex-1">
+              <h4 className="font-semibold text-slate-900">Run Apify Website Scrape</h4>
+              <p className="text-sm text-slate-600 mt-1">In both V1 and V2, run "Run Apify Website Scrape" column. Wait for completion.</p>
+            </div>
+          </div>
+
+          <div className="flex items-start space-x-3">
+            <span className="w-8 h-8 bg-orange-100 text-orange-600 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">28</span>
+            <div className="flex-1">
+              <h4 className="font-semibold text-slate-900">Run Personalization Sentence</h4>
+              <p className="text-sm text-slate-600 mt-1">Once scraping completes, run "Personalization Sentence" column in both V1 and V2. AI generates personalized openers.</p>
+            </div>
+          </div>
+        </div>
+      </ContentSection>
+
+      <ContentSection title="Phase 5: Campaign Segmentation & Launch" icon={<CheckSquare className="w-5 h-5" />}>
+        <div className="space-y-4">
+          <div className="flex items-start space-x-3">
+            <span className="w-8 h-8 bg-purple-100 text-purple-600 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">29</span>
+            <div className="flex-1">
+              <h4 className="font-semibold text-slate-900">Extract & Launch Personalized Leads</h4>
+              <p className="text-sm text-slate-600 mt-1">
+                Filter V1 and V2 for leads where Personalisation_Sentece is NOT empty and does NOT contain "NO_SIGNAL".
+                Download as CSV. Create <strong>Campaign 1</strong> (V1 personalized) and <strong>Campaign 2</strong> (V2 personalized) in SmartLead.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex items-start space-x-3">
+            <span className="w-8 h-8 bg-purple-100 text-purple-600 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">30</span>
+            <div className="flex-1">
+              <h4 className="font-semibold text-slate-900">Extract & Launch Non-Personalized Leads</h4>
+              <p className="text-sm text-slate-600 mt-1">
+                Filter V1 and V2 for leads where Personalisation_Sentece IS empty OR CONTAINS "NO_SIGNAL".
+                Combine both lists into one. Create <strong>Campaign 3</strong> (non-personalized) in SmartLead.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-green-50 border-l-4 border-green-500 p-4 rounded mt-6">
+          <p className="font-semibold text-green-900 mb-2">Final Output</p>
+          <ul className="text-green-800 text-sm space-y-1">
+            <ListItem type="check">Campaign 1: Personalized leads from Template V1</ListItem>
+            <ListItem type="check">Campaign 2: Personalized leads from Template V2</ListItem>
+            <ListItem type="check">Campaign 3: Non-personalized leads (V1 + V2 combined)</ListItem>
+            <ListItem type="check">All emails verified via Million Verifier + Bounce Ban</ListItem>
+          </ul>
+        </div>
+      </ContentSection>
+
+      <ContentSection title="Tools Reference" icon={<Code className="w-5 h-5" />}>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+          {[
+            { tool: 'Sales Navigator', purpose: 'Lead sourcing', steps: '1' },
+            { tool: 'Expandi', purpose: 'Email enrichment (primary)', steps: '2' },
+            { tool: 'Million Verifier', purpose: 'Email verification', steps: '3, 10, 17' },
+            { tool: 'Bounce Ban', purpose: 'Secondary verification (risky emails)', steps: '5, 12, 19' },
+            { tool: 'Prospeo', purpose: 'Email enrichment (secondary)', steps: '9' },
+            { tool: 'Apollo', purpose: 'Email enrichment (tertiary)', steps: '16' },
+            { tool: 'Clay', purpose: 'Personalization (Apify + AI)', steps: '25-28' },
+            { tool: 'SmartLead', purpose: 'Campaign management & sending', steps: '29-30' },
+          ].map((item) => (
+            <div key={item.tool} className="bg-slate-50 border border-slate-200 p-3 rounded">
+              <p className="font-semibold text-slate-900 text-sm">{item.tool}</p>
+              <p className="text-xs text-slate-600 mt-1">{item.purpose}</p>
+              <p className="text-xs text-violet-600 mt-1">Steps: {item.steps}</p>
+            </div>
+          ))}
+        </div>
+      </ContentSection>
+
+      <ContentSection title="Quality Control Checklist" icon={<CheckSquare className="w-5 h-5" />}>
+        <div className="space-y-2">
+          <p className="text-sm font-semibold text-slate-900 mb-3">Before launching campaigns, verify:</p>
+          <ul className="space-y-2">
+            <ListItem type="check">All emails verified through Million Verifier AND Bounce Ban</ListItem>
+            <ListItem type="check">"Bad" emails removed at each verification stage</ListItem>
+            <ListItem type="check">Personalized leads split correctly between V1 and V2</ListItem>
+            <ListItem type="check">Non-personalized leads from V1 and V2 combined into one campaign</ListItem>
+            <ListItem type="check">All Google Sheets updated with verification labels</ListItem>
+            <ListItem type="check">"No Emails" list archived for future use</ListItem>
+            <ListItem type="check">Campaign variables correctly mapped in SmartLead</ListItem>
+          </ul>
         </div>
       </ContentSection>
     </>
