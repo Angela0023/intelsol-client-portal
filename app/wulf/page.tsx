@@ -60,7 +60,7 @@ export default function WulfPage() {
 
   return (
     <ClientLayout>
-      <div className="p-8">
+      <div className="p-4 lg:p-8">
         {/* Page Header */}
         <div className="mb-6">
           <div className="flex items-center space-x-3 mb-2">
