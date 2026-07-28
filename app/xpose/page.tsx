@@ -25,11 +25,41 @@ export default function XposePage() {
 
   useEffect(() => {
     setStatus(getClientStatus('xpose', DEFAULT_STATUSES.xpose));
+
+    // Read initial tab from URL pathname
+    const path = window.location.pathname;
+    const tabFromPath = path.split('/').pop();
+    const validTab = tabs.find(t => t.id === tabFromPath);
+    if (validTab) {
+      setActiveTab(validTab.id);
+    }
+
+    // Handle browser back/forward
+    const handlePopState = () => {
+      const path = window.location.pathname;
+      const tabFromPath = path.split('/').pop();
+      const validTab = tabs.find(t => t.id === tabFromPath);
+      if (validTab) {
+        setActiveTab(validTab.id);
+      } else {
+        setActiveTab('overview');
+      }
+    };
+
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
   }, []);
 
   const handleStatusChange = (newStatus: ClientStatus) => {
     setStatus(newStatus);
     setClientStatus('xpose', newStatus);
+  };
+
+  const handleTabChange = (tabId: string) => {
+    setActiveTab(tabId);
+    // Update URL without page reload
+    const newPath = tabId === 'overview' ? '/xpose' : `/xpose/${tabId}`;
+    window.history.pushState({}, '', newPath);
   };
 
   return (
@@ -65,7 +95,7 @@ export default function XposePage() {
             {tabs.map((tab) => (
               <button
                 key={tab.id}
-                onClick={() => setActiveTab(tab.id)}
+                onClick={() => handleTabChange(tab.id)}
                 className={`flex items-center space-x-2 px-4 py-3 border-b-2 transition-colors whitespace-nowrap ${
                   activeTab === tab.id
                     ? 'border-[#1a2647] text-[#1a2647] font-medium'
