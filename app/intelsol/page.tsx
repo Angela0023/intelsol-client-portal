@@ -35,7 +35,7 @@ export default function IntelsolPage() {
   return (
     <ClientLayout>
       <div className="p-8">
-        {/ Page Header /}
+        {/* Page Header */}
         <div className="mb-6">
           <div className="flex items-center space-x-3 mb-2">
             <div className="w-12 h-12 bg-violet-100 rounded-lg flex items-center justify-center">
@@ -59,7 +59,7 @@ export default function IntelsolPage() {
           </a>
         </div>
 
-        {/ Tabs /}
+        {/* Tabs */}
         <div className="border-b border-slate-200 mb-6">
           <div className="flex space-x-1 overflow-x-auto scrollbar-hide">
             {tabs.map((tab) => (
@@ -79,7 +79,7 @@ export default function IntelsolPage() {
           </div>
         </div>
 
-        {/ Tab Content /}
+        {/* Tab Content */}
         <div className="space-y-6">
           {activeTab === 'overview' && <OverviewTab />}
           {activeTab === 'icp' && <ICPTab />}
