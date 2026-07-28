@@ -9,7 +9,7 @@ interface ContentSectionProps {
 
 export function ContentSection({ title, children, icon }: ContentSectionProps) {
   return (
-    <div className="bg-white rounded-lg border border-slate-200 p-4 lg:p-6 shadow-sm">
+    <div className="bg-white rounded-lg border border-slate-200 px-3 py-4 lg:p-6 shadow-sm">
       <div className="flex items-center space-x-2 mb-3 lg:mb-4">
         {icon && <div className="text-[#1a2647]">{icon}</div>}
         <h3 className="text-base lg:text-lg font-semibold text-slate-900">{title}</h3>

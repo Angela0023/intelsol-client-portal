@@ -606,29 +606,89 @@ function CampaignsTab() {
   return (
     <>
       <ContentSection title="Campaign Summary" icon={<BarChart3 className="w-5 h-5" />}>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-3 lg:gap-4">
-          <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-lg border border-green-200 p-4 lg:p-6 shadow-sm">
-            <p className="text-xs lg:text-sm text-green-700 font-medium mb-1">Total Leads Added</p>
-            <p className="text-2xl lg:text-4xl font-bold text-green-900">{totalLeads.toLocaleString()}</p>
-            <p className="text-xs text-green-600 mt-1 lg:mt-2">Across all campaigns</p>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+          <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-lg border border-green-200 p-3 lg:p-6 shadow-sm">
+            <p className="text-xs lg:text-sm text-green-700 font-medium mb-1">Total Leads</p>
+            <p className="text-xl lg:text-4xl font-bold text-green-900">{totalLeads.toLocaleString()}</p>
           </div>
-          <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg border border-blue-200 p-4 lg:p-6 shadow-sm">
-            <p className="text-xs lg:text-sm text-blue-700 font-medium mb-1">Total Campaigns</p>
-            <p className="text-2xl lg:text-4xl font-bold text-blue-900">{totalCampaigns}</p>
-            <p className="text-xs text-blue-600 mt-1 lg:mt-2">All active in SmartLead</p>
+          <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg border border-blue-200 p-3 lg:p-6 shadow-sm">
+            <p className="text-xs lg:text-sm text-blue-700 font-medium mb-1">Campaigns</p>
+            <p className="text-xl lg:text-4xl font-bold text-blue-900">{totalCampaigns}</p>
           </div>
-          <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg border border-purple-200 p-4 lg:p-6 shadow-sm">
-            <p className="text-xs lg:text-sm text-purple-700 font-medium mb-1">Countries Targeted</p>
-            <p className="text-2xl lg:text-4xl font-bold text-purple-900">{countriesTargeted}</p>
-            <p className="text-xs text-purple-600 mt-1 lg:mt-2">Markets covered</p>
+          <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg border border-purple-200 p-3 lg:p-6 shadow-sm">
+            <p className="text-xs lg:text-sm text-purple-700 font-medium mb-1">Countries</p>
+            <p className="text-xl lg:text-4xl font-bold text-purple-900">{countriesTargeted}</p>
           </div>
         </div>
       </ContentSection>
 
       <ContentSection title="Campaign Details" icon={<Zap className="w-5 h-5" />}>
-        <div className="bg-white rounded-lg border border-slate-200 shadow-sm overflow-hidden">
-          <div className="overflow-x-auto -mx-4 lg:mx-0">
-            <div className="inline-block min-w-full align-middle px-4 lg:px-0">
+        {/* Mobile: Card Layout */}
+        <div className="lg:hidden space-y-3">
+          {campaigns.map((campaign, index) => (
+            <div key={index} className="bg-slate-50 rounded-lg p-3 border border-slate-200">
+              <div className="flex items-start justify-between mb-2">
+                <div className="flex-1 min-w-0 mr-2">
+                  <p className="text-xs text-slate-500 mb-0.5">List / Country</p>
+                  {campaign.listUrl ? (
+                    <a
+                      href={campaign.listUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm font-medium text-green-600 hover:underline break-words"
+                    >
+                      {campaign.list}
+                    </a>
+                  ) : (
+                    <p className="text-sm font-medium text-slate-900 break-words">{campaign.list}</p>
+                  )}
+                </div>
+                <span className={`inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium whitespace-nowrap flex-shrink-0 ${
+                  campaign.launched
+                    ? 'bg-green-100 text-green-800'
+                    : 'bg-amber-100 text-amber-800'
+                }`}>
+                  {campaign.launched ? 'Launched' : 'Pending'}
+                </span>
+              </div>
+
+              {campaign.campaignUrl ? (
+                <a
+                  href={campaign.campaignUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs text-blue-600 hover:underline break-words block mb-2"
+                >
+                  {campaign.campaignName}
+                </a>
+              ) : (
+                <p className="text-xs text-slate-400 italic mb-2">
+                  {campaign.campaignName || 'Not created yet'}
+                </p>
+              )}
+
+              <div className="flex items-center justify-between text-xs text-slate-600 mt-2 pt-2 border-t border-slate-200">
+                <span>{campaign.dateLaunched || '—'}</span>
+                <span className={campaign.leadsAdded > 0 ? 'font-semibold text-green-700' : 'text-slate-400'}>
+                  {campaign.leadsAdded.toLocaleString()} leads
+                </span>
+              </div>
+            </div>
+          ))}
+
+          {/* Totals card for mobile */}
+          <div className="bg-slate-100 rounded-lg p-3 border-2 border-slate-300">
+            <div className="flex items-center justify-between">
+              <span className="text-sm font-semibold text-slate-900">Total Leads:</span>
+              <span className="text-lg font-bold text-green-700">{totalLeads.toLocaleString()}</span>
+            </div>
+          </div>
+        </div>
+
+        {/* Desktop: Table Layout */}
+        <div className="hidden lg:block bg-white rounded-lg border border-slate-200 shadow-sm overflow-hidden">
+          <div className="overflow-x-auto">
+            <div className="inline-block min-w-full align-middle">
               <table className="min-w-full">
                 <thead>
                   <tr className="bg-slate-50 border-b border-slate-200">
