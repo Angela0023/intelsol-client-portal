@@ -20,6 +20,8 @@ function ClientLayoutInner({ children }: ClientLayoutProps) {
   useEffect(() => {
     const access = sessionStorage.getItem('clientAccess');
     if (!access) {
+      // Store the current URL so we can redirect back after login
+      sessionStorage.setItem('redirectAfterLogin', window.location.pathname);
       router.push('/');
       return;
     }
@@ -30,6 +32,8 @@ function ClientLayoutInner({ children }: ClientLayoutProps) {
       setIsAdmin(parsedAccess.includes('admin'));
       setLoading(false);
     } catch {
+      // Store the current URL so we can redirect back after login
+      sessionStorage.setItem('redirectAfterLogin', window.location.pathname);
       router.push('/');
     }
   }, [router, setIsAdmin]);

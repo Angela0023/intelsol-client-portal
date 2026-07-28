@@ -30,12 +30,22 @@ export default function Home() {
     // Store access in sessionStorage (in production, use proper auth)
     sessionStorage.setItem('clientAccess', JSON.stringify(allowedClients));
 
-    // Redirect based on access level
-    if (allowedClients.includes('admin')) {
-      router.push('/admin');
+    // Check if there's a stored redirect URL
+    const redirectUrl = sessionStorage.getItem('redirectAfterLogin');
+
+    if (redirectUrl && redirectUrl !== '/') {
+      // Clear the stored redirect
+      sessionStorage.removeItem('redirectAfterLogin');
+      // Redirect back to the original URL
+      router.push(redirectUrl);
     } else {
-      // Redirect to first available client
-      router.push(`/${allowedClients[0]}`);
+      // Default redirect based on access level
+      if (allowedClients.includes('admin')) {
+        router.push('/admin');
+      } else {
+        // Redirect to first available client
+        router.push(`/${allowedClients[0]}`);
+      }
     }
 
     setLoading(false);
