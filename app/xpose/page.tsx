@@ -41,7 +41,7 @@ export default function XposePage() {
     }
 
     // Internal tabs that should be hidden from non-admin users
-    const internalTabs = ['filters', 'prompts', 'personas'];
+    const internalTabs = ['filters', 'prompts'];
 
     // Read initial tab from URL pathname
     const path = window.location.pathname;
@@ -85,7 +85,7 @@ export default function XposePage() {
   };
 
   // Filter tabs based on admin access
-  // Hide internal tabs (filters, prompts, personas) from non-admin users
+  // Hide internal tabs (filters, prompts) from non-admin users
   const visibleTabs = isAdmin
     ? tabs
     : tabs.filter(tab => !['filters', 'prompts', 'personas'].includes(tab.id));

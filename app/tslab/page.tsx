@@ -41,7 +41,7 @@ export default function TSLabPage() {
     }
 
     // Internal tabs that should be hidden from non-admin users
-    const internalTabs = ['filters', 'prompts', 'personas'];
+    const internalTabs = ['filters', 'prompts'];
 
     // Read initial tab from URL pathname
     const path = window.location.pathname;
@@ -82,10 +82,10 @@ export default function TSLabPage() {
   };
 
   // Filter tabs based on admin access
-  // Hide internal tabs (filters, prompts, personas) from non-admin users
+  // Hide internal tabs (filters, prompts) from non-admin users
   const visibleTabs = isAdmin
     ? tabs
-    : tabs.filter(tab => !['filters', 'prompts', 'personas'].includes(tab.id));
+    : tabs.filter(tab => !['filters', 'prompts'].includes(tab.id));
 
   return (
     <ClientLayout>
@@ -376,40 +376,34 @@ Only answer "Yes" if you are confident this company:
 }
 
 function PersonasTab() {
+  const positions = [
+    'account director', 'associate manager of purchasing', 'assistant manager of purchasing', 'board member', 'business owner', 'business unit director', 'business unit manager', 'buyer', 'category lead', 'category manager', 'chairman', 'chairman of the board', 'chairperson', 'chief business officer', 'chief commercial officer', 'chief executive officer', 'chief growth officer', 'chief innovation officer', 'chief operating officer', 'chief procurement officer', 'chief purchasing officer', 'chief strategy officer', 'chief supply chain officer', 'chief sourcing officer', 'chief supply officer', 'chief operations officer', 'chief product officer', 'chief revenue officer', 'CEO', 'COO', 'CPO', 'CCO', 'CSO', 'co-founder', 'co-founder & CEO', 'commodity buyer', 'commodity manager', 'contract manager', 'contracts manager', 'country director', 'country manager', 'deputy general manager of purchase', 'deputy general manager of purchasing', 'deputy head of procurement', 'deputy head of procurement department', 'deputy manager of purchasing', 'director', 'director of operations', 'director of procurement', 'director of product', 'director of product development', 'director of purchasing', 'director of sales', 'director of sourcing', 'division director', 'division manager', 'executive chairman', 'executive director', 'executive vice president', 'EVP', 'founder', 'founder & CEO', 'founder & managing director', 'founder and CEO', 'founder and managing director', 'founder/CEO', 'general manager', 'general partner', 'general purchasing manager', 'general procurement manager', 'global head of procurement', 'global procurement director', 'global procurement manager', 'global sourcing director', 'global sourcing manager', 'group CEO', 'group head of procurement', 'group procurement director', 'group procurement manager', 'head of operations', 'head of procurement', 'head of procurement & contracts', 'head of procurement & logistics', 'head of procurement & operations', 'head of procurement & supply chain', 'head of procurement administration', 'head of procurement and administration', 'head of procurement and contracts', 'head of procurement and logistics', 'head of procurement and logistics department', 'head of procurement and supply chain', 'head of procurement and supply chain management', 'head of procurement department', 'head of procurement division', 'head of procurement Europe', 'head of procurement excellence', 'head of procurement operations', 'head of procurement section', 'head of procurement services', 'head of procurement unit', 'head of purchasing', 'head of sourcing', 'head of supply chain', 'interim head of procurement', 'inventory manager', 'lead buyer', 'logistics director', 'logistics manager', 'manager of purchase', 'manager of purchase department', 'manager of purchases', 'manager of purchasing', 'manager of purchasing & risk management', 'manager of purchasing and contracts', 'manager of purchasing and inventory', 'manager of purchasing and logistic', 'manager of purchasing and logistics', 'manager of purchasing and logistics department', 'manager of purchasing and materials', 'manager of purchasing and stores', 'manager of purchasing department', 'manager of fleet and facilities', 'managing director', 'managing owner', 'managing partner', 'materials manager', 'operations director', 'operations manager', 'owner', 'partner', 'president', 'president & CEO', 'principal CEO', 'procurement', 'procurement analyst', 'procurement business partner', 'procurement category manager', 'procurement consultant', 'procurement coordinator', 'procurement director', 'procurement engineer', 'procurement executive', 'procurement lead', 'procurement manager', 'procurement officer', 'procurement operations manager', 'procurement specialist', 'procurement supervisor', 'project manager of purchasing', 'project procurement manager', 'purchase manager', 'purchasing director', 'purchasing lead', 'purchasing manager', 'purchasing specialist', 'regional director', 'regional procurement manager', 'regional sourcing manager', 'senior buyer', 'senior manager of purchasing', 'senior managing director', 'senior procurement manager', 'senior sourcing manager', 'senior vice president', 'sourcing director', 'sourcing lead', 'sourcing manager', 'sourcing specialist', 'strategic buyer', 'strategic sourcing director', 'strategic sourcing manager', 'supplier development manager', 'supplier quality manager', 'supplier relationship manager', 'supply chain director', 'supply chain manager', 'supply manager', 'technical buyer', 'vice president', 'vice president of operations', 'vice president of procurement', 'vice president of product', 'vice president of purchasing', 'vice president of sales', 'vice president of sourcing', 'vendor manager'
+  ];
+
   return (
     <>
-      <ContentSection title="Buyer Personas by Company Size" icon={<Users className="w-5 h-5" />}>
-        <div className="space-y-6">
-          <div>
-            <h4 className="font-semibold text-slate-900 mb-3 flex items-center">
-              <span className="w-8 h-8 bg-green-100 text-green-600 rounded-full flex items-center justify-center text-sm font-bold mr-2">S</span>
-              Small to Mid-Size Companies (20-100 employees)
-            </h4>
-            <ul className="ml-10 space-y-2">
-              <ListItem>Owner</ListItem>
-              <ListItem>Founder</ListItem>
-              <ListItem>Managing Director</ListItem>
-              <ListItem>General Manager</ListItem>
-              <ListItem>Operations Director</ListItem>
-            </ul>
+      <ContentSection title="Target Job Titles / Buyer Personas" icon={<Users className="w-5 h-5" />}>
+        <div className="space-y-4">
+          <div className="bg-green-50 border-l-4 border-green-500 p-4 rounded">
+            <p className="font-semibold text-green-900 mb-2">Target Positions for TS Lab</p>
+            <p className="text-green-800 text-sm">
+              The following job titles represent decision-makers in procurement, purchasing, supply chain, and executive roles at food supplement and health product companies. These are the exact positions to target when sourcing leads.
+            </p>
           </div>
 
-          <div>
-            <h4 className="font-semibold text-slate-900 mb-3 flex items-center">
-              <span className="w-8 h-8 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center text-sm font-bold mr-2">L</span>
-              Larger Companies (100+ employees)
-            </h4>
-            <ul className="ml-10 space-y-2">
-              <ListItem>Procurement Manager</ListItem>
-              <ListItem>Purchasing Manager</ListItem>
-              <ListItem>Supply Chain Manager</ListItem>
-              <ListItem>Procurement Director</ListItem>
-              <ListItem>Category Manager (Supplements)</ListItem>
-              <ListItem>Operations Manager</ListItem>
-              <ListItem>COO</ListItem>
-              <ListItem>Product Manager</ListItem>
-              <ListItem>Business Development Manager</ListItem>
-            </ul>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
+            {positions.map((position, index) => (
+              <div key={index} className="bg-slate-50 border border-slate-200 rounded px-2 py-1.5 text-xs">
+                {position}
+              </div>
+            ))}
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-500 p-4 rounded mt-4">
+            <p className="font-semibold text-blue-900 mb-2">Total Positions: {positions.length}</p>
+            <p className="text-blue-800 text-sm">
+              When searching in Sales Navigator or Apollo, use these exact job titles to find the right decision-makers. Focus on procurement, purchasing, supply chain, and executive roles.
+            </p>
           </div>
         </div>
       </ContentSection>
@@ -425,13 +419,6 @@ function PersonasTab() {
             <ListItem type="check">LinkedIn URL</ListItem>
             <ListItem type="check">Company Name</ListItem>
           </ul>
-
-          <div className="bg-green-50 border-l-4 border-green-500 p-4 rounded mt-4">
-            <p className="font-semibold text-green-900 mb-1">Enrichment Strategy:</p>
-            <p className="text-green-800 text-sm">
-              Use Apollo enrichment first (1 credit per contact). Only use Clay waterfall if Apollo doesn't provide enough emails (more expensive at 5-6 credits).
-            </p>
-          </div>
         </div>
       </ContentSection>
     </>

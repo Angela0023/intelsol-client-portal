@@ -41,7 +41,7 @@ export default function IntelsolPage() {
     }
 
     // Internal tabs that should be hidden from non-admin users
-    const internalTabs = ['filters', 'prompts', 'personas'];
+    const internalTabs = ['filters', 'prompts'];
 
     // Read initial tab from URL pathname
     const path = window.location.pathname;
@@ -82,10 +82,10 @@ export default function IntelsolPage() {
   };
 
   // Filter tabs based on admin access
-  // Hide internal tabs (filters, prompts, personas) from non-admin users
+  // Hide internal tabs (filters, prompts) from non-admin users
   const visibleTabs = isAdmin
     ? tabs
-    : tabs.filter(tab => !['filters', 'prompts', 'personas'].includes(tab.id));
+    : tabs.filter(tab => !['filters', 'prompts'].includes(tab.id));
 
   return (
     <ClientLayout>
@@ -1284,14 +1284,6 @@ function PersonasTab() {
             <ListItem type="check">Company Name</ListItem>
             <ListItem type="check">Company Website</ListItem>
           </ul>
-
-          <div className="bg-violet-50 border-l-4 border-violet-500 p-4 rounded mt-4">
-            <p className="font-semibold text-violet-900 mb-1">Enrichment Strategy:</p>
-            <p className="text-violet-800 text-sm">
-              Use Apollo enrichment first (1 credit). For personalization campaigns, also scrape
-              LinkedIn posts and company website via Apify for opener generation.
-            </p>
-          </div>
         </div>
       </ContentSection>
     </>
