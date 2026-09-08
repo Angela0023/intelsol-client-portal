@@ -1,10 +1,25 @@
 first_name,last_name,email,company_name,website,linkedin_url,campaign_name
+Frank,Kennedy,frank.kennedy@weleda.com,Weleda,weleda.com,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
+Lauren,Carney,lcarney@thorne.com,Thorne,thorne.com,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
+Gita,Kundzina,gita@symprove.com,Symprove Ltd,symprove.com,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
+Stephanie,Boland,stephanie.boland@swansonvitamins.com,"Swanson Health Products, Inc.",swansonvitamins.com,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
+Per,Andreasson,per.andreasson@rusta.com,Rusta,rusta.com/fi-fi,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
+Maria,Pedersen,m.pedersen@puori.com,Puori,puori.com,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
+Henrik,Olsen,henrik@puori.com,Puori,puori.com,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
 Edward,Makutwa,edward.makutwa@verman.fi,Oy Verman Ab,verman.fi,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
+Maria,Lundén,maria.lunden@roberts.fi,Oy Roberts Ab,robertsberrie.com,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
+Anders,Nielsen,anders.nielsen@outnorth.com,Outnorth AB,outnorth.com/fi,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
+John,Shattuck,john.shattuck@orgain.com,Orgain,orgain.com,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
+Kinal,Patel,kpatel@onnit.com,Onnit,onnit.com,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
 Ritesh,Gupta,rgupta@nordicnaturals.com,Nordic Naturals,nordic.com,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
+Morten,Olsen,morten@newnordic.dk,New Nordic,newnordic.com,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
+Cindy,Kjærshøj,cindy@newnordic.dk,New Nordic,newnordic.com,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
 Paul,Taylor,paul.taylor@naturesaid.co.uk,Natures Aid,naturesaid.co.uk,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
+Sara,M.,sara.mornard@naturesway.com,Nature's Way,naturesway.com,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
 Wade,Waldon,wade.waldon@megafood.com,MegaFood,megafood.com,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
 Tia,Österberg,tia.osterberg@mediq.com,Mediq Suomi Oy,mediq.fi,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
 Petteri,Nystén,petteri.nysten@lidl.fi,Lidl Suomi,lidl.fi,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
+Liisa,Eerola,liisa.eerola@lidl.fi,Lidl Suomi,lidl.fi,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
 Ethan,Soh,ethan.soh@lazada.com,Lazada,questexcellence.com,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
 Juha,Saarela,juha.saarela@puuilo.fi,J.Kärkkäinen Oy Ltd.,karkkainen.com,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
 Dean,Allen,deanallen@hollandandbarrett.com,Holland & Barrett,hollandandbarrett.com,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
@@ -13,24 +28,10 @@ Kiran,Bandari,kirank@herbalife.com,Herbalife,herbalife.com,,"🧪 TS Lab | Finla
 Colby,Carll,colby@foursigmatic.com,Four Sigmatic,foursigmatic.com,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
 Anne,Riitamäki,anne@foodin.fi,Foodin - Sharing Happiness,foodin.fi,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
 Michelle,Falvey,mfalvey@designsforhealth.com,Designs for Health,designsforhealth.com,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
-Frank,Kennedy,frank.kennedy@weleda.com,Weleda,weleda.com,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
-Lauren,Carney,lcarney@thorne.com,Thorne,thorne.com,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
-Gita,Kundzina,gita@symprove.com,Symprove Ltd,symprove.com,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
-Stephanie,Boland,stephanie.boland@swansonvitamins.com,"Swanson Health Products, Inc.",swansonvitamins.com,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
-Per,Andreasson,per.andreasson@rusta.com,Rusta,rusta.com/fi-fi,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
-Maria,Pedersen,m.pedersen@puori.com,Puori,puori.com,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
-Henrik,Olsen,henrik@puori.com,Puori,puori.com,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
-Maria,Lundén,maria.lunden@roberts.fi,Oy Roberts Ab,robertsberrie.com,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
-Anders,Nielsen,anders.nielsen@outnorth.com,Outnorth AB,outnorth.com/fi,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
-John,Shattuck,john.shattuck@orgain.com,Orgain,orgain.com,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
-Kinal,Patel,kpatel@onnit.com,Onnit,onnit.com,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
-Morten,Olsen,morten@newnordic.dk,New Nordic,newnordic.com,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
-Cindy,Kjærshøj,cindy@newnordic.dk,New Nordic,newnordic.com,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
-Sara,M.,sara.mornard@naturesway.com,Nature's Way,naturesway.com,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
 Thomas,Heinrichs,thomas.heinrichs@lidl.fi,Lidl Suomi,lidl.fi,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
-Liisa,Eerola,liisa.eerola@lidl.fi,Lidl Suomi,lidl.fi,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
 Marko,Keskinen,marko.keskinen@keskisenkello.fi,Keskisen Kello Oy,keskisenkello.fi,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
 Katia,Zangaro,info@lagrafika.it,Amway,amway.com,,🧪 TS Lab | Finland (VFS) | Decision Makers | 02/Sept/2026
+Neil,Jacobs,njacobs@aor.ca,(AOR) Advanced Orthomolecular Research,aor.ca,,🧪 TS Lab | Finland (VFS) | Decision Makers | 02/Sept/2026
 Katherine,Parent,kparent@aor.ca,(AOR) Advanced Orthomolecular Research,aor.ca,,🧪 TS Lab | Finland (VFS) | Decision Makers | 02/Sept/2026
 Pran,Nibber,pran.nibber@aor.ca,(AOR) Advanced Orthomolecular Research,aor.ca,,🧪 TS Lab | Finland (VFS) | Decision Makers | 02/Sept/2026
 NavNirat,N.,drnibber@aor.ca,(AOR) Advanced Orthomolecular Research,aor.ca,,🧪 TS Lab | Finland (VFS) | Decision Makers | 02/Sept/2026
@@ -349,8 +350,8 @@ Robert,Westman,robert.westman@alpha-plus.se,Alpha Plus AB,alpha-plus.se,,🧪 TS
 Thomas,Ryder,thomas@appliednutrition.uk,APPLIED NUTRITION LTD,appliednutrition.uk,,🧪 TS Lab | Finland (VFS) | Decision Makers | 02/Sept/2026
 Ross,Terry,rossterry@4life.com,4Life Research,4life.com,,🧪 TS Lab | Finland (VFS) | Decision Makers | 02/Sept/2026
 Manny,Castillo,mannyc@4life.com,4Life Research,4life.com,,🧪 TS Lab | Finland (VFS) | Decision Makers | 02/Sept/2026
-Neil,Jacobs,njacobs@aor.ca,(AOR) Advanced Orthomolecular Research,aor.ca,,🧪 TS Lab | Finland (VFS) | Decision Makers | 02/Sept/2026
 Terése,Hellström,terese.hellstrom@shopping4net.com,Shopping4net,shopping4net.se,,"🧪 TS Lab | Sweden (VFS) | Support, Procurement | 02/Sept/2026"
+Jonathan,Rander,jonathan.rander@reneevoltaire.se,Renée Voltaire AB,reneevoltaire.se,,"🧪 TS Lab | Sweden (VFS) | Support, Procurement | 02/Sept/2026"
 Elin,Harringer,elin.harringer@proteinbolaget.se,Proteinbolaget.se,proteinbolaget.se,,"🧪 TS Lab | Sweden (VFS) | Support, Procurement | 02/Sept/2026"
 Carlos,Padín,carlos@bodegas.bio,Midsona AB,midsona.com,,"🧪 TS Lab | Sweden (VFS) | Support, Procurement | 02/Sept/2026"
 Martin,Ripendal,martin.ripendal@mmsports.se,MM Sports,mmsports.se,,"🧪 TS Lab | Sweden (VFS) | Support, Procurement | 02/Sept/2026"
@@ -359,14 +360,13 @@ Rebecka,Appelblad,rebecka.appelblad@lyko.com,LYKO,lyko.com/fi,,"🧪 TS Lab | Sw
 Parastoo,Afsharian,parastoo.afsharian@kronansapotek.se,Kronans Apotek,kronansapotek.se,,"🧪 TS Lab | Sweden (VFS) | Support, Procurement | 02/Sept/2026"
 Mattias,Eriksson,mattias.eriksson@gymgrossisten.com,Gymgrossisten.com,gymgrossisten.com,,"🧪 TS Lab | Sweden (VFS) | Support, Procurement | 02/Sept/2026"
 Hewri,Mahir,hewri@glimja.se,Glimja,glimja.com,,"🧪 TS Lab | Sweden (VFS) | Support, Procurement | 02/Sept/2026"
+Ella,Klingström,ella@glimja.se,Glimja,glimja.com,,"🧪 TS Lab | Sweden (VFS) | Support, Procurement | 02/Sept/2026"
 Sara,Jama,sara.jama@apoteket.se,Apoteket AB,apoteket.se,,"🧪 TS Lab | Sweden (VFS) | Support, Procurement | 02/Sept/2026"
 Lars,Skutholm,lars.skutholm@apoteket.se,Apoteket AB,apoteket.se,,"🧪 TS Lab | Sweden (VFS) | Support, Procurement | 02/Sept/2026"
 Susanna,Bergström,susanna.bergstrom@apoteket.se,Apoteket,apoteket.se,,"🧪 TS Lab | Sweden (VFS) | Support, Procurement | 02/Sept/2026"
 Sofia,Rosby,sofia.rosby@ants.se,Apotek Hjärtat,apotekhjartat.se,,"🧪 TS Lab | Sweden (VFS) | Support, Procurement | 02/Sept/2026"
 Klara,Himmelstrand,klara.himmelstrand@apotekhjartat.se,Apotek Hjärtat,apotekhjartat.se,,"🧪 TS Lab | Sweden (VFS) | Support, Procurement | 02/Sept/2026"
-Jonathan,Rander,jonathan.rander@reneevoltaire.se,Renée Voltaire AB,reneevoltaire.se,,"🧪 TS Lab | Sweden (VFS) | Support, Procurement | 02/Sept/2026"
 Amanda,Alstersand,amanda.alstersand@greatearth.se,Great Earth,greatearth.se,,"🧪 TS Lab | Sweden (VFS) | Support, Procurement | 02/Sept/2026"
-Ella,Klingström,ella@glimja.se,Glimja,glimja.com,,"🧪 TS Lab | Sweden (VFS) | Support, Procurement | 02/Sept/2026"
 Pernilla,Orento,kundservice@bangerhead.se,Bangerhead,bangerhead.se,,"🧪 TS Lab | Sweden (VFS) | Support, Procurement | 02/Sept/2026"
 Ingrid,Bojner,ingrid.bojner@mentimeter.com,Apoteket AB,apoteket.se,,🧪 TS Lab | Sweden (VFS) | Decision Makers | 02/Sept/2026
 P-A,Johansson,paj@betteryou.se,Better You AB,betteryou.se,,🧪 TS Lab | Sweden (VFS) | Decision Makers | 02/Sept/2026
@@ -629,8 +629,10 @@ Michela,Gandini,m.gandini@longlife.com,LongLife Srl - LongLife Nutritional Suppl
 Anabel,Bances Handschuh,a.bances@visufarma.com,VISUfarma - the eye health company,https://visufarma.com,,🧪 TS Lab | Italy (VFS) | Decision Makers | 27/Jul/2026
 Fabrizio,Giombini,f.giombini@visufarma.com,VISUfarma - the eye health company,https://visufarma.com,,🧪 TS Lab | Italy (VFS) | Decision Makers | 27/Jul/2026
 Monica,Delpoio,monica.delpoio@stardea.com,Stardea,https://stardea.com,,🧪 TS Lab | Italy (VFS) | Decision Makers | 27/Jul/2026
+Federica,Stallo,federica.stallo@specchiasol.it,Specchiasol,https://specchiasol.it,,🧪 TS Lab | Italy (VFS) | Decision Makers | 27/Jul/2026
 Sara,Giorgi,s.giorgi@solime.it,Solimè,https://solime.it,,🧪 TS Lab | Italy (VFS) | Decision Makers | 27/Jul/2026
 Ivan,Bandini,i.bandini@solime.it,Solimè,https://solime.it,,🧪 TS Lab | Italy (VFS) | Decision Makers | 27/Jul/2026
+Jodie,Ribola,jribola@solime.it,Solimè,https://solime.it,,🧪 TS Lab | Italy (VFS) | Decision Makers | 27/Jul/2026
 Andrea,Solimè,asolime@solime.it,Solimè,https://solime.it,,🧪 TS Lab | Italy (VFS) | Decision Makers | 27/Jul/2026
 Amalia,Di Nella,a.dinella@shedirpharma.com,Shedir Pharma Un.le,https://shedirpharma.com,,🧪 TS Lab | Italy (VFS) | Decision Makers | 27/Jul/2026
 Ema,Tosi,e.tosi@shedirpharma.com,Shedir Pharma Un.le,https://shedirpharma.com,,🧪 TS Lab | Italy (VFS) | Decision Makers | 27/Jul/2026
@@ -752,12 +754,6 @@ Nicla,Frustagli,nicla@1000farmacie.it,1000Farmacie,https://1000farmacie.it,,🧪
 Marta,Ferreri,marta@1000farmacie.it,1000Farmacie,https://1000farmacie.it,,🧪 TS Lab | Italy (VFS) | Decision Makers | 27/Jul/2026
 Mohamed,Younes,mohamed@1000farmacie.it,1000Farmacie,https://1000farmacie.it,,🧪 TS Lab | Italy (VFS) | Decision Makers | 27/Jul/2026
 Nicolo,Petrone,nicolo@1000farmacie.it,1000Farmacie,https://1000farmacie.it,,🧪 TS Lab | Italy (VFS) | Decision Makers | 27/Jul/2026
-Andrea,Vettori,andrea.vettori@stardea.com,Stardea,https://stardea.com,,🧪 TS Lab | Italy (VFS) | Decision Makers | 27/Jul/2026
-Federica,Stallo,federica.stallo@specchiasol.it,Specchiasol,https://specchiasol.it,,🧪 TS Lab | Italy (VFS) | Decision Makers | 27/Jul/2026
-Antonio,Moscon,antonio.moscon@specchiasol.it,Specchiasol,https://specchiasol.it,,🧪 TS Lab | Italy (VFS) | Decision Makers | 27/Jul/2026
-Jodie,Ribola,jribola@solime.it,Solimè,https://solime.it,,🧪 TS Lab | Italy (VFS) | Decision Makers | 27/Jul/2026
-Enzo,Rizzo,rizzoenzo2020@gmail.com,Sakura Italia,https://sakuraitalia.it,,🧪 TS Lab | Italy (VFS) | Decision Makers | 27/Jul/2026
-Novella,Niro,n.niro@agavegroup.it,Agave Group,https://agavegroup.it,,🧪 TS Lab | Italy (VFS) | Decision Makers | 27/Jul/2026
 Giuseppe,Massari,giuseppe.massari@zuccari.com,Zuccari,https://zuccari.com,,🧪 TS Lab | Italy (VFS) | Decision Makers | 27/Jul/2026
 Alessandro,Bergamo,alessandro.bergamo@zuccari.com,Zuccari,https://zuccari.com,,🧪 TS Lab | Italy (VFS) | Decision Makers | 27/Jul/2026
 Carlo,Delucca,carlo.delucca@zuccari.com,Zuccari,https://zuccari.com,,🧪 TS Lab | Italy (VFS) | Decision Makers | 27/Jul/2026
@@ -768,11 +764,15 @@ Marcello,Rocca,marcello.rocca@yamamotonutrition.com,YAMAMOTO,https://yamamotonut
 Molly &Amp; Frank,Zak,z8mol@aol.com,Vitamin Center,https://vitamincenter.it,,🧪 TS Lab | Italy (VFS) | Decision Makers | 27/Jul/2026
 Vinicio,Varricchio,viva63@alice.it,Vitamin Center,https://vitamincenter.it,,🧪 TS Lab | Italy (VFS) | Decision Makers | 27/Jul/2026
 Roberta,Russo,roberta.russo@vandaomeopatici.it,Vanda Omeopatici,https://vandaomeopatici.it,,🧪 TS Lab | Italy (VFS) | Decision Makers | 27/Jul/2026
-Thomas J.,Van Haarlem,tvhmd210@gmail.com,VISUfarma - the eye health company,https://visufarma.com,,🧪 TS Lab | Italy (VFS) | Decision Makers | 27/Jul/2026
 Frank,Berning,f.berning@visufarma.com,VISUfarma - the eye health company,https://visufarma.com,,🧪 TS Lab | Italy (VFS) | Decision Makers | 27/Jul/2026
-Andrea,Bulgarelli,bulgarelli.and@gmail.com,Top Farmacia,https://topfarmacia.it,,🧪 TS Lab | Italy (VFS) | Decision Makers | 27/Jul/2026
 Iacopo,Iacopini,iacopo.iacopini@topfarmacia.it,Top Farmacia,https://topfarmacia.it,,🧪 TS Lab | Italy (VFS) | Decision Makers | 27/Jul/2026
 Luca,Panzalorto,luca.panzalorto@stardea.it,Stardea,https://stardea.com,,🧪 TS Lab | Italy (VFS) | Decision Makers | 27/Jul/2026
+Andrea,Vettori,andrea.vettori@stardea.com,Stardea,https://stardea.com,,🧪 TS Lab | Italy (VFS) | Decision Makers | 27/Jul/2026
+Antonio,Moscon,antonio.moscon@specchiasol.it,Specchiasol,https://specchiasol.it,,🧪 TS Lab | Italy (VFS) | Decision Makers | 27/Jul/2026
+Enzo,Rizzo,rizzoenzo2020@gmail.com,Sakura Italia,https://sakuraitalia.it,,🧪 TS Lab | Italy (VFS) | Decision Makers | 27/Jul/2026
+Novella,Niro,n.niro@agavegroup.it,Agave Group,https://agavegroup.it,,🧪 TS Lab | Italy (VFS) | Decision Makers | 27/Jul/2026
+Thomas J.,Van Haarlem,tvhmd210@gmail.com,VISUfarma - the eye health company,https://visufarma.com,,🧪 TS Lab | Italy (VFS) | Decision Makers | 27/Jul/2026
+Andrea,Bulgarelli,bulgarelli.and@gmail.com,Top Farmacia,https://topfarmacia.it,,🧪 TS Lab | Italy (VFS) | Decision Makers | 27/Jul/2026
 Luca,Benotti,luca.benotti@solgar.it,Solgar Italia Multinutrient,https://solgar.it,,🧪 TS Lab | Italy (VFS) | Decision Makers | 27/Jul/2026
 Annemarie,Schumacher,annemarie.schumacher@redcare-pharmacy.com,Redcare Pharmacy,https://redcare-pharmacy.com,,🧪 TS Lab | Italy (VFS) | Decision Makers | 27/Jul/2026
 Tiziano,Cameroni,t.cameroni@profdiet.it,Professional Dietetics,https://professionaldietetics.com,,🧪 TS Lab | Italy (VFS) | Decision Makers | 27/Jul/2026
@@ -964,6 +964,7 @@ Boy,Kransen,boykransen@outlook.com,Body&Fit,bodyandfit.com,,🧪 TS Lab | Nederl
 Richard,Herrebrugh,richard@body-supplies.nl,Body Supplies,body-supplies.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Marta,Betko,marta.betko@grupawp.pl,Biuro Reklamy WP Media,wp.pl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Klaudia,Bartoszek,klaudia.bartoszek@grupawp.pl,Biuro Reklamy WP Media,wp.pl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Ewelina,Giemra,ewelina.giemra@grupawp.pl,Biuro Reklamy WP Media,wp.pl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Llorenç,Francès Cabanes,llorenc@bitio.com,Bitio,bitio.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 David,Valhondo Márquez,david@bitio.com,Bitio,bitio.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Peter,Klein,peter@biota.nu,Biota Nutri,biota.nu,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
@@ -1087,40 +1088,40 @@ Serena,Pellegrino,serena.pellegrino@aavalabs.com,AAVALABS,aavalabs.com,,🧪 TS 
 Nick,Mostert,n.mostert@avogel.nl,A.Vogel Nederland,avogel.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Peter,Holstege,p.holstege@avogel.nl,A.Vogel Nederland,avogel.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Marc,Seipel,marc@4peoplewhocare.de,4 people who care,4peoplewhocare.de,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Carlos,Lopez Ortega,c.lopez@boston-nutraceutical.com,Boston Nutraceutical Science,boston-nutraceutical.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Isabel,Pla Ricart,i.pla@boston-nutraceutical.com,Boston Nutraceutical Science,boston-nutraceutical.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Trisha,Clauson,clauson@bopinc.org,Bopinc,bopinc.org,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Justin,Regterschot,justin@bonohealth.com,Bono,bonohealth.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Ewelina,Giemra,ewelina.giemra@grupawp.pl,Biuro Reklamy WP Media,wp.pl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Akaki,Akhmeteli,akaki.axmeteli@gmail.com,Bio+,bio-plus.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Shona,Willekes Macdonald,shona.willekesmacdonald@ausnutria.nl,Ausnutria,ausnutria-netherlands.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Alicia,Bajart,alicia.bajart@aavalabs.com,AAVALABS,aavalabs.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Wim,Van Cuijk,wim.vancuijk@carezzo.nl,Carezzo Nutrition,carezzo.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Riëlle,Groenewold,rielle@careforskin.nl,Care for Skin,careforskin.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Anne-Riet,Boerenkamp,a.boerenkamp@caprogoat.com,Capro,caprogoat.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Charles,Emanuel,c.emanuel@capricornlifesciences.com,Capricorn Life Sciences,capricornlifesciences.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Isa,Vrolijk,isa@cabaulifestyle.com,Cabau Lifestyle,cabaulifestyle.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Shahar,Chechik,cs@clav-health.de,CLAV,clav-health.de,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Karine,Poindessault,karine.poindessault@cepd.nl,CEPD,cepd.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Jeroen,Slop,jeroen.slop@cepd.nl,CEPD,cepd.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Jakub,Szwajcowski,jakub.szwajcowski@cepd.nl,CEPD,cepd.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Andre,Buisman,a.buisman@buismanzwolle.nl,Buisman,buismanzwolle.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Edwin,Bakker,edwin.bakker@brightlands.com,Brightlands Chemelot Campus,brightlands.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Femke,Urlings-Buijzen,femke.urlings@brightlands.com,Brightlands Chemelot Campus,brightlands.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Astrid,Boeijen,astrid.boeijen@brightlands.com,Brightlands Chemelot Campus,brightlands.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Grennes,Quee,grennes.quee@brightlands.com,Brightlands Chemelot Campus,brightlands.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Vincent,Brain,vincent.brain@bridge2food.com,Bridge2Food,bridge2food.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Julia,Wocka-Gowda,julia.gowda@bridge2food.com,Bridge2Food,bridge2food.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 James,Blue,james.blue@bridge2food.com,Bridge2Food,bridge2food.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Charlotte,Neher,charlotte.neher@bridge2food.com,Bridge2Food,bridge2food.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Kim-Quy,Tran,kim-quy@bravofoods.nl,Bravo Foods,bravofoods.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Dominique,Brouwer,dominique@charlottelabee.com,Brain Balance by Charlotte Labee,charlottelabee.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Charlotte,Labee,charlotte@charlottelabee.com,Brain Balance by Charlotte Labee,charlottelabee.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Carlos,Lopez Ortega,c.lopez@boston-nutraceutical.com,Boston Nutraceutical Science,boston-nutraceutical.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 José Vicente,López Ibáñ,jv.lopez@mercadalia.es,Boston Nutraceutical Science,boston-nutraceutical.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Karen,Gaines,karengbryant@icloud.com,Boston Nutraceutical Science,boston-nutraceutical.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Isabel,Pla Ricart,i.pla@boston-nutraceutical.com,Boston Nutraceutical Science,boston-nutraceutical.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Akm Shihab,Uzzaman,uzzaman@bopinc.org,Bopinc,bopinc.org,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Trisha,Clauson,clauson@bopinc.org,Bopinc,bopinc.org,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Justin,Regterschot,justin@bonohealth.com,Bono,bonohealth.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Akaki,Akhmeteli,akaki.axmeteli@gmail.com,Bio+,bio-plus.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Shona,Willekes Macdonald,shona.willekesmacdonald@ausnutria.nl,Ausnutria,ausnutria-netherlands.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Alicia,Bajart,alicia.bajart@aavalabs.com,AAVALABS,aavalabs.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Caroline,Nijhof,c.nijhof@cebancompounding.com,Ceban Compounding,cebancompounding.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Wim,Van Cuijk,wim.vancuijk@carezzo.nl,Carezzo Nutrition,carezzo.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Riëlle,Groenewold,rielle@careforskin.nl,Care for Skin,careforskin.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Anne-Riet,Boerenkamp,a.boerenkamp@caprogoat.com,Capro,caprogoat.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Charles,Emanuel,c.emanuel@capricornlifesciences.com,Capricorn Life Sciences,capricornlifesciences.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Shahar,Chechik,cs@clav-health.de,CLAV,clav-health.de,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Karine,Poindessault,karine.poindessault@cepd.nl,CEPD,cepd.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Jeroen,Slop,jeroen.slop@cepd.nl,CEPD,cepd.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Femke,Urlings-Buijzen,femke.urlings@brightlands.com,Brightlands Chemelot Campus,brightlands.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Kim-Quy,Tran,kim-quy@bravofoods.nl,Bravo Foods,bravofoods.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Julio,Gallardo Martínez,j.gallardo@boston-nutraceutical.com,Boston Nutraceutical Science,boston-nutraceutical.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Tessa,Fij,fij@bopinc.org,Bopinc,bopinc.org,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Akm Shihab,Uzzaman,uzzaman@bopinc.org,Bopinc,bopinc.org,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Jack,Schüller,jack_schuller@hotmail.com,Body&Fit,bodyandfit.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Michelle,Touchstone,michelle@kpnmail.nl,Body Supplies,body-supplies.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Laura,Latham,laura.latham@absolutecollagen.com,Absolute Collagen,absolutecollagen.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
@@ -1888,7 +1889,6 @@ Kai,Beljon,beljon@chi.nl,Chi Natural Life,chi.nl,,🧪 TS Lab | Nederland | Deci
 Joline,De Brauw,joline.debrauw@chaincraft.com,ChainCraft,chaincraft.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Niels,Van Stralen,niels.vanstralen@chaincraft.com,ChainCraft,chaincraft.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Masja,Polak,m.polak@cebancompounding.com,Ceban Compounding,cebancompounding.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Caroline,Nijhof,c.nijhof@cebancompounding.com,Ceban Compounding,cebancompounding.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Coen,Fredriks,coen.fredriks@gmail.com,Cabau Lifestyle,cabaulifestyle.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Louise,Quinn,louise.quinn@lintbells.com,Vetnique | Home of YuMOVE,http://www.yumove.co.uk,,"🧪 TS Lab | UK DB 1999 | Support, Procurement | 24/Jul/2026"
 Debbie,Parr,debbieparr@langmeadherbs.co.uk,Langmead Farms Ltd,http://www.langmeadgroup.co.uk,,"🧪 TS Lab | UK DB 1999 | Support, Procurement | 24/Jul/2026"
@@ -1986,18 +1986,25 @@ Dawid,Walczak,dawid.walczak@celticchemicals.co.uk,Celtic Chemicals Limited,celti
 Steve,Cowley,steve.cowley@celticchemicals.co.uk,Celtic Chemicals Limited,celticchemicals.co.uk,,"🧪 TS Lab | UK DB 1999 | Support, Procurement | 24/Jul/2026"
 Hemant,Patnaik,hemant.patnaik@comfortclick.co.uk,Comfort Click,http://www.comfortclick.eu,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Shankara,Narayanan,shankara.narayanan@comfortclick.co.uk,Comfort Click,comfortclick.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Ramil,Mirgeydarov,ramil.mirgeydarov@clausmarsh.com,Claus Marsh,clausmarsh.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Rustam,Abdullayev,rustam.abdullayev@clausmarsh.com,Claus Marsh,clausmarsh.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Annika,Malmros,annika.malmros@clasado.com,Clasado,clasado.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Per,Rehné,per.rehne@clasado.com,Clasado,clasado.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Kelly,Litherland,kelly.litherland@clasado.com,Clasado,clasado.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Shann,Jones,shann@chucklinggoat.co.uk,Chuckling Goat,chucklinggoat.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Tracey,Turton,tracey@cheshirenaturalhealth.co.uk,Cheshire Natural Health,cheshirenaturalhealth.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Owen,Donald,owen.donald@celticchemicals.co.uk,Celtic Chemicals Limited,celticchemicals.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Anna,Clifford,anna.clifford@celticchemicals.co.uk,Celtic Chemicals Limited,celticchemicals.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Morris,Johnson,morris@caribbeangoldltd.com,CARIBBEAN GOLD LIMITED,http://www.caribbeangoldltd.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Dustin,Skoubo,dustin.skoubo@candidco.com,Candid,candidpro.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Adam,Altice,adam@candidco.com,Candid,candidpro.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Julie,Vigliotti,julie.vigliotti@candidco.com,Candid,candidpro.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Ashley C.,Klanac,ashley.klanac@candidco.com,Candid,candidpro.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Ben,Miraglia,ben.miraglia@candidco.com,Candid,http://www.candidpro.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Tony,Morefield,tony.morefield@candidco.com,Candid,candidpro.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Amanda,Savill,amanda.savill@camelliasteahouse.com,Camellia's Tea House,camelliasteahouse.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Lubna,Madan,lubna.madan@camelliasteahouse.com,Camellia's Tea House,camelliasteahouse.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Charlotte,Leaper,charlotte@camnutra.com,Cambridge Nutraceuticals,camnutra.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Michelle,Corp,michelle@lilyskitchen.co.uk,Cambridge Nutraceuticals,camnutra.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Victoria,Mudie,coursedirector@thehealthcoach.com,CNM College of Naturopathic Medicine,naturopathy-uk.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Birinder,Tember,birinder@tember.co.uk,CNM College of Naturopathic Medicine,naturopathy-uk.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
@@ -2104,18 +2111,19 @@ Leanne,Cairney,leanne.cairney@a-one.co.uk,A-One,a-one.co.uk,,🧪 TS Lab | UK DB
 Jesper,Skjøtt,jesper.skjott@a-one.nu,A-One,a-one.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Justin,Tunbridge,jusielah@hotmail.com,10X Athletic,10xathletic.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Ali,Ahmed,ali@10xathletic.com,10X Athletic,10xathletic.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Tom,Butler,tom@brinicombe.co.uk,Denis Brinicombe Group Limited,brinicombe.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Charles,Tisdall,charles@dacrelands.co.uk,Dacrelands LTD,http://www.dacrelands.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Augustin,Dinu,augustin@dynutrition.com,DY Nutrition,dynutrition.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Gordon,Lott,gordon@drvegan.com,DR.VEGAN,drvegan.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Paul,Jones,plht@me.com,Cytoplan Limited,cytoplan.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Zoe,Knight-Missen,zoe.knight-missen@cytoplan.co.uk,Cytoplan Limited,cytoplan.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Dylan,Griffiths,dylan@cytoplan.co.uk,Cytoplan Limited,cytoplan.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Pablo,Abrahams,pabloa@cultech.co.uk,Cultech,cultech.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Ruth,Hyde,ruth@cryojuvenate.com,CryojuvenateUK,cryojuvenate.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Lucy,James,lucy@cotswoldraw.com,Cotswold RAW,cotswoldraw.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Phil,Wappett,phil@cosmiko.co.uk,Cosmiko,cosmiko.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Isabella Smyrniou,Barber,isabella.barber@commapress.co.uk,Comma Press,commapress.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Abhinav,Tiwari,abhinav.tiwari@comfortclick.co.uk,Comfort Click,comfortclick.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Ramil,Mirgeydarov,ramil.mirgeydarov@clausmarsh.com,Claus Marsh,clausmarsh.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Annika,Malmros,annika.malmros@clasado.com,Clasado,clasado.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Kelly,Litherland,kelly.litherland@clasado.com,Clasado,clasado.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Owen,Donald,owen.donald@celticchemicals.co.uk,Celtic Chemicals Limited,celticchemicals.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Julie,Vigliotti,julie.vigliotti@candidco.com,Candid,candidpro.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Ben,Miraglia,ben.miraglia@candidco.com,Candid,http://www.candidpro.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Charlotte,Leaper,charlotte@camnutra.com,Cambridge Nutraceuticals,camnutra.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Danielle,Cornelius,daniellecornelius@gmail.com,CNM College of Naturopathic Medicine,naturopathy-uk.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Nicola,Haycroft,nicola.haycroft@aviform.co.uk,Aviform,aviform.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Carrie,Mash,carrie@ancientandbrave.earth,Ancient + Brave | B Corp,ancientandbrave.earth,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
@@ -2136,22 +2144,14 @@ Luis,Echeverria,luise@evicorporation.com,EVI Labs,http://www.evicorporation.com,
 Paulina,Szymanska,paulina@dogslounge.co.uk,Dog's Lounge,dogslounge.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Amit,Arora,amit.arora@dochq.co.uk,DocHQ,dochq.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Ian,Andreasen,iandreasen@directnutrisciences.com,Direct NutriSciences,http://www.directnutrisciences.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Tom,Butler,tom@brinicombe.co.uk,Denis Brinicombe Group Limited,brinicombe.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Devon,Hosegood,devonh@brinicombe.co.uk,Denis Brinicombe Group Limited,brinicombe.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 James,Brinicombe,james@brinicombe.co.uk,Denis Brinicombe Group Limited,brinicombe.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Eve,Casbard,eve.casbard@dendronbrandsltd.co.uk,Dendron Brands,dendronbrandsltd.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Sara,Herandi,sara@deja.life,Deja,http://www.deja.life,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Claire,Bryan,claire.bryan@dalgety.co,Dalgety Herbal Teas,dalgety.co,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Charles,Tisdall,charles@dacrelands.co.uk,Dacrelands LTD,http://www.dacrelands.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Diana,Serban,diana@dynutrition.com,DY Nutrition,dynutrition.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Vlad,Giogu,vlad@dynutrition.com,DY Nutrition,dynutrition.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Augustin,Dinu,augustin@dynutrition.com,DY Nutrition,dynutrition.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Gordon,Lott,gordon@drvegan.com,DR.VEGAN,drvegan.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Paul,Jones,plht@me.com,Cytoplan Limited,cytoplan.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Zoe,Knight-Missen,zoe.knight-missen@cytoplan.co.uk,Cytoplan Limited,cytoplan.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Dylan,Griffiths,dylan@cytoplan.co.uk,Cytoplan Limited,cytoplan.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Keith,Buckley,keithb@cultech.co.uk,Cultech,cultech.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Pablo,Abrahams,pabloa@cultech.co.uk,Cultech,cultech.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Sean,O'Brien,seanobrien@cultech.co.uk,Cultech,cultech.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Christopher,Brierley,brierley@cotswoldraw.com,Cotswold RAW,cotswoldraw.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Jay,Spiers,jay@cosmiko.co.uk,Cosmiko,cosmiko.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
@@ -2949,14 +2949,21 @@ Serena,Cioppa,serena.cioppa@tccglobal.com,TCC Global,tccglobal.com,,"🧪 TS Lab
 Susi,Richards,susi.richards@tccglobal.com,TCC Global,tccglobal.com,,"🧪 TS Lab Germany-403 | Support, Procurement | 21/Jul/2026"
 Konstantinos,Kios,konstantinos.kios@mitocare.de,MITOcare,mitocare.de,,"🧪 TS Lab Germany-403 | Support, Procurement | 21/Jul/2026"
 Tobias,Böschen,tobias.boeschen@ironmaxx.de,IronMaxx Nutrition,ironmaxx.de,,"🧪 TS Lab Germany-403 | Support, Procurement | 21/Jul/2026"
+Ollie,Chissell,olliec@theproteinworks.com,Protein Works,theproteinworks.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
+Chris,St John,chris@primusinterpares.co.uk,Primus Inter Pares ltd,primusinterpares.co.uk,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
 Simona,Schmidts,simona.schmidts@primaveralife.com,Primavera Life,primaveralife.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
 Flóra,Lavotha,flora.lavotha@primaveralife.com,Primavera Life,primaveralife.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
 Natasha,Karmali,nkarmali@pinterest.com,Pinterest,pinterest.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
 Raymond,Han,rhan@pinterest.com,Pinterest,pinterest.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
 Michael,Ajao,majao@pinterest.com,Pinterest,pinterest.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
+Michael,Schaupp,michael.schaupp@pfeifer-langen.com,Pfeifer & Langen,pfeifer-langen.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
+Andreas,Ridder,andreas.ridder@pfeifer-langen.de,Pfeifer & Langen,pfeifer-langen.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
 Tom,Simmons,tom.simmons@pfeifer-langen.com,Pfeifer & Langen,pfeifer-langen.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
+Jonas,Ueckermann,jonas.ueckermann@peak.ag,Peak Performance Products,peak.de,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
 Ge,Wang,ge@purish.com,PURISH,purish.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
 Lucas,Fischer,lucas@purish.com,PURISH,purish.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
+Viktoria,Maas,viktoria@purish.com,PURISH,purish.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
+Hannes,Daher,hannes@purish.com,PURISH,purish.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
 Edyta,Skowrońska,eskowronska@ostrovit.com,OstroVit,ostrovit.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
 Andreas,Meyer,andreas@ohlalaqua.com,Oh La Laqua,ohlalaqua.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
 Esther,Uhl,contact@estheruhl.com,Oh La Laqua,,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
@@ -3150,9 +3157,25 @@ Allison L.,Ireland,allison.ireland@3plearning.com,3P Learning,3plearning.com,,�
 Channell,Fusco,channell.fusco@3plearning.com,3P Learning,3plearning.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
 Stuart,Mcpherson M.Isp,stuart.mcpherson@3plearning.com,3P Learning,3plearning.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
 Lisa,Rodgers,lisa.rodgers@3plearning.com,3P Learning,3plearning.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
+Vikranth,Reddy,vikranth@trybwear.com,TRYBWEAR,trybwear.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
+Veit,Seemann,veit.seemann@tisso.de,TISSO Naturprodukte,tisso.de,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
+Nikolaj F.,Skarbye,nikolaj.skarbye@tccglobal.com,TCC Global,tccglobal.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
+Karin,Neuhaus,karin.neuhaus@tccglobal.com,TCC Global,tccglobal.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
+Stephen,Jones,stephen.jones@tccglobal.com,TCC Global,tccglobal.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
+Joanna,Adamiak,joanna.adamiak@sunday.de,Sunday Natural,sunday.de,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
+Friedrich John,Schneider,friedrich.schneider@sunday.de,Sunday Natural,sunday.de,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
+Jeff,Johnson,jeff@serenitycbd.com,Serenity CBD,serenitycbd.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
+Nicolai,Huschke,nicolai.huschke@sanaexpert.de,SanaExpert,sanaexpert.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
+Carlos Miguel,Peraile Cuenca,carlos.peraile@sanaexpert.de,SanaExpert,sanaexpert.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
+Alexander,Bernikas,alex@trendraider.de,SIRPLUS,https://www.body-attack.de/,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
+Patrik,Fuchs,patrik@scooper.energy,SCOOPER Energy,scooper.energy,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
 Michael,Gueth,michael@scooper.energy,SCOOPER Energy,scooper.energy,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
+Max,Jürgens,max@salufast.com,SALUFAST,salufast.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
+Andy,Graf,andy@salufast.com,SALUFAST,salufast.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
+Nicolas,Gros,nicolas@salufast.com,SALUFAST,salufast.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
 Caroline,Prauß,cp@rockanutrition.de,Rocka Sports,rockanutrition.de,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
 Theo,Mahlke,tm@rockanutrition.de,Rocka Sports,rockanutrition.de,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
+Johannes,Krause,jk@r2-bike.com,R2BIKE,r2-bike.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
 Alexander,Shulga,as@r2-bike.com,R2BIKE,r2-bike.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
 Klaus,Müller,klaus.mueller@purenature.de,PureNature für Allergiker,purenature.de,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
 Remo,Fyda,rfyda@provenexpert.com,ProvenExpert,provenexpert.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
@@ -3162,17 +3185,10 @@ Nichol,Callaghan,nicholc@proteinworks.com,Protein Works,proteinworks.com,,🧪 T
 Anna,Sward,annas@theproteinworks.com,Protein Works,theproteinworks.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
 Mark,Coxhead,markc@theproteinworks.com,Protein Works,proteinworks.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
 Laura,Keir,laurak@theproteinworks.com,Protein Works,proteinworks.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
-Ollie,Chissell,olliec@theproteinworks.com,Protein Works,theproteinworks.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
-Chris,St John,chris@primusinterpares.co.uk,Primus Inter Pares ltd,primusinterpares.co.uk,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
 Andrea,Dahm,andrea.dahm@primaveralife.com,Primavera Life,primaveralife.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
 Valeria,Navea,vnavea@pinterest.com,Pinterest,pinterest.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
 Emily,Parlapiano,emily.parlapiano@gmail.com,Pinterest,,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
 Martin,Vesper,martin.vesper@pfeifer-langen.com,Pfeifer & Langen,pfeifer-langen.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
-Michael,Schaupp,michael.schaupp@pfeifer-langen.com,Pfeifer & Langen,pfeifer-langen.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
-Andreas,Ridder,andreas.ridder@pfeifer-langen.de,Pfeifer & Langen,pfeifer-langen.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
-Jonas,Ueckermann,jonas.ueckermann@peak.ag,Peak Performance Products,peak.de,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
-Viktoria,Maas,viktoria@purish.com,PURISH,purish.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
-Hannes,Daher,hannes@purish.com,PURISH,purish.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
 Priyanka,Sharma,priyanka.sharma@thehutgroup.com,Myprotein,myprotein.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
 Lüder,Holsten,lueder@loewenanteil.com,Löwenanteil,loewenanteil.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
 Jasmine,Mays,jasmine@jasminemaysfitness.com,Jasmine Mays Fitness,jasminemaysfitness.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
@@ -3182,26 +3198,10 @@ Emma,Love,emma.love@bulk.com,Bulk™,bulk.com,,🧪 TS Lab | Germany-403 | Decis
 Awichai,Peker,awichai@thehappiesthour.eu,The Happiest Hour Europe,thehappiesthour.eu,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
 Sven,Kalies,sven.kalies@thankyoujane.de,Thankyoujane,thankyoujane.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
 Naveen,Jampala,njampala@terra-fertil.com,Terrafertil Uk Limited,terra-fertil.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
-Vikranth,Reddy,vikranth@trybwear.com,TRYBWEAR,trybwear.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
 Axel,Sonnenstuhl,sonnenstuhl@tisso.de,TISSO Naturprodukte,tisso.de,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
 Florian,Pollok,florian.pollok@tisso.de,TISSO Naturprodukte,tisso.de,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
-Veit,Seemann,veit.seemann@tisso.de,TISSO Naturprodukte,tisso.de,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
-Nikolaj F.,Skarbye,nikolaj.skarbye@tccglobal.com,TCC Global,tccglobal.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
-Karin,Neuhaus,karin.neuhaus@tccglobal.com,TCC Global,tccglobal.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
-Stephen,Jones,stephen.jones@tccglobal.com,TCC Global,tccglobal.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
-Joanna,Adamiak,joanna.adamiak@sunday.de,Sunday Natural,sunday.de,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
 Felix,Rottmann,felix.rottmann@freenet.de,Sunday Natural,http://www.smartsleep.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
-Friedrich John,Schneider,friedrich.schneider@sunday.de,Sunday Natural,sunday.de,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
 Thorsten,Piontek,piontek@greenist.de,Seven Mobile Communications,7mobile.de,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
-Jeff,Johnson,jeff@serenitycbd.com,Serenity CBD,serenitycbd.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
-Nicolai,Huschke,nicolai.huschke@sanaexpert.de,SanaExpert,sanaexpert.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
-Carlos Miguel,Peraile Cuenca,carlos.peraile@sanaexpert.de,SanaExpert,sanaexpert.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
-Alexander,Bernikas,alex@trendraider.de,SIRPLUS,https://www.body-attack.de/,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
-Patrik,Fuchs,patrik@scooper.energy,SCOOPER Energy,scooper.energy,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
-Max,Jürgens,max@salufast.com,SALUFAST,salufast.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
-Andy,Graf,andy@salufast.com,SALUFAST,salufast.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
-Nicolas,Gros,nicolas@salufast.com,SALUFAST,salufast.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
-Johannes,Krause,jk@r2-bike.com,R2BIKE,r2-bike.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
 Yen,Dang,yendang@maisonrmi.com,Maison Retail Management International,maisonrmi.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
 Julia,Lang,julia@innonature.eu,InnoNature,innonature.me,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
 Martin,Anderko,martin.anderko@gymbeam.com,GymBeam,gymbeam.com,,🧪 TS Lab | Germany-403 | Decision Makers | 21/Jul/2026
