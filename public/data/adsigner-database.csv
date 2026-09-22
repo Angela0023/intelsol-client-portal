@@ -1,16 +1,5 @@
 first_name,last_name,email,company_name,website,linkedin_url,campaign_name
-Rastko,Ilic,rastko.ilic@factoryww.com,Factory Group,factoryww.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
-Mladen,Sladojevic,mladen.sladojevic@codolis.com,Codolis,codolis.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
-Miloš,Mirjanić,milos.mirjanic@inmind.rs,Inmind,inmind.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
-Milica,Djokovic,milica.djokovic@onikron.com,Onikron,onikron.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
-Marko,Nikolić,marko.nikolic@inssio.com,INSSIO,inssio.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
-Marija,Nikšić,marija.niksic@codeup.rocks,CodeUp,codeup.rocks,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
-Ivana,Pejović,ivana.pejovic@codeup.rocks,CodeUp,codeup.rocks,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
-Ivana,Amidzic,ivana.amidzic@vegait.rs,Vega IT,vegaitglobal.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
-Dragana,Sreckov,dragana.sreckov@tiacgroup.com,TIAC,tiacgroup.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
-Dejan,Jocic,dejan.jocic@dilig.net,Diligent,dilig.net,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
 Zoran,Kovacevic,zoran.kovacevic@codetri.be,Codetribe,codetri.be,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
-Zeljka,Popovic,zeljka.popovic@dibtravel.com,DIB Travel,dibtravel.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
 Vladimir,Jokic,vladimir.jokic@vegait.rs,Vega IT,vegaitglobal.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
 Vaso,Stokić,vaso.stokic@global-engineering-technologies.com,GET,getbgd.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
 Vanja,Sulomar,vanja.sulomar@intens.rs,Intens,intens.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
@@ -18,50 +7,59 @@ Tijana,Čizmić,tijana.cizmic@tiacgroup.com,TIAC,tiacgroup.com,,📝 AdSigner | 
 Stefan,Grujic,stefan@birdseye.ca,BVP,bvpserbia.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
 Sonja,Miljkovic,sonja.miljkovic@fincore.com,Finbet,finbet.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
 Sinisa,Avramovic,sinisa.avramovic@pannonia-expertise.net,Pannonia Expertise d.o.o,pannonia-expertise.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
+Rastko,Ilic,rastko.ilic@factoryww.com,Factory Group,factoryww.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
 Nina,Nikolajević,nina.nikolajevic@vegait.rs,Vega IT,vegaitglobal.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
 Nenad,Stojanovic,nenad.stojanovic@dilig.net,Diligent,dilig.net,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
 Nemanja,Krstivojevic,nemanja@codeup.rocks,CodeUp,codeup.rocks,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
 Mladen,Stanojevic,mladen@sotexsolutions.com,Sotex Solutions,sotexsolutions.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
-Milana,Jovanov,milana@simple-task.com,Simple Task llc,simple-task.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
+Mladen,Sladojevic,mladen.sladojevic@codolis.com,Codolis,codolis.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
+Miloš,Mirjanić,milos.mirjanic@inmind.rs,Inmind,inmind.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
+Milica,Djokovic,milica.djokovic@onikron.com,Onikron,onikron.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
 Milan,Krunic,milan.krunic@codetiq.io,CODETIQ,codetiq.io,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
-Marko,Djuric,marko.djuric@interventure.info,InterVenture,interventure.info,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
+Marko,Nikolić,marko.nikolic@inssio.com,INSSIO,inssio.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
+Marija,Nikšić,marija.niksic@codeup.rocks,CodeUp,codeup.rocks,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
 Maja,Alic Dudjik,maja@alasdoo.com,ALAS doo,alasdoo.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
 Jelena,Sami,jelena@itekako.com,Itekako,itekako.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
 Jana,Dimitrijevic,jana.dimitrijevic@inmind.rs,Inmind,inmind.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
 Ivan,Dabic,ivand@bluegrid.io,BlueGrid.io,bluegrid.io,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
+Ivana,Pejović,ivana.pejovic@codeup.rocks,CodeUp,codeup.rocks,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
 Ivana,Djurdjevic,ivana.djurdjevic@htecgroup.com,HTEC,htecgroup.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
+Ivana,Amidzic,ivana.amidzic@vegait.rs,Vega IT,vegaitglobal.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
 Ivan,Jankovic,ivan@birdseye.ca,BVP,bvpserbia.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
 Ivan,Culjak,ivan.culjak@prozone.rs,Tubeiq,tubeiq.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
 Goran,Tarlac,goran.tarlac@fincore.com,Finbet,finbet.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
 Dusko,Hamzic,dusko.hamzic@fiscal-solutions.com,Fiscal Solutions,fiscal-solutions.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
-Duska,Bebic,duska.bebic@fincore.com,Finbet,finbet.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
+Dragana,Sreckov,dragana.sreckov@tiacgroup.com,TIAC,tiacgroup.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
 Dragan,Gojkovic,dragan.gojkovic@dilig.net,Diligent,dilig.net,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
-Dejan,Smiljanic,dejan.smiljanic@tubeiq.net,Tubeiq,tubeiq.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
+Dejan,Jocic,dejan.jocic@dilig.net,Diligent,dilig.net,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
 Branka,Pletikapa,branka.pletikapa@fincore.com,Finbet,finbet.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
 Arsen,Kostic,arsen.kostic@baksonltd.com,Bakson,baksonltd.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
 Anita,Kalinic,anita@birdseye.ca,BVP,bvpserbia.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
 Aleksandar,Slavnic,aleksandar@birdseye.ca,BVP,bvpserbia.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
 Aleksandar,Radoičić,aleksandar.radoicic@tubeiq.net,Tubeiq,tubeiq.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
+Zeljka,Popovic,zeljka.popovic@dibtravel.com,DIB Travel,dibtravel.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
+Milana,Jovanov,milana@simple-task.com,Simple Task llc,simple-task.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
+Marko,Djuric,marko.djuric@interventure.info,InterVenture,interventure.info,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
+Duska,Bebic,duska.bebic@fincore.com,Finbet,finbet.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
+Dejan,Smiljanic,dejan.smiljanic@tubeiq.net,Tubeiq,tubeiq.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 6 | C-Level / CEO
 Nemanja,Males,nemanja.males@emakina.rs,Emakina.RS,emakina.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 5 | SEO/Digital Marketing
 Natasa,Stojadinovic,natasa.stojadinovic@codetri.be,Codetribe,codetri.be,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 5 | SEO/Digital Marketing
 Marija,Dzakovic,marija.dzakovic@vegait.rs,Vega IT,vegaitglobal.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 5 | SEO/Digital Marketing
 Jovana,Markovic,jovana.markovic@vegait.rs,Vega IT,vegaitglobal.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 5 | SEO/Digital Marketing
 Ivana,Roksandic,ivana.roksandic@vegait.rs,Vega IT,vegaitglobal.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 5 | SEO/Digital Marketing
 Cetko,Okiljevic,cetko.okiljevic@icodefactory.com,ICodeFactory,icodefactory.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 5 | SEO/Digital Marketing
-Todor,Kunovski,todor.kunovski@ibis-instruments.com,IBIS Instruments,ibis-instruments.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 4 | Sales Lead
-Sandra,Lazic,sandra.lazic@itengine.se,IT Engine,itengine.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 4 | Sales Lead
 Zarko,Kaludjerovic,zarko.kaludjerovic@htecgroup.com,HTEC,htecgroup.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 4 | Sales Lead
+Todor,Kunovski,todor.kunovski@ibis-instruments.com,IBIS Instruments,ibis-instruments.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 4 | Sales Lead
 Teodora,Drazovic,teodora.drazovic@global-engineering-technologies.com,GET,getbgd.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 4 | Sales Lead
 Tamara,Beršić,t.bersic@price2spy.com,Price2Spy,price2spy.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 4 | Sales Lead
 Stevan,Petrovic,stevan.petrovic@dct.rs,DCT - Data Cloud Technology,dct.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 4 | Sales Lead
 Sinisa,Bozic,sbozic@algotech.rs,Algotech Beograd,algotech.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 4 | Sales Lead
 Sanja,Stojakovic,sanja.stojakovic@vegait.rs,Vega IT,vegaitglobal.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 4 | Sales Lead
+Sandra,Lazic,sandra.lazic@itengine.se,IT Engine,itengine.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 4 | Sales Lead
 Radmila,Aleksić,r.aleksic@price2spy.com,Price2Spy,price2spy.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 4 | Sales Lead
 Predrag,Rajicic,predrag.rajicic@gdc-services.tech,GDC Services,gdc-services.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 4 | Sales Lead
 Petar,Dotlic,petar.dotlic@global-engineering-technologies.com,GET,getbgd.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 4 | Sales Lead
-Nikola,Krstic,nikola.krstic@global-engineering-technologies.com,GET,getbgd.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 4 | Sales Lead
 Nemanja,Frol,n.frol@beeit.rs,Bee IT,beeit.io,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 4 | Sales Lead
-Marko,Toljan,mtoljan@algotech.rs,Algotech Beograd,algotech.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 4 | Sales Lead
 Milena,Otić,motic@khaoticen.com,Khaoticen,khaoticen.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 4 | Sales Lead
 Marko,Zdravkovski,marko.zdravkovski@htecgroup.com,HTEC,htecgroup.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 4 | Sales Lead
 Miodrag,Jovic,m.jovic@beeit.rs,Bee IT,beeit.io,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 4 | Sales Lead
@@ -78,35 +76,31 @@ Anja,Gladic,anja.gladic@sotexsolutions.com,Sotex Solutions,sotexsolutions.com,,�
 Ana,Gaborović,ana.gaborovic@global-engineering-technologies.com,GET,getbgd.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 4 | Sales Lead
 Aleksandar,Zivkovic,aleksandar.zivkovic@kimtec.rs,KimTec Srbija,kimtec.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 4 | Sales Lead
 Aleksandra,Vujanac,a.vujanac@vegaitsourcing.rs,Vega IT,vegaitglobal.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 4 | Sales Lead
-Vladimira,Stankovic,vladimira.stankovic@tiacgroup.com,TIAC,tiacgroup.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 3 | HR Lead
-Dunja,Stojakovic,dunja.stojakovic@intens.rs,Intens,intens.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 3 | HR Lead
-Marija,Vasić,mvasic@khaoticen.com,Khaoticen,khaoticen.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 3 | HR Lead
-Bojana,Sajlović,bojana.sajlovic@htec.com,HTEC,htecgroup.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 3 | HR Lead
-Marijana,Simonović,marijana.simonovic@artifactory.rs,Artifactory,artifactory.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 3 | HR Lead
-Sofija,Žunić,sofija.zunic@itengine.rs,IT Engine,itengine.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 3 | HR Lead
-Darija,Vidaković,darija.vidakovic@gdc-services.tech,GDC Services,gdc-services.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 3 | HR Lead
-Anand,Mehta,anand.mehta@fivetran.com,Fivetran,fivetran.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 3 | HR Lead
+Nikola,Krstic,nikola.krstic@global-engineering-technologies.com,GET,getbgd.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 4 | Sales Lead
+Marko,Toljan,mtoljan@algotech.rs,Algotech Beograd,algotech.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 4 | Sales Lead
 Nataša,Ostojić,natasa.ostojic@ewe.rs,Ewe Comp,ewe.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 3 | HR Lead
 Katarina,Gačević,katarina.gacevic@gopro.rs,GoPro,gopro.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 3 | HR Lead
+Vladimira,Stankovic,vladimira.stankovic@tiacgroup.com,TIAC,tiacgroup.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 3 | HR Lead
 Slavica,Krezović,s.krezovic@beeit.rs,Bee IT,beeit.io,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 3 | HR Lead
 Ista,Mandić Putnik,ista.mandicputnik@misystemsgroup.com,M&I Systems Group,misystemsgroup.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 3 | HR Lead
-Aleksandra,Vukajlovic,aleksandra.vukajlovic@misystemsgroup.com,M&I Systems Group,misystemsgroup.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 3 | HR Lead
+Dunja,Stojakovic,dunja.stojakovic@intens.rs,Intens,intens.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 3 | HR Lead
 Olja,Vasilev,olja.vasilev@pannonia-expertise.net,Pannonia Expertise d.o.o,pannonia-expertise.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 3 | HR Lead
 Tamara,Strugarevic,tamara.strugarevic@fincore.com,Finbet,finbet.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 3 | HR Lead
 Maja,Nedučić,m.neducic@vegaitsourcing.rs,Vega IT,vegaitglobal.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 3 | HR Lead
 Dusan S.,Jovanovic,dusanj@saglobal.com,sa.global,sa.global,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 3 | HR Lead
 Tamara,Kostić,tamara.kostic@cyberlab.rs,CYBERLAB,cyberlab.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 3 | HR Lead
+Marija,Vasić,mvasic@khaoticen.com,Khaoticen,khaoticen.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 3 | HR Lead
 Ivana,Mijatovic,ivana.mijatovic@cubes.rs,Cubes,cubes.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 3 | HR Lead
 Gina,Simmons,gina.simmons@htecgroup.com,HTEC,htecgroup.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 3 | HR Lead
+Bojana,Sajlović,bojana.sajlovic@htec.com,HTEC,htecgroup.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 3 | HR Lead
+Marijana,Simonović,marijana.simonovic@artifactory.rs,Artifactory,artifactory.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 3 | HR Lead
 Snezana,Djurovic,snezana.djurovic@soprex.com,Soprex,soprex.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 3 | HR Lead
-Jelena,Mladenović,jelena.mladenovic@baksonltd.com,Bakson,baksonltd.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 3 | HR Lead
+Sofija,Žunić,sofija.zunic@itengine.rs,IT Engine,itengine.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 3 | HR Lead
 Nikolija,Stanojević,nikolija.stanojevic@gdc-services.tech,GDC Services,gdc-services.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 3 | HR Lead
-Dragana,Zelić,dragana.zelic@ninamedia.rs,Ninamedia,ninamedia.info,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
-Marko,Rajic,marko.rajic@hooloovoo.rs,HOOLOOVOO,hooloovoo.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
-Luka,Obradović,luka.obradovic@hooloovoo.rs,HOOLOOVOO,hooloovoo.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
-Zeljko,Vukovic,zeljkov@gecko.rs,Gecko Solutions,gecko.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
-Gradimir,Cvetkovic,g.cvetkovic@energodata.rs,Energoprojekt Energodata,energodata.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
-Bojan,Tanasijevic,bojan.tanasijevic@comtrade.com,Comtrade Group,comtrade.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
+Darija,Vidaković,darija.vidakovic@gdc-services.tech,GDC Services,gdc-services.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 3 | HR Lead
+Anand,Mehta,anand.mehta@fivetran.com,Fivetran,fivetran.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 3 | HR Lead
+Aleksandra,Vukajlovic,aleksandra.vukajlovic@misystemsgroup.com,M&I Systems Group,misystemsgroup.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 3 | HR Lead
+Jelena,Mladenović,jelena.mladenovic@baksonltd.com,Bakson,baksonltd.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 3 | HR Lead
 Alexander,Kosmin,a.kosmin@vekas-automation.ru,VEKAS | Serbia,vekas-automation.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
 Olga,Nisevic,o.nisevic@vegaitsourcing.rs,Vega IT,vegaitglobal.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
 Boban,Miksin,b.miksin@vegaitsourcing.rs,Vega IT,vegaitglobal.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
@@ -117,7 +111,6 @@ Zoran,Vujkov,zoran.vujkov@united.cloud,United.Cloud,united.cloud,,📝 AdSigner 
 Petar,Vucelja,petar.vucelja@united.cloud,United.Cloud,united.cloud,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
 Ivan,Pavlović,ivan.pavlovic@united.cloud,United.Cloud,united.cloud,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
 Dejan,Kocic,dejan.kocic@united.cloud,United.Cloud,united.cloud,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
-Sinisa,Medic,sinisa.medic@tnation.eu,TNation,tnation.eu,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
 Arsen,Milosev,arsen.milosev@tiacgroup.com,TIAC,tiacgroup.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
 Velibor,Vasic,velibor.vasic@telegroup-ltd.com,TeleGroup,telegroup-ltd.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
 Milan,Miodragović,milan.miodragovic@telegroup-ltd.com,TeleGroup,telegroup-ltd.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
@@ -128,9 +121,6 @@ Sugandhi,J.Bhasin,sugandhi.jbhasin@schneider-electric.com,Schneider Electric,se.
 Nenad,Opačić,nenad.opacic@saga.rs,Saga Beograd,saga.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
 Mališa,Stojanović,malisa.stojanovic@saga.rs,Saga Beograd,saga.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
 Ivana,Gajovic,ivana.gajovic@saga.rs,Saga Beograd,saga.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
-Bojan,Ostojić,bojan.ostojic@saga.rs,Saga Beograd,saga.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
-Nemanja,Lukic,nemanja.lukic@rt-rk.com,RT-RK,rt-rk.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
-Djordje,Saric,djordje.saric@rt-rk.com,RT-RK,rt-rk.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
 Srđan,Marković,sm@rbt.rs,Red Black Tree,rbt.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
 Dejan,Vujic,dejan.vujic@rbt.rs,Red Black Tree,rbt.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
 Srdjan,Sakic,srdjan.sakic@quantox.com,Quantox Technology,quantox.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
@@ -140,11 +130,11 @@ Nikola,Tomasevic,nikola.tomasevic@pupin.rs,Institute Mihajlo Pupin,pupin.rs,,�
 Mirjana,Katic,mirjana.katic@pupin.rs,Institute Mihajlo Pupin,pupin.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
 Bojan,Papic,bojan.papic@pupin.rs,Institute Mihajlo Pupin,pupin.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
 Milan,Parojčić,milan.parojcic@ninamedia.rs,Ninamedia,ninamedia.info,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
+Dragana,Zelić,dragana.zelic@ninamedia.rs,Ninamedia,ninamedia.info,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
 Stanislav,Mudrinski,stanislav.mudrinski@navigator.rs,Navigator doo,navigator.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
 Veljko,Ćeran,veljko.ceran@misystemsgroup.com,M&I Systems Group,misystemsgroup.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
 Milan,Sekulović,milan.sekulovic@megatrend.rs,Megatrend a.d.,megatrend.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
 Zarko,Stupar,zstupar@mds.rs,MDS Informaticki inzenjering,mds.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
-Sinisa,Djokic,sdjokic@mds.rs,MDS Informaticki inzenjering,mds.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
 Ivan,Dimitrijevic,ivan.dimitrijevic@mainstream.eu,Mainstream,mainstream.eu,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
 Bojan,Vitnik,bojan.vitnik@mainstream.rs,Mainstream,mainstream.eu,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
 Nenad,Manasijevic,nmanasijevic@khaoticen.com,Khaoticen,khaoticen.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
@@ -153,24 +143,34 @@ Miloš,Smiljković,milos.smiljkovic@inmind.rs,Inmind,inmind.rs,,📝 AdSigner | 
 Slobodan,Boljanovic,slobodan.boljanovic@htecgroup.com,HTEC,htecgroup.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
 David,Seničić,david.senicic@htec.com,HTEC,htecgroup.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
 Aleksandar,Kahriman,aleksandar.kahriman@htec.com,HTEC,htecgroup.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
+Marko,Rajic,marko.rajic@hooloovoo.rs,HOOLOOVOO,hooloovoo.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
+Luka,Obradović,luka.obradovic@hooloovoo.rs,HOOLOOVOO,hooloovoo.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
 Dunja,Stanivukovic,dunja.stanivukovic@hooloovoo.rs,HOOLOOVOO,hooloovoo.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
 Vladimir,Lalovic,vladimir.lalovic@holycode.com,Holycode™,holycode.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
-Bojana,Krstic,bojana.stegnjaic@holycode.com,Holycode™,holycode.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
+Zeljko,Vukovic,zeljkov@gecko.rs,Gecko Solutions,gecko.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
 Nemanja,Đorđević,nemanja@finiti.rs,Finiti Solutions,finiti.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
 Goran,Milic,goran.milic@ewe.rs,Ewe Comp,ewe.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
+Gradimir,Cvetkovic,g.cvetkovic@energodata.rs,Energoprojekt Energodata,energodata.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
 Gavrilo,Belacevic,gavrilo@deversity.com,deversity,deversity.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
 Miso,Jankovic,miso.jankovic@dct.rs,DCT - Data Cloud Technology,dct.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
-Nataša,Kovačević,natasa.kovacevic@cyberlab.rs,CYBERLAB,cyberlab.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
 Aleksandar,Dimić,aleksandar.dimic@cubes.rs,Cubes,cubes.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
-Djordje,Nikolic,djordje.nikolic@createq.space,CREATEQ,createq.space,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
 Stefan,Radibratović,stefan.radibratovic@comtrade.com,Comtrade System Integration,comtradeintegration.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
 Srdjan,Mladjenovic,srdjan.mladjenovic@comtrade.com,Comtrade System Integration,comtradeintegration.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
 Boris,Terzic,boris.terzic@comtrade.com,Comtrade Group,comtrade.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
+Bojan,Tanasijevic,bojan.tanasijevic@comtrade.com,Comtrade Group,comtrade.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
 Marko,Arsenovic,marko.arsenovic@codolis.com,Codolis,codolis.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
 Lazar,Pantovic,lazar@codetri.be,Codetribe,codetri.be,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
-Mile,Stojakovic,mile.stojakovic@bluegrid.io,BlueGrid.io,bluegrid.io,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
 Slobodan,Kovacevic,slobodan@axiomq.com,AxiomQ - Perfecting Business Digitalization,axiomq.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
 Milos,Milutinovic,milos.milutinovic@avisto-eastern.com,Avisto Eastern Europe,avisto-eastern.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
+Sinisa,Medic,sinisa.medic@tnation.eu,TNation,tnation.eu,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
+Bojan,Ostojić,bojan.ostojic@saga.rs,Saga Beograd,saga.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
+Nemanja,Lukic,nemanja.lukic@rt-rk.com,RT-RK,rt-rk.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
+Djordje,Saric,djordje.saric@rt-rk.com,RT-RK,rt-rk.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
+Sinisa,Djokic,sdjokic@mds.rs,MDS Informaticki inzenjering,mds.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
+Bojana,Krstic,bojana.stegnjaic@holycode.com,Holycode™,holycode.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
+Nataša,Kovačević,natasa.kovacevic@cyberlab.rs,CYBERLAB,cyberlab.rs,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
+Djordje,Nikolic,djordje.nikolic@createq.space,CREATEQ,createq.space,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
+Mile,Stojakovic,mile.stojakovic@bluegrid.io,BlueGrid.io,bluegrid.io,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
 Bojana,Tejic,bojana.sarac@3lateral.com,3Lateral,3lateral.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 2 | IT Lead
 Uroš,Gostović,u.gostovic@vegaitsourcing.rs,Vega IT,vegaitglobal.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 1 | Marketing Lead
 Peter,Krkoč,peter.krkoc@saop.si,Seyfor Slovenija,seyfor.com,,📝 AdSigner | Software & IT | Serbia & Montenegro | Tier 1 | Marketing Lead
@@ -258,6 +258,12 @@ Khaled,Yakdan,yakdan@code-intelligence.com,Code Intelligence,code-intelligence.c
 Wieland,Schreiner,wieland.schreiner@sap.com,Aareon Group,aareon.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | IT Lead
 Richard,Zimmermann,richard.zimmermann@nordcloud.com,"Nordcloud, an IBM Company",nordcloud.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | IT Lead
 Lars,Zuckschwerdt,l.zuckschwerdt@abtis.de,abtis,abtis.de,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | IT Lead
+Jorge,Maldonado,jorge.gaitanmaldonado@elastic.co,Elastic,elastic.co,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Henriette,Resing,henriette.resing@payback.net,PAYBACK,payback.group,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Henrike-Augustine,Birkholz,h.birkholz@green-fusion.de,Green Fusion GmbH,green-fusion.de,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Giselle,Robeson,giselle.robeson@fiery.com,Fiery,fiery.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Gino,Heetkamp,gino.heetkamp@linkit.nl,LINKIT,linkit.nl,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Florian,Urmann,florian.urmann@circula.com,Circula,circula.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Fernando,Terry,fernando.terry@maibornwolff.de,MaibornWolff GmbH,maibornwolff.de,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Felix,Schierenberg,felix.schierenberg@materna.de,Materna GmbH,materna.de,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Fei,Gao,fei.gao@hootsuite.com,Hootsuite,hootsuite.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
@@ -301,9 +307,11 @@ Erika,Kavalis,e.kavalis@amberlo.io,SEPTEO,septeo.com,,📝 AdSigner | Software &
 Dzmitry,Shcherba,dzmitry.shcherba@leverx.com,LeverX,leverx.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Dunja,Riehemann,dunja.riehemann@osapiens.com,BE-terna,be-terna.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Dana,Ran,dran@dropbox.com,Dropbox,dropbox.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Dragan,Ivanov,dragan.ivanov@netcetera.com,G+D Netcetera,netcetera.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Dóra,Bruhse,dora.bruhse@whaletv.com,Whale TV,whaletv.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 D'Netria,Spear,dnetria.spear@gbg.com,GBG Plc,gbg.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 David,McCourt,dmccourt@qnx.com,BlackBerry QNX,qnx.software,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Dimitar,Hadzhiolov,dimitar.hadzhiolov@chaos.com,Chaos,chaos.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Diana,Mittel,diana.mittel@promx.net,proMX AG,promx.net,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Diana,Alonso,diana.alonso@qlikview.com,Qlik,qlik.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Dia,Kalakonas,dia.kalakonas@bottomline.com,Bottomline,bottomline.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
@@ -629,8 +637,94 @@ Chus,Llorente,mcasado@prodware.es,Prodware,prodwaregroup.com,,📝 AdSigner | So
 Martine,Billmann,mbillmann@genetec.com,Genetec,genetec.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Matthias,Seidel,matthias.seidel@est1978.de,Rencore,rencore.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Martin,Kanaan,martin.kanaan@makolab.com,MakoLab,makolab.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Ann-Christin,Peters,ann-christin.peters@aareon.de,Aareon DACH,aareon.de,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Andreas,Stemmer,andreas.stemmer@acp.at,ACP Gruppe,acp-gruppe.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Alexandra,Skroblin,alexandra.skroblin@edoc.de,edoc solutions gmbh,edoc.de,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Aleksandra,Kupracz,aleksandra.kupracz@cloudity.pl,Cloudity,cloudity.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Amy,Hall,ahall@genetec.com,Genetec,genetec.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Zoriana,Bogutska,zbogutska@adaptavist.com,Adaptavist,adaptavist.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Yury,Rasolka,yury.rasolka@innowise-group.com,Innowise Group,innowise.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Vanessa,Huber,vanessa.huber@spendit.de,SPENDIT AG,spendit.de,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Tobias,Fackler,tobias.fackler@diconium.com,diconium,diconium.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Tina,Stewart,tina.stewart@utimaco.com,Utimaco,utimaco.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Tamara,Gilotaux,tgilotaux@thechannelco.com,Qlik,qlik.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Camilla,Tuborgh,tc@conscia.com,Conscia,conscia.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Suzy,B.,suzy.balk@qt.io,Qt Group,qt.io,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Susan,Ganeshan,susan.ganeshan@emplifi.io,Emplifi,emplifi.io,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Stuart,Barnes,stuart.barnes@hubject.com,Hubject,hubject.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Stephen,Lake,stephen.lake@solarwinds.com,SolarWinds,solarwinds.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Stephan,Wagner,stephan.wagner@empolis.com,Empolis Information Management GmbH,empolis.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Stefanie,Arnold,stefanie.staack@acp.de,ACP Gruppe,acp-gruppe.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Stefanie,Meier,stefanie.meier@exasol.com,Exasol,exasol.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Soumya,Dhar,soumya@utahtechlabs.com,Utah Tech Labs,utahtechlabs.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Sophie,Zeng,sophie.zeng@emqx.io,杭州映云科技有限公司,emqx.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Sophia,Martino,sophia.martino@atoss.com,ATOSS Software SE,atoss.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Swetlana,Maschinez,smaschinez@psi.de,PSI Software - Process Industries & Metals,psi.de,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Selina,Sutera,selina.sutera@compeople.de,compeople AG,compeople.de,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Sarah,CHAFAI,schafai@onetrust.com,OneTrust,onetrust.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Svenja,Bokop,sbokop@sievers-group.com,SIEVERS-GROUP,sievers-group.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Sarina,Viellieber,sarina.viellieber@casavi.com,casavi GmbH,casavi.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Sarah,Marketing,sarah.clark@qlik.com,Qlik,qlik.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Sanja,Panfilov,sanja.panfilov@telekom.de,Deutsche Telekom IoT,telekom.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Sam,Day,sam.day@virtusdatacentres.com,VIRTUS Data Centres,virtusdatacentres.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Rosalin,Ganter,rosalin.ganter@cas.de,CAS Software AG,cas.de,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Robin,Reinhold,robin.reinhold@stepstone.com,The Stepstone Group,thestepstonegroup.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Rohan,Fernandes,rfernandes@asana.com,Asana,asana.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+René,Werner,rene.werner@acp.de,ACP Gruppe,acp-gruppe.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+David,Reichel,reichel@serviceocean.com,ServiceOcean AG,serviceocean.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Rebecca,Annies,rebecca.annies@promx.net,proMX AG,promx.net,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Richard,Birks,rbirks@adaptavist.com,Adaptavist,adaptavist.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Ravinder,Kibbe,ravinder.kibbe@freshworks.com,Freshworks,freshworks.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Ha,Cao,phuong.cao@sparetech.io,SPARETECH,sparetech.io,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Philipp,Saenger,philipp.saenger@eschbach.com,eschbach,eschbach.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Patrick,Weisweiler,patrick.weisweiler@check24.de,CHECK24 Vergleichsportal,check24.de,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Pat,Johnson,pat.johnson@uberall.com,Uberall,uberall.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Paolo,Brega,paolo.brega@tai.it,TAI SOLUTIONS,taisolutions.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Oliver,Rolinson,oliver.rolinson@haiilo.com,Haiilo,haiilo.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Oliver,Gaspar,oliver.gaspar@assessio.com,Assessio,assessio.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Oleksii,Kutsenko,oleksii.kutsenko@centralnic.com,Team Internet,teaminternet.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Nicole,Lontzek,nicole.lontzek@qaware.de,QAware GmbH,qaware.de,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Nicolas,Hinz,nicolas.hinz@retarus.de,Retarus,retarus.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Nhu,Dao,nhu.dao@kertos.io,Kertos,kertos.io,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Nerilda,Meda,nerilda.meda@doctolib.com,Doctolib,doctolib.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Natalie,Seifert,natalie.seifert@orderbird.com,orderbird,orderbird.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Natalie,Sajons,natalie.sajons@acp.de,ACP Gruppe,acp-gruppe.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Nadja,Tannert,nadja.tannert@telekom.de,Telekom MMS,telekom-mms.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Mary,Wells,mwells@cloudera.com,Cloudera,cloudera.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Mirjam,Hermann,mirjam.hermann@usu.com,USU Solutions International,usu.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Mihaela-Cristina,Chiurtu,mihaela.chiurtu@sugarcrm.com,SugarAI,sugarai.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Michelle,Beckmann,michelle.beckmann@rib-ims.com,RIB IMS GmbH,rib-ims.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Michael,Vitt,michael.vitt@payback.net,PAYBACK,payback.group,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Michael,Mirwald,michael.mirwald@diconium.com,diconium,diconium.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Mirjam,Erler,merler@yaveon.com,Imendo,imendo.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Melanie,Bäger,melanie.baeger@all-for-one.com,All for One Group AG,all-for-one.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Mehul,Harry,mehul.harry@jetbrains.com,JetBrains,jetbrains.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Matthias,Stein,matthias.stein@intense.de,INTENSE AG,intense.de,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Martin,Stark,martin.stark@onedata.de,One Data,onedata.ai,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Marleen,van Dam,marleen.vandam@cm.com,CM.com,cm.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Mario,Radloff,mario.radloff@materna.group,Materna Information & Communications SE,materna.de,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Marie,Krüger,marie.krueger@dataciders.com,Dataciders GmbH,dataciders.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Maria,Vonderach,maria.vonderach@sherpany.com,SHERPANY,sherpany.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Maria,Magallanes,maria.magallanes@hsbcad.com,hsbcad,hsbcad.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Manuel,Brosch,manuel.brosch@fabasoft.com,Fabasoft,fabasoft.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Markus,Staudt,m.staudt@steinberg.de,Steinberg Media Technologies,steinberg.net,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Matthias,Quellmann,m.quellmann@steinberg.de,Steinberg Media Technologies,steinberg.net,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Mary,Kowalski,m.kowalski@diamant-software.de,Diamant Software GmbH,diamant-software.de,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Mariangela,Coppola,m.coppola@seeburger.com,SEEBURGER,seeburger.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Luis,Guzmán,luis@n8n.io,n8n,n8n.io,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Lucija,Fiolić,lucija.fiolic@infobip.com,Infobip,infobip.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Lucia,Reiter,lucia.reiter@mimacom.com,Mimacom,mimacom.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Lucile,Murcia,lmurcia@nextlane.com,Nextlane,nextlane.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Lisa,Placa,lisa.placa@netgo.de,netgo,netgo.de,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Lorraine,Brock,lbrock@dimedis.de,dimedis,dimedis.io,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Luise,Graab,lboehm@factory42.com,factory42 GmbH,factory42.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Laurence,A.,laurence.allen@red-gate.com,Redgate Software,red-gate.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Laura,Orozco,laura.orozco@sparetech.io,SPARETECH,sparetech.io,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Laura,Lindzinski,laura.lindzinski@netgo.de,netgo,netgo.de,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Larry,Burnett,larry.burnett@21cs.com,21CS,21cs.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Larissa,Stroehlen,larissa.stroehlen@boc-group.com,BOC Group,boc-group.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Lara,Folkmer,lara.folkmer@check24.de,CHECK24 Vergleichsportal,check24.de,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Lan,C.,lanchu@cloudera.com,Cloudera,cloudera.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Kelli,Wallace,kwallace@cloudera.com,Cloudera,cloudera.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Kurt,Blümlein,kurt.blumlein@bizagi.com,Bizagi,bizagi.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Katarina,Riedel,kriedel@maxcluster.de,maxcluster GmbH,maxcluster.de,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
@@ -648,7 +742,6 @@ Julie,Couchman,julie.couchman@bottomline.com,Bottomline,bottomline.com,,📝 AdS
 Juliane,Waack,juliane.waack@frisbii.com,Frisbii,frisbii.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Julian,Dawkins,julian.dawkins@infobip.com,Infobip,infobip.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Julia,Griemann,julia.griemann@payback.net,PAYBACK,payback.group,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Jorge,Maldonado,jorge.gaitanmaldonado@elastic.co,Elastic,elastic.co,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 John,Noone,john.noone@solarwinds.com,SolarWinds,solarwinds.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Jennifer,Woods,jennifer@auterion.com,Auterion,auterion.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Jennifer,Simon,jennifer.simon@payback.net,PAYBACK,payback.group,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
@@ -669,7 +762,6 @@ Indre,Wakil,i.wakil@bizzdesign.com,Bizzdesign,bizzdesign.com,,📝 AdSigner | So
 Hannah,Ulman,hulman@barracuda.com,Airship,airship.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Holly,Groom,holly.groom@thanksben.com,Ben,thanksben.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Hilke,Diepenbruck,hilke.diepenbruck@bsi-software.com,BSI Software,bsi-software.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Henriette,Resing,henriette.resing@payback.net,PAYBACK,payback.group,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Andrew,Heller,heller@austinhunsrugby.com,"Lares, a Damovo Company",damovo.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Heike,Kohler-Reineke,heike.kohler-reineke@conrizon.com,EASY SOFTWARE,easy-software.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Heidi,Peltonen,heidi.peltonen@superoffice.com,SuperOffice,superoffice.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
@@ -678,16 +770,14 @@ Heather,Laducer,heather.laducer@ecosio.com,ecosio,ecosio.com,,📝 AdSigner | So
 Harris,Qasim,harris.qasim@beam.ai,Beam,beam.ai,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Hannah,Loughlin,hannah.loughlin@earnix.com,Earnix,earnix.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Hagen,Burkhardt,h.burkhardt@projekt0708.de,p78,projekt0708.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Henrike-Augustine,Birkholz,h.birkholz@green-fusion.de,Green Fusion GmbH,green-fusion.de,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Gwendal,A.,gwendal.azous@wallix.com,WALLIX Group,wallix.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Gareth,Spencer,gspencer@prophix.com,Prophix,prophix.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Gregg,L.,gregg.linde@solarwinds.com,SolarWinds,solarwinds.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Gordon,Hunter,gordon.hunter@qlik.com,Qlik,qlik.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Gorden,Zahn,gorden.zahn@lobster.de,Lobster,lobstersoftware.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Gonçalo,Dias,goncalo.ladeira-dias@ecosio.com,ecosio,ecosio.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
+Gloria,Agostini,gloria.agostini@o9solutions.com,"o9 Solutions, Inc.",o9solutions.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Ina,Glaser,glaser@extedo.com,EXTEDO,extedo.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Giselle,Robeson,giselle.robeson@fiery.com,Fiery,fiery.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Gino,Heetkamp,gino.heetkamp@linkit.nl,LINKIT,linkit.nl,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Giacomo,Ranzini,giacomo.ranzini@guido-mobility.ch,SAG Digital,sag-digital.de,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Ghida,Badri,ghida@mvst.co,MVST.,mvst.co,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 George,Green,george.green@idealscorp.com,Ideals,idealsvdr.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
@@ -700,13 +790,10 @@ Frédéric,Titze,frederic.titze@iteratec.de,iteratec,iteratec.com,,📝 AdSigner
 Frauke,Schewe,frauke.schewe@superoffice.com,SuperOffice,superoffice.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Franziska,Wolf,franziska.wolf@salesfive.com,Salesfive,salesfive.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Franziska,Rummel,franziska.rummel@remberg.de,remberg,remberg.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Florian,Urmann,florian.urmann@circula.com,Circula,circula.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Florian,Goebel,florian.goebel@haiilo.com,Haiilo,haiilo.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Florian,Chaumont,florian.chaumont@doctolib.com,Doctolib,doctolib.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Filip,Gregor,filip.gregor@billigence.com,Billigence,billigence.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Filippo,Iannone,fiannone@thechannelcompany.com,Qlik,qlik.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Dragan,Ivanov,dragan.ivanov@netcetera.com,G+D Netcetera,netcetera.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Dimitar,Hadzhiolov,dimitar.hadzhiolov@chaos.com,Chaos,chaos.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Denny,Spirig,denny.spirig@weytec.com,WEYTEC,weytec.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Dan,Drury,daniel.drury@staffbase.com,Staffbase,staffbase.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Michaela,Osanger,michaela.osanger@fabasoft.com,Fabasoft,fabasoft.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
@@ -715,136 +802,50 @@ Maria,Pannunzio,bpannunzio@dataguard.de,DataGuard,dataguard.com,,📝 AdSigner |
 Benjamin,Juell,benjamin.juell@elastic.co,Elastic,elastic.co,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Barbara,Ofer,barbara.ofer@pcg.io,PCG - Public Cloud Group,pcg.io,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Magdalena,Antunovic,antunovic@prof-schumann.de,SCHUMANN,prof-schumann.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Ann-Christin,Peters,ann-christin.peters@aareon.de,Aareon DACH,aareon.de,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Andrew,Quicho,andrew.quicho@braze.com,Braze,braze.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Andreas,Stemmer,andreas.stemmer@acp.at,ACP Gruppe,acp-gruppe.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Allison,Wright,allisonviverito@deltek.com,Deltek,deltek.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Alexandra,Skroblin,alexandra.skroblin@edoc.de,edoc solutions gmbh,edoc.de,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Aleksandra,Kupracz,aleksandra.kupracz@cloudity.pl,Cloudity,cloudity.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Amy,Hall,ahall@genetec.com,Genetec,genetec.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Anastasia,Nikolaou,a.nikolaou@steinberg.de,Steinberg Media Technologies,steinberg.net,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Zoriana,Bogutska,zbogutska@adaptavist.com,Adaptavist,adaptavist.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Yury,Rasolka,yury.rasolka@innowise-group.com,Innowise Group,innowise.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Yulia,Anfilova,yulia.anfilova@jetbrains.com,JetBrains,jetbrains.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Yash,Arora,yash.arora@highradius.com,HighRadius,highradius.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Vanessa,SocM,vwood@adaptavist.com,Adaptavist,adaptavist.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Vivian,Lam,vlam@erp-is.com,ShipERP,shiperp.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Alessandro,Viola,viola@esteco.com,ESTECO,esteco.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Vanessa,Huber,vanessa.huber@spendit.de,SPENDIT AG,spendit.de,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Tobias,Weishaupt,tobias.weishaupt@bookingkit.com,bookingkit,bookingkit.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Tobias,Fackler,tobias.fackler@diconium.com,diconium,diconium.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Tina,Stewart,tina.stewart@utimaco.com,Utimaco,utimaco.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Thomas,Kutzner,thomas.kutzner@gambit.de,GAMBIT Consulting,gambit-group.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Tamara,Gilotaux,tgilotaux@thechannelco.com,Qlik,qlik.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Camilla,Tuborgh,tc@conscia.com,Conscia,conscia.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Thorsten,Letschert,t.letschert@decadis.de,Decadis,decadis.de,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Suzy,B.,suzy.balk@qt.io,Qt Group,qt.io,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Susan,Ganeshan,susan.ganeshan@emplifi.io,Emplifi,emplifi.io,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Stuart,Barnes,stuart.barnes@hubject.com,Hubject,hubject.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Stephen,Lake,stephen.lake@solarwinds.com,SolarWinds,solarwinds.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Stephan,Wagner,stephan.wagner@empolis.com,Empolis Information Management GmbH,empolis.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Stefanie,Arnold,stefanie.staack@acp.de,ACP Gruppe,acp-gruppe.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Stefanie,Meier,stefanie.meier@exasol.com,Exasol,exasol.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Soumya,Dhar,soumya@utahtechlabs.com,Utah Tech Labs,utahtechlabs.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Sophie,Zeng,sophie.zeng@emqx.io,杭州映云科技有限公司,emqx.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Sophia,Martino,sophia.martino@atoss.com,ATOSS Software SE,atoss.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Swetlana,Maschinez,smaschinez@psi.de,PSI Software - Process Industries & Metals,psi.de,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Silke,Schmitt,silke.schmitt@quanos.com,Quanos,quanos.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Sharon,Freas,sharon.freas@delinea.com,Delinea,delinea.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Shannon,Cronin,shannon.cronin@delinea.com,Delinea,delinea.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Seán,G.,sglynn@g-p.com,G-P,g-p.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Selina,Sutera,selina.sutera@compeople.de,compeople AG,compeople.de,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Sarah,CHAFAI,schafai@onetrust.com,OneTrust,onetrust.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Svenja,Bokop,sbokop@sievers-group.com,SIEVERS-GROUP,sievers-group.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Sarina,Viellieber,sarina.viellieber@casavi.com,casavi GmbH,casavi.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Sarah,Marketing,sarah.clark@qlik.com,Qlik,qlik.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Sanja,Panfilov,sanja.panfilov@telekom.de,Deutsche Telekom IoT,telekom.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Samantha,Venus,samantha.venus@twt.de,TWT Group,twt.de,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Sam,Day,sam.day@virtusdatacentres.com,VIRTUS Data Centres,virtusdatacentres.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Sagar,Dubey,sagar@iihglobal.com,IIH Global,iihglobal.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Sabrina,Graf,sabrina.graf@xxxl.digital,XXXLdigital – Part of XXXL Group,xxxl.digital,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Sandrine,Wagner,s.wagner@seeburger.com,SEEBURGER,seeburger.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Sharon,Chung,s.chung@celonis.com,Celonis,celonis.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Rosalin,Ganter,rosalin.ganter@cas.de,CAS Software AG,cas.de,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Robin,Reinhold,robin.reinhold@stepstone.com,The Stepstone Group,thestepstonegroup.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Rohan,Fernandes,rfernandes@asana.com,Asana,asana.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-René,Werner,rene.werner@acp.de,ACP Gruppe,acp-gruppe.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-David,Reichel,reichel@serviceocean.com,ServiceOcean AG,serviceocean.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Rebecca,Annies,rebecca.annies@promx.net,proMX AG,promx.net,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Richard,Birks,rbirks@adaptavist.com,Adaptavist,adaptavist.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Ravinder,Kibbe,ravinder.kibbe@freshworks.com,Freshworks,freshworks.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Armin,Rausch,rausch@noxum.com,Noxum GmbH,noxum.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Ramona,Stammler,ramona.stammler@empolis.com,Empolis Information Management GmbH,empolis.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Rafaela,Heck,r.heck@onoffice.com,onOffice GmbH,onoffice.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Pramodh,Chandrachary,pramodh.chandrachary@solarwinds.com,SolarWinds,solarwinds.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Ha,Cao,phuong.cao@sparetech.io,SPARETECH,sparetech.io,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Philipp,Saenger,philipp.saenger@eschbach.com,eschbach,eschbach.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Patrick,Weisweiler,patrick.weisweiler@check24.de,CHECK24 Vergleichsportal,check24.de,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Pat,Johnson,pat.johnson@uberall.com,Uberall,uberall.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Paolo,Brega,paolo.brega@tai.it,TAI SOLUTIONS,taisolutions.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Oliver,Rolinson,oliver.rolinson@haiilo.com,Haiilo,haiilo.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Oliver,Gaspar,oliver.gaspar@assessio.com,Assessio,assessio.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Oleksii,Kutsenko,oleksii.kutsenko@centralnic.com,Team Internet,teaminternet.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Okan,Sayar,okan.sayar@webfleet.com,Webfleet,webfleet.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Nikolai,Wiesehahn,nwiesehahn@sievers-group.com,SIEVERS-GROUP,sievers-group.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Noman,Ahmad,noman.ahmad@semrush.com,Semrush,semrush.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Nirmalarajah,Asokan,nirmalarajah.asokan@getflip.com,Flip,getflip.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Nicole,Lontzek,nicole.lontzek@qaware.de,QAware GmbH,qaware.de,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Nicolas,Hinz,nicolas.hinz@retarus.de,Retarus,retarus.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Nhu,Dao,nhu.dao@kertos.io,Kertos,kertos.io,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Nerilda,Meda,nerilda.meda@doctolib.com,Doctolib,doctolib.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Natalie,Seifert,natalie.seifert@orderbird.com,orderbird,orderbird.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Natalie,Sajons,natalie.sajons@acp.de,ACP Gruppe,acp-gruppe.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Nadja,Tannert,nadja.tannert@telekom.de,Telekom MMS,telekom-mms.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Mary,Wells,mwells@cloudera.com,Cloudera,cloudera.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Martina,von Falckenstein,mvvf@universal-robots.com,cplace,cplace.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Muhamed,Hadzic,muhamed.hadzic@frequentis.com,Frequentis,frequentis.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Monica,Griesemer,monica.griesemer@miro.com,Miro,miro.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Meda,Newell,mnewell@g-p.com,G-P,g-p.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Mirjam,Hermann,mirjam.hermann@usu.com,USU Solutions International,usu.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Mihaela-Cristina,Chiurtu,mihaela.chiurtu@sugarcrm.com,SugarAI,sugarai.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Michelle,Beckmann,michelle.beckmann@rib-ims.com,RIB IMS GmbH,rib-ims.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Michael,Vitt,michael.vitt@payback.net,PAYBACK,payback.group,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Michael,Mirwald,michael.mirwald@diconium.com,diconium,diconium.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Mirjam,Erler,merler@yaveon.com,Imendo,imendo.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Melanie,Bäger,melanie.baeger@all-for-one.com,All for One Group AG,all-for-one.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Mehul,Harry,mehul.harry@jetbrains.com,JetBrains,jetbrains.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Matthias,Stein,matthias.stein@intense.de,INTENSE AG,intense.de,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Marvin,H.,marvin.hubert@hero-software.de,HERO Software,hero-software.de,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Débora,Martinez,martinez@akros.ch,Noser Engineering AG,noser.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Martina,Poehler,martina.poehler@tanso.de,Tanso,tanso.de,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Martin,Stark,martin.stark@onedata.de,One Data,onedata.ai,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Marleen,van Dam,marleen.vandam@cm.com,CM.com,cm.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Mario,Radloff,mario.radloff@materna.group,Materna Information & Communications SE,materna.de,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Marina,Golfier,marina.golfier@vasscompany.com,VASS Germany,vasscompany.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Marie,Krüger,marie.krueger@dataciders.com,Dataciders GmbH,dataciders.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Maria,Vonderach,maria.vonderach@sherpany.com,SHERPANY,sherpany.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Maria,Magallanes,maria.magallanes@hsbcad.com,hsbcad,hsbcad.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Manuel,Brosch,manuel.brosch@fabasoft.com,Fabasoft,fabasoft.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Maja,Mišović,maja.misovic@be-terna.com,BE-terna,be-terna.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Maike,Hendelkens,maike.hendelkens@stepstone.de,The Stepstone Group,thestepstonegroup.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Magnus,Bonacker,magnus.bonacker@webid-solutions.de,WebID,webid-solutions.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Ramon,Mac,mac@semvox.de,semvox GmbH,semvox.de,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Markus,Staudt,m.staudt@steinberg.de,Steinberg Media Technologies,steinberg.net,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Matthias,Quellmann,m.quellmann@steinberg.de,Steinberg Media Technologies,steinberg.net,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Mary,Kowalski,m.kowalski@diamant-software.de,Diamant Software GmbH,diamant-software.de,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Mariangela,Coppola,m.coppola@seeburger.com,SEEBURGER,seeburger.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Luis,Guzmán,luis@n8n.io,n8n,n8n.io,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Lucija,Fiolić,lucija.fiolic@infobip.com,Infobip,infobip.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Lucile,Murcia,lmurcia@nextlane.com,Nextlane,nextlane.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Lisa,Placa,lisa.placa@netgo.de,netgo,netgo.de,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Leyla,Biber,leyla.biber@sovendus.com,Sovendus,sovendus.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Lena,Füller,lena.fueller@mimacom.com,Mimacom,mimacom.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Lea,Ott,lea.ott@objective-partner.com,objective partner,objective-partner.de,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Lorraine,Brock,lbrock@dimedis.de,dimedis,dimedis.io,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Luise,Graab,lboehm@factory42.com,factory42 GmbH,factory42.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Laurence,A.,laurence.allen@red-gate.com,Redgate Software,red-gate.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Laura,Lindzinski,laura.lindzinski@netgo.de,netgo,netgo.de,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Laura,Brawand,laura.brawand@webid-solutions.de,WebID,webid-solutions.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Larry,Burnett,larry.burnett@21cs.com,21CS,21cs.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Larissa,Stroehlen,larissa.stroehlen@boc-group.com,BOC Group,boc-group.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Lara,Folkmer,lara.folkmer@check24.de,CHECK24 Vergleichsportal,check24.de,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Lan,C.,lanchu@cloudera.com,Cloudera,cloudera.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Lourdes,Congost,l.reyes@onoffice.com,onOffice GmbH,onoffice.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Liz,Osterloh,l.osterloh@intershop.de,Intershop Communications,intershop.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Kierian,Davis,kdavis@prophix.com,Prophix,prophix.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
@@ -859,7 +860,6 @@ Ingo,Kuhlmann,ingo.sanchez.kuhlmann@ryd.one,ryd,ryd.one,,📝 AdSigner | Softwar
 Hollie,Whitehead,hollie.whitehead@everbridge.com,Everbridge,everbridge.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Himanshi,Goyal,himanshi.goyal@elastic.co,Elastic,elastic.co,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Hanna,Backman,hanna.backman@qt.io,Qt Group,qt.io,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
-Gloria,Agostini,gloria.agostini@o9solutions.com,"o9 Solutions, Inc.",o9solutions.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Gillian,Leyden,g.leyden@reply.com,Logistics Reply,logistics-reply.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Frank,Mittag-Fischer,frank.mittag.fischer@casavi.com,casavi GmbH,casavi.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
 Fabienne,Seiam,fabienne.seiam@banxware.com,Agicap,agicap.com,,📝 AdSigner | Software & IT | Germany | 01/Sept/26 | Marketing Lead
