@@ -1,82 +1,4 @@
 first_name,last_name,email,company_name,website,linkedin_url,campaign_name
-Guido,Vingione,guido.vingione@serco.com,Serco,serco.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Gita,Pillai,gita.pillai@movate.com,Movate,movate.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Gert,Vanbriel,gert.vanbriel@idemia.com,IDEMIA,idemia.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Gavin,Cato,gcato@celestica.com,Celestica,celestica.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Gayathri,Nvs,gayathri.nvs@zensar.com,Zensar Technologies,zensar.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Franck,Philippot,franck.philippot@avanade.com,Avanade,avanade.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Francisco,Diaz De Leon,francisco.diazdeleon@aptiv.com,Aptiv,aptiv.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Fiorella,Ferrari,fferrari@equinix.com,Equinix,equinix.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Felix,Jeffery,felix.jeffery@htcinc.com,HTC Global Services,htcinc.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Felipe,Cortissoz,felipe.cortissoz@movate.com,Movate,movate.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Farhan,Jamil,farhan.jamil@visionet.com,Visionet Systems,visionet.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Ewin,Tan,ewin.tan@fujitsu.com,Fujitsu,fujitsu.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Elizabeth,Vincent,evincent@fanatics.com,Fanatics,fanatics.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Esther,Wilson,esther.wilson@pb.com,Pitney Bowes,pitneybowes.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Erika,Santiago,erika.santiago@ricoh-usa.com,Ricoh USA,ricoh-usa.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Eric,Carey,eric.carey@teledyne.com,Teledyne Technologies Incorporated,teledyne.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Emmanuel,Rodríguez,emmanuel.rodriguez@infinite.com,Infinite Computer Solutions,infinite.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Elizabeth,Feinberg,elizabeth.feinberg@zebra.com,Zebra Technologies,zebra.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Earl,Begonia,earl.begonia@workday.com,Workday,workday.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Dave,Hendrix,dhendrix@arrow.com,Arrow Electronics,arrow.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Dev Prasad,Igure,dev_igure@persistent.com,Persistent Systems,persistent.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-David,Israel,david.israel@cgi.com,CGI,cgi.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Dave,Seitz,dave.seitz@peraton.com,Peraton,peraton.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Darshil,Patel,darshil.patel@celestica.com,Celestica,celestica.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Daniel,Rettig,daniel.rettig@unisys.com,Unisys,unisys.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Daniel,Businger,daniel.businger@netapp.com,NetApp,netapp.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Courtney,Rudeen,courtney.rudeen@verizon.com,Verizon,verizon.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-John,Conley,conley_john@bah.com,Booz Allen Hamilton,boozallen.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Christopher,Pound,christopher.pound@teledyne.com,Teledyne Technologies Incorporated,teledyne.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Christian,Young,christian.young@ingrammicro.com,Ingram Micro,ingrammicro.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Chris,Morse,chris.morse@workday.com,Workday,workday.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Clifford,Gerber,cgerber@luxoft.com,Luxoft,luxoft.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Catherine,Aloni,catherine.aloni@peraton.com,Peraton,peraton.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Cass,Young,cass.young@workday.com,Workday,workday.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Cass,Bishop,cass.bishop@ust.com,UST,ust.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Caroline,Mccafferty,caroline.mccafferty@ironmountain.com,Iron Mountain,ironmountain.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Chris,Annison,cannison@lenovo.com,Lenovo,lenovo.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Cameron,Geasey,cameron.geasey@isoftstone.com,iSoftStone,isoftstone.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Biju,Alex,biju.alex@ingrammicro.com,Ingram Micro,ingrammicro.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Bhuvan,Ahuja,bhuvan.ahuja@innovasolutions.com,Innova Solutions,innovasolutions.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Ben,Corlett,ben.corlett@unisys.com,Unisys,unisys.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Becca,Scheafer,becca.scheafer@synopsys.com,Synopsys Inc,synopsys.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Ben,Chwick,bchwick@fanatics.com,Fanatics,fanatics.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Arun,Kumar,arun.kumar@quest-global.com,UST,ust.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Aron,Pain,aron.pain@kbr.com,KBR,kbr.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Aravind,Naick,aravind.naick@ust-global.com,UST,ust.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Anubhav,Gupta,anubhav.gupta@pb.com,Pitney Bowes,pitneybowes.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Antonio,Membrive Nieto,antonio.membrive@soprasteria.com,Sopra Steria,soprasteria.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Antoine,Kelman,antoine.kelman@idemia.com,IDEMIA,idemia.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Anthony,Ianni,anthony.ianni@ingrammicro.com,Ingram Micro,ingrammicro.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Anthony,Barbieri,anthony.barbieri@verizon.com,Verizon,verizon.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Andrew,Power,andrew.power@aptiv.com,Aptiv,aptiv.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Andrew,Marro,andrew.marro@peraton.com,Peraton,peraton.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Andreas,Witt,andreas.witt@soprasteria.com,Sopra Steria,soprasteria.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Brian,Andrea,andrea_brian@bah.com,Booz Allen Hamilton,boozallen.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Amit,Pandey,amit_pandey@persistent.com,Persistent Systems,persistent.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Amanda,Wooldridge,amanda.wooldridge@workday.com,Workday,workday.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Allison,Scott,allison.scott@autodesk.com,Autodesk,autodesk.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Alicia,Mcgufficke,alicia.mcgufficke@unisys.com,Unisys,unisys.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Aimee,Fryer,aimee.fryer@serco-ap.com,Serco,serco.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Adrienne S.,Mcbride,adrienne.mcbride@synopsys.com,Synopsys Inc,synopsys.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Aditya,Kandi,aditya.kandi@innovasolutions.com,Innova Solutions,innovasolutions.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Aaron,Burr,aaron.burr@pb.com,Pitney Bowes,pitneybowes.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Aalia,Daneshmend,aalia.daneshmend@thomsonreuters.com,Thomson Reuters,thomsonreuters.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Alfredo,Alfau,aalfau@lenovo.com,Lenovo,lenovo.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Zohar,Liran,zohar.liran@autodesk.com,Autodesk,autodesk.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Yogesh,Yadav,yogesh.yadav@verizon.com,Verizon,verizon.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-William,Zizek,william.zizek@fujitsu.com,Fujitsu,fujitsu.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Will,Dollar,will.dollar@cgi.com,CGI,cgi.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Vivek,Garg,vivek.garg@globallogic.com,GlobalLogic,globallogic.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Vishal,Goyal,vishal_goyal@persistent.com,Persistent Systems,persistent.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Viraj,Nadkarni,viraj_nadkarni@persistent.co.in,Persistent Systems,persistent.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Vikram,Gunasekaran,vikram.gunasekaran@infinite.com,Infinite Computer Solutions,infinite.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Victor,Omiyale,victor.omiyale@celestica.com,Celestica,celestica.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Varsha,Weragama,varsha.weragama@innovasolutions.com,Innova Solutions,innovasolutions.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Theresa,Williams,twilliams@zebra.com,Zebra Technologies,zebra.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Tom,Berry,tom.berry@ocadogroup.com,Ocado Group,ocadogroup.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
-Todd,Miller,todd.miller@ricoh-usa.com,Ricoh USA,ricoh-usa.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
 Toby,Gallington,toby.gallington@thomsonreuters.com,Thomson Reuters,thomsonreuters.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
 Thom,Ziegler,thom.ziegler@netapp.com,NetApp,netapp.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
 Theresa,Guarrera,theresa.guarrera@ukg.com,UKG,ukg.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
@@ -177,6 +99,123 @@ Inderjeet,Singh,inderjeet.singh@infor.com,Infor,infor.com,,🤖 eBliss AI | US -
 Henrik,Porepp,henrik.porepp@morpho.com,IDEMIA,idemia.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
 Hari,Katukota,hari.katukota@zebra.com,Zebra Technologies,zebra.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
 Gustavo,Hornos Prados,gustavo.hornos@expleo.com,Expleo Group,expleo.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Guido,Vingione,guido.vingione@serco.com,Serco,serco.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Gita,Pillai,gita.pillai@movate.com,Movate,movate.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Gert,Vanbriel,gert.vanbriel@idemia.com,IDEMIA,idemia.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Gavin,Cato,gcato@celestica.com,Celestica,celestica.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Gayathri,Nvs,gayathri.nvs@zensar.com,Zensar Technologies,zensar.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Franck,Philippot,franck.philippot@avanade.com,Avanade,avanade.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Francisco,Diaz De Leon,francisco.diazdeleon@aptiv.com,Aptiv,aptiv.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Fiorella,Ferrari,fferrari@equinix.com,Equinix,equinix.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Felix,Jeffery,felix.jeffery@htcinc.com,HTC Global Services,htcinc.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Felipe,Cortissoz,felipe.cortissoz@movate.com,Movate,movate.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Farhan,Jamil,farhan.jamil@visionet.com,Visionet Systems,visionet.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Ewin,Tan,ewin.tan@fujitsu.com,Fujitsu,fujitsu.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Elizabeth,Vincent,evincent@fanatics.com,Fanatics,fanatics.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Esther,Wilson,esther.wilson@pb.com,Pitney Bowes,pitneybowes.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Erika,Santiago,erika.santiago@ricoh-usa.com,Ricoh USA,ricoh-usa.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Eric,Carey,eric.carey@teledyne.com,Teledyne Technologies Incorporated,teledyne.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Emmanuel,Rodríguez,emmanuel.rodriguez@infinite.com,Infinite Computer Solutions,infinite.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Elizabeth,Feinberg,elizabeth.feinberg@zebra.com,Zebra Technologies,zebra.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Earl,Begonia,earl.begonia@workday.com,Workday,workday.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Dave,Hendrix,dhendrix@arrow.com,Arrow Electronics,arrow.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Dev Prasad,Igure,dev_igure@persistent.com,Persistent Systems,persistent.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+David,Israel,david.israel@cgi.com,CGI,cgi.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Dave,Seitz,dave.seitz@peraton.com,Peraton,peraton.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Darshil,Patel,darshil.patel@celestica.com,Celestica,celestica.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Daniel,Rettig,daniel.rettig@unisys.com,Unisys,unisys.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Daniel,Businger,daniel.businger@netapp.com,NetApp,netapp.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Courtney,Rudeen,courtney.rudeen@verizon.com,Verizon,verizon.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+John,Conley,conley_john@bah.com,Booz Allen Hamilton,boozallen.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Christopher,Pound,christopher.pound@teledyne.com,Teledyne Technologies Incorporated,teledyne.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Christian,Young,christian.young@ingrammicro.com,Ingram Micro,ingrammicro.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Chris,Morse,chris.morse@workday.com,Workday,workday.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Clifford,Gerber,cgerber@luxoft.com,Luxoft,luxoft.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Catherine,Aloni,catherine.aloni@peraton.com,Peraton,peraton.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Cass,Young,cass.young@workday.com,Workday,workday.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Cass,Bishop,cass.bishop@ust.com,UST,ust.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Caroline,Mccafferty,caroline.mccafferty@ironmountain.com,Iron Mountain,ironmountain.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Chris,Annison,cannison@lenovo.com,Lenovo,lenovo.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Cameron,Geasey,cameron.geasey@isoftstone.com,iSoftStone,isoftstone.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Biju,Alex,biju.alex@ingrammicro.com,Ingram Micro,ingrammicro.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Bhuvan,Ahuja,bhuvan.ahuja@innovasolutions.com,Innova Solutions,innovasolutions.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Ben,Corlett,ben.corlett@unisys.com,Unisys,unisys.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Becca,Scheafer,becca.scheafer@synopsys.com,Synopsys Inc,synopsys.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Ben,Chwick,bchwick@fanatics.com,Fanatics,fanatics.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Arun,Kumar,arun.kumar@quest-global.com,UST,ust.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Aron,Pain,aron.pain@kbr.com,KBR,kbr.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Aravind,Naick,aravind.naick@ust-global.com,UST,ust.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Anubhav,Gupta,anubhav.gupta@pb.com,Pitney Bowes,pitneybowes.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Antonio,Membrive Nieto,antonio.membrive@soprasteria.com,Sopra Steria,soprasteria.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Antoine,Kelman,antoine.kelman@idemia.com,IDEMIA,idemia.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Anthony,Ianni,anthony.ianni@ingrammicro.com,Ingram Micro,ingrammicro.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Anthony,Barbieri,anthony.barbieri@verizon.com,Verizon,verizon.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Andrew,Power,andrew.power@aptiv.com,Aptiv,aptiv.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Andrew,Marro,andrew.marro@peraton.com,Peraton,peraton.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Andreas,Witt,andreas.witt@soprasteria.com,Sopra Steria,soprasteria.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Brian,Andrea,andrea_brian@bah.com,Booz Allen Hamilton,boozallen.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Amit,Pandey,amit_pandey@persistent.com,Persistent Systems,persistent.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Amanda,Wooldridge,amanda.wooldridge@workday.com,Workday,workday.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Allison,Scott,allison.scott@autodesk.com,Autodesk,autodesk.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Alicia,Mcgufficke,alicia.mcgufficke@unisys.com,Unisys,unisys.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Aimee,Fryer,aimee.fryer@serco-ap.com,Serco,serco.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Adrienne S.,Mcbride,adrienne.mcbride@synopsys.com,Synopsys Inc,synopsys.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Aditya,Kandi,aditya.kandi@innovasolutions.com,Innova Solutions,innovasolutions.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Aaron,Burr,aaron.burr@pb.com,Pitney Bowes,pitneybowes.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Aalia,Daneshmend,aalia.daneshmend@thomsonreuters.com,Thomson Reuters,thomsonreuters.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Alfredo,Alfau,aalfau@lenovo.com,Lenovo,lenovo.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Zohar,Liran,zohar.liran@autodesk.com,Autodesk,autodesk.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Yogesh,Yadav,yogesh.yadav@verizon.com,Verizon,verizon.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+William,Zizek,william.zizek@fujitsu.com,Fujitsu,fujitsu.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Will,Dollar,will.dollar@cgi.com,CGI,cgi.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Vivek,Garg,vivek.garg@globallogic.com,GlobalLogic,globallogic.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Vishal,Goyal,vishal_goyal@persistent.com,Persistent Systems,persistent.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Viraj,Nadkarni,viraj_nadkarni@persistent.co.in,Persistent Systems,persistent.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Vikram,Gunasekaran,vikram.gunasekaran@infinite.com,Infinite Computer Solutions,infinite.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Victor,Omiyale,victor.omiyale@celestica.com,Celestica,celestica.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Varsha,Weragama,varsha.weragama@innovasolutions.com,Innova Solutions,innovasolutions.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Theresa,Williams,twilliams@zebra.com,Zebra Technologies,zebra.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Tom,Berry,tom.berry@ocadogroup.com,Ocado Group,ocadogroup.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Todd,Miller,todd.miller@ricoh-usa.com,Ricoh USA,ricoh-usa.com,,🤖 eBliss AI | US - Technology / SaaS | S3 | CTO/Chief AI Officer - copy
+Katarzyna,Sztandera,katarzyna.sztandera@fujitsu.com,Fujitsu,fujitsu.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
+Jaime,Carrera,jaime.carrera@softtek.com,Softtek,softtek.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
+Jerome,Frio,jerome.frio@concentrix.com,Concentrix,concentrix.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
+Lohmer,Stefan,stefan.lohmer@fujitsu.com,Fujitsu,fujitsu.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
+Somashekar,Shivakumar,shivakumar.s@dxc.com,DXC Technology,dxc.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
+Laurent,L.,laurent.ladeveze@soprasteria.com,Sopra Steria,soprasteria.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
+Olinda,Mirra,olinda.mirra@concentrix.com,Concentrix,concentrix.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
+Randy Oliver,Prado,randy.prado@idemia.com,IDEMIA,idemia.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
+Emilio,Ramírez,emilio.ramirez@softtek.com,Softtek,softtek.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
+Noor Mohammed,Sadatulla,noor.sadatulla@cognizant.com,Cognizant,cognizant.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
+Ludovic,Lapier,ludovic.lapier@concentrix.com,Concentrix,concentrix.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
+Anup,Karunakaran,a.karunakaran@wolterskluwer.com,Wolters Kluwer,wolterskluwer.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
+Indira,Roy,indira.roy@cognizant.com,Cognizant,cognizant.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
+Jeff,Byers,jbyers@hpe.com,Hewlett Packard Enterprise,hpe.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
+Earlwyn,Natividad,earlwyn.natividad@concentrix.com,Concentrix,concentrix.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
+Adam,Moison,adam.moison@zensar.com,Zensar Technologies,zensar.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
+Swati,Arora,swati.arora@concentrix.com,Concentrix,concentrix.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
+Roderick,Santos,roderick.santos@telusdigital.com,TELUS Technology,telusdigital.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
+José Alejandro,López Lara,jose.lara@softtek.com,Softtek,softtek.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
+Geetanjali,Singh,geetanjali.singh@concentrix.com,Concentrix,concentrix.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
+Mohan Murali Krishna,K,mohanmurali.krishna@concentrix.com,Concentrix,concentrix.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
+Veena,Gopal,veena.gopal@ust-global.com,UST,ust.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
+Satish,Ratnaparkhi,satish.ratnaparkhi@zensar.com,Zensar Technologies,zensar.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
+Karolina,Moszkowicz,karolina.moszkowicz@fujitsu.com,Fujitsu,fujitsu.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
+Dominika,Reclik-Kruzińska,dominika.reclik-kruzinska@fujitsu.com,Fujitsu,fujitsu.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
+Hernan,Sturtz,hernan.sturtz@cognizant.com,Cognizant,cognizant.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
+Viraj,Birajdar,viraj.birajdar@cognizant.com,Cognizant,cognizant.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
+Jose,Baires,jose.baires@fujitsu.com,Fujitsu,fujitsu.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
+Caroline,Planteblat,caroline.planteblat@inetum.com,Inetum,inetum.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
+Robert,Juarez,robert.juarez@concentrix.com,Concentrix,concentrix.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
+Michael,Rodelas,michael.rodelas@telusdigital.com,TELUS Technology,telusdigital.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
+Aymen,Ammar,aymen.ammar@fisglobal.com,FIS,fisglobal.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
+Sumeet,Sandhu,sumeet.sandhu@concentrix.com,Concentrix,concentrix.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
+Aneida,Begaj,aneida.begaj@fujitsu.com,Fujitsu,fujitsu.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
+Manoj,Madhavan,manoj.madhavan@fisglobal.com,FIS,fisglobal.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
+Mohammad,Younes,younes_mohammad@bah.com,Booz Allen Hamilton,boozallen.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
+Stephan,Riebroek,stephan.riebroek@atos.net,Atos,atos.net,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
+Yalcin,Gulas,yalcin.gulas@telusdigital.com,TELUS Technology,telusdigital.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
+Gavin,Duckett,gavin.duckett@hpe.com,Hewlett Packard Enterprise,hpe.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
 Cristiana,Florea Grigore,cristiana.grigore@sap.com,SAP,sap.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
 Deepak,Saini,deepak.s@concentrix.com,Concentrix,concentrix.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
 Rama Murthy,Subramanya,msubramanya@dxc.com,DXC Technology,dxc.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
@@ -204,9 +243,13 @@ Bhageerathan,Pon,bhageerathan.pon@wolterskluwer.com,Wolters Kluwer,wolterskluwer
 Shyamnath,Narendranath,shyamnath.narendranath@atos.net,Atos,atos.net,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
 Malcolm,Francis,malcolm.francis@cognizant.com,Cognizant,cognizant.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
 Scott,Clark,scott.clark@wolterskluwer.com,Wolters Kluwer,wolterskluwer.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
+Corey,Johnson,corey.johnson@rb.com,Verizon,verizon.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
 Billie,Armstrong Woolverton,billie.coon@concentrix.com,Concentrix,concentrix.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
+Ujjwall,Mukerji,ujjwal.mukherjee@concentrix.com,Concentrix,concentrix.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
 Srikanth,Komera,srikanth.k@cognizant.com,Cognizant,cognizant.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
+Sunil,Sharma,sunil.sharma@orange.com,Orange Business,orange-business.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
 Lucila,Pascual,lucila.pascual@concentrix.com,Concentrix,concentrix.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
+Chris,Gleason,christopher.gleason@fisglobal.com,FIS,fisglobal.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
 Andy,Howard,andy.howard@ocado.com,Ocado Group,ocadogroup.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
 Julie,Shepley,julie.shepley@fujitsu.com,Fujitsu,fujitsu.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
 Phanindra,Bullah-Danah,phanindra.bullahdanah@orange.com,Orange Business,orange-business.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
@@ -274,54 +317,11 @@ Joseph,Frederick,joseph.frederick@cognizant.com,Cognizant,cognizant.com,,🤖 eB
 Bhushan,Patel,bhushan.patel@cognizant.com,Cognizant,cognizant.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
 Jim,Breslin,jbreslin@sscinc.com,SS&C Technologies,ssctech.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
 Michael,Stone,michael.stone@hpe.com,Hewlett Packard Enterprise,hpe.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-Katarzyna,Sztandera,katarzyna.sztandera@fujitsu.com,Fujitsu,fujitsu.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-Jaime,Carrera,jaime.carrera@softtek.com,Softtek,softtek.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-Jerome,Frio,jerome.frio@concentrix.com,Concentrix,concentrix.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-Lohmer,Stefan,stefan.lohmer@fujitsu.com,Fujitsu,fujitsu.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-Somashekar,Shivakumar,shivakumar.s@dxc.com,DXC Technology,dxc.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-Laurent,L.,laurent.ladeveze@soprasteria.com,Sopra Steria,soprasteria.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-Olinda,Mirra,olinda.mirra@concentrix.com,Concentrix,concentrix.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-Randy Oliver,Prado,randy.prado@idemia.com,IDEMIA,idemia.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-Emilio,Ramírez,emilio.ramirez@softtek.com,Softtek,softtek.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-Noor Mohammed,Sadatulla,noor.sadatulla@cognizant.com,Cognizant,cognizant.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
 Kevin,Sicault,kevin.sicault@fujitsu.com,Fujitsu,fujitsu.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-Ludovic,Lapier,ludovic.lapier@concentrix.com,Concentrix,concentrix.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-Anup,Karunakaran,a.karunakaran@wolterskluwer.com,Wolters Kluwer,wolterskluwer.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-Indira,Roy,indira.roy@cognizant.com,Cognizant,cognizant.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-Jeff,Byers,jbyers@hpe.com,Hewlett Packard Enterprise,hpe.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-Earlwyn,Natividad,earlwyn.natividad@concentrix.com,Concentrix,concentrix.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-Adam,Moison,adam.moison@zensar.com,Zensar Technologies,zensar.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-Swati,Arora,swati.arora@concentrix.com,Concentrix,concentrix.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-Roderick,Santos,roderick.santos@telusdigital.com,TELUS Technology,telusdigital.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-José Alejandro,López Lara,jose.lara@softtek.com,Softtek,softtek.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-Geetanjali,Singh,geetanjali.singh@concentrix.com,Concentrix,concentrix.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-Mohan Murali Krishna,K,mohanmurali.krishna@concentrix.com,Concentrix,concentrix.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-Veena,Gopal,veena.gopal@ust-global.com,UST,ust.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
 Sébastien,Simonart,sebastien.simonart@soprasteria.com,Sopra Steria,soprasteria.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-Satish,Ratnaparkhi,satish.ratnaparkhi@zensar.com,Zensar Technologies,zensar.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-Karolina,Moszkowicz,karolina.moszkowicz@fujitsu.com,Fujitsu,fujitsu.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-Dominika,Reclik-Kruzińska,dominika.reclik-kruzinska@fujitsu.com,Fujitsu,fujitsu.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-Hernan,Sturtz,hernan.sturtz@cognizant.com,Cognizant,cognizant.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-Viraj,Birajdar,viraj.birajdar@cognizant.com,Cognizant,cognizant.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-Jose,Baires,jose.baires@fujitsu.com,Fujitsu,fujitsu.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-Caroline,Planteblat,caroline.planteblat@inetum.com,Inetum,inetum.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-Robert,Juarez,robert.juarez@concentrix.com,Concentrix,concentrix.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-Michael,Rodelas,michael.rodelas@telusdigital.com,TELUS Technology,telusdigital.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-Aymen,Ammar,aymen.ammar@fisglobal.com,FIS,fisglobal.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-Sumeet,Sandhu,sumeet.sandhu@concentrix.com,Concentrix,concentrix.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-Aneida,Begaj,aneida.begaj@fujitsu.com,Fujitsu,fujitsu.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-Manoj,Madhavan,manoj.madhavan@fisglobal.com,FIS,fisglobal.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
 Cristian,Gaspar,cristian.gaspar@fujitsu.com,Fujitsu,fujitsu.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
 Anil,Thakur,anilt@opentext.com,OpenText,opentext.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-Mohammad,Younes,younes_mohammad@bah.com,Booz Allen Hamilton,boozallen.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-Stephan,Riebroek,stephan.riebroek@atos.net,Atos,atos.net,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-Yalcin,Gulas,yalcin.gulas@telusdigital.com,TELUS Technology,telusdigital.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
 Mirella,Patora,mirella.patora@fujitsu.com,Fujitsu,fujitsu.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-Gavin,Duckett,gavin.duckett@hpe.com,Hewlett Packard Enterprise,hpe.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-Corey,Johnson,corey.johnson@rb.com,Verizon,verizon.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-Ujjwall,Mukerji,ujjwal.mukherjee@concentrix.com,Concentrix,concentrix.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-Sunil,Sharma,sunil.sharma@orange.com,Orange Business,orange-business.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
-Chris,Gleason,christopher.gleason@fisglobal.com,FIS,fisglobal.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
 Mark,Phillips,mphillips@opentext.com,OpenText,opentext.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
 Pedro,Maltez,pmaltez@opentext.com,OpenText,opentext.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
 Gary,Klatt,gklatt@opentext.com,OpenText,opentext.com,,🤖 eBliss AI | US - Technology / SaaS | S2 - Infrastructure & Operations
@@ -363,6 +363,106 @@ Joonas,Pakkanen,joonas.pakkanen@fujitsu.com,Fujitsu,fujitsu.com,,🤖 eBliss AI 
 Alysha,Mallon,amallon@teksystems.com,TEKsystems,teksystems.com,,🤖 eBliss AI | US - Technology / SaaS | S1 - Digital Workplace / End User Computing
 Oscar,Flyrén,oscar.flyren@cgi.com,CGI,cgi.com,,🤖 eBliss AI | US - Technology / SaaS | S1 - Digital Workplace / End User Computing
 Anderson,Akira Kitsuse,anderson.kitsuse@atos.net,Atos,atos.net,,🤖 eBliss AI | US - Technology / SaaS | S1 - Digital Workplace / End User Computing
+Colton,Spencer,cspencer@jcpenney.com,JCPenney,melia.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Claire,Simpson,csimpson@redrobin.com,Red Robin,adusa.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Christie,Jones Savery,csavery@greatwolf.com,Great Wolf Lodge,loves.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Crystal,White,crystal.white@travelandleisure.com,Travel + Leisure,ritzcarlton.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Crystal,Hedgpeth,crystal.hedgpeth@safeway.com,Safeway,aramark.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Craig,Clarke,craig.clarke@wawa.com,Wawa,ingredion.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Cecil,Phillips,cphillips@ldry.com,Saltgrass Steak House,ritzcarlton.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Carlos,Pavarini,cpavarini@rgis.com,RGIS,academy.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Christina,Pappas,cpappas@pappas.com,Pappas Restaurants,gap.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Courtney,Wilson,courtney.wilson@fairmont.com,"Fairmont Orchid, Hawaii",burlington.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Courtney,Burke,courtney.burke@wyn.com,Wyndham Destinations,lululemon.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Claudia,Ortiz,cortiz@olivegarden.com,Olive Garden,redlobster.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Corey,Arndt,corey.arndt@compass-usa.com,Chartwells Higher Education Dining Services,harborfreight.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Corbin,Tipton,corbin.tipton@hotelequities.com,Hotel Equities,caseys.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Colin,Atherton,colin_atherton@abercrombie.com,Abercrombie & Fitch,molsoncoors.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Charlie,Norden,cnorden@ufpi.com,UFP Retail Solutions,sonesta.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Christopher,Maher,cmaher@ashleyfurniture.com,Ashley Global Retail,samsclub.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Cindy,Lubs,clubs@flynn.com,Flynn Group,hotelequities.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Clay,Brasher,claybrasher@brookshires.com,Brookshire Grocery Company,sbcos.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Claudia,Cardoso,claudia.cardoso@payless.com,Payless,samsclub.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Claire,Simkins,claire.simkins@specsavers.com,Specsavers,chipotle.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Christian,Kim,ckim@bn.com,Barnes & Noble,homedepot.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Calvin,Johnson,cjohnson@acosta.com,Acosta,molsoncoors.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Chuck,Lasley,chuck.lasley@dillards.com,Dillard's,dickssportinggoods.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Chuck,Cooper,chuck.cooper@murphyusa.com,Murphy USA,familydollar.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Chris,Villarreal,chrisv@jriusa.com,JRI Hospitality,compass-usa.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Christopher,Olsen,christopher.olsen@crumbl.com,Crumbl,harristeeter.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Christopher,Kuntz,christopher.kuntz@footlocker.com,Foot Locker,bestbuy.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Christophe,Lambertz,christophelambertz@tupperware.com,Tupperware,dickssportinggoods.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Christine,Hubbard,christine.hubbard@compass-usa.com,Flik Hospitality Group,brookshires.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Christina,Young,christina_young@carmax.com,CarMax,bestbuy.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Christian,Hobson,christian.hobson@kerry.com,Kerry,brinker.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Chris,Hammond,chrishammond@bneinc.com,Boddie-Noell Ent.,anheuser-busch.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Chris,Tennyson,chris.tennyson@paradies-na.com,Paradies Lagardère,littlecaesars.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Chris,Tavera,chris.tavera@jackinthebox.com,Jack in the Box,darden.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Chris,Shepherd,chris.shepherd@postholdings.com,Post Holdings,sbcos.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Chris,Mcdermott,chris.mcdermott@skechers.com,Skechers,starbucks.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Chris,Keetch,chris.keetch@giantmartins.com,The GIANT Company,gotofoods.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Christopher,Hoang,chris.hoang@ldry.com,Landry's,caseys.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Chris,Archibald,chris.archibald@ssp-intl.com,SSP Group plc,fourseasons.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Chris,Hettinger,chris_hettinger@papajohns.com,Papa Johns,marriott.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Chris,Cleckner,chris_cleckner@belk.com,Belk,wayfair.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Cheryl,Tutt,cheryl.tutt@stores.fredmeyer.com,Fred Meyer,schultehospitality.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Chris,Heilman,cheilman@ta-petro.com,TravelCenters of America,pfgc.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Charles,Sladek,charles.sladek@wakefern.com,ShopRite,sephora.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Chad,Hammond,chammond@darden.com,Darden,dominos.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Chad,Thayer,chad.thayer@jackinthebox.com,Jack in the Box,vans.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Chris,Gerak,cgerak@heihotels.com,HEI Hotels & Resorts,macys.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Cecilia,Tan,cecilia.tan@fastretailing.com,UNIQLO,compass-usa.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Cassandra,Deruyscher,cderuyscher@coca-cola.com,The Coca-Cola Company,ritzcarlton.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Craig,Benson,cbenson@raleys.com,Raley's,vailresorts.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Chris,Beavers,cbeavers@thecheesecakefactory.com,The Cheesecake Factory,aimbridgehospitality.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Catalina,Peña Tapia,catalina.pena@puma.com,PUMA Group,travelandleisureco.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Carrie,Jennings,carrie.jennings@ihg.com,IHG Hotels & Resorts,sonesta.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Caroline,Cornabé,caroline.cornabe@qvc.com,QVC,marriott.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Carol,Ludwig,carol.ludwig@marriott.com,Marriott International,lowes.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Carmen,Marzocco,carmen.marzocco@compass-usa.com,Eurest USA,reyesholdings.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Carlos,Tapia,carlos.tapia@gnc.com,GNC,lowes.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Carlos,Figueiredo,carlos.figueiredo@marriotthotels.com,Marriott Hotels,mcdonalds.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Carlos,Herrera,carlos_herrera@papajohns.com,Papa Johns,sallybeauty.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Frank,Cardenas,cardenasf@aafes.com,The Exchange,wafflehouse.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Cameron,Murkey,cameron.murkey@unfi.com,UNFI,ritzcarlton.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Cabe,Mcconnell,cabe.mcconnell@vailresorts.com,Vail Resorts,redbull.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Bryan,Schack,bryan.schack@postholdings.com,Post Holdings,primobrands.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Bryan,Roland,bryan.roland@ros.com,Ross Stores,schultehospitality.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Bryan,Gross,bryan.gross@panerabread.com,Panera Bread,sephora.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Bryan,Beck,bryan.beck@giantmartins.com,The GIANT Company,circlek.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Brooke,Harris Markham,brooke.markham@kohls.com,Kohl's,coca-cola.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Brent,Robison,brobison@redrobin.com,Red Robin,ihg.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Brittany,Zimich,brittany.zimich@fivebelow.com,Five Below,ihg.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Brittany,Stewart,brittany.stewart@bestbuy.com,Best Buy,oldnavy.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Brittany,Flory,brittany.flory@dominos.com,Domino's,marriottvacationsworldwide.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Britany,Rougier,britany.rougier@anheuser-busch.com,Anheuser-Busch,victoriassecret.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Bridgette,Hernandez,bridgette.hernandez@us.mcd.com,McDonald's,dominos.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Brian,Young,brian.young@hy-vee.com,Hy-Vee,heihotels.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Brian,Triolo,brian.triolo@nordstrom.com,Nordstrom,academy.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Brian,Schenck,brian.schenck@flooranddecor.com,Floor & Decor,gap.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Brian,Nolan,brian.nolan@applegreenstores.com,Applegreen,marriottvacationsworldwide.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Brian,Lavarnway,brian.lavarnway@quiktrip.com,QuikTrip,hotelequities.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Brian,Greene,brian.greene@chipotle.com,Chipotle Mexican Grill,tajhotels.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Brian,Gibson,brian.gibson@spencergifts.com,Spencer's,chartwellshighered.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Brian,Dukes,brian.dukes@logansroadhouse.com,Logan's Roadhouse,kraftheinz.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Brett,Murray,brett.murray@fairmont.com,Fairmont Hotels & Resorts,chuckecheese.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Brendan,Birchmeier,brendan.birchmeier@meijer.com,Meijer,chewy.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Brayan,Espinoza Huamali,brayan.espinoza@mx.nestle.com,Nestlé,abercrombie.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Breanne,Rankin,brankin@bbw.com,Bath & Body Works,anheuser-busch.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Brandon,Stein,brandonstein@lululemon.com,lululemon,starbucks.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Brandon,Matejcic,brandonmatejcic@outback.com,Outback Steakhouse,segrocers.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Brandon,Lowe,brandon.lowe@sysco.com,Sysco,visionworks.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Brandon,Graef,brandon.graef@sunbeltrentals.com,Sunbelt Rentals,gfs.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Brandi,Greene,brandi_greene@papajohns.com,Papa Johns,tajhotels.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Brett,Potoka,bpotoka@savers.com,Savers | Value Village,melia.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Bobby,Garner,bobby.garner@gpshospitality.com,GPS Hospitality,kroger.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Brad,Mcconnell,bmcconnell@journeys.com,Journeys,sands.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Blake,Parker,blake.parker@jasonsdeli.com,Jason's Deli,gnc.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Brian,Kumpf,bkumpf@bjsrestaurants.com,BJ's Restaurants,schultehospitality.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Beth,James,bjames@owhospitality.com,OW Hospitality,travelandleisureco.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Brian,Haller,bhaller@harborfreight.com,Harbor Freight Tools,coca-cola.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Beth,Ruf,beth.ruf@hallmark.com,Hallmark Cards,gotofoods.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
+Beth,Fisher,beth.fisher@gpshospitality.com,GPS Hospitality,marriott.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
 Bennett,Feller,bennett.feller@stopandshop.com,Stop & Shop,coca-cola.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
 Ben,Sherburn,ben.sherburn@uk.mcd.com,McDonald's,usfoods.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
 Ben,Rueda,ben.rueda@smartandfinal.com,Smart & Final,mcdonalds.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
@@ -1138,106 +1238,6 @@ Cynthia,Coffield,cynthia.coffield@ldry.com,Landry's,hy-vee.com,,🤖 eBliss AI  
 Christine,Vo,cvo@clubdemo.com,Club Demonstration Services,shutterfly.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
 Craig,Vanhuss,cvanhuss@foodcity.com,Food City / KVAT Foods,jackinthebox.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
 Candi,Thomas,cthomas@weismarkets.com,Weis Markets,primobrands.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Colton,Spencer,cspencer@jcpenney.com,JCPenney,melia.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Claire,Simpson,csimpson@redrobin.com,Red Robin,adusa.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Christie,Jones Savery,csavery@greatwolf.com,Great Wolf Lodge,loves.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Crystal,White,crystal.white@travelandleisure.com,Travel + Leisure,ritzcarlton.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Crystal,Hedgpeth,crystal.hedgpeth@safeway.com,Safeway,aramark.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Craig,Clarke,craig.clarke@wawa.com,Wawa,ingredion.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Cecil,Phillips,cphillips@ldry.com,Saltgrass Steak House,ritzcarlton.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Carlos,Pavarini,cpavarini@rgis.com,RGIS,academy.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Christina,Pappas,cpappas@pappas.com,Pappas Restaurants,gap.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Courtney,Wilson,courtney.wilson@fairmont.com,"Fairmont Orchid, Hawaii",burlington.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Courtney,Burke,courtney.burke@wyn.com,Wyndham Destinations,lululemon.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Claudia,Ortiz,cortiz@olivegarden.com,Olive Garden,redlobster.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Corey,Arndt,corey.arndt@compass-usa.com,Chartwells Higher Education Dining Services,harborfreight.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Corbin,Tipton,corbin.tipton@hotelequities.com,Hotel Equities,caseys.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Colin,Atherton,colin_atherton@abercrombie.com,Abercrombie & Fitch,molsoncoors.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Charlie,Norden,cnorden@ufpi.com,UFP Retail Solutions,sonesta.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Christopher,Maher,cmaher@ashleyfurniture.com,Ashley Global Retail,samsclub.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Cindy,Lubs,clubs@flynn.com,Flynn Group,hotelequities.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Clay,Brasher,claybrasher@brookshires.com,Brookshire Grocery Company,sbcos.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Claudia,Cardoso,claudia.cardoso@payless.com,Payless,samsclub.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Claire,Simkins,claire.simkins@specsavers.com,Specsavers,chipotle.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Christian,Kim,ckim@bn.com,Barnes & Noble,homedepot.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Calvin,Johnson,cjohnson@acosta.com,Acosta,molsoncoors.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Chuck,Lasley,chuck.lasley@dillards.com,Dillard's,dickssportinggoods.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Chuck,Cooper,chuck.cooper@murphyusa.com,Murphy USA,familydollar.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Chris,Villarreal,chrisv@jriusa.com,JRI Hospitality,compass-usa.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Christopher,Olsen,christopher.olsen@crumbl.com,Crumbl,harristeeter.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Christopher,Kuntz,christopher.kuntz@footlocker.com,Foot Locker,bestbuy.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Christophe,Lambertz,christophelambertz@tupperware.com,Tupperware,dickssportinggoods.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Christine,Hubbard,christine.hubbard@compass-usa.com,Flik Hospitality Group,brookshires.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Christina,Young,christina_young@carmax.com,CarMax,bestbuy.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Christian,Hobson,christian.hobson@kerry.com,Kerry,brinker.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Chris,Hammond,chrishammond@bneinc.com,Boddie-Noell Ent.,anheuser-busch.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Chris,Tennyson,chris.tennyson@paradies-na.com,Paradies Lagardère,littlecaesars.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Chris,Tavera,chris.tavera@jackinthebox.com,Jack in the Box,darden.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Chris,Shepherd,chris.shepherd@postholdings.com,Post Holdings,sbcos.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Chris,Mcdermott,chris.mcdermott@skechers.com,Skechers,starbucks.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Chris,Keetch,chris.keetch@giantmartins.com,The GIANT Company,gotofoods.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Christopher,Hoang,chris.hoang@ldry.com,Landry's,caseys.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Chris,Archibald,chris.archibald@ssp-intl.com,SSP Group plc,fourseasons.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Chris,Hettinger,chris_hettinger@papajohns.com,Papa Johns,marriott.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Chris,Cleckner,chris_cleckner@belk.com,Belk,wayfair.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Cheryl,Tutt,cheryl.tutt@stores.fredmeyer.com,Fred Meyer,schultehospitality.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Chris,Heilman,cheilman@ta-petro.com,TravelCenters of America,pfgc.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Charles,Sladek,charles.sladek@wakefern.com,ShopRite,sephora.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Chad,Hammond,chammond@darden.com,Darden,dominos.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Chad,Thayer,chad.thayer@jackinthebox.com,Jack in the Box,vans.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Chris,Gerak,cgerak@heihotels.com,HEI Hotels & Resorts,macys.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Cecilia,Tan,cecilia.tan@fastretailing.com,UNIQLO,compass-usa.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Cassandra,Deruyscher,cderuyscher@coca-cola.com,The Coca-Cola Company,ritzcarlton.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Craig,Benson,cbenson@raleys.com,Raley's,vailresorts.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Chris,Beavers,cbeavers@thecheesecakefactory.com,The Cheesecake Factory,aimbridgehospitality.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Catalina,Peña Tapia,catalina.pena@puma.com,PUMA Group,travelandleisureco.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Carrie,Jennings,carrie.jennings@ihg.com,IHG Hotels & Resorts,sonesta.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Caroline,Cornabé,caroline.cornabe@qvc.com,QVC,marriott.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Carol,Ludwig,carol.ludwig@marriott.com,Marriott International,lowes.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Carmen,Marzocco,carmen.marzocco@compass-usa.com,Eurest USA,reyesholdings.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Carlos,Tapia,carlos.tapia@gnc.com,GNC,lowes.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Carlos,Figueiredo,carlos.figueiredo@marriotthotels.com,Marriott Hotels,mcdonalds.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Carlos,Herrera,carlos_herrera@papajohns.com,Papa Johns,sallybeauty.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Frank,Cardenas,cardenasf@aafes.com,The Exchange,wafflehouse.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Cameron,Murkey,cameron.murkey@unfi.com,UNFI,ritzcarlton.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Cabe,Mcconnell,cabe.mcconnell@vailresorts.com,Vail Resorts,redbull.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Bryan,Schack,bryan.schack@postholdings.com,Post Holdings,primobrands.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Bryan,Roland,bryan.roland@ros.com,Ross Stores,schultehospitality.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Bryan,Gross,bryan.gross@panerabread.com,Panera Bread,sephora.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Bryan,Beck,bryan.beck@giantmartins.com,The GIANT Company,circlek.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Brooke,Harris Markham,brooke.markham@kohls.com,Kohl's,coca-cola.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Brent,Robison,brobison@redrobin.com,Red Robin,ihg.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Brittany,Zimich,brittany.zimich@fivebelow.com,Five Below,ihg.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Brittany,Stewart,brittany.stewart@bestbuy.com,Best Buy,oldnavy.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Brittany,Flory,brittany.flory@dominos.com,Domino's,marriottvacationsworldwide.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Britany,Rougier,britany.rougier@anheuser-busch.com,Anheuser-Busch,victoriassecret.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Bridgette,Hernandez,bridgette.hernandez@us.mcd.com,McDonald's,dominos.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Brian,Young,brian.young@hy-vee.com,Hy-Vee,heihotels.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Brian,Triolo,brian.triolo@nordstrom.com,Nordstrom,academy.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Brian,Schenck,brian.schenck@flooranddecor.com,Floor & Decor,gap.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Brian,Nolan,brian.nolan@applegreenstores.com,Applegreen,marriottvacationsworldwide.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Brian,Lavarnway,brian.lavarnway@quiktrip.com,QuikTrip,hotelequities.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Brian,Greene,brian.greene@chipotle.com,Chipotle Mexican Grill,tajhotels.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Brian,Gibson,brian.gibson@spencergifts.com,Spencer's,chartwellshighered.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Brian,Dukes,brian.dukes@logansroadhouse.com,Logan's Roadhouse,kraftheinz.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Brett,Murray,brett.murray@fairmont.com,Fairmont Hotels & Resorts,chuckecheese.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Brendan,Birchmeier,brendan.birchmeier@meijer.com,Meijer,chewy.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Brayan,Espinoza Huamali,brayan.espinoza@mx.nestle.com,Nestlé,abercrombie.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Breanne,Rankin,brankin@bbw.com,Bath & Body Works,anheuser-busch.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Brandon,Stein,brandonstein@lululemon.com,lululemon,starbucks.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Brandon,Matejcic,brandonmatejcic@outback.com,Outback Steakhouse,segrocers.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Brandon,Lowe,brandon.lowe@sysco.com,Sysco,visionworks.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Brandon,Graef,brandon.graef@sunbeltrentals.com,Sunbelt Rentals,gfs.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Brandi,Greene,brandi_greene@papajohns.com,Papa Johns,tajhotels.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Brett,Potoka,bpotoka@savers.com,Savers | Value Village,melia.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Bobby,Garner,bobby.garner@gpshospitality.com,GPS Hospitality,kroger.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Brad,Mcconnell,bmcconnell@journeys.com,Journeys,sands.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Blake,Parker,blake.parker@jasonsdeli.com,Jason's Deli,gnc.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Brian,Kumpf,bkumpf@bjsrestaurants.com,BJ's Restaurants,schultehospitality.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Beth,James,bjames@owhospitality.com,OW Hospitality,travelandleisureco.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Brian,Haller,bhaller@harborfreight.com,Harbor Freight Tools,coca-cola.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Beth,Ruf,beth.ruf@hallmark.com,Hallmark Cards,gotofoods.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
-Beth,Fisher,beth.fisher@gpshospitality.com,GPS Hospitality,marriott.com,,🤖 eBliss AI  - US | Retail / Hospitality | S3 | CTO/Chief AI Officer
 Melissa,Knall,mknall@dollartree.com,Dollar Tree Stores,dollartree.com,,🤖 eBliss AI | US - Retail / Hospitality | S2 - Infrastructure & Operations
 William,Huston,bill.huston@pfgc.com,Performance Food Group,pfgc.com,,🤖 eBliss AI | US - Retail / Hospitality | S2 - Infrastructure & Operations
 Lee,Mccampbell,lee.mccampbell@shoeshow.com,Shoe Show,shoeshowmega.com,,🤖 eBliss AI | US - Retail / Hospitality | S2 - Infrastructure & Operations
