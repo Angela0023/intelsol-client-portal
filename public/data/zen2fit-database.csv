@@ -1,4 +1,22 @@
 first_name,last_name,email,company_name,website,linkedin_url,campaign_name
+Carsten,Sixhøi,cs@c2it.dk,KOLLAB,kollab.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
+Per,Sjørup Christiansen,cp@moensbank.dk,Møns Bank,moensbank.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
+Claus Højbjerg,Andersen,cha@encodify.com,Encodify,encodify.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
+Christian,Grubak,cg@chronoshub.io,ChronosHub,chronoshub.io,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
+Christian,Fog,cf@viabill.com,ViaBill,viabill.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
+Brenda,Cowie,brenda.cowie@qualiware.com,QualiWare,qualiware.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
+David,Brookner,bd@dbc.dk,DBC,dbc.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
+Bridget,Conway-Taylor,bct@consensus.dk,Consensus,consensus.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
+Christian,Bowall,bc@contractbook.dk,Contractbook,contractbook.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
+André,Zeitz,az@ecomobility.com,EcoMobility Group,ecomobility.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
+Andreas,Lannér,andreas.lanner@rightpeoplegroup.com,Right People Group,rightpeoplegroup.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
+Anders,Haugbølle Thomsen,anders.thomsen@slidehub.io,SlideHub,slidehub.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
+Alfred,Joensen,alfred@nestech.dk,Nes Tech A/S,nestech.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
+Alexander,Skjødt Rimmen,alexander.rimmen@vitecsoftware.com,Vitec Aloc,vitec-aloc.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
+Alexander Holten,Steffen,ahs@pentia.dk,Pentia,pentia.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
+Allan,Grønlund,ag@kvantify.dk,Kvantify,kvantify.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
+Aditya,Garg,aditya.garg@avantenow.com,AvanteNow,avantenow.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
+Alexandra,Bosson,abosson@timextender.com,TimeXtender,timextender.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
 Heini,Zachariassen,heini@vivino.com,Vivino,vivino.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
 Graham,Page,graham.page@imotions.com,iMotions,imotions.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
 Morten Grosbø,Arknæs,gm@danofficeit.com,Danoffice IT Green,danofficeit.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
@@ -15,10 +33,8 @@ David,Granhøj Christoffersen,david@weply.dk,Weply,weply.chat,,🍃 Zen2fit | De
 David,Holsko,david@orbitvunordic.com,Orbitvu Nordic,orbitvunordic.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
 Daryl,Hornsby,daryl.hornsby@omadaidentity.com,Omada,omadaidentity.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
 Daniel,Horn,daniel.horn@phases.dk,Phases,phases.io,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
-Carsten,Sixhøi,cs@c2it.dk,KOLLAB,kollab.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
 Christian,Ruud,cr@pentia.dk,Pentia,pentia.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
 Casper,Rasmussen,cr@monta.com,Monta,monta.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
-Per,Sjørup Christiansen,cp@moensbank.dk,Møns Bank,moensbank.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
 Claus Bek,Nielsen,claus.nielsen@halfspace.ai,Halfspace,halfspace.ai,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
 Claudiu,Serban,claudiu.serban@lobyco.com,Lobyco,lobyco.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
 Christoffer,Ljørring,cl@risika.dk,Risika,risika.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
@@ -26,38 +42,35 @@ Christian,Iversen,christian@goautonomous.io,Go Autonomous,goautonomous.io,,🍃 
 Christian,Norman Scheuer,christian.scheuer@edlund.dk,Edlund A/S,edlund.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
 Christian,Møller,christian.moller@formuepleje.dk,Formuepleje,formuepleje.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
 Charlie,Wade,charlie.wade@yavica.com,YAVICA,yavica.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
-Claus Højbjerg,Andersen,cha@encodify.com,Encodify,encodify.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
 Christian Holm,Johannesen,ch@adversus.io,Adversus,adversus.io,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
-Christian,Grubak,cg@chronoshub.io,ChronosHub,chronoshub.io,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
-Christian,Fog,cf@viabill.com,ViaBill,viabill.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
 Casper,Henningsen,casper.henningsen@sonarapp.com,GetWhy,getwhy.io,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
 Christian,Almskou,ca@cortexconsult.dk,Cortex Consult A/S,cortexconsult.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
-Brenda,Cowie,brenda.cowie@qualiware.com,QualiWare,qualiware.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
 Bjarne,Pedersen,bp@navipartner.dk,NaviPartner,navipartner.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
 Bojan V.,Petrovic,bojan.petrovic@cluedin.com,CluedIn,cluedin.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
-David,Brookner,bd@dbc.dk,DBC,dbc.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
-Bridget,Conway-Taylor,bct@consensus.dk,Consensus,consensus.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
-Christian,Bowall,bc@contractbook.dk,Contractbook,contractbook.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
-André,Zeitz,az@ecomobility.com,EcoMobility Group,ecomobility.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
-Andreas,Lannér,andreas.lanner@rightpeoplegroup.com,Right People Group,rightpeoplegroup.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
-Anders,Haugbølle Thomsen,anders.thomsen@slidehub.io,SlideHub,slidehub.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
-Alfred,Joensen,alfred@nestech.dk,Nes Tech A/S,nestech.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
-Alexander,Skjødt Rimmen,alexander.rimmen@vitecsoftware.com,Vitec Aloc,vitec-aloc.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
-Alexander Holten,Steffen,ahs@pentia.dk,Pentia,pentia.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
-Allan,Grønlund,ag@kvantify.dk,Kvantify,kvantify.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
-Aditya,Garg,aditya.garg@avantenow.com,AvanteNow,avantenow.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
-Alexandra,Bosson,abosson@timextender.com,TimeXtender,timextender.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
+Mikael Christian,Carlsen,mikael.carlsen@frisbii.com,Frisbii,frisbii.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
+Marco,Holst Hjortshøj,mhh@e-nettet.dk,e-nettet,e-nettet.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
+Morten,Have,mh@nobly.dk,Nobly,nobly.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
+Matthias,Haamann,mh@churchdesk.com,ChurchDesk,churchdesk.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
+Michelle G.,Mark,mg@epico.dk,Epico,epicogroup.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
+Morten,Søe Feldung,mf@connectedcars.dk,Connected Cars,connectedcars.io,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
+Mette Thavlov,Neukirch,mette@abakion.dk,Abakion A/S,abakion.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
+Mia Brokdorff,Jensen,mbj@epico.dk,Epico,epicogroup.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
+Ina Bargmann,Meyer,mb@novax.dk,Novax A/S,novax.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
 Morten,Benn,mb@changegroup.dk,ChangeGroup,changegroup.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
 Matthijs,Claessens,matthijs.claessens@yavica.com,YAVICA,yavica.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
+Mathias,Hermansen,mathias.hermansen@it-minds.dk,IT Minds,it-minds.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
 Martin,Hyldahl,martin.hyldahl@cluedin.com,CluedIn,cluedin.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
+Marcus Hecht,Henriksen,marcus.hecht.henriksen@lobyco.com,Lobyco,lobyco.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
 Marc,Bastin,marc.bastin@omadaidentity.com,Omada,omadaidentity.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
 Marc Aron,Bøgh Barnholdt,marc.barnholdt@solita.dk,Solita A/S,solita.fi,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
+Manuel,Pabst,manuel.pabst@frisbii.com,Frisbii,frisbii.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
 Maggie' Jane,Magaard,maggie@weply.dk,Weply,weply.chat,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
 Mads,Paludan Aabling,mads.paludan@penneo.com,Penneo A/S,penneo.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
 Mads Wiederholdt,Jensen,mads.jensen@xci.dk,XCI,xci.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
 Allan,Mortensen,ma@jyskefinans.dk,Jyske Finans,jyskefinans.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
 Soren,Lund,ls@complycloud.com,TimeLog,timelog.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
 Lone Theilgaard,Lassen,lone.theilgaardlassen@vitecsoftware.com,Vitec Aloc,vitec-aloc.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
+Leo,Lambert,ll@corti.ai,Corti,corti.ai,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
 Kevin,Lopes,lk@implement.dk,The Tech Collective,thetechcollective.eu,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
 Lars,Aarup Jensen,lj@jyskefinans.dk,Jyske Finans,jyskefinans.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
 Lise Bach,Vestergaard,lise.vestergaard@solita.dk,Solita A/S,solita.fi,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
@@ -65,6 +78,7 @@ Linas,Balke,linas@adapt.dk,Adapt,adaptagency.com,,🍃 Zen2fit | Denmark - Finte
 Chad,Leqve,leqve@copopt.com,Copenhagen Optimization,copenhagenoptimization.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
 Lisbeth,Erlands,le@ifu.dk,Impact Fund Denmark,impactfund.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
 Lasse,Petersen,lasse.petersen@slidehub.io,SlideHub,slidehub.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
+Lars Kjer,Jensen,lars.kjer.jensen@addvision.dk,ADDvision,addvision.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
 Sajjad,Khan,ks@admire.dk,ADmire,admire.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
 Kasper,Ryt-Hansen,krh@admire.dk,ADmire,admire.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
 Klaus,Kristensen,kkristensen@solverglobal.com,Solver Denmark,solverglobal.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
@@ -183,50 +197,64 @@ Mikkel,Rahbek Brunse,mikkel.brunse@vitecsoftware.com,Vitec Aloc,vitec-aloc.com,,
 Mike,Valencia,mike@simplesolution.dk,Simple Agency Group A/S,simplegroup.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
 Mikael,Fenger,mikael.fenger@invixo.com,INVIXO | Part of ECIT,invixo.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
 Mikael,Ekman,mikael.ekman@impactcommerce.com,IMPACT Commerce,impactcommerce.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
-Mikael Christian,Carlsen,mikael.carlsen@frisbii.com,Frisbii,frisbii.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
 Mikael,Braagaard,mikael.braagaard@festinafinance.com,Festina Finance,festinafinance.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
 Ib,Mortensen,mib@omnidocs.com,Omnidocs,omnidocs.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
-Marco,Holst Hjortshøj,mhh@e-nettet.dk,e-nettet,e-nettet.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
-Morten,Have,mh@nobly.dk,Nobly,nobly.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
-Matthias,Haamann,mh@churchdesk.com,ChurchDesk,churchdesk.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
-Michelle G.,Mark,mg@epico.dk,Epico,epicogroup.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
-Morten,Søe Feldung,mf@connectedcars.dk,Connected Cars,connectedcars.io,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
-Mette Thavlov,Neukirch,mette@abakion.dk,Abakion A/S,abakion.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
-Mia Brokdorff,Jensen,mbj@epico.dk,Epico,epicogroup.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
-Ina Bargmann,Meyer,mb@novax.dk,Novax A/S,novax.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
-Mathias,Hermansen,mathias.hermansen@it-minds.dk,IT Minds,it-minds.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
 Martin,Khoshsoda,martin@superbexperience.com,Superb,superbexperience.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
-Marcus Hecht,Henriksen,marcus.hecht.henriksen@lobyco.com,Lobyco,lobyco.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
-Manuel,Pabst,manuel.pabst@frisbii.com,Frisbii,frisbii.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
-Leo,Lambert,ll@corti.ai,Corti,corti.ai,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
-Lars Kjer,Jensen,lars.kjer.jensen@addvision.dk,ADDvision,addvision.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
 Flemming,Stein,flemming@plecto.com,Plecto,plecto.com,,🍃 Zen2fit | Denmark - Fintech | Tier 2 - CEO/Founder
+Aiana,Woods,aiana.woods@languagewire.com,LanguageWire,dixa.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
+Adam,Berg,adam.berg@byggefakta.dk,Byggefakta A/S,timextender.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
+Aamir,Ahmed,aamir.ahmed@turnpikes.pro,Turnpikes,playable.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
+Heidi Nykjaer,Persson,hp@ifu.dk,Impact Fund Denmark,falcon.io,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
+Henriette,Lyngsø Mikkelsen,hlm@trimit.com,TRIMIT,vwsf.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Henrik,Husth,hh@jyskefinans.dk,Jyske Finans,auditdata.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
+Helle,Kragelund,helle.kragelund@nobly.dk,Nobly,zenegy.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
+Helene,Pontoppidan,helene.pontoppidan@penneo.com,Penneo A/S,penneo.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
+Heidi Bennett,Harder,heidi.harder@vwsf.dk,Volkswagen Semler Finans Danmark A/S,comm2ig.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
+Heather,Shroyer,heather.shroyer@plecto.com,Plecto,spirii.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
+Harold,Wibo,harold.wibo@group.one,one.com,admire.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
+Haidar,Al Janabi,h.aljanabi@neuronsinc.com,Neurons,zenegy.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Gustavo,Summavielle,gustavo.summavielle@formalize.com,Formalize,performativ.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
+Gökay,Sedef,gsedef@configit.com,Configit,lobyco.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Heide,Granberg,granberg@copenhagenoptimization.com,Copenhagen Optimization,epista.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
+Gonzalo,Marquez Diez,gonzalo.marquez@formalize.com,Formalize,qnation.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
+Máté,Garadnai,gm@onomondo.com,Onomondo,omadaidentity.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
+Gitte,Strandly,gitte.strandly@qualiware.com,QualiWare,languagewire.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Gábor,Zaparkanszky,gabor@uniqkey.eu,Uniqkey,atos.net,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Frederik Bjerre,Wagner,frederik.wagner@languagewire.com,LanguageWire,ricoh.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Flemming,Lystlund,flemming.lystlund@lobyco.com,Lobyco,danoffice.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Filipe,Cunha,filipe@neuronsinc.com,Neurons,howdendanmark.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
+Filip,Hedblom,filip.hedblom@languagewire.com,LanguageWire,dreamdata.io,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Erik,Campeotto,erik.campeotto@miinto.com,Miinto,targit.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
+Lena,Shchenkova,elena.shchenkova@kraftvaerk.com,Kraftvaerk,clerk.io,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Esben,Bistrup Halvorsen,eh@festinafinance.com,Festina Finance,byggefakta.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
+Emil,Basse Andersen,ea@kanpla.dk,Kanpla,languagewire.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Daniel,Reid,dr@playable.com,Playable,languagewire.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
+Donia,Haseli,donia@auditdata.com,Auditdata,epista.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Dennis,Grosse,dg@danofficeit.com,Danoffice IT,cloudfactorygroup.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Dennis,Jensen,dennis.jensen@frameo.com,Frameo A/S,atos.net,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
+Daniela,Drobna,dd@chargebee.com,Clerk.io,languagewire.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Damien,Carter,dc@kanpla.io,Kanpla,leapwork.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Daniyal,Chughtai,dc@helloretail.com,Hello Retail,trackunit.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Dj,Bray,dbray@dreamdata.io,Dreamdata,comm2ig.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
+David,O'Tuama,david@consensus.dk,Consensus,trifork.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 David Andreasen,Lyngh,david.lyngh@intellishore.dk,Intellishore,lobster-world.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
+Dan,Willis,dan.willis@cylindo.com,Cylindo AI,edlund.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Cláudia,Rodrigues,cr@onomondo.com,Onomondo,autouncle.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Constanze,Rachow,constanze.rachow@xsuite.com,xSuite,epista.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Carina Nørhede,Hoffmann,cnh@novo.dk,Novo Holdings,paychex.eu,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
+Carina,Messerschmidt Hansen,cmh@gatehouse.com,Gatehouse Group,konicaminolta.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Mathias,La Cour,cm@onlinepos.dk,OnlinePOS,testhuset.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
+Claes Bolvig,Andersen,claes.andersen@talentech.com,Talentech Denmark,copenhagenoptimization.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Chris,Van Der Iest,ci@helloretail.com,Hello Retail,configit.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Christoffer,Wichmann,christoffer.wichmann@intellishore.dk,Intellishore,languagewire.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Christian,Winther,christian.winther@sentia.dk,Sentia,danoffice.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
+Christian,Schwihel,christian.schwihel@spirii.com,Spirii,targit.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Christian,Bundgaard,christian.bundgaard@ricoh.dk,Ricoh Danmark A/S,boligportal.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
+Christopher,Mccarthy,chris.mccarthy@omadaidentity.com,Omada,kanpla.io,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Carsten Høyer,Gaardsholt,chg@wingmen.dk,Wingmen Solutions,continia.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
+Casper,Bekker Skov,cbs@ed.dk,ed A/S,configit.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Charlotte,Baranciukas,cbaranciukas@zensai.com,Zensai,formalize.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
+Carsten Bay-Smidt,Andersen,cba@wingmen.dk,Wingmen Solutions,xsuite.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Casper,Juhl Jensen,casper.jensen@ricoh.dk,Ricoh Danmark A/S,spirii.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Caroline,Rossé Herrig Simonsen,caroline.rosse@intellishore.dk,Intellishore,simplerqms.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Carmen,Arnaez,carmen.arnaez@vivino.com,Vivino,cluedin.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
@@ -269,62 +297,34 @@ Alexandra A.,Kroth,aleib@paychex.de,Paychex Europe (legacy),cip.com,,🍃 Zen2fi
 Ala,Awad,ala@eloomi.com,eloomi,soapeople.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Anders,Knap,ak@paychex.eu,Paychex Europe (legacy),autouncle.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Adela,Jaffe,ajaffe@dreamdata.io,Dreamdata,frisbii.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
-Aiana,Woods,aiana.woods@languagewire.com,LanguageWire,dixa.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Amalie,Galbo Jørgensen,agj@nationalbanken.dk,Danmarks Nationalbank,kanpla.io,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Gillian,Kiely,ag@playable.com,Playable,comm2ig.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Anna Garver,Pedersen,ag@navipartner.dk,NaviPartner,netip.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Abdel-Fatah,Gharib,afg@viabill.com,ViaBill,autouncle.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Adnan,Mughal,adnan.mughal@ecit.no,ECIT Norge,talentech.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
-Adam,Berg,adam.berg@byggefakta.dk,Byggefakta A/S,timextender.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Christian,Allmer,ac@onomondo.com,Onomondo,playable.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Charlotte Westh,Horn Andersen,ac@cbrain.dk,cBrain,danoffice.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
-Aamir,Ahmed,aamir.ahmed@turnpikes.pro,Turnpikes,playable.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Hanne Schacke,Hansen,hs@danofficeit.com,Danoffice IT,cip.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
-Heidi Nykjaer,Persson,hp@ifu.dk,Impact Fund Denmark,falcon.io,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
-Henriette,Lyngsø Mikkelsen,hlm@trimit.com,TRIMIT,vwsf.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Hyesook,Jeon,hh@inpay.com,Inpay,zensai.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Gareth,Hennessy,hg@targit.com,TARGIT,jyskefinans.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Henrik,Juul,henrik.juul@ricoh.dk,Ricoh Danmark A/S,zensai.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Henrik,Bjerring,henrik.bjerring@byggefakta.dk,Byggefakta A/S,helloretail.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
-Helle,Kragelund,helle.kragelund@nobly.dk,Nobly,zenegy.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
-Helene,Pontoppidan,helene.pontoppidan@penneo.com,Penneo A/S,penneo.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Heine,Kristensen,heine.kristensen@frameo.com,Frameo A/S,byggefakta.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
-Heidi Bennett,Harder,heidi.harder@vwsf.dk,Volkswagen Semler Finans Danmark A/S,comm2ig.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Heide,Möller,heide.moeller@languagewire.com,LanguageWire,impactfund.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
-Heather,Shroyer,heather.shroyer@plecto.com,Plecto,spirii.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Henrik,Bjørn Oldenborg,hbo@duka.dk,Duka A/S,patriotisk.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
-Harold,Wibo,harold.wibo@group.one,one.com,admire.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Hans,Jacobsen,h.jacobsen@neuronsinc.com,Neurons,helloretail.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Hanane,Ben Abdeslam,h.benabdeslam@one.com,one.com,zensai.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
-Haidar,Al Janabi,h.aljanabi@neuronsinc.com,Neurons,zenegy.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
-Gökay,Sedef,gsedef@configit.com,Configit,lobyco.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Graham,Philip,graham.philip@miuros.com,Dixa,xsuite.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
-Gonzalo,Marquez Diez,gonzalo.marquez@formalize.com,Formalize,qnation.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
-Máté,Garadnai,gm@onomondo.com,Onomondo,omadaidentity.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
-Gitte,Strandly,gitte.strandly@qualiware.com,QualiWare,languagewire.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 George,Loredo,george.loredo@xsuite.com,xSuite,spirii.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Frederik,Elnegaard,frederik@resights.dk,Resights,uniqkey.eu,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
-Filip,Hedblom,filip.hedblom@languagewire.com,LanguageWire,dreamdata.io,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Eyip,Yildirim,eyip.yildirim@apc.dk,APC Forsikringsmæglere A/S,frisbii.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Even,Nyhus,even.nyhus@ecit.no,ECIT Norge,sentia.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Esther,Leinemann,esther.leinemann@formalize.com,Formalize,trackunit.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Emma,Bernabeu,emma.bernabeu@languagewire.com,LanguageWire,comm2ig.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Emil Borker,Johansen,emil.johansen@penneo.com,Penneo A/S,boligportal.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
-Lena,Shchenkova,elena.shchenkova@kraftvaerk.com,Kraftvaerk,clerk.io,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
-Emil,Basse Andersen,ea@kanpla.dk,Kanpla,languagewire.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
-Donia,Haseli,donia@auditdata.com,Auditdata,epista.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Dorthe Hammer,Hovaldt Jensen,dhhj@cego.dk,CEGO,netic.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
-Daniela,Drobna,dd@chargebee.com,Clerk.io,languagewire.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
-David,O'Tuama,david@consensus.dk,Consensus,trifork.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
-Dan,Willis,dan.willis@cylindo.com,Cylindo AI,edlund.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
-Carina,Messerschmidt Hansen,cmh@gatehouse.com,Gatehouse Group,konicaminolta.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
-Claes Bolvig,Andersen,claes.andersen@talentech.com,Talentech Denmark,copenhagenoptimization.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
-Christian,Schwihel,christian.schwihel@spirii.com,Spirii,targit.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
-Christopher,Mccarthy,chris.mccarthy@omadaidentity.com,Omada,kanpla.io,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Charlotte,Weichhold,charlotte.weichhold@autouncle.com,AutoUncle,continia.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Christopher,Friis-Hansen,cfh@dixa.com,Dixa,viabill.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
-Casper,Bekker Skov,cbs@ed.dk,ed A/S,configit.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
-Carsten Bay-Smidt,Andersen,cba@wingmen.dk,Wingmen Solutions,xsuite.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Bonnie Malue,Owild,bmo@anthill.technology,Anthill,lobster-world.com,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Andreas,Teubner,ateubner@simply.tv,Simply.TV,ricoh.dk,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
 Anders,Pallesen,ap@elbek-vejrup.dk,Elbek & Vejrup A/S,simply.tv,,🍃 Zen2fit | Denmark - Fintech | Tier 1 | Primary Decision Makers
