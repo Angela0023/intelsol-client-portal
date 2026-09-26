@@ -1,4 +1,10 @@
 first_name,last_name,email,company_name,website,linkedin_url,campaign_name
+Andrea,Costa,a.costa@siit-it.com,S.I.I.T,siitgroup.com,,🧪 TS Lab | Amazon Sellers | Decision Makers
+Charlotte,Meurer,charlotte.meurer@biolife.be,Be-Life,be-life.eu,,🧪 TS Lab | Amazon Sellers | Decision Makers
+Mizar,Catuzzi,m.catuzzi@siit-it.com,S.I.I.T,siitgroup.com,,🧪 TS Lab | Amazon Sellers | Decision Makers
+Arianna,Di Lorenzo,a.dilorenzo@siit-it.com,S.I.I.T,siitgroup.com,,🧪 TS Lab | Amazon Sellers | Decision Makers
+Mathilde,Banino,mathilde.banino@sunday.de,Sunday Natural,sunday.de,,🧪 TS Lab | Amazon Sellers | Decision Makers
+Herbert,Pock,herbert.pock@spermidinelife.com,TLL The Longevity Labs,spermidinelife.com,,🧪 TS Lab | Amazon Sellers | Decision Makers
 Luis,Carral Delgado,luis.carral@ynsadietsa.com,Laboratorios Ynsadiet,ynsadiet.com,,🧪 TS Lab | Amazon Sellers | Decision Makers
 Luis Miguel,Alonso Gutierrez,luismiguel.alonso@ynsadietsa.com,Laboratorios Ynsadiet,ynsadiet.com,,🧪 TS Lab | Amazon Sellers | Decision Makers
 Sanja,Golubić,sgolubic@polleosport.com,Polleo Sport,polleosport.com,,🧪 TS Lab | Amazon Sellers | Decision Makers
@@ -81,13 +87,7 @@ Sabrina,Thome,sabrina.thome@sunday.de,Sunday Natural,sunday.de,,🧪 TS Lab | Am
 Rafał,Biskup,rafal.biskup@avetpharma.pl,Avet Pharma,avetpharma.pl,,🧪 TS Lab | Amazon Sellers | Decision Makers
 Perrine,Rase,perrine.rase@biolife.be,Be-Life,be-life.eu,,🧪 TS Lab | Amazon Sellers | Decision Makers
 Michele,Russo,michele.russo@naturalbradel.com,Natural Bradel,naturalbradel.com,,🧪 TS Lab | Amazon Sellers | Decision Makers
-Andrea,Costa,a.costa@siit-it.com,S.I.I.T,siitgroup.com,,🧪 TS Lab | Amazon Sellers | Decision Makers
 Alison,Allan,alison@troohealthcare.com,Troo Health Care,troohealthcare.com,,🧪 TS Lab | Amazon Sellers | Decision Makers
-Charlotte,Meurer,charlotte.meurer@biolife.be,Be-Life,be-life.eu,,🧪 TS Lab | Amazon Sellers | Decision Makers
-Mizar,Catuzzi,m.catuzzi@siit-it.com,S.I.I.T,siitgroup.com,,🧪 TS Lab | Amazon Sellers | Decision Makers
-Arianna,Di Lorenzo,a.dilorenzo@siit-it.com,S.I.I.T,siitgroup.com,,🧪 TS Lab | Amazon Sellers | Decision Makers
-Mathilde,Banino,mathilde.banino@sunday.de,Sunday Natural,sunday.de,,🧪 TS Lab | Amazon Sellers | Decision Makers
-Herbert,Pock,herbert.pock@spermidinelife.com,TLL The Longevity Labs,spermidinelife.com,,🧪 TS Lab | Amazon Sellers | Decision Makers
 Javier,Martí,jmarti@eladiet.com,ELADIET,eladiet.com,,🧪 TS Lab | Amazon Sellers | Decision Makers
 Tania,Henche Madruga,tania@mahen.es,Laboratorios Mahen,mahen.es,,🧪 TS Lab | Amazon Sellers | Decision Makers
 Mireia,Folguera,mireia@eladiet.com,ELADIET,eladiet.com,,🧪 TS Lab | Amazon Sellers | Decision Makers
@@ -141,6 +141,7 @@ Thomas,Heinrichs,thomas.heinrichs@lidl.fi,Lidl Suomi,lidl.fi,,"🧪 TS Lab | Fin
 Marko,Keskinen,marko.keskinen@keskisenkello.fi,Keskisen Kello Oy,keskisenkello.fi,,"🧪 TS Lab | Finland (VFS) | Support, Procurement | 03/Sept/2026"
 Katia,Zangaro,info@lagrafika.it,Amway,amway.com,,🧪 TS Lab | Finland (VFS) | Decision Makers | 02/Sept/2026
 Neil,Jacobs,njacobs@aor.ca,(AOR) Advanced Orthomolecular Research,aor.ca,,🧪 TS Lab | Finland (VFS) | Decision Makers | 02/Sept/2026
+Katherine,Parent,kparent@aor.ca,(AOR) Advanced Orthomolecular Research,aor.ca,,🧪 TS Lab | Finland (VFS) | Decision Makers | 02/Sept/2026
 Pran,Nibber,pran.nibber@aor.ca,(AOR) Advanced Orthomolecular Research,aor.ca,,🧪 TS Lab | Finland (VFS) | Decision Makers | 02/Sept/2026
 Darius,Smith,darius.smith@appliednutrition.uk,Applied Nutrition plc,appliednutrition.uk,,🧪 TS Lab | Finland (VFS) | Decision Makers | 02/Sept/2026
 Alan,Hardisty,alan.hardisty@ancientnutrition.com,Ancient Nutrition,ancientnutrition.com,,🧪 TS Lab | Finland (VFS) | Decision Makers | 02/Sept/2026
@@ -149,7 +150,6 @@ Robert,Westman,robert.westman@alpha-plus.se,Alpha Plus AB,alpha-plus.se,,🧪 TS
 Thomas,Ryder,thomas@appliednutrition.uk,APPLIED NUTRITION LTD,appliednutrition.uk,,🧪 TS Lab | Finland (VFS) | Decision Makers | 02/Sept/2026
 Ross,Terry,rossterry@4life.com,4Life Research,4life.com,,🧪 TS Lab | Finland (VFS) | Decision Makers | 02/Sept/2026
 Manny,Castillo,mannyc@4life.com,4Life Research,4life.com,,🧪 TS Lab | Finland (VFS) | Decision Makers | 02/Sept/2026
-Katherine,Parent,kparent@aor.ca,(AOR) Advanced Orthomolecular Research,aor.ca,,🧪 TS Lab | Finland (VFS) | Decision Makers | 02/Sept/2026
 NavNirat,N.,drnibber@aor.ca,(AOR) Advanced Orthomolecular Research,aor.ca,,🧪 TS Lab | Finland (VFS) | Decision Makers | 02/Sept/2026
 Deepti,Velury,deepti@enablechange.co.uk,Applied Nutrition plc,appliednutrition.uk,,🧪 TS Lab | Finland (VFS) | Decision Makers | 02/Sept/2026
 Eypsa,Taneja,eypsa.taneja@ancientnutrition.com,Ancient Nutrition,ancientnutrition.com,,🧪 TS Lab | Finland (VFS) | Decision Makers | 02/Sept/2026
@@ -479,6 +479,7 @@ Amanda,Alstersand,amanda.alstersand@greatearth.se,Great Earth,greatearth.se,,"�
 Pernilla,Orento,kundservice@bangerhead.se,Bangerhead,bangerhead.se,,"🧪 TS Lab | Sweden (VFS) | Support, Procurement | 02/Sept/2026"
 P-A,Johansson,paj@betteryou.se,Better You AB,betteryou.se,,🧪 TS Lab | Sweden (VFS) | Decision Makers | 02/Sept/2026
 Tove,Svenskog,tove.svenskog@bangerhead.com,Bangerhead,bangerhead.fi,,🧪 TS Lab | Sweden (VFS) | Decision Makers | 02/Sept/2026
+Elin,Wikner,elin.wikner@bangerhead.com,Bangerhead,bangerhead.fi,,🧪 TS Lab | Sweden (VFS) | Decision Makers | 02/Sept/2026
 Johanna,Belsing,johanna.belsing@bangerhead.com,Bangerhead,bangerhead.fi,,🧪 TS Lab | Sweden (VFS) | Decision Makers | 02/Sept/2026
 Rasmus,Nerman,kundservice@apoteket.se,Apoteket AB,apoteket.se,,🧪 TS Lab | Sweden (VFS) | Decision Makers | 02/Sept/2026
 Ingrid,Bojner,ingrid.bojner@mentimeter.com,Apoteket AB,apoteket.se,,🧪 TS Lab | Sweden (VFS) | Decision Makers | 02/Sept/2026
@@ -487,10 +488,11 @@ Monika,Magnusson,monika.magnusson@apotekhjartat.se,Apotek Hjärtat,apotekhjartat
 Cecilia,de Pedro,cecilia.de.pedro@apotekhjartat.se,Apotek Hjärtat,apotekhjartat.se,,🧪 TS Lab | Sweden (VFS) | Decision Makers | 02/Sept/2026
 Jonas,Hedman,jonas.hedman@novax.se,Apohem,apohem.se,,🧪 TS Lab | Sweden (VFS) | Decision Makers | 02/Sept/2026
 Gabriele,Casanovi,gabriele@13protein.com,13:e Protein Import AB,13protein.com,,🧪 TS Lab | Sweden (VFS) | Decision Makers | 02/Sept/2026
-Elin,Wikner,elin.wikner@bangerhead.com,Bangerhead,bangerhead.fi,,🧪 TS Lab | Sweden (VFS) | Decision Makers | 02/Sept/2026
 Astrid,van der Staaij,as@lithosingredients.nl,AstaReal | Sweden,astareal.se,,🧪 TS Lab | Sweden (VFS) | Decision Makers | 02/Sept/2026
 Christopher,Fägerskiöld,info@13protein.com,13:e Protein Import AB | SELF omninutrition,13protein.com,,🧪 TS Lab | Sweden (VFS) | Decision Makers | 02/Sept/2026
+Christopher,Becker,cbecker@everidis.com,BioGaia USA,biogaia.com,,🧪 TS Lab | Sweden (VFS) | Decision Makers | 02/Sept/2026
 Johan,Molander,johan.molander@betteryou.se,Better You AB,betteryou.se,,🧪 TS Lab | Sweden (VFS) | Decision Makers | 02/Sept/2026
+Linnea,Strand,linnea.strand@bangerhead.se,Bangerhead,bangerhead.fi,,🧪 TS Lab | Sweden (VFS) | Decision Makers | 02/Sept/2026
 Mattias,Kontio,mattias.kontio@astareal.se,AstaReal | Sweden,astareal.se,,🧪 TS Lab | Sweden (VFS) | Decision Makers | 02/Sept/2026
 Daniel,Flodqvist,info@astareal.se,AstaReal | Sweden,astareal.se,,🧪 TS Lab | Sweden (VFS) | Decision Makers | 02/Sept/2026
 Emelie,Jarder,emelie.jarder@topformula.se,topformula,topformula.se,,🧪 TS Lab | Sweden (VFS) | Decision Makers | 02/Sept/2026
@@ -617,10 +619,8 @@ Ranjit,Patel,ranjit@purposefullybe.com,BulkTM,bulk.com,,🧪 TS Lab | Sweden (VF
 Margot,Bushnaq,margot@brandbucket.com,BrandBucket,omnisym.com,,🧪 TS Lab | Sweden (VFS) | Decision Makers | 02/Sept/2026
 Firas,Bushnaq,firas@setster.com,BrandBucket,omnisym.com,,🧪 TS Lab | Sweden (VFS) | Decision Makers | 02/Sept/2026
 Rebecca,Compton,rcompton@everidis.com,BioGaia USA,biogaia.com,,🧪 TS Lab | Sweden (VFS) | Decision Makers | 02/Sept/2026
-Christopher,Becker,cbecker@everidis.com,BioGaia USA,biogaia.com,,🧪 TS Lab | Sweden (VFS) | Decision Makers | 02/Sept/2026
 Brett,Cherry,bcherry@everidis.com,BioGaia USA,biogaia.com,,🧪 TS Lab | Sweden (VFS) | Decision Makers | 02/Sept/2026
 Holland,Anderson,ah@biogaia.se,BioGaia USA,biogaia.com,,🧪 TS Lab | Sweden (VFS) | Decision Makers | 02/Sept/2026
-Linnea,Strand,linnea.strand@bangerhead.se,Bangerhead,bangerhead.fi,,🧪 TS Lab | Sweden (VFS) | Decision Makers | 02/Sept/2026
 ,,service@foodspring.it,Foodspring Italia,foodspring.it,,"🧪 TS Lab | Italy (VFS) | Support, Procurement | 27/Jul/2026"
 ,,info@wealthnutrition.it,Wealth Nutrition,wealthnutrition.it,,"🧪 TS Lab | Italy (VFS) | Support, Procurement | 27/Jul/2026"
 ,,info@tecno-lio.it,Tecno-Lio,tecno-lio.it,,"🧪 TS Lab | Italy (VFS) | Support, Procurement | 27/Jul/2026"
@@ -1063,19 +1063,29 @@ Lisanne,Oskam,l.oskam@fitforme.com,FitForMe,fitforme.com,,"🧪 TS Lab | Nederla
 Esra,Van Der Heijden,esra@ehfproduction.nl,EHF Production - Member of 1Q Health,ehfproduction.nl,,"🧪 TS Lab | Nederland | Support, Procurement | 24/Jul/2026"
 Fanni,Szalkai,szalkai.fanni@biotechusa.com,BioTechUSA,biotechusa.com,,"🧪 TS Lab | Nederland | Support, Procurement | 24/Jul/2026"
 Timo,Van Haagen,t.vanhaagen@bextral.com,Bextral,bextral.com,,"🧪 TS Lab | Nederland | Support, Procurement | 24/Jul/2026"
+Renato,Romani,renatoromani@ew2health.com,Ew2health BV,easywaytohealth.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Monika,Lutters,lutters@pop.agri.ch,European Society of Clinical Pharmacy (ESCP),escpweb.org,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Johan,Horden,johan.horden@etos.nl,Etos,etos.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+René,Nabben,rene.nabben@etos.nl,Etos,etos.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Robin,Groen,robin.groen@etos.nl,Etos,etos.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Daan,Versteeg,daan.versteeg@etos.nl,Etos,etos.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Léon,Rust,leon.rust@outlook.com,Epplejeck Horse & Rider Superstores,ej.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Kim,Plantagie,kim.plantagie@ej.nl,Epplejeck Horse & Rider Superstores,ej.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Anno,Neinders,a.neinders@hetnet.nl,Epplejeck Horse & Rider Superstores,ej.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+🌞💥monique,Kieftenbeld,moniquekieftenbeld@home.nl,Enthusiastic Lifestyle,enthusiasticlifestyle.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Julie,Cantineau,julie.cantineau@energeticanatura.com,Energetica Natura,energeticanatura.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Choukri,Zaidouni,choukri.zaidouni@energeticanatura.com,Energetica Natura,energeticanatura.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Claire,Ginebre,claire.ginebre@energeticanatura.com,Energetica Natura,energeticanatura.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Wouter,Van Der Linden,wouter@elixirlife.nl,Elixir Life,elixirlife.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Jack,Stroeken,jstroeken@ekomenu.nl,Ekomenu,ekomenu.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Bart,Rutgers,brutgers@ekomenu.nl,Ekomenu,ekomenu.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Serkan,Necipoglu,snecipoglu@easyvit.com,EasyVit,easyvit.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Ruben,Walravens,ruben@epiq-coaching.nl,EPIQ,epiq-corporate.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Jan Pieter,Stout,janpieter@ehfproduction.nl,EHF Production - Member of 1Q Health,ehfproduction.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Jeroen,Janssen,jeroen@ehfproduction.nl,EHF Production - Member of 1Q Health,ehfproduction.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Geertje,Terhaerdt,gterhaerdt@dpsfood.nl,Dutch Protein & Services,dpsfood.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Mark,Dobbelsteen,mdobbelsteen@dpsfood.nl,Dutch Protein & Services,dpsfood.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Fred,Cornelisse,fred.cornelisse@dusart.nl,Dusart,dusart.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Jeanine,Wolters,jeanine.wolters@dusart.nl,Dusart,dusart.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Bart,Gaarenstroom,bart.gaarenstroom@dusart.nl,Dusart,dusart.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Rachele,Fasano,r.fasano@dulacfarmaceutici.com,Dulac Farmaceutici,dulacfarmaceutici.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
@@ -1274,66 +1284,89 @@ Nick,Mostert,n.mostert@avogel.nl,A.Vogel Nederland,avogel.nl,,🧪 TS Lab | Nede
 Peter,Holstege,p.holstege@avogel.nl,A.Vogel Nederland,avogel.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Marc,Seipel,marc@4peoplewhocare.de,4 people who care,4peoplewhocare.de,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Roy,Kosmeijer,r.kosmeijer@fysiosupplies.nl,FysioSupplies,fysiosupplies.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Rik,Ringenier,rik@fysieq.nl,FysieQ,fysieq.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Justin,Mosterd,justin.mosterd@futurumshop.nl,FuturumShop,futurumshop.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Vishal,Sridaran,vishal.sridaran@futurebridge.com,FutureBridge,futurebridge.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Rachit,Singla,rachit.singla@futurebridge.com,FutureBridge,futurebridge.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Pallavi,Gandhi,pallavi.gandhi@futurebridge.com,FutureBridge,futurebridge.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Rajesh,Rao,rajesh.rao@fromatech.com,Fromatech Ingredients,fromatech.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Oleg,Prusov,oleg.prusov@fromatech.com,Fromatech Ingredients,fromatech.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Dominique,Maassen,dominique.maassen@fromatech.com,Fromatech Ingredients,fromatech.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Theo,De Cauwer,theo.decauwer@frieslandcampina.com,FrieslandCampina,frieslandcampina.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Jasper,Lambregts,jasper.lambregts@frieslandcampina.com,FrieslandCampina,frieslandcampina.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Britt,Wilbrink,britt.wilbrink@frieslandcampina.com,FrieslandCampina,frieslandcampina.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Frank,Den Blanken,frank@frankdenblankenpt.nl,Frank den Blanken,frankdenblankenpt.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Grigori,Mjatš,grigori@fortunatus.ee,Fortunatus OÜ,fortunatus.ee,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Ruben,Berkouwer,ruben.berkouwer@foodunited.eu,Food United Benelux BV,foodunited.eu,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Elise,Clarisse-Brouw,elise.clarisse@foodunited.eu,Food United Benelux BV,foodunited.eu,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Mark,Van Zessen,mark.van.zessen@foodunited.eu,Food United Benelux BV,foodunited.eu,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Eline,Boltjes,eline.boltjes@foodunited.eu,Food United Benelux BV,foodunited.eu,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Remco,Verkaik,remco@fittergygroup.nl,Fittergy Group,fittergygroup.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Joyce,Puister,joyce@fittergy.nl,Fittergy Group,fittergygroup.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Jc,Heyneke,jc.heyneke@fitforme.com,FitForMe,fitforme.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Ernst,Moorman,e.moorman@fitforme.com,FitForMe,fitforme.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Simon,Hamer,s.hamer@fitforme.nl,FitForMe,fitforme.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Tom,Niël,thomas@homerun.co,Figo Pet Nederland,homerun.co,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Uwe,Scharwaechter,uwe.scharwaechter@fidelio-healthcare.com,Fidelio Healthcare Partners & Co,fidelio-healthcare.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Thomas,Uhlmann,thomas.uhlmann@fidelio-healthcare.com,Fidelio Healthcare Partners & Co,fidelio-healthcare.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Burghard,König,burghard.koenig@fidelio-healthcare.com,Fidelio Healthcare Partners & Co,fidelio-healthcare.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Patrick,Struebi,patrick.struebi@fairtrasa.com,Fairtrasa®,fairtrasa.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Jorge,Angela,jorge.angela@fairtrasa.nl,Fairtrasa®,fairtrasa.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Jelmer,Doornekamp,jelmer.doornekamp@fairtrasa.nl,Fairtrasa®,fairtrasa.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Roger,Coert,roger.coert@fagron.nl,Fagron Nederland,fagron.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Catiëlla,Van Der Slik-Schrage,catiella.schrage@fagron.nl,Fagron Nederland,fagron.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Ellen,Van Sprundel,evansprundel@fagron.nl,Fagron Nederland,fagron.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Jos,De Nekker,jos@fzorganicfood.com,FZ Organic Food,fzorganicfood.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Emmelou,Van Eijkelenburg,emmelou@fitsociety.nl,FITsociety,fitsociety.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Jeroen,Van Der Mark,jeroen@fit.nl,FIT.nl,fit.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Jeske,Van Reijsen,jeske@fam-medical.com,FAM Medical,fam-medical.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Renato,Romani,renatoromani@ew2health.com,Ew2health BV,easywaytohealth.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-René,Nabben,rene.nabben@etos.nl,Etos,etos.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Léon,Rust,leon.rust@outlook.com,Epplejeck Horse & Rider Superstores,ej.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Anno,Neinders,a.neinders@hetnet.nl,Epplejeck Horse & Rider Superstores,ej.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-🌞💥monique,Kieftenbeld,moniquekieftenbeld@home.nl,Enthusiastic Lifestyle,enthusiasticlifestyle.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Claire,Ginebre,claire.ginebre@energeticanatura.com,Energetica Natura,energeticanatura.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Jack,Stroeken,jstroeken@ekomenu.nl,Ekomenu,ekomenu.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Serkan,Necipoglu,snecipoglu@easyvit.com,EasyVit,easyvit.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Ruben,Walravens,ruben@epiq-coaching.nl,EPIQ,epiq-corporate.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Fred,Cornelisse,fred.cornelisse@dusart.nl,Dusart,dusart.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+J’Amy,Stewart,jamystewart@ew2health.com,Ew2health BV,easywaytohealth.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Julio,Gallardo Martínez,j.gallardo@boston-nutraceutical.com,Boston Nutraceutical Science,boston-nutraceutical.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Akaki,Akhmeteli,akaki.axmeteli@gmail.com,Bio+,bio-plus.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Shona,Willekes Macdonald,shona.willekesmacdonald@ausnutria.nl,Ausnutria,ausnutria-netherlands.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Alicia,Bajart,alicia.bajart@aavalabs.com,AAVALABS,aavalabs.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Rushanette,Martis,r.martis@hartstichting.nl,Hartstichting,hartstichting.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Maaike,Stok,m.stok@hartstichting.nl,Hartstichting,hartstichting.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Steph,Giansante,steph@hairburst.com,Hairburst,hairburst.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Anwar,Sultan,anwar@hairburst.com,Hairburst,hairburst.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Marijn,Bulthuis,marijn@haarspullen.nl,Haarspullen.nl,haarspullen.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Alex,Van Krevelen,vankrevelen.alex@hhoya.com,HHOYA,hhoya.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Hongmei,Yang,yang.hongmei@hhoya.com,HHOYA,hhoya.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Julie,Krueger,krueger@gudmarketing.com,Güd Marketing,gudmarketing.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Edward,Kahn,kahn@gudmarketing.com,Güd Marketing,gudmarketing.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Jill,Holden,holden@gudmarketing.com,Güd Marketing,gudmarketing.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Joel,Newport,newport@gudmarketing.com,Güd Marketing,gudmarketing.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Khalil,Seyed Mehdi,khalil@grutto.com,Grutto,grutto.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Berend,Te Voortwis,berend@grutto.com,Grutto,grutto.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Dennis,Oosterboer,dennis@grovet.com,Grovet - equine health company,grovet.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Koen,Schmitz,koen@grovet.com,Grovet - equine health company,grovet.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Chris,Dujardin,chris@grovet.com,Grovet - equine health company,grovet.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Itamar,Bukai,itamar.bukai@grovero.com,Grovero,grovero.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Evyatar,Bukai,evyatar.bukai@grovero.com,Grovero,grovero.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Lennard,Van Der Weijden,lennard@greenbalanz.nl,GreenBalanZ,greenbalanz.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Ton,Slootman,ton@greenorganics.nl,Green Organics,greenorganics.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Bart,Blok,bart@greenorganics.nl,Green Organics,greenorganics.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Arjen,Simmers,arjen@greenorganics.nl,Green Organics,greenorganics.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Jo,Wise,jowise@gdaa.org,Greater Dayton Apartment Association,gdaa.org,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Crystal,Allen,callen@gdaa.org,Greater Dayton Apartment Association,gdaa.org,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Koen,Perenboom,perenboom@goodlifepharma.com,Goodlife,goodlifepharma.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Jürgen,Kok,kok@goodlifepharma.com,Goodlife,goodlifepharma.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Ad,Bominaar,bominaar@goodlifepharma.com,Goodlife,goodlifepharma.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Vincent,Lemmen,vincent@goldennaturals.nl,Golden Naturals,goldennaturals.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Peter,Brink,peterbrink@goldennaturals.nl,Golden Naturals,goldennaturals.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Pierpaolo,Ughini,p.ughini@globalfactories.nl,Global Factories | Pharmacy Automation,globalfactories.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Vincent,Veelbehr,v.veelbehr@globalfactories.nl,Global Factories | Pharmacy Automation,globalfactories.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+Norèn,Hendriks,noren@ghee-easy.nl,Ghee Easy,ghee-easy.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
+David,Klingen,david@ghee-easy.nl,Ghee Easy,ghee-easy.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Michiel,Roeleveld,michiel@gezondheidaanhuis.nl,Gezondheid aan huis BV,gezondheidaanhuis.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Stefan,Wateler,stefan@cupplement.nl,GOYU - Natural Supplements (formerly Cupplement),cupplement.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Steven,Anderson,steven@gmx.us,"GMX Resources, Inc",gmxresources.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Nicole,Alexander,nicole.alexander@gmx.us,"GMX Resources, Inc",gmxresources.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Andre Messias Gregorio,Abdul-Hamid,andre_abdul_hamid@hotmail.com,Fysio Triple A,fysio-triple-a.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Rik,Ringenier,rik@fysieq.nl,FysieQ,fysieq.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Justin,Mosterd,justin.mosterd@futurumshop.nl,FuturumShop,futurumshop.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Hugo,Gatsby,hugo@stradea.ca,FutureBridge,futurebridge.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Vishal,Sridaran,vishal.sridaran@futurebridge.com,FutureBridge,futurebridge.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Rachit,Singla,rachit.singla@futurebridge.com,FutureBridge,futurebridge.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Pallavi,Gandhi,pallavi.gandhi@futurebridge.com,FutureBridge,futurebridge.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Rajesh,Rao,rajesh.rao@fromatech.com,Fromatech Ingredients,fromatech.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Jasper,Lambregts,jasper.lambregts@frieslandcampina.com,FrieslandCampina,frieslandcampina.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Britt,Wilbrink,britt.wilbrink@frieslandcampina.com,FrieslandCampina,frieslandcampina.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Ruben,Berkouwer,ruben.berkouwer@foodunited.eu,Food United Benelux BV,foodunited.eu,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Elise,Clarisse-Brouw,elise.clarisse@foodunited.eu,Food United Benelux BV,foodunited.eu,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Rene,Harwood,rene@fitnesshealth.co,Fitness Health,fitnesshealth.co,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Vincent,Vreugdenhil,v.vreugdenhil@fitforme.com,FitForMe,fitforme.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Matthijs,Hellendoorn,m.hellendoorn@fitforme.com,FitForMe,fitforme.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Jc,Heyneke,jc.heyneke@fitforme.com,FitForMe,fitforme.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Uwe,Scharwaechter,uwe.scharwaechter@fidelio-healthcare.com,Fidelio Healthcare Partners & Co,fidelio-healthcare.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Burghard,König,burghard.koenig@fidelio-healthcare.com,Fidelio Healthcare Partners & Co,fidelio-healthcare.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Patrick,Struebi,patrick.struebi@fairtrasa.com,Fairtrasa®,fairtrasa.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Jelmer,Doornekamp,jelmer.doornekamp@fairtrasa.nl,Fairtrasa®,fairtrasa.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Roger,Coert,roger.coert@fagron.nl,Fagron Nederland,fagron.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-J’Amy,Stewart,jamystewart@ew2health.com,Ew2health BV,easywaytohealth.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Eva Luna,Poorthuis,info@evalunalifestyle.nl,Eva Luna Lifestyle,evalunalifestyle.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Lara,Engbers-Nooy,lara.nooy@etos.nl,Etos,etos.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Pieter,Rood,prood@ekomenu.nl,Ekomenu,ekomenu.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
@@ -1952,45 +1985,12 @@ Arman,Paknahad,arman@healthandholistics.com,Health and Holistics,healthandholist
 Tom,Meijer,tom.meijer@hotmail.com,Health Food Wall,healthfoodwall.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Miriam,Van Hemert,m.vanhemert@hartstichting.nl,Hartstichting,hartstichting.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Tessa,Tertsch,t.tertsch@hartstichting.nl,Hartstichting,hartstichting.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Rushanette,Martis,r.martis@hartstichting.nl,Hartstichting,hartstichting.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Maaike,Stok,m.stok@hartstichting.nl,Hartstichting,hartstichting.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Hayley,Handy,hayley_handy4@hotmail.com,Hairburst,hairburst.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Steph,Giansante,steph@hairburst.com,Hairburst,hairburst.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Jessica,Oldham,jessica.o@hairburst.com,Hairburst,hairburst.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Anwar,Sultan,anwar@hairburst.com,Hairburst,hairburst.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Marijn,Bulthuis,marijn@haarspullen.nl,Haarspullen.nl,haarspullen.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Leo,Hokke,hokke.leo@hhoya.com,HHOYA,hhoya.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Alex,Van Krevelen,vankrevelen.alex@hhoya.com,HHOYA,hhoya.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Hongmei,Yang,yang.hongmei@hhoya.com,HHOYA,hhoya.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Julie,Krueger,krueger@gudmarketing.com,Güd Marketing,gudmarketing.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Edward,Kahn,kahn@gudmarketing.com,Güd Marketing,gudmarketing.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Jill,Holden,holden@gudmarketing.com,Güd Marketing,gudmarketing.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Joel,Newport,newport@gudmarketing.com,Güd Marketing,gudmarketing.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Khalil,Seyed Mehdi,khalil@grutto.com,Grutto,grutto.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Berend,Te Voortwis,berend@grutto.com,Grutto,grutto.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Dennis,Oosterboer,dennis@grovet.com,Grovet - equine health company,grovet.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Koen,Schmitz,koen@grovet.com,Grovet - equine health company,grovet.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Chris,Dujardin,chris@grovet.com,Grovet - equine health company,grovet.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Itamar,Bukai,itamar.bukai@grovero.com,Grovero,grovero.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Evyatar,Bukai,evyatar.bukai@grovero.com,Grovero,grovero.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Maurice,Straver,maurice@greenbalanz.nl,GreenBalanZ,greenbalanz.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Lennard,Van Der Weijden,lennard@greenbalanz.nl,GreenBalanZ,greenbalanz.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Eileen,Van Wijnen-Balder,eileen.balder@gmail.com,GreenBalanZ,greenbalanz.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Ton,Slootman,ton@greenorganics.nl,Green Organics,greenorganics.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Bart,Blok,bart@greenorganics.nl,Green Organics,greenorganics.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Arjen,Simmers,arjen@greenorganics.nl,Green Organics,greenorganics.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Jo,Wise,jowise@gdaa.org,Greater Dayton Apartment Association,gdaa.org,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Crystal,Allen,callen@gdaa.org,Greater Dayton Apartment Association,gdaa.org,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Koen,Perenboom,perenboom@goodlifepharma.com,Goodlife,goodlifepharma.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Jürgen,Kok,kok@goodlifepharma.com,Goodlife,goodlifepharma.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Ad,Bominaar,bominaar@goodlifepharma.com,Goodlife,goodlifepharma.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Vincent,Lemmen,vincent@goldennaturals.nl,Golden Naturals,goldennaturals.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Peter,Brink,peterbrink@goldennaturals.nl,Golden Naturals,goldennaturals.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Dan,Staversky,dstavers0261@gmail.com,Global Health Products,globalhp.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Pierpaolo,Ughini,p.ughini@globalfactories.nl,Global Factories | Pharmacy Automation,globalfactories.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Vincent,Veelbehr,v.veelbehr@globalfactories.nl,Global Factories | Pharmacy Automation,globalfactories.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-Norèn,Hendriks,noren@ghee-easy.nl,Ghee Easy,ghee-easy.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
-David,Klingen,david@ghee-easy.nl,Ghee Easy,ghee-easy.nl,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Robert,Gijsbers,gijsbersrobert@gmail.com,Farmaline,farmaline.be,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Cihan,Eker,cihaneker@gmail.com,EasyVit,easyvit.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
 Hong Shuo,Aac,hsng888@gmail.com,Dutch Care Supplies,dutchcaresupplies.com,,🧪 TS Lab | Nederland | Decision Makers | 24/Jul/2026
@@ -2285,22 +2285,59 @@ Leanne,Cairney,leanne.cairney@a-one.co.uk,A-One,a-one.co.uk,,🧪 TS Lab | UK DB
 Jesper,Skjøtt,jesper.skjott@a-one.nu,A-One,a-one.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Justin,Tunbridge,jusielah@hotmail.com,10X Athletic,10xathletic.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Ali,Ahmed,ali@10xathletic.com,10X Athletic,10xathletic.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Jav,Nazemi,jav@igennus.com,Igennus Healthcare Nutrition,igennus.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Vanessa,Lombardi,vanessa@igennus.com,Igennus Healthcare Nutrition,igennus.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Roger,Hitchings,roger@idavoll.co.uk,Idavoll Limited : Idavoll,idavoll.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Lynae,Morningstar,lynae@itlhealth.com,ITL Health,itlhealth.ca,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Pooja,Gupte,pooja@itlhealth.com,ITL Health,itlhealth.ca,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Adam,Kitching,adam.kitching@beehealth.com,INW Bee Health,beehealth.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Helen,Snook,helen@indisupplements.com,INDI | B Corp™,indisupplements.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Chris,Read,chris@indisupplements.com,INDI | B Corp™,indisupplements.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Talia,Engel,talia@indisupplements.com,INDI | B Corp™,indisupplements.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+James,Knowles,james.knowles@ianson.co.uk,I'Anson Bros,ianson.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Steve,Wensley,stephen.wensley@ianson.co.uk,I'Anson Bros,ianson.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Andrew,Richardson,andrew.richardson@ianson.co.uk,I'Anson Bros,ianson.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Elizabeth,Pringle,liz@hotteamama.com,Hottea Mama,hotteamama.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Kate,Achilles,kate@hotteamama.com,Hottea Mama,hotteamama.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Lina,Chan,linachan@hollandandbarrett.com,Holland & Barrett,hollandandbarrett.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Bethany,Wright,bethanywright@hollandandbarrett.com,Holland & Barrett,hollandandbarrett.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Helen,Moore,helenmoore@hollandandbarrett.com,Holland & Barrett,hollandandbarrett.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Adam,Moore,adammoore@hollandandbarrett.com,Holland & Barrett,hollandandbarrett.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Bronwen,Pretorius,bronwendwp@hotmail.com,Holistic Habitat Therapies,holistichabitat.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Ashley,Heeley,ashley@hippieturtleherbalco.co.uk,Hippie Turtle Herbal Co®,http://www.hippieturtleherbalco.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Clementina,Clive-Ponsonby-Fane,clementina@hiltonherbs.com,Hilton Herbs,hiltonherbs.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Hilary,Herbs,hilary@hiltonherbs.com,Hilton Herbs,hiltonherbs.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Dan,Coyle,dan.coyle@herbsetc.com,"Herbs, Etc.",herbsetc.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Erika,Cadengo,erika.cadengo@herbsetc.com,"Herbs, Etc.",herbsetc.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Sara,Steinbeck,sara.steinbeck@herbsetc.com,"Herbs, Etc.",herbsetc.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Eric,Johnson,eric.johnson@herbsetc.com,"Herbs, Etc.",herbsetc.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Eben,Cofie,eben@herbalpro.com,Herbal Pro,http://www.herbalpro.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Emily,Hamilton,emily@hudsonweir.co.uk,Herbal Essentials,herbal-essentials.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Eamon,Canning,eamon.canning@hempful.eu,Hempful,hempful.eu,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Dimitris,Samantzopoulos,dimitris@healthysupplies.co.uk,Healthy Supplies,healthysupplies.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Tina,Manahai-Mahai,tina@healthysupplies.co.uk,Healthy Supplies,healthysupplies.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Agata,Rosinska,agata@healthysupplies.co.uk,Healthy Supplies,healthysupplies.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Kirit,Hirani,kirit@healthaid.co.uk,HealthAid,healthaid.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Akshay,Patel,akshay.patel@healthaid.co.uk,HealthAid,healthaid.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Josie,Pridmore,josiepridmore@healthathand.co.uk,Health at Hand,healthathand.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Ketan,Amin,ket@healthpharm.co.uk,Health Pharm,healthpharm.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Atin,Patel,atinpatel@healthpharm.co.uk,Health Pharm,healthpharm.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 James,Pearcy,james@healthleadsuk.com,Health Leads UK,healthleadsuk.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Lorraine,Crashley,lorraine.crashley@healthinnovations.uk,Health Innovations UK,healthinnovations.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Clare,Campbell,clare.campbell@healthinnovations.uk,Health Innovations UK,healthinnovations.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Mark,Dunstan,mark.dunstan@healthinnovations.uk,Health Innovations UK,healthinnovations.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Tristan,Daley,tristan@hairguard.com,Hairguard,hairguard.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 William,Slator,william@hairguard.com,Hairguard,hairguard.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Lucy,Palmer,lucy@hairgainnow.com,Hair Gain - Nutritional Beauty London,hairgainnow.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Jaspreet,Deusi,jaspreetdeusi@googlemail.com,Hair Gain - Nutritional Beauty London,hairgainnow.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Sarah,Hughes,sarah@hairgainnow.com,Hair Gain - Nutritional Beauty London,hairgainnow.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Gemma,Rippingham,gemmar@htc.co.uk,HTC Health,htc.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Jack,Millward,jack@htc.co.uk,HTC Health,htc.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Ollie,Cooper,ocooper72@hotmail.com,HTC Health,htc.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Mike,Lloyd,mikel@htc.co.uk,HTC Health,htc.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Selina,Spence,selinas@htc.co.uk,HTC Health,htc.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Clive,Curzon,clive.curzon@thompsonandcapper.com,HBI Thompson & Capper,hbitc.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Hiep,Huatan,hiep.huatan@h2pharma.co.uk,H2 Pharma Consulting Limited,h2pharma.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Jane,Hua,jane.hua@h2pharma.co.uk,H2 Pharma Consulting Limited,h2pharma.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Shane,Westray,shane@gymstop.co.uk,Gymstop Group Limited,gymstop.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Matthew,Snyman,matthew@grassandco.com,Grass &,grassandco.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
@@ -2330,54 +2367,38 @@ Wendy,Howe,wendyhowe@fitnessoptions.co.uk,Fitness Options,fitnessoptions.co.uk,,
 Danielle,Cornelius,daniellecornelius@gmail.com,CNM College of Naturopathic Medicine,naturopathy-uk.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Nicola,Haycroft,nicola.haycroft@aviform.co.uk,Aviform,aviform.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Carrie,Mash,carrie@ancientandbrave.earth,Ancient + Brave | B Corp,ancientandbrave.earth,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Liz,Williams,liz.williams@keith-spicer.co.uk,Keith Spicer Limited,keith-spicer.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Kevin,Shah,kevinshah@harrisfreeman.com,Keith Spicer Limited,keith-spicer.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Alison,Coombe,alison.coombe@keith-spicer.co.uk,Keith Spicer Limited,keith-spicer.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Ken,Rodrigues,ken_rods_1881@yahoo.com,KDENA,kdena.net,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Emma,Mcleod,emma.mcleod@kbfenterprises.com,KBF Enterprises,kbfenterprises.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Mark,Blake,markblake@kbfenterprises.com,KBF Enterprises,kbfenterprises.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Ian,Cassidy,iancassidy@kbfenterprises.com,KBF Enterprises,kbfenterprises.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+James,Cook Coulson,james@jacocowellness.com,Jacoco Wellness,jacocowellness.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Besher,Issa,issa@issagroup.com,Issa Group,http://www.issagroup.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Javid,Patel,javid@issagroup.com,Issa Group,issagroup.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Mohsin,Patel,mohsin@issagroup.com,Issa Group,http://www.issagroup.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Emma,Beamish,emma.beamish@invivohealthcare.com,Invivo Healthcare,invivohealthcare.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Sian,Elliott,sian.elliott@invivohealthcare.com,Invivo Healthcare,invivohealthcare.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Simon,Mangan,simon.mangan@invivohealthcare.com,Invivo Healthcare,invivohealthcare.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Wolfgang,Reichenberger,reichenberger@austriaconsulnassau.com,Inventages Venture Capital,inventages.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Andy,Mobbs,andy@intelligentlabs.org,Intelligent Labs,intelligentlabs.org,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Tony,Murton,tony@instantina.co.uk,Instantina,instantina.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Shivraj,Bassi,shiv@innermostglobal.com,Innermost®,innermostglobal.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Anastasija,Ovcinikova,anastasija.ovcinikova@incisivemedia.com,Incisive Media,incisivemedia.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Kwamina,Stewart,kwaminastewart@incisivemedia.com,Incisive Media,incisivemedia.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
+Louise,Hanna,louise.hanna@incisivemedia.com,Incisive Media,incisivemedia.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Becky,Angell,rebecca.angell@incisivemedia.com,Incisive Media,incisivemedia.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Jim,Mcginty,jim.mcginty@incisivemedia.com,Incisive Media,incisivemedia.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Katarina,Wolter,katarina@igennus.com,Igennus Healthcare Nutrition,igennus.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Jav,Nazemi,jav@igennus.com,Igennus Healthcare Nutrition,igennus.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Vanessa,Lombardi,vanessa@igennus.com,Igennus Healthcare Nutrition,igennus.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Roger,Hitchings,roger@idavoll.co.uk,Idavoll Limited : Idavoll,idavoll.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Farhan,Nathani,farhan.nathani@ivcbrunel.co.uk,IVC Brunel Healthcare Limited,ivcbrunel.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Daniel,Rogers,daniel.rogers@ivcbrunel.co.uk,IVC Brunel Healthcare Limited,ivcbrunel.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Lynae,Morningstar,lynae@itlhealth.com,ITL Health,itlhealth.ca,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Pooja,Gupte,pooja@itlhealth.com,ITL Health,itlhealth.ca,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Jenny,Anderson,jenny.anderson@beehealth.com,INW Bee Health,beehealth.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Adam,Kitching,adam.kitching@beehealth.com,INW Bee Health,beehealth.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Helen,Snook,helen@indisupplements.com,INDI | B Corp™,indisupplements.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Chris,Read,chris@indisupplements.com,INDI | B Corp™,indisupplements.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Talia,Engel,talia@indisupplements.com,INDI | B Corp™,indisupplements.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-James,Knowles,james.knowles@ianson.co.uk,I'Anson Bros,ianson.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Steve,Wensley,stephen.wensley@ianson.co.uk,I'Anson Bros,ianson.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Andrew,Richardson,andrew.richardson@ianson.co.uk,I'Anson Bros,ianson.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Elizabeth,Pringle,liz@hotteamama.com,Hottea Mama,hotteamama.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Kate,Achilles,kate@hotteamama.com,Hottea Mama,hotteamama.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Lina,Chan,linachan@hollandandbarrett.com,Holland & Barrett,hollandandbarrett.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Bethany,Wright,bethanywright@hollandandbarrett.com,Holland & Barrett,hollandandbarrett.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Helen,Moore,helenmoore@hollandandbarrett.com,Holland & Barrett,hollandandbarrett.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Adam,Moore,adammoore@hollandandbarrett.com,Holland & Barrett,hollandandbarrett.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Bronwen,Pretorius,bronwendwp@hotmail.com,Holistic Habitat Therapies,holistichabitat.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Ashley,Heeley,ashley@hippieturtleherbalco.co.uk,Hippie Turtle Herbal Co®,http://www.hippieturtleherbalco.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Hilary,Herbs,hilary@hiltonherbs.com,Hilton Herbs,hiltonherbs.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Dan,Coyle,dan.coyle@herbsetc.com,"Herbs, Etc.",herbsetc.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Erika,Cadengo,erika.cadengo@herbsetc.com,"Herbs, Etc.",herbsetc.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Eric,Johnson,eric.johnson@herbsetc.com,"Herbs, Etc.",herbsetc.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Emily,Hamilton,emily@hudsonweir.co.uk,Herbal Essentials,herbal-essentials.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Eamon,Canning,eamon.canning@hempful.eu,Hempful,hempful.eu,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Dimitris,Samantzopoulos,dimitris@healthysupplies.co.uk,Healthy Supplies,healthysupplies.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Tina,Manahai-Mahai,tina@healthysupplies.co.uk,Healthy Supplies,healthysupplies.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Kirit,Hirani,kirit@healthaid.co.uk,HealthAid,healthaid.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Dilip,Patel,dilip.patel@healthaid.co.uk,HealthAid,healthaid.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Raju,Patel,raju.patel@healthaid.co.uk,HealthAid,healthaid.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Akshay,Patel,akshay.patel@healthaid.co.uk,HealthAid,healthaid.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Ketan,Amin,ket@healthpharm.co.uk,Health Pharm,healthpharm.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Atin,Patel,atinpatel@healthpharm.co.uk,Health Pharm,healthpharm.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Clare,Campbell,clare.campbell@healthinnovations.uk,Health Innovations UK,healthinnovations.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Mark,Dunstan,mark.dunstan@healthinnovations.uk,Health Innovations UK,healthinnovations.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Will,Hartfield,will@hairguard.com,Hairguard,hairguard.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Lucy,Palmer,lucy@hairgainnow.com,Hair Gain - Nutritional Beauty London,hairgainnow.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Jack,Millward,jack@htc.co.uk,HTC Health,htc.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Calum,Wilson,calum.wilson@thompsonandcapper.com,HBI Thompson & Capper,hbitc.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Karen,Leay,karen.leay@thompsonandcapper.com,HBI Thompson & Capper,hbitc.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Hiep,Huatan,hiep.huatan@h2pharma.co.uk,H2 Pharma Consulting Limited,h2pharma.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Spencer,Grout,spencer@getadrip.com,Get A Drip,getadrip.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Joel,Holder,joel.holder@getadrip.com,Get A Drip,getadrip.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Michael,Fusion Targeted,michael@fusiontargetednutrition.com,Fusion Targeted Nutrition,fusiontargetednutrition.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
@@ -2832,27 +2853,6 @@ Katie,Gamble,katie@kezie.com,Kezie,keziefoods.co.uk,,🧪 TS Lab | UK DB 1999 | 
 Destiny,Leonard,destiny@kezie.com,Kezie,keziefoods.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Walter,Murray,walter@kezie.com,Kezie Ltd,http://www.keziefoods.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Arnold,Meli,arnold@ketosource.co.uk,Ketosource,ketosource.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Liz,Williams,liz.williams@keith-spicer.co.uk,Keith Spicer Limited,keith-spicer.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Kevin,Shah,kevinshah@harrisfreeman.com,Keith Spicer Limited,keith-spicer.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Alison,Coombe,alison.coombe@keith-spicer.co.uk,Keith Spicer Limited,keith-spicer.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Ken,Rodrigues,ken_rods_1881@yahoo.com,KDENA,kdena.net,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Emma,Mcleod,emma.mcleod@kbfenterprises.com,KBF Enterprises,kbfenterprises.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Mark,Blake,markblake@kbfenterprises.com,KBF Enterprises,kbfenterprises.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Ian,Cassidy,iancassidy@kbfenterprises.com,KBF Enterprises,kbfenterprises.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-James,Cook Coulson,james@jacocowellness.com,Jacoco Wellness,jacocowellness.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Besher,Issa,issa@issagroup.com,Issa Group,http://www.issagroup.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Javid,Patel,javid@issagroup.com,Issa Group,issagroup.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Mohsin,Patel,mohsin@issagroup.com,Issa Group,http://www.issagroup.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Emma,Beamish,emma.beamish@invivohealthcare.com,Invivo Healthcare,invivohealthcare.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Sian,Elliott,sian.elliott@invivohealthcare.com,Invivo Healthcare,invivohealthcare.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Simon,Mangan,simon.mangan@invivohealthcare.com,Invivo Healthcare,invivohealthcare.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Wolfgang,Reichenberger,reichenberger@austriaconsulnassau.com,Inventages Venture Capital,inventages.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Andy,Mobbs,andy@intelligentlabs.org,Intelligent Labs,intelligentlabs.org,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Tony,Murton,tony@instantina.co.uk,Instantina,instantina.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Shivraj,Bassi,shiv@innermostglobal.com,Innermost®,innermostglobal.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Anastasija,Ovcinikova,anastasija.ovcinikova@incisivemedia.com,Incisive Media,incisivemedia.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Kwamina,Stewart,kwaminastewart@incisivemedia.com,Incisive Media,incisivemedia.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
-Louise,Hanna,louise.hanna@incisivemedia.com,Incisive Media,incisivemedia.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Doxa,Sensations,doxagraphics7@gmail.com,Hellenia,hellenia.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 Ahmed,Ali,eng6765@gmail.com,Global Herbs Europe,globalherbs.co.uk,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026
 James,Luke,alexjlbritten@gmail.com,GYMSECT,gymsect.com,,🧪 TS Lab | UK DB 1999 | Decision Makers | 24/Jul/2026

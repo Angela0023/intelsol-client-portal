@@ -1,5 +1,51 @@
 [
   {
+    "campaignName": "⛰️ Mountaindrop | Serbia & Croatia - Health Food & Wellness Stores",
+    "dateLaunched": "9/25/2026",
+    "totalLeads": 44,
+    "leadsEmailed": 0,
+    "month": "September",
+    "status": "DRAFTED",
+    "performance": {
+      "emailsSent": 0,
+      "opens": 0,
+      "openRate": "0.00",
+      "clicks": 0,
+      "clickRate": "0.00",
+      "replies": 0,
+      "replyRate": "0.00",
+      "bounces": 0,
+      "bounceRate": "0.00",
+      "unsubscribed": 0,
+      "interested": 0,
+      "interestedRate": "0.00",
+      "notInterested": 0
+    }
+  },
+  {
+    "campaignName": "⛰️ Mountaindrop | Switzerland - Multi-Brand Health & Supplement Stores",
+    "dateLaunched": "9/25/2026",
+    "totalLeads": 14,
+    "leadsEmailed": 2,
+    "month": "September",
+    "status": "ACTIVE",
+    "performance": {
+      "emailsSent": 2,
+      "opens": 0,
+      "openRate": "0.00",
+      "clicks": 0,
+      "clickRate": "0.00",
+      "replies": 0,
+      "replyRate": "0.00",
+      "bounces": 0,
+      "bounceRate": "0.00",
+      "unsubscribed": 0,
+      "interested": 0,
+      "interestedRate": "0.00",
+      "notInterested": 0
+    }
+  },
+  {
     "campaignName": "⛰️ Mountaindrop | Germany | S2 | - Multi-Brand Health & Supplement Stores",
     "dateLaunched": "9/3/2026",
     "totalLeads": 113,
@@ -7,7 +53,7 @@
     "month": "September",
     "status": "ACTIVE",
     "performance": {
-      "emailsSent": 260,
+      "emailsSent": 294,
       "opens": 0,
       "openRate": "0.00",
       "clicks": 0,
